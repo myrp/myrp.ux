@@ -20,4 +20,5 @@
 
 ### Design Sprint
 
+- [Apresentação](https://docs.google.com/presentation/d/1Ib0LFGxBQFqpaiOpzKZO5AuiE9JI92xLMs9uKQngK3o/edit?usp=sharing)
 - [Design Sprint Kit](https://material-components-web.appspot.com/)
