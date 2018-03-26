@@ -1,5 +1,4 @@
 <p align="center">
-  <br>
   <img width="200" src="./logo.png" alt="Logo do myrp">
   <br>
 </p>
