@@ -5,7 +5,7 @@
 
 ## UI Toolkit
 > Documentos relacionados à definição dos padrões de interface
-- [Planilha de componentes](https://docs.google.com/spreadsheets/d/1Sz79KHL9bTtHlN-cvgwpS2rfOi6vjxnfMYijji9VY-s/edit?usp=sharing) - Levantamento de componentes que temos hoje no myrp
+- [Planilha de componentes](https://docs.google.com/spreadsheets/d/1Sz79KHL9bTtHlN-cvgwpS2rfOi6vjxnfMYijji9VY-s/edit?usp=sharing) (incompleto) - Levantamento de componentes que temos hoje no myrp
 
 ## Resources
 > Links úteis relacionados à UI e UX
