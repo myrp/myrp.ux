@@ -8,7 +8,7 @@
 - [Planilha de componentes](https://docs.google.com/spreadsheets/d/1Sz79KHL9bTtHlN-cvgwpS2rfOi6vjxnfMYijji9VY-s/edit?usp=sharing) - Levantamento de componentes que temos hoje no myrp
 
 ## Resources
-> Lista de links úteis relacionados à UI e UX
+> Links úteis relacionados à UI e UX
 
 ### Material Design
 
