@@ -118,6 +118,18 @@
                     </div>
                 </div>
             </div>
+            <div class="col s3">
+                <div class="card">
+                    <div class="card-content">
+                        <h5>Título</h5>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </div>
+                    <div class="card-action">
+                        <p><a class="blue-text">Link 1</a></p>
+                        <p><a class="blue-text">Link 2</a></p>
+                    </div>
+                </div>
+            </div>
         </div>
         <h1>Tabelas</h1>
         <div class="row">
@@ -231,19 +243,19 @@
         <div class="card-panel">
             <h5>Categoria</h5>
             <div class="row">
-                <div class="col s6 input-field">
+                <div class="col s12 m6 input-field">
                     <input id="input1" type="text">
                     <label for="input1">Texto</label>
                 </div>
-                <div class="col s6 input-field">
+                <div class="col s12 m6 input-field">
                     <input id="input2" type="text">
                     <label for="input2">Texto</label>                        
                 </div>
-                <div class="col s6 input-field">
+                <div class="col s12 m6 input-field">
                     <input id="input3" type="text">
                     <label for="input3">Texto</label>                        
                 </div>
-                <div class="col s6 input-field">
+                <div class="col s12 m6 input-field">
                     <input id="input4" type="text">
                     <label for="input4">Texto</label>                        
                 </div>
@@ -254,19 +266,19 @@
             <div class="card-content">
                 <h5>Categoria</h5>
                 <div class="row">
-                    <div class="col s6 input-field">
+                    <div class="col s12 m6 input-field">
                         <input id="input5" type="text">
                         <label for="input5">Texto</label>
                     </div>
-                    <div class="col s6 input-field">
+                    <div class="col s12 m6 input-field">
                         <input id="input6" type="text">
                         <label for="input6">Texto</label>                        
                     </div>
-                    <div class="col s6 input-field">
+                    <div class="col s12 m6 input-field">
                         <input id="input7" type="text">
                         <label for="input7">Texto</label>                        
                     </div>
-                    <div class="col s6 input-field">
+                    <div class="col s12 m6 input-field">
                         <input id="input8" type="text">
                         <label for="input8">Texto</label>                        
                     </div>
@@ -279,6 +291,60 @@
             </div>
         </div>
         
+        <h1>Side navs</h1>
+        
+        <ul id="side-nav1" class="side-nav">
+            <li>
+                <div class="center">
+                    <img src="https://github.com/myrp/myrp.ux/raw/master/logo.png" style="width: auto; height: 64px; margin: 24px">
+                </div>
+            </li>
+            <li><a href="#!"><i class="material-icons">cloud</i>Item 1</a></li>
+            <li><a href="#!"><i class="material-icons">cloud</i>Item 2</a></li>
+            <li><a href="#!"><i class="material-icons">cloud</i>Item 3</a></li>
+            <li><div class="divider"></div></li>
+            <li><a href="#!"><i class="material-icons">cloud</i>Item 4</a></li>
+        </ul>
+        <a id="button-side-nav1" href="#" data-activates="side-nav1" class="btn button-collapse">Abrir menu</a>
+        <script type="text/javascript">
+            $('#button-side-nav1').sideNav({
+                closeOnClick: true
+            });
+        </script>
+
+        <div id="side-nav2" class="side-nav card-panel">
+            <h5>Formulário</h5>
+            <div class="row">
+                <div class="col s6 input-field">
+                    <input id="input9" type="text">
+                    <label for="input9">Texto</label>
+                </div>
+                <div class="col s6 input-field">
+                    <input id="input10" type="text">
+                    <label for="input10">Texto</label>                        
+                </div>
+                <div class="col s6 input-field">
+                    <input id="input11" type="text">
+                    <label for="input11">Texto</label>                        
+                </div>
+                <div class="col s6 input-field">
+                    <input id="input12" type="text">
+                    <label for="input12">Texto</label>                        
+                </div>
+            </div>
+            <div class="right-align">
+                <a class="btn-flat blue-text">Cancelar</a>
+                <a class="btn btn-large green">Confirmar</a>
+            </div>
+        </div>
+        <a id="button-side-nav2" href="#" data-activates="side-nav2" class="btn button-collapse">Abrir formulário</a>
+        <script type="text/javascript">
+            $('#button-side-nav2').sideNav({
+                edge: 'right',
+                menuWidth: 700
+            });
+        </script>
+
     </div>
 </body>
 </html>
