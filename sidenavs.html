@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"  media="screen,projection"/>
+    <style type="text/css">
+        
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</head>
+<body class="grey lighten-4">
+    <div class="container">
+        <h1>Side navs</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.</p>
+        <ul id="side-nav1" class="side-nav">
+            <li>
+                <div class="center blue">
+                    <img src="https://github.com/myrp/myrp.ux/raw/master/logo-branco.png" style="width: auto; height: 48px; margin: 24px">
+                </div>
+            </li>
+            <li><a href="#!"><i class="material-icons">cloud</i>Item 1</a></li>
+            <li><a href="#!"><i class="material-icons">cloud</i>Item 2</a></li>
+            <li><a href="#!"><i class="material-icons">cloud</i>Item 3</a></li>
+            <li><div class="divider"></div></li>
+            <li><a href="#!"><i class="material-icons">cloud</i>Item 4</a></li>
+        </ul>
+        <a id="button-side-nav1" href="#" data-activates="side-nav1" class="btn button-collapse">Abrir menu</a>
+        <script type="text/javascript">
+            $('#button-side-nav1').sideNav({
+                closeOnClick: true
+            });
+        </script>
+        
+    </div>
+</body>
+</html>
