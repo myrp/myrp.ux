@@ -25,6 +25,6 @@
 - [Sprint Stories](https://sprintstories.com/)
 
 ## Tools
-> Ferramentas úteis para os processos de UI e UX
+> Ferramentas para os processos de UI e UX
 
-- [Whimsical](https://whimsical.co/) - Ferramenta para criar Flowchart, Wireframes e Sticky Notes
+- [Whimsical](https://whimsical.co/) - Flowchart, Wireframes e Sticky Notes
