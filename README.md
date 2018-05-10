@@ -27,4 +27,4 @@
 ## Tools
 > Ferramentas úteis para os processos de UI e UX
 
-- [Whimsical] - Ferramenta para criar Flowchart, Wireframes e Sticky Notes
+- [Whimsical](https://whimsical.co/) - Ferramenta para criar Flowchart, Wireframes e Sticky Notes
