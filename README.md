@@ -12,7 +12,7 @@
 
 ### Material Design
 
-- [Guidelines](https://material.io/guidelines/)
+- [Guidelines](https://material.io/)
 - [Material Icons](https://material.io/icons/)
 - [Material Web Components](https://material-components-web.appspot.com/)
 - [Materialize](http://materializecss.com/)
@@ -23,3 +23,8 @@
 - [Apresentação](https://docs.google.com/presentation/d/1Ib0LFGxBQFqpaiOpzKZO5AuiE9JI92xLMs9uKQngK3o/edit?usp=sharing)
 - [Design Sprint Kit](https://designsprintkit.withgoogle.com/)
 - [Sprint Stories](https://sprintstories.com/)
+
+## Tools
+> Ferramentas úteis para os processos de UI e UX
+
+- [Whimsical] - Ferramenta para criar Flowchart, Wireframes e Sticky Notes
