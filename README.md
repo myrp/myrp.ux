@@ -27,4 +27,6 @@
 ## Tools
 > Ferramentas para os processos de UI e UX
 
+- [Gallery](https://gallery.io/) - Feedback de protótipos
+- [Material Color Tool](https://material.io/tools/color) - Paleta de cores do Material Design
 - [Whimsical](https://whimsical.co/) - Flowchart, Wireframes e Sticky Notes
