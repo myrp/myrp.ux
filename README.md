@@ -11,7 +11,8 @@
 > Links úteis relacionados à UI e UX
 
 ### Material Design
-- [Guidelines](https://material.io/design)
+- [Guidelines](https://material.io/archive/guidelines/) (old)
+- [Guidelines](https://material.io/design) (new)
 - [Material Icons](https://material.io/icons/)
 - [Material Web Components](https://material-components-web.appspot.com/) (old) 
 - [Material Web Components](https://material-components.github.io/material-components-web-catalog) (new)
