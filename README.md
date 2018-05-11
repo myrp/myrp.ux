@@ -27,6 +27,10 @@
 ## Tools
 > Ferramentas para os processos de UI e UX
 
+### Prototipação
 - [Gallery](https://gallery.io/) - Feedback de protótipos
-- [Material Color Tool](https://material.io/tools/color) - Paleta de cores do Material Design
 - [Whimsical](https://whimsical.co/) - Flowchart, Wireframes e Sticky Notes
+
+### Cores
+- [Material Color Tool](https://material.io/tools/color) - Paleta de cores do Material Design
+- [Color Contrast Checker](https://webaim.org/resources/contrastchecker/) - Verifica o constrate entre duas cores de acordo com o [WCAG 2.0](https://www.w3.org/TR/WCAG20/)
