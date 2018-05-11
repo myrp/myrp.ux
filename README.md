@@ -12,9 +12,10 @@
 
 ### Material Design
 
-- [Guidelines](https://material.io/)
+- [Guidelines](https://material.io/design)
 - [Material Icons](https://material.io/icons/)
-- [Material Web Components](https://material-components-web.appspot.com/)
+- [Material Web Components](https://material-components-web.appspot.com/) (old) 
+- [Material Web Components](https://material-components.github.io/material-components-web-catalog) (new)
 - [Materialize](http://materializecss.com/)
 - [Google Design](https://medium.com/google-design)
 
