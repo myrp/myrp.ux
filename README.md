@@ -36,3 +36,8 @@
 - [Material Color Tool](https://material.io/tools/color) - Paleta de cores do Material Design
 - [Color Contrast Checker](https://webaim.org/resources/contrastchecker/) - Verifica o constrate entre duas cores de acordo com o [WCAG 2.0](https://www.w3.org/TR/WCAG20/)
 - [Adobe Color CC](https://color.adobe.com/pt/create/color-wheel/) - Cria combinações de cores e color schemes
+
+## Artigos
+> Seleção de artigos sobre UI e UX
+
+- [The Magic of Microcopy](https://uxdesign.cc/the-magic-of-microcopy-a56c5decbe1f) - Escrita que proporciona uma experiência UAU
