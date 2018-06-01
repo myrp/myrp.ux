@@ -1,0 +1,107 @@
+extends base/layout.pug
+
+block vars
+	- var title = 'myrp design kit - tables'
+
+block content
+	h2 Tables
+	p
+		| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
+	.row
+		.col.s12
+			.card-panel
+				h5.card-title Título
+				table
+					thead
+						tr
+							th Coluna 1
+							th Coluna 2
+							th Coluna 3
+							th
+					tbody
+						tr
+							td Linha 1
+							td Linha 1
+							td Linha 1
+							td.right-align
+								a
+									i.material-icons.grey-text.text-darken-2 find_in_page
+								a
+									i.material-icons.grey-text.text-darken-2 edit
+								a
+									i.material-icons.grey-text.text-darken-2 delete
+						tr
+							td Linha 2
+							td Linha 2
+							td Linha 2
+							td.right-align
+								a
+									i.material-icons.grey-text.text-darken-2 find_in_page
+								a
+									i.material-icons.grey-text.text-darken-2 edit
+								a
+									i.material-icons.grey-text.text-darken-2 delete
+						tr
+							td Linha 3
+							td Linha 3
+							td Linha 3
+							td.right-align
+								a
+									i.material-icons.grey-text.text-darken-2 find_in_page
+								a
+									i.material-icons.grey-text.text-darken-2 edit
+								a
+									i.material-icons.grey-text.text-darken-2 delete
+		.col.s12
+			include page-contents/tables/table.html
+		
+		.col.s12
+			.card
+				.card-content
+					h5.card-title Título
+					table
+						thead
+							tr
+								th Coluna 1
+								th Coluna 2
+								th Coluna 3
+								th
+						tbody
+							tr
+								td Linha 1
+								td Linha 1
+								td Linha 1
+								td.right-align
+									a
+										i.material-icons.grey-text.text-darken-2 find_in_page
+									a
+										i.material-icons.grey-text.text-darken-2 edit
+									a
+										i.material-icons.grey-text.text-darken-2 delete
+							tr
+								td Linha 2
+								td Linha 2
+								td Linha 2
+								td.right-align
+									a
+										i.material-icons.grey-text.text-darken-2 find_in_page
+									a
+										i.material-icons.grey-text.text-darken-2 edit
+									a
+										i.material-icons.grey-text.text-darken-2 delete
+							tr
+								td Linha 3
+								td Linha 3
+								td Linha 3
+								td.right-align
+									a
+										i.material-icons.grey-text.text-darken-2 find_in_page
+									a
+										i.material-icons.grey-text.text-darken-2 edit
+									a
+										i.material-icons.grey-text.text-darken-2 delete
+				.card-action
+					a.blue-text Link 1
+					a.blue-text Link 2
+		.col.s12
+			include page-contents/tables/table-actions.html

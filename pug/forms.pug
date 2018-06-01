@@ -1,0 +1,70 @@
+extends base/layout.pug
+
+block vars
+	- var title = 'myrp design kit - forms'
+
+block content
+	h2 Forms
+	p
+		| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
+	.card-panel
+		h5.card-title Título
+		.row
+			.col.s12.m6.input-field
+				input#input1(type='text')
+				label(for='input1') Texto
+			.col.s12.m6.input-field
+				input#input2(type='text')
+				label(for='input2') Texto
+			.col.s12.m6.input-field
+				input#input3(type='text')
+				label(for='input3') Texto
+			.col.s12.m6.input-field
+				input#input4(type='text')
+				label(for='input4') Texto
+	.card
+		.card-content
+			h5.card-title Título
+			.row
+				.col.s12.m6.input-field
+					input#input5(type='text')
+					label(for='input5') Texto
+				.col.s12.m6.input-field
+					input#input6(type='text')
+					label(for='input6') Texto
+				.col.s12.m6.input-field
+					input#input7(type='text')
+					label(for='input7') Texto
+				.col.s12.m6.input-field
+					input#input8(type='text')
+					label(for='input8') Texto
+		.card-action
+			a.blue-text Link 1
+			a.blue-text Link 2
+			a.blue-text Link 3
+	.card-panel
+		h5.card-title Título
+		.row
+			.col.s12.m6.input-field
+				input#input16(type='text')
+				label(for='input16') Input
+			.col.s12.m6.input-field
+				select#input13
+					option Item 1
+					option Item 2
+					option Item 3
+				label(for='input13') Select
+			.col.s12.m6.input-field
+				i.material-icons.prefix.grey-text(style='font-size: 1.5rem; margin: 0.75rem 0;') search
+				input#input14(type='text', style='margin-left: 0; padding-left: 2rem; width: calc(100% - 2rem)')
+				label(for='input14', style='margin-left: 2rem') Autocomplete
+			.col.s12.m6.input-field
+				i.material-icons.prefix.grey-text(style='font-size: 1.5rem; margin: 0.75rem 0;') schedule
+				input#input14(type='text', style='margin-left: 0; padding-left: 2rem; width: calc(100% - 2rem)')
+				label(for='input14', style='margin-left: 2rem') Date
+			.col.s12
+				.switch
+					| Deseja ver mais campos?
+					label
+						input(type='checkbox')
+						span.lever

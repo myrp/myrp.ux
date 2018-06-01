@@ -1,0 +1,51 @@
+html
+	block vars
+		- var title = "myrp design kit"
+	head
+		title #{title}
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+
+		link(href='http://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
+		link(href='../vendor/prism/prism.css', rel='stylesheet')
+
+		script(src='https://code.jquery.com/jquery-3.2.1.min.js')
+		script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js')
+		script(src='../vendor/prism/prism.js')
+		script(src='../index.js')
+
+	body
+		.navbar-fixed
+			nav.z-depth-0
+				.nav-wrapper
+					ul
+						li
+							a.sidenav-trigger(href='#', data-target='slide-out')
+								i.material-icons menu
+					a.brand-logo(href="index.pug") MYRP DESIGN KIT
+
+		ul#slide-out.sidenav.sidenav-fixed.z-depth-0
+			li
+				a.subheader Componentes
+			li
+				a(href='cards.pug') Cards
+			li
+				a(href='forms.pug') Forms
+			li
+				a(href='messages.pug') Messages
+			li
+				a(href='sidenavs.pug') Sidenavs
+			li
+				a(href='tables.pug') Tables
+			li
+				.divider
+			li
+				a.subheader Design
+			li
+				a(href='#!') Cores
+			li
+				a(href='#!') Marca
+
+		main
+			.container
+				block content
+					

@@ -1,0 +1,36 @@
+extends base/layout.pug
+
+block vars
+	- var title = 'myrp design kit - sidenavs'
+
+block content
+	h2 Side navs
+	p
+		| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
+	ul#side-nav1.side-nav
+		li
+			.center.blue
+				img(src='https://github.com/myrp/myrp.ux/raw/master/logo-branco.png', style='width: auto; height: 48px; margin: 24px')
+		li
+			a(href='#!')
+				i.material-icons cloud
+				| Item 1
+		li
+			a(href='#!')
+				i.material-icons cloud
+				| Item 2
+		li
+			a(href='#!')
+				i.material-icons cloud
+				| Item 3
+		li
+			.divider
+		li
+			a(href='#!')
+				i.material-icons cloud
+				| Item 4
+	a#button-side-nav1.btn.button-collapse(href='#', data-activates='side-nav1') Abrir menu
+	script(type='text/javascript').
+		$('#button-side-nav1').sideNav({
+			closeOnClick: true
+		});
