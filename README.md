@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="200" src="./logo.png" alt="Logo do myrp">
+  <img width="200" src="./assets/img/logo.png" alt="Logo do myrp">
   <br>
 </p>
 
