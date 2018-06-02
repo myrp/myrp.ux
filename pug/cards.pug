@@ -7,45 +7,54 @@ block content
 	h2 Cards
 	p
 		| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
-	.row
-		.col.s12.m6
-			.card-panel.center
-				h5
-					i.material-icons warning
-					div
-						small Texto
-					div Título
+	
+	.section
+		h4 Padrão
+		.row
+			.col.s12.m6
+				.card-panel
+					h5.card-title Título
+					| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			.col.s12
+				include page-contents/cards/card-default.html
 
-		.col.s12
-			include page-contents/cards/card-button.html
-		.col.s6
-			.card
-				.card-content
-					label.black-text Título
-					h5.truncate
+	.section
+		h4 Botão
+		.row
+			.col.s12.m6
+				.card-panel.center
+					h5
+						i.material-icons warning
+						div
+							small Texto
+						div Título
+			.col.s12
+				include page-contents/cards/card-button.html
+
+	.section
+		h4 Com ações
+		.row
+			.col.s12.m6
+				.card
+					.card-content
+						h5.card-title Título
 						| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-				.card-action
-					a.blue-text Link 1
-		.col.s6
-			.card
-				.card-content
-					h5.card-title Título
-					| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-		.col.s6
-			.card
-				.card-content
-					h5.card-title Título
-					| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-				.card-action
-					a.blue-text Link 1
-					a.blue-text Link 2
-		.col.s6
-			.card
-				.card-content
-					h5.card-title Título
-					| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-				.card-action
-					p
+					.card-action
 						a.blue-text Link 1
-					p
 						a.blue-text Link 2
+			.col.s12
+				include page-contents/cards/card-action.html
+
+	.section
+		h4 Indicador
+		.row
+			.col.s12.m6
+				.card
+					.card-content
+						label.black-text Título
+						h5.truncate
+							| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					.card-action
+						a.blue-text Link 1
+			.col.s12
+				include page-contents/cards/card-indicator.html
