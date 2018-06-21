@@ -19,7 +19,7 @@ Metodologia do Design Sprint para validação de esboços.
 
 ![Museu](https://i.imgur.com/ZS2XNI7.jpg)
 
-## Mapa de calor
+## Mapa de calor (10 min)
 
 Analise todas as soluções em silêncio e use adesivos de bolinha para marcar as partes interessantes.
 
@@ -37,7 +37,7 @@ Cada pessoa seguira estes passos:
 
 ![Mapa de calor](https://i.imgur.com/SpSmhTp.jpg)
 
-## Críticas-relâmpago
+## Críticas-relâmpago (15 min)
 
 Discuta rapidamente os destaques de cada solução e use post its para registrar boas ideias.
 
@@ -64,11 +64,7 @@ Discuta rapidamente os destaques de cada solução e use post its para registrar
 
 ![Críticas](https://i.imgur.com/9X6z0Bz.jpg)
 
-## Pesquisa de intenção de voto
-
-*Tempo*
-- 5-10 minutos para votar
-- 1 minuto para justificar cada voto
+## Pesquisa de intenção de voto (15 min)
 
 Cada um escolhe uma solução e vota com adesivo de bolinha.
 
