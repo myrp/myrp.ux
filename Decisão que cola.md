@@ -45,6 +45,16 @@ Discuta rapidamente os destaques de cada solução e use post its para registrar
 9. O criador explica eventuais ideias que tenham passado despercebidas
 10. Prossiga para o próximo esboço e repita o passo a passo
 
+![Críticas](https://i.imgur.com/9X6z0Bz.jpg)
+
 ## Pesquisa de intenção de voto
 
-Cada um escolhe uma solução e vota com adesivo de bolinha
+Cada um escolhe uma solução e vota com adesivo de bolinha.
+
+1. Dê um voto a todos (grande adesivo de bolinha)
+2. Refresque a memória de todos em relação ao objetivo de longo prazo
+3. Lembre a todos que podem apostar em ideias arriscadas com grande potencial
+4. Programe um cronômetro para dez minutos
+5. Cada pessoa escreve para si mesma sua escolha. Pode ser um esboço inteiro ou apenas uma ideia de um esboço.
+6. Quando o cronômetro para coloque os votos no esboços.
+7. Cada pessoa explica brevemente seu voto (apenas um minuto para cada um)
