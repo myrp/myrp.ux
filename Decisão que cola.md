@@ -2,9 +2,17 @@
 
 Metodologia do Design Sprint para validação de esboços.
 
+*Materiais necessários*
+- Post-its
+- Adesivos de bolinhas (pequenos e médios)
+- Fita crepe
+- Canetas
+- Cronômetro
+
 ## Museu de arte
 
-1. Colar os esboços na parede.
+1. Dê um título marcante para cada esboço.
+2. Cole os esboços na parede.
 2. Distribua-os em uma longa fileira, com um bom espaço entre um e outro, como se fossem pinturas em um museu.
     - Esse espaço leva a equipe a se espalhar e examinar cada esboço com calma, sem ninguém se acotovelando.
 3. Coloque-os em uma ordem mais ou menos cronológica.
