@@ -42,7 +42,7 @@ Cada pessoa seguira estes passos:
 Discuta rapidamente os destaques de cada solução e use post its para registrar boas ideias.
 
 1. Reúnam-se ao redor de um esboço.
-2. Ajuste o cronômetro para três minutos
+2. Ajuste o cronômetro para três minutos.
 3. O Facilitador narra o esboço. ("Aqui, parece que o usuário está clicando para reproduzir um vídeo, e em seguida indo para a página da home...")
 4. O Facilitador anuncia as ideias que se destacaram de acordo com o aglomerado de bolinhas.
 5. A equipe indica ideias de destaque que o facilitador deixou passar
@@ -51,6 +51,16 @@ Discuta rapidamente os destaques de cada solução e use post its para registrar
 8. O criador do esboço fica em silêncio até o fim
 9. O criador explica eventuais ideias que tenham passado despercebidas
 10. Prossiga para o próximo esboço e repita o passo a passo
+
+*Fluxo sem facilitador*
+1. Reúnam-se ao redor de um esboço.
+2. Ajuste o cronômetro para três a cinco minutos.
+3. Alguém da equipe anuncia as ideias que se destcaram de acordo com o aglomerado de bolinhas
+4. A equipe indica ideias de destaque que o facilitador deixou passar
+5. Alguém registra as ideias de destaque em post itss, colocando-as acima do esboço. Dê a cada ideia um nome simples, como "Vídeo de animação" ou "Cadastro em uma etapa"
+6. Revise preocupações e dúvidas
+7. O criador explica eventuais ideias que tenham passado despercebidas
+8. Prossiga para o próximo esboço e repita o passo a passo
 
 ![Críticas](https://i.imgur.com/9X6z0Bz.jpg)
 
