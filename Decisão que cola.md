@@ -58,6 +58,8 @@ Cada um escolhe uma solução e vota com adesivo de bolinha.
 6. Quando o cronômetro para coloque os votos no esboços.
 7. Cada pessoa explica brevemente seu voto (apenas um minuto para cada um)
 
+![Pesquisa](https://i.imgur.com/xhxPF80.jpg)
+
 ## Supervoto
 
 Esta etapa é aplicada quando há um Definidor.
