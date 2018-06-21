@@ -66,6 +66,10 @@ Discuta rapidamente os destaques de cada solução e use post its para registrar
 
 ## Pesquisa de intenção de voto
 
+*Tempo*
+- 5-10 minutos para votar
+- 1 minuto para justificar cada voto
+
 Cada um escolhe uma solução e vota com adesivo de bolinha.
 
 1. Dê um voto a todos (grande adesivo de bolinha)
