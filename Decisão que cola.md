@@ -7,7 +7,7 @@ Metodologia do Design Sprint para validação de esboços.
 - Adesivos de bolinhas (pequenos e médios)
 - Fita crepe
 - Canetas
-- Cronômetro
+- [Cronômetro](http://timeronline.com.br)
 
 ## Museu de arte
 
