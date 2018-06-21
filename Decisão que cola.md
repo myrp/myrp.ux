@@ -52,7 +52,7 @@ Discuta rapidamente os destaques de cada solução e use post its para registrar
 9. O criador explica eventuais ideias que tenham passado despercebidas
 10. Prossiga para o próximo esboço e repita o passo a passo
 
-*Fluxo sem facilitador*
+**Fluxo sem facilitador**
 1. Reúnam-se ao redor de um esboço.
 2. Ajuste o cronômetro para três a cinco minutos.
 3. Alguém da equipe anuncia as ideias que se destcaram de acordo com o aglomerado de bolinhas
