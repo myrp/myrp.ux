@@ -1,13 +1,13 @@
 # Decisão que cola
 
-Metodologias do Design Sprint para validação de protótipos.
+Metodologia do Design Sprint para validação de esboços.
 
 ## Museu de arte
 
-1. Colar os esboços na parede
-2. Distribua-os em uma longa fileira, com um bom espaço entre um e outro, como se fossem pinturas em um museu
+1. Colar os esboços na parede.
+2. Distribua-os em uma longa fileira, com um bom espaço entre um e outro, como se fossem pinturas em um museu.
     - Esse espaço leva a equipe a se espalhar e examinar cada esboço com calma, sem ninguém se acotovelando.
-3. Coloque-os em uma ordem mais ou menos cronológica
+3. Coloque-os em uma ordem mais ou menos cronológica.
 
 ![Museu](https://i.imgur.com/ZS2XNI7.jpg)
 
@@ -19,8 +19,7 @@ Essas bolinhas criam um "mapa de calor" mostrando quais ideias o grupo acha intr
 
 Nesta etapa não é permitido discussões em voz alta.
 
-Passo a passo do mapa de calor:
-
+Cada pessoa seguira estes passos:
 1. Não fale
 2. Observe um esboço da solução
 3. Coloque adesivos ao lado das partes que agradarem (se houver alguma)
@@ -36,10 +35,10 @@ Discuta rapidamente os destaques de cada solução e use post its para registrar
 
 1. Reúnam-se ao redor de um esboço.
 2. Ajuste o cronômetro para três minutos
-3. O facilitador narra o esboço. ("Aqui, parece que o usuário está clicando para reproduzir um vídeo, e em seguida indo para a página da home...")
-4. O facilitador anuncia as ideias que se destacaram de acordo com o aglomerado de bolinhas.
+3. O Facilitador narra o esboço. ("Aqui, parece que o usuário está clicando para reproduzir um vídeo, e em seguida indo para a página da home...")
+4. O Facilitador anuncia as ideias que se destacaram de acordo com o aglomerado de bolinhas.
 5. A equipe indica ideias de destaque que o facilitador deixou passar
-6. O escrevente registra ideias de destaque em post its, colocando-as acima do esboço. Dê a cada ideia um nome simples, como "Vídeo de animação" ou "Cadastro em uma etapa"
+6. O Escrevente registra ideias de destaque em post its, colocando-as acima do esboço. Dê a cada ideia um nome simples, como "Vídeo de animação" ou "Cadastro em uma etapa"
 7. Revise preocupações e dúvidas
 8. O criador do esboço fica em silêncio até o fim
 9. O criador explica eventuais ideias que tenham passado despercebidas
@@ -58,3 +57,20 @@ Cada um escolhe uma solução e vota com adesivo de bolinha.
 5. Cada pessoa escreve para si mesma sua escolha. Pode ser um esboço inteiro ou apenas uma ideia de um esboço.
 6. Quando o cronômetro para coloque os votos no esboços.
 7. Cada pessoa explica brevemente seu voto (apenas um minuto para cada um)
+
+## Supervoto
+
+Esta etapa é aplicada quando há um Definidor.
+
+Cada Definidor terá três supervotos especiais (com as iniciais nos adesivos). O voto deles, seja lá qual for, será o que a equipe transformará em protótipo para o teste.
+
+- Os esboços que receberam ao menos um supervoto são os vencedores.
+- Os esboços que não receberam nenhum supervoto ficam na categoria "talvez mais tarde".
+
+![Supervoto](https://i.imgur.com/Rx95yHY.jpg)
+
+#### Talvez mais tarde
+É possível que possa incorporá-los quando planejar o protótipo ou usá-los em uma próxima sprint.
+
+![Talvez mais tarde](https://i.imgur.com/QqwdLzE.jpg)
+
