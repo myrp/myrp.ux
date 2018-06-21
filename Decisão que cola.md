@@ -23,7 +23,7 @@ Metodologia do Design Sprint para validação de esboços.
 
 Analise todas as soluções em silêncio e use adesivos de bolinha para marcar as partes interessantes.
 
-Essas bolinhas criam um "mapa de calor" mostrando quais ideias o grupo acha intrigantes. O mapa, no entanto, tem suas limitações, pois não diz por que as pessoas gostaram de uma ideia.
+Essas bolinhas criam um *mapa de calor* mostrando quais ideias o grupo acha intrigantes. O mapa, no entanto, tem suas limitações, pois não diz por que as pessoas gostaram de uma ideia.
 
 Nesta etapa não é permitido discussões em voz alta.
 
