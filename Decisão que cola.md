@@ -27,11 +27,11 @@ Essas bolinhas criam um *mapa de calor* mostrando quais ideias o grupo acha intr
 
 Nesta etapa não é permitido discussões em voz alta.
 
-Cada pessoa seguira estes passos:
-1. Não fale
-2. Observe um esboço da solução
-3. Coloque adesivos ao lado das partes que agradarem (se houver alguma)
-4. Coloque duas ou três bolinhas nas ideias mais promissoras
+Cada pessoa seguirá estes passos:
+1. Não fale.
+2. Observe um esboço da solução.
+3. Coloque adesivos ao lado das partes que agradarem (se houver alguma).
+4. Coloque duas ou três bolinhas nas ideias mais promissoras.
 5. Se tiver uma preocupação ou dúvida, escreva-a em um post it e cole abaixo do esboço.
 6. Prossiga para o próximo esboço e repita os passos.
 
@@ -45,22 +45,22 @@ Discuta rapidamente os destaques de cada solução e use post its para registrar
 2. Ajuste o cronômetro para três minutos.
 3. O Facilitador narra o esboço. ("Aqui, parece que o usuário está clicando para reproduzir um vídeo, e em seguida indo para a página da home...")
 4. O Facilitador anuncia as ideias que se destacaram de acordo com o aglomerado de bolinhas.
-5. A equipe indica ideias de destaque que o facilitador deixou passar
-6. O Escrevente registra ideias de destaque em post its, colocando-as acima do esboço. Dê a cada ideia um nome simples, como "Vídeo de animação" ou "Cadastro em uma etapa"
-7. Revise preocupações e dúvidas
-8. O criador do esboço fica em silêncio até o fim
-9. O criador explica eventuais ideias que tenham passado despercebidas
-10. Prossiga para o próximo esboço e repita o passo a passo
+5. A equipe indica ideias de destaque que o Facilitador deixou passar.
+6. O Escrevente registra ideias de destaque em post-its, colocando-as acima do esboço. Dê a cada ideia um nome simples, como "Vídeo de animação" ou "Cadastro em uma etapa".
+7. Revise preocupações e dúvidas.
+8. O criador do esboço fica em silêncio até o fim.
+9. O criador explica eventuais ideias que tenham passado despercebidas.
+10. Prossiga para o próximo esboço e repita o passo a passo.
 
 **Fluxo sem facilitador**
 1. Reúnam-se ao redor de um esboço.
 2. Ajuste o cronômetro para três a cinco minutos.
-3. Alguém da equipe anuncia as ideias que se destcaram de acordo com o aglomerado de bolinhas
-4. A equipe indica ideias de destaque que o facilitador deixou passar
-5. Alguém registra as ideias de destaque em post itss, colocando-as acima do esboço. Dê a cada ideia um nome simples, como "Vídeo de animação" ou "Cadastro em uma etapa"
-6. Revise preocupações e dúvidas
-7. O criador explica eventuais ideias que tenham passado despercebidas
-8. Prossiga para o próximo esboço e repita o passo a passo
+3. Alguém da equipe anuncia as ideias que se destacaram de acordo com o aglomerado de bolinhas.
+4. A equipe indica ideias de destaque que o Facilitador deixou passar.
+5. Alguém registra as ideias de destaque em post-its, colocando-as acima do esboço. Dê a cada ideia um nome simples, como "Vídeo de animação" ou "Cadastro em uma etapa".
+6. Revise preocupações e dúvidas.
+7. O criador explica eventuais ideias que tenham passado despercebidas.
+8. Prossiga para o próximo esboço e repita o passo a passo.
 
 ![Críticas](https://i.imgur.com/9X6z0Bz.jpg)
 
@@ -68,13 +68,13 @@ Discuta rapidamente os destaques de cada solução e use post its para registrar
 
 Cada um escolhe uma solução e vota com adesivo de bolinha.
 
-1. Dê um voto a todos (grande adesivo de bolinha)
-2. Refresque a memória de todos em relação ao objetivo de longo prazo
-3. Lembre a todos que podem apostar em ideias arriscadas com grande potencial
-4. Programe um cronômetro para dez minutos
+1. Dê um voto a todos (grande adesivo de bolinha).
+2. Refresque a memória de todos em relação ao objetivo de longo prazo.
+3. Lembre a todos que podem apostar em ideias arriscadas com grande potencial.
+4. Programe um cronômetro para dez minutos.
 5. Cada pessoa escreve para si mesma sua escolha. Pode ser um esboço inteiro ou apenas uma ideia de um esboço.
-6. Quando o cronômetro para coloque os votos no esboços.
-7. Cada pessoa explica brevemente seu voto (apenas um minuto para cada um)
+6. Quando o cronômetro parar coloque os votos no esboços.
+7. Cada pessoa explica brevemente seu voto (apenas um minuto para cada um).
 
 ![Pesquisa](https://i.imgur.com/xhxPF80.jpg)
 
@@ -93,4 +93,3 @@ Cada Definidor terá três supervotos especiais (com as iniciais nos adesivos). 
 É possível que possa incorporá-los quando planejar o protótipo ou usá-los em uma próxima sprint.
 
 ![Talvez mais tarde](https://i.imgur.com/QqwdLzE.jpg)
-
