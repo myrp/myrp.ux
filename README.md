@@ -31,12 +31,12 @@
 - [Whimsical](https://whimsical.co/) - Flowchart, Wireframes e Sticky Notes
 
 ### Feedback
-- [InvisionApp](http://invisionapp.com) - Feedback de protótipos
-- [Gallery](https://gallery.io/) - Feedback de protótipos
-- [UsabilityHub](https://usabilityhub.com/) - Testes remotos de protótipos
-- [Optimal Workshop](https://www.optimalworkshop.com/) - Teste remoto de protótipos
-- [Maze](https://maze.design) - Teste remoto de protótipos armazenados no Invision
-- [Plant](https://plantapp.io) - Controle de versão para design
+- [InvisionApp](http://invisionapp.com) - Plataforma para criar protótipos interativos, whiteboards e coletar feedback
+- [Gallery](https://gallery.io/) - Plataforma colaborativa para compartilhar e organizar protótipos
+- [Red Pen](https://redpen.io) - Ferramenta para compartilhar protótipos e coletar feedback via comentários
+- [UsabilityHub](https://usabilityhub.com/) - Ferramenta para compartilhar e validar protótipos
+- [Optimal Workshop](https://www.optimalworkshop.com/) - Ferramenta para compartilhar e validar protótipos
+- [Maze](https://maze.design) - Ferramenta para compartilhar e validar protótipos interativos do InvisionApp
 
 ### Cores
 - [Material Palette Generator](https://material.io/design/color/the-color-system.html#tools-for-picking-colors) - Paleta de cores do Material Design 2018
@@ -44,7 +44,6 @@
 - [Color Contrast Checker](https://webaim.org/resources/contrastchecker/) - Verifica o constrate entre duas cores de acordo com o [WCAG 2.0](https://www.w3.org/TR/WCAG20/)
 - [Adobe Color CC](https://color.adobe.com/pt/create/color-wheel/) - Cria combinações de cores e color schemes
 
-## Artigos
-> Seleção de artigos sobre UI e UX
-
-- [The Magic of Microcopy](https://uxdesign.cc/the-magic-of-microcopy-a56c5decbe1f) - Escrita que proporciona uma experiência UAU
+### Outros
+- [Dropmark](http://dropmark.com) - Organizador de links e imagens em coleções
+- [Plant](https://plantapp.io) - Controle de versão para design
