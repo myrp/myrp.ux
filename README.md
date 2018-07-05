@@ -27,11 +27,16 @@
 ## Tools
 > Ferramentas para os processos de UI e UX
 
-### Prototipação e feedback
+### Fluxogramas
+- [Whimsical](https://whimsical.co/) - Flowchart, Wireframes e Sticky Notes
+
+### Feedback
 - [InvisionApp](http://invisionapp.com) - Feedback de protótipos
 - [Gallery](https://gallery.io/) - Feedback de protótipos
 - [UsabilityHub](https://usabilityhub.com/) - Testes remotos de protótipos
-- [Whimsical](https://whimsical.co/) - Flowchart, Wireframes e Sticky Notes
+- [Optimal Workshop](https://www.optimalworkshop.com/) - Teste remoto de protótipos
+- [Maze](https://maze.design) - Teste remoto de protótipos armazenados no Invision
+- [Plant](https://plantapp.io) - Controle de versão para design
 
 ### Cores
 - [Material Palette Generator](https://material.io/design/color/the-color-system.html#tools-for-picking-colors) - Paleta de cores do Material Design 2018
