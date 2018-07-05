@@ -46,4 +46,3 @@
 
 ### Outros
 - [Dropmark](http://dropmark.com) - Organizador de links e imagens em coleções
-- [Plant](https://plantapp.io) - Controle de versão para design
