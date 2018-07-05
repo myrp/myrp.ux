@@ -46,3 +46,4 @@
 
 ### Outros
 - [Dropmark](http://dropmark.com) - Organizador de links e imagens em coleções
+- [Dummi](http://dummi.io/) - Gerador de dados fake
