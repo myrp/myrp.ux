@@ -144,4 +144,3 @@
 ### No fim do dia
 - Identificar padrões
 - Encerrar: Revisar objetivo de longo prazo e perguntas do sprint
-- 
