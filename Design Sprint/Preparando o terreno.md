@@ -138,7 +138,7 @@
 ## Sexta
 
 ### Ao longo do dia
-- Preparar salas para os testes
+- Preparar salas para os testes (https://medium.com/design-rd/testes-de-usabilidade-para-novas-features-60391fd48f38)
 - Entrevistas
 
 ### No fim do dia
