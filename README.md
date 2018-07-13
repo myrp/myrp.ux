@@ -26,6 +26,9 @@
 ### Fluxogramas
 - [Whimsical](https://whimsical.co/) - Flowchart, Wireframes e Sticky Notes
 
+### Wireframes
+- [Balsamiq](https://balsamiq.com/) - Ferramenta para sketch e wireframe
+
 ### Feedback
 - [InvisionApp](http://invisionapp.com) - Plataforma para criar protótipos interativos, whiteboards e coletar feedback
 - [Gallery](https://gallery.io/) - Plataforma colaborativa para compartilhar e organizar protótipos
