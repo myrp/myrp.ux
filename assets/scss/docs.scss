@@ -30,6 +30,16 @@ nav {
   }
 }
 
+span.draft {
+  font-size: 0.8rem;
+  background-color: color("yellow", "base");
+  color: color('shades', 'black');
+}
+
+span.draft:after {
+  content: "Rascunho";
+}
+
 main {
   padding-left: 240px;
 }
