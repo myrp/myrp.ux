@@ -18,4 +18,4 @@
 
 ### Opcionais
 - Brinde para clientes que participarem do teste de sexta
-- Lanches para equipe durante toda a semana para manter a equipe motivada
+- Lanches para equipe (para manter o time motivado)
