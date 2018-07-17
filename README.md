@@ -20,6 +20,15 @@
 - [Design Sprint Kit](https://designsprintkit.withgoogle.com/)
 - [Sprint Stories](https://sprintstories.com/)
 
+#### Como aplicar?
+- [Agenda](./dev/design-sprint/Agenda.md)
+- [Preparando o terreno](./dev/design-sprint/Preparando-o-terreno.md)
+- [Segunda](./dev/design-sprint/)
+- [Terça](./dev/design-sprint/)
+- [Quarta](./dev/design-sprint/Decisão-que-cola.md)
+- [Quinta](./dev/design-sprint/)
+- [Sexta](./dev/design-sprint/)
+
 ## Tools
 > Ferramentas para os processos de UI e UX
 
