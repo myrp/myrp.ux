@@ -1,0 +1,36 @@
+select {
+    &.browser-default {
+        border: none;
+        border-bottom: 1px solid #9e9e9e;
+        border-radius: 0;
+        outline: none;
+        padding: 0;
+        box-sizing: content-box;
+        cursor: pointer;
+    }
+}
+
+.input-field {
+    .prefix {
+        font-size: 1.5rem;
+        margin-top: 0.75rem;
+        cursor: pointer;
+
+        & ~ label {
+            margin-left: 2.5rem;
+            transition: .2s ease-out;
+
+            &.active {
+                margin-left: 0rem;
+            }
+        }
+
+        & ~ input {
+            padding-left: 2.5rem;
+            margin-left: inherit;
+            width: 100%;
+            box-sizing: border-box;
+        }
+    }
+    
+}

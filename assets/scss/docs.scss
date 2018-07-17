@@ -1,0 +1,67 @@
+body {
+  letter-spacing: 0.02em;
+}
+
+nav {
+  .brand-logo {
+    text-transform: uppercase;
+    font-family: "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    letter-spacing: 0.0125em;
+    padding-left: 16px;
+    white-space: nowrap;
+  }
+
+  .sidenav-trigger {
+    margin: 0;
+  }
+}
+
+.side-nav {
+  top: 64px;
+  border-right: 1px solid #e4e4e4;
+  width: 240px;
+
+  li > a {
+    font-weight: 400;
+    padding: 0 16px;
+  }
+}
+
+span.draft {
+  font-size: 0.8rem;
+  background-color: color("yellow", "base");
+  color: color('shades', 'black');
+}
+
+span.draft:after {
+  content: "Rascunho";
+}
+
+main {
+  padding-left: 240px;
+}
+
+.container {
+  width: 100%;
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+@media only screen and (max-width: 992px) {
+  .side-nav {
+    top: 0;
+    border-right: 0;
+  }
+
+  main {
+    padding-left: 0;
+  }
+}
+
+pre[class*="language-"] {
+  padding: 0 2rem;
+}

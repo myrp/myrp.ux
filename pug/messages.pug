@@ -1,0 +1,101 @@
+extends base/layout.pug
+
+block vars
+	- var title = 'Messages'
+
+block content
+	h2 Messages
+	
+	.section
+		h4 Erros
+		p
+			| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
+		.card-panel.red.white-text.valign-wrapper
+			i.material-icons.white-text.left error
+			div
+				| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+		
+		.card-panel.red.lighten-4.valign-wrapper
+			i.material-icons.red-text.left error
+			div
+				| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+		p
+			include page-contents/messages/message-error.html
+	
+	.section
+		h4 Avisos
+		p
+			| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
+		.card-panel.orange.white-text.valign-wrapper
+			i.material-icons.white-text.left warning
+			div
+				| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+		
+		.card-panel.orange.lighten-4.valign-wrapper
+			i.material-icons.orange-text.left warning
+			div
+				| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+		p
+			include page-contents/messages/message-warning.html
+
+	.section
+		h4 Completadas
+		p
+			| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
+		.card-panel.green.white-text.valign-wrapper
+			i.material-icons.white-text.left done
+			div
+				| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+		
+		.card-panel.green.lighten-4.valign-wrapper
+			i.material-icons.green-text.left done
+			div
+				| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+		
+		p
+			include page-contents/messages/message-success.html
+
+	.section
+		h4 Informações
+		p
+			| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
+		.card-panel.blue.white-text.valign-wrapper
+			i.material-icons.white-text.left info
+			div
+				| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+		
+		.card-panel.blue.lighten-4.valign-wrapper
+			i.material-icons.blue-text.left info
+			div
+				| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+		
+		p
+			include page-contents/messages/message-info.html
+
+	.section
+		h4 Mensagens temporárias
+		p
+			| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
+		a#erros.btn Ver erros
+		a#avisos.btn Ver avisos
+		a#completadas.btn Ver completadas
+		a#informacoes.btn Ver informações
+
+	script(type='text/javascript').
+		$('#erros').on('click', function() {
+			Materialize.toast("<i class='material-icons white-text left'>error</i> Lorem ipsum dolor sit amet", 3000, 'red');
+		});
+
+		$('#avisos').on('click', function() {
+			Materialize.toast("<i class='material-icons white-text left'>warning</i> Lorem ipsum dolor sit amet", 3000, 'orange');
+		});
+
+		$('#completadas').on('click', function() {
+			Materialize.toast("<i class='material-icons white-text left'>done</i> Lorem ipsum dolor sit amet", 3000, 'green');
+		});
+
+		$('#informacoes').on('click', function() {
+			Materialize.toast("<i class='material-icons white-text left'>info</i> Lorem ipsum dolor sit amet", 3000, 'blue');
+		});

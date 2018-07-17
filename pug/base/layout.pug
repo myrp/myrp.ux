@@ -1,0 +1,54 @@
+html
+	block vars
+		- var title = "myrp design kit"
+	head
+		title #{title}
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+
+		link(href='http://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
+		link(href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css', rel='stylesheet')
+		link(href='../vendor/prism/prism.css', rel='stylesheet')
+
+		script(src='https://code.jquery.com/jquery-3.2.1.min.js')
+		script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js')
+		script(src='../vendor/prism/prism.js')
+		script(src='../index.js')
+
+	body.grey.lighten-4
+		.navbar-fixed
+			nav.z-depth-0.black
+				.nav-wrapper
+					ul
+						li
+							a.sidenav-trigger(href='#', data-target='slide-out')
+								i.material-icons menu
+					a.brand-logo(href="index.pug") MYRP
+
+		ul#slide-out.side-nav.fixed.z-depth-0
+			li
+				a.subheader Estilos
+			li
+				a(href='#!') Cores
+			li
+				a(href='#!') Logos
+			li
+				a.subheader Componentes
+			li
+				a(href='buttons.pug') Buttons
+			li
+				a(href='cards.pug')
+					span.badge.draft.yellow
+					| Cards
+			li
+				a(href='forms.pug') Forms
+			li
+				a(href='messages.pug') Messages
+			li
+				a(href='sidenavs.pug') Sidenavs
+			li
+				a(href='tables.pug') Tables
+
+		main
+			.container
+				block content
+					
