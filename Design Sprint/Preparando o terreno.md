@@ -1,5 +1,6 @@
 # [Materiais](https://www.thesprintbook.com/supplies)
 
+### Essenciais
 - Quadro branco
 - Cartolinas brancas
 - Post-its amarelos grandes 
@@ -11,8 +12,10 @@
 - Adesivos de bolinha grandes
 - Cronômetro
 - Notebooks
-- Caixas de som? (para o teste de sexta)
-- Brinde para clientes?
-- Lanches para equipe?
-- Reservar 1 sala para 5 dias
-- Reservar 1 sala para o teste de sexta
+- Caixas de som (para o teste de sexta)
+- Reservar 1 sala maior para os 5 dias
+- Reservar 1 sala menor para o teste de sexta
+
+### Opcionais
+- Brinde para clientes que participarem do teste de sexta
+- Lanches para equipe durante toda a semana para manter a equipe motivada
