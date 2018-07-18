@@ -16,85 +16,39 @@
 
 ## Terça
 
-### 9h
-- Demonstrações relâmpago
-
-### 10h15
-- Intervalo
-
-### 11h30 
-- Divida ou agrupe
-
-### 12h
-- Almoço
-
-### 13h
-- Esboço em quatro etapas: Anotações
-
-### 13h20
-- Esboço em quatro etapas: Ideias
-
-### 13h40
-- Esboço em quatro etapas: Crazy 8s
-
-### 14h
-- Esboço em quatro etapas: Storyboard
-
-### 15h45 
-- Intervalo
-
-### 16h
-- Recrutar 5 clientes para o teste de sexta
+| Horário   | Atividade |
+|-----------|-----------|
+| **9h**    | Demonstrações relâmpago |
+| **10h15** | Intervalo |
+| **11h30** | Divida ou agrupe |
+| **12h**   | Almoço |
+| **13h**   | Esboço em quatro etapas: Anotações |
+| **13h20** | Esboço em quatro etapas: Ideias |
+| **13h40** | Esboço em quatro etapas: Crazy 8s |
+| **14h**   | Esboço em quatro etapas: Storyboard |
+| **15h45** | Intervalo |
+| **16h**   | Recrute 5 clientes para o teste de sexta |
 
 ## Quarta
 
-### 9h
-- Decisão que cola
-  - Museu de arte
-  - Mapa de calor
-  - Críticas relâmpago
-  - Pesquisa de intenção de voto
-  - Supervoto
-
-### 10h15
-- Intervalo
-
-### 10h30
-- Separar esboços vencedores dos que estão na categoria talvez mais tarde
-- Batalha ou "tudo em um"
-
-### 12h
-- Almoço
-
-### 13h
-- Storyboard
+| Horário   | Atividade |
+|-----------|-----------|
+| **9h**    | Decisão que cola |
+| **10h15** | Intervalo |
+| **10h30** | Separe os esboços vencedores do que estão na categria talvez mais tarde<br>Batalha ou "tudo em um" |
+| **12h**   | Almoço |
+| **13h**   | Storyboard |
 
 ## Quinta
 
-### 9h
-- Definir as ferramentas para construir protótipos
-- Dividir para conquistar (distribuir responsáveis pelo protótipo)
-  - Executor
-  - Costureiro
-  - Escritor
-  - Coletor de recursos
-  - Entrevistador
-  
-### 10h15
-- Intervalo
-
-### 10h30
-- Protótipo
-
-### 12h
-- Almoço
-
-### 13h
-- Protótipo
-
-### 16h
-- Testar protótipo
-- Concluir protótipo
+| Horário   | Atividade |
+|-----------|-----------|
+| **9h**    | Defina as ferramentas para construir protótipos<br>Divida para conquistar |
+| **10h15** | Intervalo |
+| **10h30** | Protótipo |
+| **12h**   | Almoço |
+| **13h**   | Protótipo |
+| **16h**   | Teste o protótipo |
 
 ### Ao longo do dia
 - Escrever roteiro para entrevista
