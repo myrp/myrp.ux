@@ -2,34 +2,17 @@
 
 ## Segunda
 
-### 9h
-- Explicar como funciona o Design Sprint
-
-### 9h15
-- Definir um objetivo de longo prazo
-- Listar as perguntas do sprint
-
-### 10h15
-- Intervalo
-
-### 10h30
-- Traçar um mapa
-
-### 12h
-- Almoço
-
-### 13h 
-- Perguntas aos especialistas
-
-### 15h
-- Organizar as notas "Como poderíamos"
-- Votação das notas "Como poderíamos"
-
-### 15h45
-- Intervalo
-
-### 16h00
-- Escolher um alvo
+| Horário   | Atividade |
+|-----------|-----------|
+| **9h**    | Explique como funciona o Design Sprint |
+| **9h15**  | Defina um objetivo de longo prazo<br>Liste as perguntas do sprint |
+| **10h15** | Intervalo |
+| **10h30** | Trace um mapa |
+| **12h**   | Almoço |
+| **13h**   | Perguntas aos especialistas |
+| **15h**   | Organize as notas "Como poderíamos"<br>Votação das notas "Como poderíamos" |
+| **15h45** | Intervalo |
+| **16h**   | Escolha um alvo |
 
 ## Terça
 
