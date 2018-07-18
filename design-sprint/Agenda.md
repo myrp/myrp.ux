@@ -1,5 +1,13 @@
 # Agenda
 
+## Antes do sprint
+
+- Envie um e-mail convite para a equipe da sprint
+- Envie outro e-mail convite para os especialistas selecionados
+- Encontre um definidor (ou dois)
+- Encontre um facilitador
+- Verifique se possui todos os [materiais para o sprint](./Material-sprint.md)
+
 ## Segunda
 
 | Horário   | Atividade |
