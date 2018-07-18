@@ -51,16 +51,16 @@
 | **16h**   | Teste o protótipo |
 
 ### Ao longo do dia
-- Escrever roteiro para entrevista
-- Confirmar testes com clientes
+- Escreva o roteiro para entrevista
+- Confirme testes com clientes
 - Brindes para clientes
 
 ## Sexta
 
 ### Ao longo do dia
-- Preparar salas para os testes (https://medium.com/design-rd/testes-de-usabilidade-para-novas-features-60391fd48f38)
+- Prepare as salas para os testes
 - Entrevistas
 
 ### No fim do dia
-- Identificar padrões
-- Encerrar: Revisar objetivo de longo prazo e perguntas do sprint
+- Identifique padrões
+- Encerre: Revise o objetivo de longo prazo e as perguntas do sprint
