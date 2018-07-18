@@ -1,11 +1,11 @@
 # Agenda
 
-## Antes do sprint
+## [Antes do sprint](./Preparando-o-terreno.md)
 
-- Envie um e-mail convite para a equipe da sprint
-- Envie outro e-mail convite para os especialistas selecionados
 - Encontre um definidor (ou dois)
 - Encontre um facilitador
+- Envie um e-mail convite para a equipe da sprint
+- Envie outro e-mail convite para os especialistas selecionados
 - Verifique se possui todos os [materiais para o sprint](./Material-sprint.md)
 
 ## Segunda
