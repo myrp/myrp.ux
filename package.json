@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel pug/index.pug --no-cache -d docs"
+    "dev": "parcel pug/index.pug -d docs"
   },
   "author": "",
   "license": "ISC",
