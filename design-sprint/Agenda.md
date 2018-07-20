@@ -45,7 +45,7 @@
 | **10h15** | Intervalo |
 | **10h30** | Separe os esboços vencedores do que estão na categria talvez mais tarde<br>Batalha ou "tudo em um" |
 | **12h**   | Almoço |
-| **13h**   | Storyboard |
+| **13h**   | Storyboard/User flow |
 
 ## Quinta
 
