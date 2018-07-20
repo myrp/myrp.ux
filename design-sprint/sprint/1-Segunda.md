@@ -1,7 +1,10 @@
 # Segunda-feira
 
 ## 9h
-- **Explique como funciona o sprint.** Apresente o processo dos cinco dias de sprint. Percorra o checklist e descreva rapidamente cada atividade.
+- **Explique como funciona o sprint.** Apresente o processo dos cinco dias de sprint. Percorra a agenda e descreva rapidamente cada atividade.
+  - [**Apresentação.**](https://docs.google.com/presentation/d/1Ib0LFGxBQFqpaiOpzKZO5AuiE9JI92xLMs9uKQngK3o/edit?usp=sharing)
+  - **Agenda:** [Segunda](./1-Segunda.md), [terça](./2-Terca.md), [quarta](./3-Quarta.md), [quinta](./4-Quinta.md) e [sexta](./5-Sexta.md).
+  
 
 ## 9h15
 - **Defina um objetivo de longo prazo.** Seja otimista. Pergunte: por que estamos conduzindo esse projeto? Onde queremos estar em seis meses, um ano ou em até cinco anos? Escreva o objetivo de longo prazo em um quadro branco.
