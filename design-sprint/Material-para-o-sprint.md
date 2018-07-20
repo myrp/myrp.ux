@@ -10,7 +10,7 @@
 - Fita-crepe ou fita adesiva
 - Adesivos de bolinha pequenos
 - Adesivos de bolinha grandes
-- Cronômetro
+- [Cronômetro](http://timeronline.com.br)
 - Notebooks
 - Caixas de som (para o teste de sexta)
 - Reservar 1 sala maior para os 5 dias
