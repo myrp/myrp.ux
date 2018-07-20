@@ -38,3 +38,15 @@ Coloque as vencedoras em seu mapa.
 ## 16h
 - **Escolha um alvo.** Circule seu cliente mais importante e um momento-alvo no mapa. A equipe pode dar opiniões, mas é o Definidor quem
 toma a decisão final.
+
+## Pontos-chave
+- **Comece pelo fim.** Comece imaginando o resultado final e os riscos que correrá ao longo do caminho. Em seguida, trabalhe de trás para a frente com o propósito de descobrir quais serão os passos necessários para chegar lá.
+- **Ninguém sabe tudo.** Nem mesmo o Definidor. Todo o conhecimento da equipe do sprint está guardado no cérebro de cada um. Para resolver seu grande problema, você precisará extrair esse conhecimento e construir um entendimento compartilhado.
+- **Reformule problemas como oportunidades.** Identifique cuidadosamente os problemas e use a expressão “Como poderíamos” para transformá-los em oportunidades.
+
+## Dicas para o Facilitador
+- **Peça permissão.** Peça permissão ao grupo para “facilitar” todo o andamento. Explique que tentará manter o progresso, o que tornará o sprint mais eficiente para todos.
+- **ABC: sempre registre tudo.** Sintetize o debate da equipe em anotações no quadro branco. Improvise quando necessário. Pergunte sempre: “Como devemos registrar isso?”.
+- **Faça perguntas óbvias.** Finja ser ingênuo. Pergunte “Por quê?” muitas vezes.
+- **Cuide bem dos humanos.** Mantenha a energia de sua equipe. Faça intervalos a cada sessenta ou noventa minutos. Lembre a todos da importância de fazer lanchinhos e de consumir alimentos leves no almoço.
+- **Decida e siga em frente.** Decisões lentas consomem energia e ameaçam o cronograma do sprint. Se o grupo mergulhar em um longo debate, peça ao Definidor que tome uma decisão.
