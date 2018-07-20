@@ -1,8 +1,6 @@
 # Decisão que cola
 
-Metodologia do Design Sprint para validação de esboços.
-
-**Materiais necessários**
+## Materiais necessários
 - Post-its
 - Adesivos de bolinhas (pequenos e médios)
 - Fita crepe
