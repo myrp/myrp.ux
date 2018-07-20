@@ -24,14 +24,13 @@
 - [Livro PDF](https://drive.google.com/open?id=1B9oAwwoHyfHPsjtIqwEgCDZStuNE5YTJ)
 
 #### Como aplicar?
-- [Agenda](./design-sprint/Agenda.md)
 - [Preparando o terreno](./design-sprint/Preparando-o-terreno.md)
 - [Material para o sprint](./design-sprint/Material-sprint.md)
-- [Segunda](./design-sprint/)
-- [Terça](./design-sprint/)
-- [Quarta](./design-sprint/Decisão-que-cola.md)
-- [Quinta](./design-sprint/)
-- [Sexta](./design-sprint/)
+- [Segunda](./design-sprint/sprint/1-Segunda.md)
+- [Terça](./design-sprint/sprint/1-Terca.md)
+- [Quarta](./design-sprint/sprint/1-Quarta.md)
+- [Quinta](./design-sprint/sprint/1-Quinta.md)
+- [Sexta](./design-sprint/sprint/1-Sexta.md)
 
 ## Tools
 > Ferramentas para os processos de UI e UX
