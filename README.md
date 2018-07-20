@@ -27,10 +27,10 @@
 - [Preparando o terreno](./design-sprint/Preparando-o-terreno.md)
 - [Material para o sprint](./design-sprint/Material-sprint.md)
 - [Segunda](./design-sprint/sprint/1-Segunda.md)
-- [Terça](./design-sprint/sprint/1-Terca.md)
-- [Quarta](./design-sprint/sprint/1-Quarta.md)
-- [Quinta](./design-sprint/sprint/1-Quinta.md)
-- [Sexta](./design-sprint/sprint/1-Sexta.md)
+- [Terça](./design-sprint/sprint/2-Terca.md)
+- [Quarta](./design-sprint/sprint/3-Quarta.md)
+- [Quinta](./design-sprint/sprint/4-Quinta.md)
+- [Sexta](./design-sprint/sprint/5-Sexta.md)
 
 ## Tools
 > Ferramentas para os processos de UI e UX
