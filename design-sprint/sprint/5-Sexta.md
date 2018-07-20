@@ -33,8 +33,7 @@
 
 ### Após cada entrevista
 - **Insira as notas.** Cole suas anotações nas linhas e colunas corretas da tabela no quadro branco. Discutam rapidamente a entrevista, mas evitem tirar conclusões nesse momento.
-
-### Faça um rápido intervalo.
+- **Faça um rápido intervalo.**
 
 ### No fim do dia
 - **Identifique padrões.** No fim do dia, leia o quadro em silêncio e anote os padrões que surgirem. Faça uma lista de todos os padrões que as pessoas identificaram. Rotule cada um como positivo, negativo ou neutro.
