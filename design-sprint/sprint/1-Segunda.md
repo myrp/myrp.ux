@@ -7,8 +7,18 @@
   
 
 ## 9h15
-- **Defina um objetivo de longo prazo.** Seja otimista. Pergunte: por que estamos conduzindo esse projeto? Onde queremos estar em seis meses, um ano ou em até cinco anos? Escreva o objetivo de longo prazo em um quadro branco.
+- **Defina um objetivo de longo prazo.** Seja otimista. Escreva o objetivo de longo prazo em um quadro branco.
 - **Liste as perguntas do sprint.** Seja pessimista. Pergunte: E se falharmos? Transforme esses temores em questões que poderão ser respondidas até o fim da semana. Liste as perguntas em um quadro branco.
+
+**Perguntas para os stakeholders**
+- Por que estamos conduzindo esse projeto?
+- Quais são os principais desafios que precisamos superar?
+- Onde queremos estar em seis meses, um ano ou em até cinco anos?
+
+- **Perguntas sobre os usuários**
+- Quem são os usuários?
+- Quais são as tarefas do dia a dia da empresa destes usuários?
+- Quais são os fluxos de uso desses usuários no myrp?
 
 ## 10h15
 - Intervalo.
