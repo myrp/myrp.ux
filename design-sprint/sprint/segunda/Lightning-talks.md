@@ -19,7 +19,7 @@
 
 ## Visão do usuário
 
-### Perfil dos usuários
+### Perfil do usuário
 - Quem são os usuários?
 - Quais são as tarefas do dia a dia da empresa destes usuários?
 - Em que momento eles utilizam o myrp e a funcionalidade em análise?
