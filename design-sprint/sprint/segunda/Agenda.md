@@ -47,7 +47,7 @@ Coloque as vencedoras em seu mapa.
 ## 16h
 - **Escolha um alvo.** Circule seu cliente mais importante e um momento-alvo no mapa. A equipe pode dar opiniões, mas é o Definidor quem
 toma a decisão final.
-- **Defina métricas de sucesso.** Defina o que será considerado como sucesso. Como mensurar? Será necessário utilizar alguma ferramenta?
+- **Defina métricas de sucesso.** Determine o que será considerado como sucesso. Como mensurar? Será necessário utilizar alguma ferramenta?
 
 **Links úteis**
 - [HEART Framework](https://www.dtelepathy.com/ux-metrics/)
