@@ -7,7 +7,7 @@
   
 
 ## 9h15
-- **Defina um objetivo de longo prazo.** Seja otimista. Escreva o objetivo de longo prazo em um quadro branco.
+- **Defina um objetivo de longo prazo.** Seja otimista. Faça perguntas e depois escreva o objetivo de longo prazo em um quadro branco.
 - **Liste as perguntas do sprint.** Seja pessimista. Pergunte: E se falharmos? Transforme esses temores em questões que poderão ser respondidas até o fim da semana. Liste as perguntas em um quadro branco.
 
 **Perguntas para os stakeholders**
