@@ -1,6 +1,8 @@
 # Trace um mapa
 > Desenhe o primeiro esboço de seu mapa na manhã de segunda-feira.
 
+<img src="https://i.imgur.com/KxMwRM5.jpg" width="500">
+
 ## 1. Liste os atores (do lado esquerdo)
 Os “atores” são todos os personagens importantes em sua história. Na maioria das vezes, são tipos diferentes de clientes. Ocasionalmente, outros elementos além dos clientes — sua equipe de vendas ou um órgão regulador do governo, por exemplo — são atores importantes e também devem ser listados. E de vez em quando, é claro, há um robô.
 
