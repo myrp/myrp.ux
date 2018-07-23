@@ -1,5 +1,5 @@
 # Entendendo o problema
-> Sugestões de perguntas para entender o problema que estamos tentando resolver com o sprint.
+> **Lightning Talks.** Sugestões de perguntas para entender o problema que estamos tentando resolver com o sprint.
 
 ## Visão de negócio
 
