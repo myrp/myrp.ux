@@ -16,7 +16,7 @@
 - Intervalo.
 
 ## 10h30
-- **Trace um mapa.** Faça uma lista dos clientes e atores importantes à esquerda. Desenhe o fim, com seu objetivo concluído, à direita. Em seguida, faça um fluxograma entre uma parte e outra, mostrando como os clientes interagem com seu produto. Não complique: o fluxograma deve ter entre cinco e quinze etapas.
+- [**Trace um mapa.**](./Trace-um-mapa.md) Faça uma lista dos clientes e atores importantes à esquerda. Desenhe o fim, com seu objetivo concluído, à direita. Em seguida, faça um fluxograma entre uma parte e outra, mostrando como os clientes interagem com seu produto. Não complique: o fluxograma deve ter entre cinco e quinze etapas.
 
 <img src="https://i.imgur.com/KxMwRM5.jpg" width="500">
 
