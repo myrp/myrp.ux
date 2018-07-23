@@ -25,7 +25,7 @@
 
 #### Como aplicar?
 - [Preparando o terreno](./design-sprint/Preparando-o-terreno.md)
-- [Material para o sprint](./design-sprint/Material-sprint.md)
+- [Material para o sprint](./design-sprint/Material-para-o-sprint.md)
 - [Segunda](./design-sprint/sprint/1-Segunda.md)
 - [Terça](./design-sprint/sprint/2-Terca.md)
 - [Quarta](./design-sprint/sprint/3-Quarta.md)
@@ -36,17 +36,17 @@
 > Ferramentas para os processos de UI e UX
 
 ### Fluxogramas
-- [Whimsical](https://whimsical.co/) - Flowchart, Wireframes e Sticky Notes
+- [Whimsical](https://whimsical.co) - Flowchart, Wireframes e Sticky Notes
 
 ### Wireframes
-- [Balsamiq](https://balsamiq.com/) - Ferramenta para sketch e wireframe
+- [Balsamiq](https://balsamiq.com) - Ferramenta para sketch e wireframe
 
 ### Feedback
 - [InvisionApp](http://invisionapp.com) - Plataforma para criar protótipos interativos, whiteboards e coletar feedback
-- [Gallery](https://gallery.io/) - Plataforma colaborativa para compartilhar e organizar protótipos
+- [Gallery](https://gallery.io) - Plataforma colaborativa para compartilhar e organizar protótipos
 - [Red Pen](https://redpen.io) - Ferramenta para compartilhar protótipos e coletar feedback via comentários
-- [UsabilityHub](https://usabilityhub.com/) - Ferramenta para compartilhar e validar protótipos
-- [Optimal Workshop](https://www.optimalworkshop.com/) - Ferramenta para compartilhar e validar protótipos
+- [UsabilityHub](https://usabilityhub.com) - Ferramenta para compartilhar e validar protótipos
+- [Optimal Workshop](https://www.optimalworkshop.com) - Ferramenta para compartilhar e validar protótipos
 - [Maze](https://maze.design) - Ferramenta para compartilhar e validar protótipos interativos do InvisionApp
 
 ### Cores
