@@ -16,6 +16,7 @@ Seu mapa deve ter de cinco a quinze passos, mais ou menos. Se houver mais de vin
 ## 5. Peça ajuda
 Enquanto estiver desenhando, pergunte à equipe: “Vocês acham que o mapa parece correto?”
 
+# Mapa
 <img src="https://i.imgur.com/KxMwRM5.jpg" width="500">
 
 **Outros exemplos**
