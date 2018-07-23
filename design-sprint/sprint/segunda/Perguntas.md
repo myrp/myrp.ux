@@ -30,6 +30,6 @@
 - Quais são os pontos de saída?
 - Como nós abordamos os usuários depois do uso?
 
-## Objetivo de longo prazo
+## E se falharmos?
 - Para alcançar nosso objetivo de longo prazo, o que precisa acontecer?
 - Imaginem que possamos viajar para o futuro e vejamos que nosso processo fracassou. O que pode ter causado isso?
