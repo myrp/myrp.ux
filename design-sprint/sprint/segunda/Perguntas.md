@@ -7,7 +7,6 @@
 - Por que estamos conduzindo esse projeto?
 - Quais são os principais desafios que precisamos superar?
 - Onde queremos estar em seis meses, um ano ou em até cinco anos?
-- Perguntas sobre os usuários
 
 ### Qual é a oportunidade de negócio?
 - Aumentar receita?
