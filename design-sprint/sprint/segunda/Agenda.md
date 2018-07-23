@@ -28,7 +28,7 @@
 - Almoço.
 
 ## 13h
-- **Pergunte aos especialistas.** Entreviste especialistas da equipe do sprint e convidados de fora. Tente fazer com que cada entrevista dure de
+- [**Pergunte aos especialistas.**](./Pergunte-aos-especialistas.md) Entreviste especialistas da equipe do sprint e convidados de fora. Tente fazer com que cada entrevista dure de
 quinze a trinta minutos. Pergunte sobre a ideia, a pesquisa de satisfação do cliente, como as coisas funcionam e projetos anteriores. Finja ser um
 repórter. Atualize o objetivo de longo prazo, as perguntas do sprint e o mapa à medida que avançar.
 
