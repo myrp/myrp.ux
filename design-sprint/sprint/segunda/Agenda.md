@@ -20,6 +20,10 @@
 
 <img src="https://i.imgur.com/KxMwRM5.jpg" width="500">
 
+**Outros exemplos**
+- [Exemplo 2](https://i.imgur.com/W50N1bB.jpg)
+- [Exemplo 3](https://i.imgur.com/cCxjuiN.jpg)
+
 ## 12h
 - Almoço.
 
