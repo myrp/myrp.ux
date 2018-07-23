@@ -48,7 +48,7 @@
 - Quais produtos semelhantes, relacionados ou relevantes devemos olhar?
 - Com que outras indústrias, verticais ou produtos poderíamos aprender?
 - Quais são os pontos fortes e fracos de nossos concorrentes? 
-- Podemos fazer uma análise SWOT (Forças, Fraquezas, Oportunidades, Ameaças)
+- Podemos fazer uma análise SWOT? (Forças, Fraquezas, Oportunidades, Ameaças)
 
 ## Objetivo de longo prazo
 
