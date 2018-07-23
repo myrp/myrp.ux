@@ -1,5 +1,5 @@
 # Entendendo o problema
-> Abaixo estão sugestões de perguntas que podem ser utilizadas para entender o problema que estamos tentando resolver com o sprint.
+> Sugestões de perguntas para entender o problema que estamos tentando resolver com o sprint.
 
 ## Perguntas para os stakeholders
 - Por que estamos conduzindo esse projeto?
