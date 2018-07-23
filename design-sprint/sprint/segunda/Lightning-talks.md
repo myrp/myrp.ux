@@ -1,7 +1,7 @@
 # Entendendo o problema
 > **Lightning Talks.** Sugestões de perguntas para entender o problema que estamos tentando resolver com o sprint.
 
-## Visão de negócio
+## Visão de negócio (10 a 15 min)
 
 ### Perguntas para os stakeholders
 - Por que estamos conduzindo esse projeto?
@@ -17,7 +17,7 @@
 - Alcançando um novo grupo de usuários ou mercado?
 - Outras oportunidades descritas por partes interessadas?
 
-## Visão do usuário
+## Visão do usuário (10 a 15 min)
 
 ### Perfil do usuário
 - Quem são os usuários?
@@ -34,7 +34,7 @@
 - Quais são os pontos de saída?
 - Como nós abordamos os usuários depois do uso?
 
-## Visão do sistema
+## Visão do sistema (10 a 15 min)
 
 ### Produto
 - Como o produto se parece hoje?
@@ -50,7 +50,7 @@
 - Quais são os pontos fortes e fracos de nossos concorrentes? 
 - Podemos fazer uma análise SWOT? (Forças, Fraquezas, Oportunidades, Ameaças)
 
-## Objetivo de longo prazo
+## Objetivo de longo prazo (5 min)
 
 ### E se falharmos?
 - Para alcançar nosso objetivo de longo prazo, o que precisa acontecer?
