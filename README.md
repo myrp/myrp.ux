@@ -26,7 +26,7 @@
 #### Como aplicar?
 - [Preparando o terreno](./design-sprint/Preparando-o-terreno.md)
 - [Material para o sprint](./design-sprint/Material-para-o-sprint.md)
-- [Segunda](./design-sprint/sprint/1-Segunda.md)
+- [Segunda](./design-sprint/sprint/segunda/Agenda.md)
 - [Terça](./design-sprint/sprint/2-Terca.md)
 - [Quarta](./design-sprint/sprint/3-Quarta.md)
 - [Quinta](./design-sprint/sprint/4-Quinta.md)
