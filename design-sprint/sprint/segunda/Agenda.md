@@ -10,15 +10,15 @@
 - **Defina um objetivo de longo prazo.** Seja otimista. [Faça perguntas](./Lightning-talks.md) e depois escreva o objetivo de longo prazo em um quadro branco.
 - **Liste as perguntas do sprint.** Seja pessimista. [Pergunte: E se falharmos?](./Lightning-talks.md#e-se-falharmos) Transforme esses temores em questões que poderão ser respondidas até o fim da semana. Liste as perguntas em um quadro branco.
 
-<img src="https://i.imgur.com/UEjdyXZ.jpg" width="500" >
+<img src="https://i.imgur.com/UEjdyXZ.jpg" width="500">
 
 ## 10h15
 - Intervalo.
 
 ## 10h30
-- **Trace um mapa.** Faça uma lista dos clientes e atores importantes à esquerda. Desenhe o fim, com seu objetivo concluído, à direita. Em
-seguida, faça um fluxograma entre uma parte e outra, mostrando como os clientes interagem com seu produto. Não complique: o fluxograma
-deve ter entre cinco e quinze etapas.
+- **Trace um mapa.** Faça uma lista dos clientes e atores importantes à esquerda. Desenhe o fim, com seu objetivo concluído, à direita. Em seguida, faça um fluxograma entre uma parte e outra, mostrando como os clientes interagem com seu produto. Não complique: o fluxograma deve ter entre cinco e quinze etapas.
+
+<img src="https://i.imgur.com/KxMwRM5.jpg" width="500">
 
 ## 12h
 - Almoço.
