@@ -15,7 +15,7 @@
 - Quais são os principais desafios que precisamos superar?
 - Onde queremos estar em seis meses, um ano ou em até cinco anos?
 
-- **Perguntas sobre os usuários**
+**Perguntas sobre os usuários**
 - Quem são os usuários?
 - Quais são as tarefas do dia a dia da empresa destes usuários?
 - Quais são os fluxos de uso desses usuários no myrp?
