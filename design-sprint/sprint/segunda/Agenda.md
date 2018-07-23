@@ -7,8 +7,8 @@
   
 
 ## 9h15
-- **Defina um objetivo de longo prazo.** Seja otimista. [Faça perguntas](./Perguntas.md) e depois escreva o objetivo de longo prazo em um quadro branco.
-- **Liste as perguntas do sprint.** Seja pessimista. [Pergunte: E se falharmos?](./Perguntas.md#e-se-falharmos) Transforme esses temores em questões que poderão ser respondidas até o fim da semana. Liste as perguntas em um quadro branco.
+- **Defina um objetivo de longo prazo.** Seja otimista. [Faça perguntas](./Lightning-talks.md) e depois escreva o objetivo de longo prazo em um quadro branco.
+- **Liste as perguntas do sprint.** Seja pessimista. [Pergunte: E se falharmos?](./Lightning-talks.md#e-se-falharmos) Transforme esses temores em questões que poderão ser respondidas até o fim da semana. Liste as perguntas em um quadro branco.
 
 ## 10h15
 - Intervalo.
