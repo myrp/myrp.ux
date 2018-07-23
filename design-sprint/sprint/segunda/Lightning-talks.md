@@ -19,7 +19,8 @@
 
 ## Visão do usuário
 
-### Quem são os usuários?
+### Perfil dos usuários
+- Quem são os usuários?
 - Quais são as tarefas do dia a dia da empresa destes usuários?
 - Em que momento eles utilizam o myrp e a funcionalidade em análise?
 
@@ -32,6 +33,22 @@
 - Como termina a experiência de uso da funcionalidade?
 - Quais são os pontos de saída?
 - Como nós abordamos os usuários depois do uso?
+
+## Visão do sistema
+
+### Produto
+- Como o produto se parece hoje?
+- Como evoluiu ao longo do tempo?
+- O que nós tentamos que funcionou?
+- O que nós tentamos que não funcionou?
+
+### Concorrentes
+- Temos alguma pesquisa de mercado?
+- Quais são as tendências recentes neste espaço?
+- Quais produtos semelhantes, relacionados ou relevantes devemos olhar?
+- Com que outras indústrias, verticais ou produtos poderíamos aprender?
+- Quais são os pontos fortes e fracos de nossos concorrentes? 
+- Podemos fazer uma análise SWOT (Forças, Fraquezas, Oportunidades, Ameaças)
 
 ## Objetivo de longo prazo
 
