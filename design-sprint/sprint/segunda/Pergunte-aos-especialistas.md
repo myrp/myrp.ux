@@ -1,7 +1,12 @@
 # Pergunte aos especialistas
 > Reserve meia hora para cada conversa, embora todo esse tempo talvez não seja necessário.<br>
-> Seguimos um roteiro
-simples para fazer as coisas andarem.
+> Seguimos um roteiro simples para fazer as coisas andarem.<br>
+
+## Escolhendo os especialistas
+- **Estratégia.** Se o Definidor não estiver presente em tempo integral no sprint, certifique-se de que poderá contar com a expertise dele ao menos na tarde da segunda.
+- **Voz do cliente.** Quem conversa mais com os clientes? Quem pode explicar o produto a partir da perspectiva deles? Quer essa pessoa venha do departamento de vendas, do atendimento, de pesquisa etc., suas impressões serão cruciais.
+- **Como as coisas funcionam.** Quem entende a mecânica de seu produto? Considere convidar o especialista financeiro, o especialista em tecnologia/logística e o especialista em marketing.
+- **Tentativas anteriores**. É comum algum membro da equipe já ter pensado no mesmo problema com detalhes. Essa pessoa pode ter uma ideia a respeito da solução.
 
 ## 1. Apresente o sprint
 Se o especialista não faz parte da equipe do sprint, explique qual é o seu objetivo.
