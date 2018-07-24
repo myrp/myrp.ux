@@ -18,7 +18,7 @@
 - Almoço.
 
 ## 13h
-- **O Esboço em quatro etapas.** Explique rapidamente as quatro etapas. Todos devem fazer esboços. Quando tiverem terminado, coloquem os esboços em uma pilha e deixem para analisá-los no dia seguinte.
+- [**Esboço em quatro etapas.**](./Esboco-em-quatro-etapas.md) Explique rapidamente as quatro etapas. Todos devem fazer esboços. Quando tiverem terminado, coloquem os esboços em uma pilha e deixem para analisá-los no dia seguinte.
 
 <img src="https://i.imgur.com/Pos6e4o.jpg" width="500">
 
