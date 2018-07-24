@@ -3,7 +3,7 @@
 ## 9h
 - **Explique como funciona o sprint.** Apresente o processo dos cinco dias de sprint. Percorra a agenda e descreva rapidamente cada atividade.
   - [**Apresentação.**](https://docs.google.com/presentation/d/1Ib0LFGxBQFqpaiOpzKZO5AuiE9JI92xLMs9uKQngK3o/edit?usp=sharing)
-  - **Agenda:** [Segunda](./Agenda.md), [terça](../2-Terca.md), [quarta](../3-Quarta.md), [quinta](../4-Quinta.md) e [sexta](../5-Sexta.md).
+  - **Agenda:** [Segunda](./Agenda.md), [terça](../terca/Agenda.md), [quarta](../quarta/Agenda.md), [quinta](../quinta/Agenda.md) e [sexta](../sexta/Agenda.md).
   
 
 ## 9h15
