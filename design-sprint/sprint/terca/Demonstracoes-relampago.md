@@ -19,7 +19,8 @@ Sempre registre tudo. Faça anotações no quadro branco.
 
 Comece perguntando ao companheiro que está apresentando:
 - Qual é a grande ideia aqui que pode ser útil?"
-- Em seguida faça um desenho rápido desse componente inspirador, escreva um cabeçalho simples acima e anote a fonte logo abaixo.
+- Em seguida faça um desenho rápido desse componente inspirador.
+- Escreva um cabeçalho simples acima e anote a fonte logo abaixo.
 
 <img src="https://i.imgur.com/pzjGiXA.jpg" width="500">
 
