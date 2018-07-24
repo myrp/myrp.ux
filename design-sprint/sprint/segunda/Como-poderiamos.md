@@ -23,3 +23,28 @@ Para fazer anotações, siga os passo abaixo:
 5. Arranque a nota e a separe.
 
 <img src="https://i.imgur.com/BVGQ8LZ.jpg" width="500">
+
+
+## Organize as notas *Como poderíamos* (10 min)
+
+Assim que as entrevistas com os especialistas forem concluídas, todos devem juntas suas notas e colá-las na parede. Podem fazê-lo de qualquer maneira, sem se preocupar com organização. Por exemplo:
+
+<img src="https://i.imgur.com/Lws8Jj4.jpg" width="500">
+
+Agora vocês vão organizar as notas de forma a colocá-las em grupos. Encontrem perguntas com temas semelhantes e agrupem-nas paredes.
+Os termas surgirão gradualmente. À medida que a organização avança, será útil rotular os temas. Basta escreve um título em uma nota autoadesiva nova e colá-la acima do grupo.
+
+Notas que não se encaixam em nenhum grupo podem ser alocadas em um tema chamado "Miscelânea".
+
+<img src="https://i.imgur.com/rhoHJBB.jpg" width="500">
+
+## Votem nas notas *Como poderíamos*
+
+Para priorizar as notas, você usará a votação por pontos. Esse é um dos atalhos para evitar longos debates. A votação por pontos funciona praticamente como o imaginado:
+1. Dê uma folha de bolinhas para cada pessoa.
+2. A bolinhas do Definidor devem ter a inicial do nome dele.
+3. Peça a todos que revisem o objetivo e as perguntas do sprint.
+4. Peça que todos votem em silêncio nas questões Como poderíamos mais úteis.
+5. Você pode votar em sua própria nota e votar duas vezes na mesma nota.
+
+<img src="https://i.imgur.com/XtP8BkK.jpg" width="500">
