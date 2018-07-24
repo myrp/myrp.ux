@@ -15,7 +15,7 @@
     - Esse espaço leva a equipe a se espalhar e examinar cada esboço com calma, sem ninguém se acotovelando.
 3. Coloque-os em uma ordem mais ou menos cronológica.
 
-![Museu](https://i.imgur.com/ZS2XNI7.jpg)
+<img src="https://i.imgur.com/ZS2XNI7.jpg" width="500">
 
 ## Mapa de calor (10 min)
 
@@ -33,7 +33,7 @@ Cada pessoa seguirá estes passos:
 5. Se tiver uma preocupação ou dúvida, escreva-a em um post it e cole abaixo do esboço.
 6. Prossiga para o próximo esboço e repita os passos.
 
-![Mapa de calor](https://i.imgur.com/SpSmhTp.jpg)
+<img src="https://i.imgur.com/SpSmhTp.jpg" width="500">
 
 ## Críticas-relâmpago (15 min)
 
@@ -50,7 +50,7 @@ Discuta rapidamente os destaques de cada solução e use post its para registrar
 9. O criador explica eventuais ideias que tenham passado despercebidas.
 10. Prossiga para o próximo esboço e repita o passo a passo.
 
-![Críticas](https://i.imgur.com/9X6z0Bz.jpg)
+<img src="https://i.imgur.com/9X6z0Bz.jpg" width="500">
 
 ## Pesquisa de intenção de voto (15 min)
 
@@ -64,7 +64,7 @@ Cada um escolhe uma solução e vota com adesivo de bolinha.
 6. Quando o cronômetro parar coloque os votos no esboços.
 7. Cada pessoa explica brevemente seu voto (apenas um minuto para cada um).
 
-![Pesquisa](https://i.imgur.com/xhxPF80.jpg)
+<img src="https://i.imgur.com/xhxPF80.jpg" width="500">
 
 ## Supervoto
 
@@ -75,9 +75,9 @@ Cada Definidor terá três supervotos especiais (com as iniciais nos adesivos). 
 - Os esboços que receberam ao menos um supervoto são os vencedores.
 - Os esboços que não receberam nenhum supervoto ficam na categoria "talvez mais tarde".
 
-![Supervoto](https://i.imgur.com/Rx95yHY.jpg)
+<img src="https://i.imgur.com/Rx95yHY.jpg" width="500">
 
 #### Talvez mais tarde
 É possível que possa incorporá-los quando planejar o protótipo ou usá-los em uma próxima sprint.
 
-![Talvez mais tarde](https://i.imgur.com/QqwdLzE.jpg)
+<img src="https://i.imgur.com/QqwdLzE.jpg" width="500">
