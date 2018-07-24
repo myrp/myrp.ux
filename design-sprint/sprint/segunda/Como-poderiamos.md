@@ -48,3 +48,7 @@ Para priorizar as notas, você usará a votação por pontos. Esse é um dos ata
 5. Você pode votar em sua própria nota e votar duas vezes na mesma nota.
 
 <img src="https://i.imgur.com/XtP8BkK.jpg" width="500">
+
+Quando a votação tiver terminado, pegue as notas Como poderíamos com mais de um voto, retire-as da parede e encontre um lugar em seu mapa para colá-las.
+
+<img src="https://i.imgur.com/ewNzeP4.jpg" width="500">
