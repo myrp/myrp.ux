@@ -47,7 +47,7 @@ O exercício funciona melhor se você desenhar versões variadas da mesma ideia:
 
 Os esboços desta etapa serão examinados e julgados pelo restante da equipe na manhã de quarta. Precisam ser detalhados, bem pensados e fáceis de entender.
 
-Todo esboço será um story board de três painéis desenhados em notas autoadesivas, exibindo o que seus clientes verão ao interagir com seu produto ou serviço.
+Todo esboço será um storyboard de três painéis desenhados em notas autoadesivas, exibindo o que seus clientes verão ao interagir com seu produto ou serviço.
 
 ### Storyboard
 A técnica de storyboard é interessante porque produtos e serviços são mais semelhantes a filmes do que a fotos. Os clientes não vão aparecer apenas em um quadro congelado e desaparecer no próximo. Em vez disso, vão navegar por sua solução como atores em uma cena. A solução precisa acompanhá-los em cada passo.
@@ -67,8 +67,9 @@ Não coloque seu nome no esboço e certifique-se de que todos usem o mesmo papel
 Seu esboço não precisa ser caprichado (caixinhas, bonecos palito e palavras serão o suficiente), mas precisa ser detalhado, bem pensado e completo. Seja o mais organizado possível, mas não se preocupe se não for um grande artista.
 
 ##### 4. Palavras são importantes
-Já fizemos sprints com startups de todo tipo de indústria. Há uma constante surpreendente: a importância das palavras. Um bom texto é especialmente necessário para software e marketing, uma vez que as palavras compõem a maior parte da tela. Contudo, escolher as palavras certas é crucial para qualquer meio. Portanto, dê uma atenção especial à escrita em seu esboço. Não use “lorem ipsum” nem desenhe linhas para indicar o lugar onde o texto ficará. O texto terá uma grande importância para a explicação de sua ideia — dessa forma, faça algo realista e de qualidade!
+Um bom texto é necessário para software e marketing, uma vez que as palavras compõem a maior parte da tela. Dê uma atenção especial à escrita em seu esboço.
+
+Não use “lorem ipsum” nem desenhe linhas para indicar o lugar onde o texto ficará. O texto terá uma grande importância para a explicação de sua ideia — dessa forma, faça algo realista e de qualidade!
 
 ##### 5. Use um título marcante
-Já que seu nome não estará no esboço, dê um título a ele. Mais tarde, os títulos vão ajudá-lo a identificar as diferentes soluções quando for avaliá-las e selecioná-las. São também uma forma de chamar atenção para a ideia que está sendo proposta. (Byard Duncan deu a seu esboço o título “O leitor de mentes” em parte por diversão, e em parte para realçar a ideia de fazer a combinação perfeita com o café.)
-Ok, prepare o papel. Consulte as anotações, as ideias e o Crazy 8s. Então, aperte os cintos e certifique-se de que seu assento se encontra na posição vertical e de que a mesa de refeições está completamente fechada. Os esboços da solução estão prontos para decolar.
+Já que seu nome não estará no esboço, dê um título a ele. Mais tarde, os títulos vão ajudá-lo a identificar as diferentes soluções quando for avaliá-las e selecioná-las.
