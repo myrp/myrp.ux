@@ -1,5 +1,5 @@
 # Esboço em quatro etapas
-> Trabalhe individualmente em conjunto. Sabemos que, quando trabalham sozinhos, os indivíduos geram soluções melhores do que grupos em sessões de brainstorming.
+> "Trabalhe individualmente em conjunto."
 
 ## 1. Anotações (20 min)
 Você e sua equipe vão andar pela sala, checar os quadros brancos e fazer anotações.
