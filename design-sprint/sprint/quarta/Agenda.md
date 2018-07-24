@@ -1,7 +1,7 @@
 # Quarta-feira
 
 ## 9h
-- **Revisão.** Relembre rapidamente o que foi discutido no dia anterior.
+- **Revisão.** Relembre rapidamente o que foi discutido no [dia anterior](../terca/Agenda.md).
 
 ## 9h15
 - [**Decisão que cola.**](./Decisao-que-cola.md) Siga estes cinco passos para escolher as soluções mais promissoras:
