@@ -12,9 +12,15 @@ Por exemplo: ferramentas para filtrar e-mail, aplicativos de tarefas que organiz
 
 Uma de cada vez, as pessoas que sugeriram os produtos fazem uma apresentação para mostrar à equipe os pontos interessantes. É uma boa ideia usar um cronômetro.
 
+<img src="https://i.imgur.com/YaqJMhv.jpg" width="500">
+
 ## 3. Registre boas ideias à medida que as apresentações são feitas
 Sempre registre tudo. Faça anotações no quadro branco.
 
 Comece perguntando ao companheiro que está apresentando:
 - Qual é a grande ideia aqui que pode ser útil?"
 - Em seguida faça um desenho rápido desse componente inspirador, escreva um cabeçalho simples acima e anote a fonte logo abaixo.
+
+<img src="https://i.imgur.com/pzjGiXA.jpg" width="500">
+
+<img src="https://i.imgur.com/QyiIk9n.jpg" width="500">
