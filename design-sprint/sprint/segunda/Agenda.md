@@ -24,12 +24,14 @@
 - [Exemplo 2](https://i.imgur.com/W50N1bB.jpg)
 - [Exemplo 3](https://i.imgur.com/cCxjuiN.jpg)
 
+## 11h50
+- **Explique como funcionam as notas [“Como poderíamos”](./Como-poderiamos.md).** Distribua pincéis atômicos e notas autoadesivas. Reescreva os problemas do sprint como se fossem oportunidades. Comece com as letras “CP” no canto superior esquerdo. Registre uma ideia por nota autoadesiva. Acumule uma pilha conforme for progredindo.
+
 ## 12h
 - Almoço.
 
 ## 13h
 - [**Pergunte aos especialistas.**](./Pergunte-aos-especialistas.md) Entreviste especialistas da equipe do sprint e convidados de fora. Tente fazer com que cada entrevista dure de quinze a trinta minutos. Pergunte sobre a ideia, a pesquisa de satisfação do cliente, como as coisas funcionam e projetos anteriores. Finja ser um repórter. Atualize o objetivo de longo prazo, as perguntas do sprint e o mapa à medida que avançar.
-- **Explique como funcionam as notas [“Como poderíamos”](./Como-poderiamos.md).** Distribua pincéis atômicos e notas autoadesivas. Reescreva os problemas do sprint como se fossem oportunidades. Comece com as letras “CP” no canto superior esquerdo. Registre uma ideia por nota autoadesiva. Acumule uma pilha conforme for progredindo.
 
 ## 15h
 - [**Organize as notas “Como poderíamos”.**](./Como-poderiamos.md#organize-as-notas-como-poderíamos-15-min) Cole todas em qualquer ordem na parede. Mova ideias semelhantes de forma que fiquem lado a lado. Rotule temas à medida que surgirem. Não seja perfeccionista. Pare após cerca de quinze minutos.
