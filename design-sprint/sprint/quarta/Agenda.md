@@ -1,6 +1,9 @@
 # Quarta-feira
 
 ## 9h
+- **Revisão.** Relembre rapidamente o que foi discutido no dia anterior.
+
+## 9h15
 - [**Decisão que cola.**](./Decisao-que-cola.md) Siga estes cinco passos para escolher as soluções mais promissoras:
   - [**Museu de arte.**](./Decisao-que-cola.md#museu-de-arte) Cole os esboços das soluções em uma longa fileira na parede.
   - [**Mapa de calor.**](./Decisao-que-cola.md#mapa-de-calor-10-min) Peça a cada um que analise os esboços em silêncio e cole de um a três adesivos de bolinha ao lado das partes de que gostarem.
