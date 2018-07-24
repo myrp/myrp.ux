@@ -8,7 +8,7 @@
 - Intervalo.
 
 ## 11h30
-- **Divida ou agrupe.** Decida quem fará os esboços de cada parte do mapa. Se tiver uma grande parte do mapa como alvo do sprint, divida-a e dê cada seção a uma pessoa.
+- **Divida ou agrupe.** Decida quem fará os esboços de cada parte do [mapa](../segunda/Agenda.md#10h30). Se tiver uma grande parte do mapa como alvo do sprint, divida-a e dê cada seção a uma pessoa.
 
 ## 12h
 - Almoço.
