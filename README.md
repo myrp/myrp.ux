@@ -24,30 +24,29 @@
 - [Livro PDF](https://drive.google.com/open?id=1B9oAwwoHyfHPsjtIqwEgCDZStuNE5YTJ)
 
 #### Como aplicar?
-- [Agenda](./design-sprint/Agenda.md)
 - [Preparando o terreno](./design-sprint/Preparando-o-terreno.md)
-- [Material para o sprint](./design-sprint/Material-sprint.md)
-- [Segunda](./design-sprint/)
-- [Terça](./design-sprint/)
-- [Quarta](./design-sprint/Decisão-que-cola.md)
-- [Quinta](./design-sprint/)
-- [Sexta](./design-sprint/)
+- [Material para o sprint](./design-sprint/Material-para-o-sprint.md)
+- [Segunda](./design-sprint/sprint/segunda/Agenda.md)
+- [Terça](./design-sprint/sprint/2-Terca.md)
+- [Quarta](./design-sprint/sprint/3-Quarta.md)
+- [Quinta](./design-sprint/sprint/4-Quinta.md)
+- [Sexta](./design-sprint/sprint/5-Sexta.md)
 
 ## Tools
 > Ferramentas para os processos de UI e UX
 
 ### Fluxogramas
-- [Whimsical](https://whimsical.co/) - Flowchart, Wireframes e Sticky Notes
+- [Whimsical](https://whimsical.co) - Flowchart, Wireframes e Sticky Notes
 
 ### Wireframes
-- [Balsamiq](https://balsamiq.com/) - Ferramenta para sketch e wireframe
+- [Balsamiq](https://balsamiq.com) - Ferramenta para sketch e wireframe
 
 ### Feedback
 - [InvisionApp](http://invisionapp.com) - Plataforma para criar protótipos interativos, whiteboards e coletar feedback
-- [Gallery](https://gallery.io/) - Plataforma colaborativa para compartilhar e organizar protótipos
+- [Gallery](https://gallery.io) - Plataforma colaborativa para compartilhar e organizar protótipos
 - [Red Pen](https://redpen.io) - Ferramenta para compartilhar protótipos e coletar feedback via comentários
-- [UsabilityHub](https://usabilityhub.com/) - Ferramenta para compartilhar e validar protótipos
-- [Optimal Workshop](https://www.optimalworkshop.com/) - Ferramenta para compartilhar e validar protótipos
+- [UsabilityHub](https://usabilityhub.com) - Ferramenta para compartilhar e validar protótipos
+- [Optimal Workshop](https://www.optimalworkshop.com) - Ferramenta para compartilhar e validar protótipos
 - [Maze](https://maze.design) - Ferramenta para compartilhar e validar protótipos interativos do InvisionApp
 
 ### Cores
@@ -59,3 +58,4 @@
 ### Outros
 - [Dropmark](http://dropmark.com) - Organizador de links e imagens em coleções
 - [Dummi](http://dummi.io/) - Gerador de dados fake
+- [unDraw](https://undraw.co/illustrations) - Ilustrações (MIT licensed)
