@@ -40,7 +40,7 @@ Coloque as vencedoras em seu mapa.
 - Intervalo.
 
 ## 16h
-- **Escolha um alvo.** Circule seu cliente mais importante e um momento-alvo no mapa. A equipe pode dar opiniões, mas é o Definidor quem
+- [**Escolha um alvo.**](./Escolha-um-alvo.md) Circule seu cliente mais importante e um momento-alvo no mapa. A equipe pode dar opiniões, mas é o Definidor quem
 toma a decisão final.
 - **Defina métricas de sucesso.** Determine o que será considerado como sucesso. Como mensurar? Será necessário utilizar alguma ferramenta?
 
