@@ -10,6 +10,8 @@
 ## 11h30
 - **Divida ou agrupe.** Decida quem fará os esboços de cada parte do [mapa](../segunda/Agenda.md#10h30). Se tiver uma grande parte do mapa como alvo do sprint, divida-a e dê cada seção a uma pessoa.
 
+<img src="https://i.imgur.com/K9PRhcE.jpg" width="500">
+
 ## 12h
 - Almoço.
 
