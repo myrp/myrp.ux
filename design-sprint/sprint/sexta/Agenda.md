@@ -8,14 +8,14 @@
 
 ## 9h
 - [**Entrevistas!**](./Entrevistas.md)
-- [**Sala de observação**.](./Sala-de-observacao.md) Os membros do sprint que não estão aplicando a entrevista serão os observadores dos testes.
+- [**Sala de observação**.](./Sala-de-observacao.md) Não desmantele a equipe do sprint. Todos devem assistir à entrevista juntos.
 
 ## 12h
 - Almoço.
 
 ## 13h
 - [**Entrevistas!**](./Entrevistas.md)
-- [**Sala de observação**.](./Sala-de-observacao.md) Os membros do sprint que não estão aplicando a entrevista serão os observadores dos testes.
+- [**Sala de observação**.](./Sala-de-observacao.md) Não desmantele a equipe do sprint. Todos devem assistir à entrevista juntos.
 
 ## 16h
 - **Identifique padrões.** No fim do dia, leia o quadro em silêncio e anote os padrões que surgirem. Faça uma lista de todos os padrões que as pessoas identificaram. Rotule cada um como positivo, negativo ou neutro.
