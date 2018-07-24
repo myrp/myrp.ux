@@ -1,7 +1,7 @@
 # Terça-feira
 
 ## 9h
-- **Demonstrações-relâmpago.** Analise boas soluções de uma variedade de empresas, inclusive a sua. Três minutos por demonstração. Registre as boas ideias com um rápido desenho no quadro branco.
+- [**Demonstrações-relâmpago.**](./Demonstracoes-relampago.md) Analise boas soluções de uma variedade de empresas, inclusive a sua. Três minutos por demonstração. Registre as boas ideias com um rápido desenho no quadro branco.
 
 ## 10h15
 - Intervalo.
