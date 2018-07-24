@@ -38,7 +38,7 @@ Notas que não se encaixam em nenhum grupo podem ser alocadas em um tema chamado
 
 <img src="https://i.imgur.com/rhoHJBB.jpg" width="500">
 
-## Votem nas notas *Como poderíamos*
+## Votem nas notas *Como poderíamos* (10 min)
 
 Para priorizar as notas, você usará a votação por pontos. Esse é um dos atalhos para evitar longos debates. A votação por pontos funciona praticamente como o imaginado:
 1. Dê uma folha de bolinhas para cada pessoa.
