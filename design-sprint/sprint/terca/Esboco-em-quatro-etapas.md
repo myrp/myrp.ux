@@ -6,14 +6,14 @@ Você e sua equipe vão andar pela sala, checar os quadros brancos e fazer anota
 
 As anotações são uma coletânea de "maiores sucesso" das últimas 24 horas do sprint. Serão uma forma de refrescar sua memória antes de começar a trabalhar em uma solução.
 
-Essas anotações são apenas para você:
-
+### Dicas
 1. Copie o objetivo de longo prazo.
 2. Dê uma olhada no mapa e nas perguntas Como poderíamos.
 3. Olhe também as anotações feitas a partir das Demonstrações-relâmpago.
 4. Escreva tudo o que lhe parecer útil.
 
-### Atenção
+### Não esqueça
+- Essas anotações são apenas para você.
 - Não se preocupe com novas ideias nem com organização.
 - Sinta-se a vontade para consultar materiais de referência no laptop ou no celular.
 
