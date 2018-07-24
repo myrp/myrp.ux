@@ -6,7 +6,7 @@ Essas anotações destacadas vão ajudá-lo a decidir em qual parte do mapa se c
 
 Com essa técnica, você fará anotações em forma de perguntas, começando com palavras "Como poderíamos...?".
 
-Uma possível pergunta seria: "Como poderíamos garantir que os usuários façam baixa de títulos?".
+Uma possível pergunta seria: "Como poderíamos garantir que os usuários façam baixa de títulos no financeiro?".
 
 ## Faça anotações *Como poderíamos*
 Cada integrante da equipe precisa ter seu próprio bloco de notas autoadesivas (totalmente amarelas, de sete centímetros de altura por doze de largura) e pincéis atômicos pretos.
