@@ -11,3 +11,10 @@ Se for esse o caso, convoque uma “pesquisa de intenção de voto” rápida e 
 2. Quando todos tiverem feito suas escolhas, registre os votos no mapa com um pincel atômico.
 3. Após a contagem dos votos, discuta qualquer diferença marcante de opinião.
 4. Isso deve ser o suficiente para ajudar o Definidor. Devolva-lhe a palavra para a decisão final.
+
+
+<img src="https://i.imgur.com/99BFuK1.jpg" width="500">
+
+<img src="https://i.imgur.com/cumkSrg.jpg" width="500">
+
+
