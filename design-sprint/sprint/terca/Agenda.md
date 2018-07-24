@@ -23,16 +23,16 @@
 <img src="https://i.imgur.com/Pos6e4o.jpg" width="500">
 
 ## 13h10
-- **Anotações.** Ande em silêncio pela sala e recolha as anotações.
+- [**Anotações.**](./Esboco-em-quatro-etapas.md#1-anotações-20-min) Ande em silêncio pela sala e recolha as anotações.
 
 ## 13h30
-- **Ideias.** Rabisquem individualmente ideias básicas. Circulem as mais promissoras.
+- [**Ideias.**](./Esboco-em-quatro-etapas.md#2-ideias-20-min) Rabisquem individualmente ideias básicas. Circulem as mais promissoras.
 
 ## 13h50
-- **Crazy 8s.** Dobre uma folha de papel para criar oito blocos. Esboce a variação de uma de suas melhores ideias em cada um. Dedique um minuto a cada esboço.
+- [**Crazy 8s.**](./Esboco-em-quatro-etapas.md#3-crazy-8s-10-min) Dobre uma folha de papel para criar oito blocos. Esboce a variação de uma de suas melhores ideias em cada um. Dedique um minuto a cada esboço.
 
 ## 14h
-- **Esboço da solução.** De trinta a noventa minutos. Crie um storyboard de três painéis em notas autoadesivas ou em uma folha de papel. O storyboard deve ser autoexplicativo e anônimo. Não tem problema se ficar feio. Palavras são importantes. Use um título marcante.
+- [**Esboço da solução.**](./Esboco-em-quatro-etapas.md#4-esboço-da-solução-90-min) De trinta a noventa minutos. Crie um storyboard de três painéis em notas autoadesivas ou em uma folha de papel. O storyboard deve ser autoexplicativo e anônimo. Não tem problema se ficar feio. Palavras são importantes. Use um título marcante.
 
 ## 15h45
 - Intervalo.
