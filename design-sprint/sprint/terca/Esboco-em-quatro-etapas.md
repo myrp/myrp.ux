@@ -4,9 +4,8 @@
 ## 1. Anotações (20 min)
 Você e sua equipe vão andar pela sala, checar os quadros brancos e fazer anotações.
 
-Essas anotações são uma coletânea de "maiores sucesso" das últimas 24 horas do sprint. Serão uma forma de refrescar sua memória antes de começar a trabalhar em uma solução.
+As anotações são uma coletânea de "maiores sucesso" das últimas 24 horas do sprint. Serão uma forma de refrescar sua memória antes de começar a trabalhar em uma solução.
 
-**Não se preocupe com novas ideias nem com organização.**<br>
 Essas anotações são apenas para você:
 
 1. Copie o objetivo de longo prazo.
@@ -14,7 +13,9 @@ Essas anotações são apenas para você:
 3. Olhe também as anotações feitas a partir das Demonstrações-relâmpago.
 4. Escreva tudo o que lhe parecer útil.
 
-**Sinta-se a vontade para consultar materiais de referência no laptop ou no celular.**
+### Atenção
+- Não se preocupe com novas ideias nem com organização.
+- Sinta-se a vontade para consultar materiais de referência no laptop ou no celular.
 
 ## 2. Ideias (20 min)
 
