@@ -15,23 +15,6 @@
 - [Materialize](http://materializecss.com/)
 - [Google Design](https://medium.com/google-design)
 
-## Design Sprint
-> Toda a base necessária para aplicar uma Design Sprint
-
-- [Apresentação](https://docs.google.com/presentation/d/1Ib0LFGxBQFqpaiOpzKZO5AuiE9JI92xLMs9uKQngK3o/edit?usp=sharing)
-- [Design Sprint Kit](https://designsprintkit.withgoogle.com/)
-- [Sprint Stories](https://sprintstories.com/)
-- [Livro PDF](https://drive.google.com/open?id=1B9oAwwoHyfHPsjtIqwEgCDZStuNE5YTJ)
-
-#### Como aplicar?
-- [Preparando o terreno](./design-sprint/Preparando-o-terreno.md)
-- [Material para o sprint](./design-sprint/Material-para-o-sprint.md)
-- [Segunda](./design-sprint/sprint/segunda/Agenda.md)
-- [Terça](./design-sprint/sprint/2-Terca.md)
-- [Quarta](./design-sprint/sprint/3-Quarta.md)
-- [Quinta](./design-sprint/sprint/4-Quinta.md)
-- [Sexta](./design-sprint/sprint/5-Sexta.md)
-
 ## Tools
 > Ferramentas para os processos de UI e UX
 
