@@ -6,7 +6,7 @@ Peça a todos da equipe que criem uma lista de produtos ou serviços a serem ana
 Lembre às pessoas que não se restrinjam à indústria ou área em que atuam, mas que também considerem inspirações de áreas diferentes.
 Por exemplo: ferramentas para filtrar e-mail, aplicativos de tarefas que organizam listas de pendências, programas de gerenciamento de projetos e prazos.
 
-**Todos devem filtrar suas listas até ficarem apeas com um ou dois produtos de destaque.**
+**Todos devem filtrar suas listas até ficarem apenas com um ou dois produtos de destaque.**
 
 ## 2. Faça demonstrações de cinco minutos
 
