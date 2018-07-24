@@ -7,8 +7,12 @@
 - [Livro PDF](https://drive.google.com/open?id=1B9oAwwoHyfHPsjtIqwEgCDZStuNE5YTJ)
 
 ## Como aplicar?
+
+### Antes do sprint
 - [Preparando o terreno](./Preparando-o-terreno.md)
 - [Material para o sprint](./Material-para-o-sprint.md)
+
+### Agenda
 - [Segunda](./sprint/segunda/Agenda.md)
 - [Terça](./sprint/terca/Agenda.md)
 - [Quarta](./sprint/quarta/Agenda.md)
