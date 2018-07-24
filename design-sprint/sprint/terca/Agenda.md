@@ -1,6 +1,7 @@
 # Terça-feira
 
 ## 9h
+- **Revisão.** Relembre rapidamente o que foi discutido no dia anterior.
 - [**Demonstrações-relâmpago.**](./Demonstracoes-relampago.md) Analise boas soluções de uma variedade de empresas, inclusive a sua. Três minutos por demonstração. Registre as boas ideias com um rápido desenho no quadro branco.
 
 ## 10h15
