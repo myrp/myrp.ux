@@ -29,7 +29,7 @@
 ## 13h50
 - **Crazy 8s.** Dobre uma folha de papel para criar oito blocos. Esboce a variação de uma de suas melhores ideias em cada um. Dedique um minuto a cada esboço.
 
-## 14h10
+## 14h
 - **Esboço da solução.** De trinta a noventa minutos. Crie um storyboard de três painéis em notas autoadesivas ou em uma folha de papel. O storyboard deve ser autoexplicativo e anônimo. Não tem problema se ficar feio. Palavras são importantes. Use um título marcante.
 
 ## 15h45
