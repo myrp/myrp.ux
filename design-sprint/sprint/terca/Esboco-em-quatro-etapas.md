@@ -38,3 +38,5 @@ O exercício funciona melhor se você desenhar versões variadas da mesma ideia:
 - Pergunte a si mesmo: "Qual seria outra boa forma de fazer isso?".
 - Continue até não conseguir mais pensar em nenhuma variação.
 - Então, cheque mais uma vez a folha, escolha outra ideia e comece a trabalhar nela.
+
+## 4. Esboço da solução (90 min)
