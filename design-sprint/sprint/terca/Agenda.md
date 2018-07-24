@@ -19,15 +19,17 @@
 
 ## 13h
 - **O Esboço em quatro etapas.** Explique rapidamente as quatro etapas. Todos devem fazer esboços. Quando tiverem terminado, coloquem os esboços em uma pilha e deixem para analisá-los no dia seguinte.
+
+## 13h10
 - **Anotações.** Ande em silêncio pela sala e recolha as anotações.
 
-## 13h20
+## 13h30
 - **Ideias.** Rabisquem individualmente ideias básicas. Circulem as mais promissoras.
 
-## 13h40
+## 13h50
 - **Crazy 8s.** Dobre uma folha de papel para criar oito blocos. Esboce a variação de uma de suas melhores ideias em cada um. Dedique um minuto a cada esboço.
 
-## 14h
+## 14h10
 - **Esboço da solução.** De trinta a noventa minutos. Crie um storyboard de três painéis em notas autoadesivas ou em uma folha de papel. O storyboard deve ser autoexplicativo e anônimo. Não tem problema se ficar feio. Palavras são importantes. Use um título marcante.
 
 ## 15h45
