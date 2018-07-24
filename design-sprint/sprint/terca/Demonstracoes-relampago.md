@@ -8,7 +8,7 @@ Por exemplo: ferramentas para filtrar e-mail, aplicativos de tarefas que organiz
 
 **Todos devem filtrar suas listas até ficarem apeas com um ou dois produtos de destaque.**
 
-## 2. Faça demonstrações de três a cinco minutos
+## 2. Faça demonstrações de cinco minutos
 
 Uma de cada vez, as pessoas que sugeriram os produtos fazem uma apresentação para mostrar à equipe os pontos interessantes. É uma boa ideia usar um cronômetro.
 
