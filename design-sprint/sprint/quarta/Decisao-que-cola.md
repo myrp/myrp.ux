@@ -72,12 +72,11 @@ Esta etapa é aplicada quando há um Definidor.
 
 Cada Definidor terá três supervotos especiais (com as iniciais nos adesivos). O voto deles, seja lá qual for, será o que a equipe transformará em protótipo para o teste.
 
-- Os esboços que receberam ao menos um supervoto são os vencedores.
-- Os esboços que não receberam nenhum supervoto ficam na categoria "talvez mais tarde".
-
 <img src="https://i.imgur.com/Rx95yHY.jpg" width="500">
 
 #### Talvez mais tarde
-É possível que possa incorporá-los quando planejar o protótipo ou usá-los em uma próxima sprint.
+
+- Os esboços que receberam ao menos um supervoto são os vencedores.
+- Os esboços que não receberam nenhum supervoto ficam na categoria "talvez mais tarde".
 
 <img src="https://i.imgur.com/QqwdLzE.jpg" width="500">
