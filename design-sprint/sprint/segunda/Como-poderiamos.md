@@ -25,7 +25,7 @@ Para fazer anotações, siga os passo abaixo:
 <img src="https://i.imgur.com/BVGQ8LZ.jpg" width="500">
 
 
-## Organize as notas *Como poderíamos* (10 min)
+## Organize as notas *Como poderíamos* (15 min)
 
 Assim que as entrevistas com os especialistas forem concluídas, todos devem juntas suas notas e colá-las na parede. Podem fazê-lo de qualquer maneira, sem se preocupar com organização. Por exemplo:
 
@@ -38,7 +38,7 @@ Notas que não se encaixam em nenhum grupo podem ser alocadas em um tema chamado
 
 <img src="https://i.imgur.com/rhoHJBB.jpg" width="500">
 
-## Votem nas notas *Como poderíamos* (10 min)
+## Votem nas notas *Como poderíamos* (15 min)
 
 Para priorizar as notas, você usará a votação por pontos. Esse é um dos atalhos para evitar longos debates. A votação por pontos funciona praticamente como o imaginado:
 1. Dê uma folha de bolinhas para cada pessoa.
