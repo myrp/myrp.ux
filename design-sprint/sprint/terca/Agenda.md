@@ -20,6 +20,8 @@
 ## 13h
 - **O Esboço em quatro etapas.** Explique rapidamente as quatro etapas. Todos devem fazer esboços. Quando tiverem terminado, coloquem os esboços em uma pilha e deixem para analisá-los no dia seguinte.
 
+<img src="https://i.imgur.com/Pos6e4o.jpg" width="500">
+
 ## 13h10
 - **Anotações.** Ande em silêncio pela sala e recolha as anotações.
 
