@@ -7,15 +7,15 @@
 - **Revisão.** Relembre rapidamente o que foi discutido durante a semana e no [dia anterior](../quinta/Agenda.md).
 
 ## 9h
-- **Entrevistas!**
-- **Sala de observação**. Os membros do sprint que não estão aplicando a entrevista coletam informações sobre os testes.
+- [**Entrevistas!**](./Entrevistas.md)
+- [**Sala de observação**.](./Sala-de-observacao.md) Os membros do sprint que não estão aplicando a entrevista serão os observadores dos testes.
 
 ## 12h
 - Almoço.
 
 ## 13h
-- **Entrevistas!**
-- **Sala de observação**. Os membros do sprint que não estão aplicando a entrevista coletam informações sobre os testes.
+- [**Entrevistas!**](./Entrevistas.md)
+- [**Sala de observação**.](./Sala-de-observacao.md) Os membros do sprint que não estão aplicando a entrevista serão os observadores dos testes.
 
 ## 16h
 - **Identifique padrões.** No fim do dia, leia o quadro em silêncio e anote os padrões que surgirem. Faça uma lista de todos os padrões que as pessoas identificaram. Rotule cada um como positivo, negativo ou neutro.
