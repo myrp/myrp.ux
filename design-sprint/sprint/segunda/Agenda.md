@@ -29,12 +29,12 @@
 
 ## 13h
 - [**Pergunte aos especialistas.**](./Pergunte-aos-especialistas.md) Entreviste especialistas da equipe do sprint e convidados de fora. Tente fazer com que cada entrevista dure de quinze a trinta minutos. Pergunte sobre a ideia, a pesquisa de satisfação do cliente, como as coisas funcionam e projetos anteriores. Finja ser um repórter. Atualize o objetivo de longo prazo, as perguntas do sprint e o mapa à medida que avançar.
-- **Explique como funcionam as notas “Como poderíamos”.** Distribua pincéis atômicos e notas autoadesivas. Reescreva os problemas do sprint como se fossem oportunidades. Comece com as letras “CP” no canto superior esquerdo. Registre uma ideia por nota autoadesiva. Acumule uma pilha conforme for progredindo.
+- **Explique como funcionam as notas [“Como poderíamos”](./Como-poderiamos.md).** Distribua pincéis atômicos e notas autoadesivas. Reescreva os problemas do sprint como se fossem oportunidades. Comece com as letras “CP” no canto superior esquerdo. Registre uma ideia por nota autoadesiva. Acumule uma pilha conforme for progredindo.
 
 ## 15h
-- **Organize as notas “Como poderíamos”.** Cole todas em qualquer ordem na parede. Mova ideias semelhantes de forma que fiquem lado a
+- **Organize as notas [“Como poderíamos”](./Como-poderiamos.md).** Cole todas em qualquer ordem na parede. Mova ideias semelhantes de forma que fiquem lado a
 lado. Rotule temas à medida que surgirem. Não seja perfeccionista. Pare após cerca de dez minutos.
-- **Vote nas notas “Como poderíamos”.** Cada pessoa tem dois votos e pode votar nas próprias notas, ou até na mesma nota duas vezes.
+- **Vote nas notas [“Como poderíamos”](./Como-poderiamos.md).** Cada pessoa tem dois votos e pode votar nas próprias notas, ou até na mesma nota duas vezes.
 Coloque as vencedoras em seu mapa.
 
 ## 15h45
