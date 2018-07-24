@@ -1,5 +1,22 @@
 # Sexta-feira
 
+## 9h
+- **Revisão.** Relembre rapidamente o que foi discutido durante a semana e no [dia anterior](../quinta/Agenda.md).
+
+## 9h15
+- **Entrevistas!**
+
+## 12h
+- Almoço.
+
+## 13h
+- **Entrevistas!**
+
+## 16h
+- **Identifique padrões.** No fim do dia, leia o quadro em silêncio e anote os padrões que surgirem. Faça uma lista de todos os padrões que as pessoas identificaram. Rotule cada um como positivo, negativo ou neutro.
+- **Encerre.** Revise seu objetivo de longo prazo e as perguntas do sprint. Compare com os padrões identificados nas entrevistas. Decida o que fazer depois do sprint. Anote.
+
+
 ## Laboratório de pesquisa improvisado
 - **Duas salas.** Na sala do sprint, a equipe assistirá à transmissão das entrevistas. Vocês vão precisar de uma segunda sala menor para as entrevistas em si. Certifique-se de que a sala de entrevista esteja limpa e seja confortável para seus convidados.
 - **Prepare o hardware.** Posicione uma webcam de forma a ver as reações dos clientes. Se seu cliente for usar um smartphone, iPad ou outro dispositivo de hardware, use uma câmera de documentos e um microfone.
@@ -34,7 +51,3 @@
 ### Após cada entrevista
 - **Insira as notas.** Cole suas anotações nas linhas e colunas corretas da tabela no quadro branco. Discutam rapidamente a entrevista, mas evitem tirar conclusões nesse momento.
 - **Faça um rápido intervalo.**
-
-### No fim do dia
-- **Identifique padrões.** No fim do dia, leia o quadro em silêncio e anote os padrões que surgirem. Faça uma lista de todos os padrões que as pessoas identificaram. Rotule cada um como positivo, negativo ou neutro.
-- **Encerre.** Revise seu objetivo de longo prazo e as perguntas do sprint. Compare com os padrões identificados nas entrevistas. Decida o que fazer depois do sprint. Anote.
