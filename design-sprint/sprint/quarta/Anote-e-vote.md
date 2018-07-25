@@ -8,3 +8,5 @@ Durante o sprint, você vai preicsar reunir informações ou ideias do grupo par
 5. Todos têm dois minutos para escolher em silêncio sua ideia favorita do quadro branco.
 6. Cada pessoa anuncia sua favorita. Para cada “voto”, desenhe um ponto ao lado da ideia escolhida no quadro.
 7. O Definidor toma a decisão final. Como de costume, ele pode ou não seguir os votos.
+
+<img src="https://i.imgur.com/LNFYMeW.jpg" width="500">
