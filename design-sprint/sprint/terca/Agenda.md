@@ -40,7 +40,7 @@
 ## 16h
 - **Recrute clientes para o teste de sexta.**
   - **Encarregue alguém do recrutamento.** A atividade vai levar uma ou duas horas de trabalho por dia durante o sprint.
-  - **Recrute na Craigslist.** Poste um anúncio genérico que atraia um público amplo. Ofereça compensação (usamos um vale-presente de 100 dólares). Acrescente o link para a pesquisa de seleção.
+  - **Recrute com anúncio.** Poste um anúncio genérico que atraia um público amplo. Ofereça compensação (use vale-presente ou brindes). Acrescente o link para a pesquisa de seleção.
   - **Escreva a pesquisa de seleção de participantes.** Faça perguntas que o ajudem a identificar os membros de seu público-alvo, mas não revele quem está procurando.
   - **Recrute clientes de sua rede de contatos.** Se precisar de especialistas ou clientes preexistentes, use sua rede para encontrá-los.
   - **Faça confirmações por e-mail e telefone.** Ao longo da semana, entre em contato com cada cliente para se certificar de que ele vai aparecer na sexta-feira.
