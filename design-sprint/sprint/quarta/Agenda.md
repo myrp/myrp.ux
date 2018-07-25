@@ -18,7 +18,7 @@
 - [**Separe os esboços vencedores dos que estão na categoria “talvez mais tarde”.**](./Decisao-que-cola.md#talvez-mais-tarde) Reúna os esboços que receberam supervotos.
 - **Batalha ou “Tudo em um”.** Decida se os vencedores se encaixam em um mesmo protótipo, ou se ideias conflitantes requerem dois ou três protótipos concorrentes em uma Batalha.
 - **Invente nomes de marcas.** Se fizer uma Batalha, use o Anote-e-vote para escolher nomes de marcas falsas.
-- **Anote-e-vote.** Use esta técnica sempre que precisar reunir ideias do grupo e filtrá-las até chegar a uma decisão rapidamente. Peça às pessoas que escrevam ideias individualmente. Em seguida, liste-as em um quadro branco e peça ao Definidor que escolha uma vencedora.
+- [**Anote-e-vote.**](./Anote-e-vote.md) Use esta técnica sempre que precisar reunir ideias do grupo e filtrá-las até chegar a uma decisão rapidamente. Peça às pessoas que escrevam ideias individualmente. Em seguida, liste-as em um quadro branco e peça ao Definidor que escolha uma vencedora.
 
 ## 12h
 - Almoço.
