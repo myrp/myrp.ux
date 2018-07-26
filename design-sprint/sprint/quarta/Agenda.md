@@ -13,7 +13,8 @@
 - Intervalo.
 
 ## 11h15
-- **[Pesquisa de intenção de voto.](./Decisao-que-cola.md#pesquisa-de-intenção-de-voto-15-min) (15 min)** Cada um escolhe em silêncio sua ideia favorita. Todos ao mesmo tempo colocam um adesivo grande de bolinha para registrar seu voto (que ainda não é definitivo).
+- [**Decisão que cola.**](./Decisao-que-cola.md) Siga estes cinco passos para escolher as soluções mais promissoras:
+  - **[Pesquisa de intenção de voto.](./Decisao-que-cola.md#pesquisa-de-intenção-de-voto-15-min) (15 min)** Cada um escolhe em silêncio sua ideia favorita. Todos ao mesmo tempo colocam um adesivo grande de bolinha para registrar seu voto (que ainda não é definitivo).
   - **[Supervoto.](./Decisao-que-cola.md#supervoto) (10 min)** Dê ao Definidor três adesivos grandes de bolinha e escreva as iniciais dele nos adesivos. Explique que as escolhas dele serão transformadas em protótipo e testadas.
 
 ## 11h40
