@@ -1,14 +1,14 @@
 # Segunda-feira
 
 ## 9h
-- **Explique como funciona o sprint.** Apresente o processo dos cinco dias de sprint. Percorra a agenda e descreva rapidamente cada atividade.
+- **Explique como funciona o sprint. (15 min)** Apresente o processo dos cinco dias de sprint. Percorra a agenda e descreva rapidamente cada atividade.
   - [**Apresentação.**](https://docs.google.com/presentation/d/1Ib0LFGxBQFqpaiOpzKZO5AuiE9JI92xLMs9uKQngK3o/edit?usp=sharing)
   - **Agenda:** [Segunda](./Agenda.md), [terça](../terca/Agenda.md), [quarta](../quarta/Agenda.md), [quinta](../quinta/Agenda.md) e [sexta](../sexta/Agenda.md).
   
 
 ## 9h15
-- **Defina um objetivo de longo prazo.** Seja otimista. [Faça perguntas](./Lightning-talks.md) e depois escreva o objetivo de longo prazo em um quadro branco.
-- **Liste as perguntas do sprint.** Seja pessimista. [Pergunte: E se falharmos?](./Lightning-talks.md#e-se-falharmos) Transforme esses temores em questões que poderão ser respondidas até o fim da semana. Liste as perguntas em um quadro branco.
+- **Defina um objetivo de longo prazo. (45 min)** Seja otimista. [Faça perguntas](./Lightning-talks.md) e depois escreva o objetivo de longo prazo em um quadro branco.
+- **Liste as perguntas do sprint. (5 min)** Seja pessimista. [Pergunte: E se falharmos?](./Lightning-talks.md#e-se-falharmos) Transforme esses temores em questões que poderão ser respondidas até o fim da semana. Liste as perguntas em um quadro branco.
 
 <img src="https://i.imgur.com/UEjdyXZ.jpg" width="500">
 
@@ -16,7 +16,7 @@
 - Intervalo.
 
 ## 10h30
-- [**Trace um mapa.**](./Trace-um-mapa.md) Faça uma lista dos clientes e atores importantes à esquerda. Desenhe o fim, com seu objetivo concluído, à direita. Em seguida, faça um fluxograma entre uma parte e outra, mostrando como os clientes interagem com seu produto. Não complique: o fluxograma deve ter entre cinco e quinze etapas.
+- **[Trace um mapa.](./Trace-um-mapa.md) (30 min)** Faça uma lista dos clientes e atores importantes à esquerda. Desenhe o fim, com seu objetivo concluído, à direita. Em seguida, faça um fluxograma entre uma parte e outra, mostrando como os clientes interagem com seu produto. Não complique: o fluxograma deve ter entre cinco e quinze etapas.
 
 <img src="https://i.imgur.com/KxMwRM5.jpg" width="500">
 
@@ -25,7 +25,7 @@
 - [Exemplo 3](https://i.imgur.com/cCxjuiN.jpg)
 
 ## 11h50
-- **Explique como funcionam as notas [“Como poderíamos”](./Como-poderiamos.md).** Distribua pincéis atômicos e notas autoadesivas. Reescreva os problemas do sprint como se fossem oportunidades. Comece com as letras “CP” no canto superior esquerdo. Registre uma ideia por nota autoadesiva. Acumule uma pilha conforme for progredindo.
+- **Explique como funcionam as notas [“Como poderíamos”](./Como-poderiamos.md). (10 min)** Distribua pincéis atômicos e notas autoadesivas. Reescreva os problemas do sprint como se fossem oportunidades. Comece com as letras “CP” no canto superior esquerdo. Registre uma ideia por nota autoadesiva. Acumule uma pilha conforme for progredindo.
 
 ## 12h
 - Almoço.
