@@ -29,7 +29,7 @@
 ## Ao longo do dia
 - **Escreva um roteiro para a entrevista.** O Entrevistador se prepara para o teste da sexta-feira escrevendo um roteiro.
 - **Confirme o encontro de sexta com os clientes.** Um e-mail serve, mas uma ligação é melhor.
-- **Compre vales-presente para os clientes.** Geralmente usamos vales de 100 dólares.
+- **Compre vales-presente para os clientes.** Geralmente usamos vale-presentes ou brindes.
 
 ## Pontos-chave
 - **Mentalidade do protótipo.** Você pode criar um protótipo para qualquer coisa. Protótipos são descartáveis. Construa apenas o suficiente para aprender, e nada mais. O protótipo precisa parecer real. (→)
