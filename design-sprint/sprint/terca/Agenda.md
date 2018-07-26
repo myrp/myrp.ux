@@ -1,16 +1,16 @@
 # Terça-feira
 
-## 9h
+## 10h
 - **Revisão.** Relembre rapidamente o que foi discutido no [dia anterior](../segunda/Agenda.md).
 
-## 9h15
-- [**Demonstrações-relâmpago.**](./Demonstracoes-relampago.md) Analise boas soluções de uma variedade de empresas, inclusive a sua. Três minutos por demonstração. Registre as boas ideias com um rápido desenho no quadro branco.
+## 10h10
+- **[Demonstrações-relâmpago.](./Demonstracoes-relampago.md) (90 min)** Analise boas soluções de uma variedade de empresas, inclusive a sua. Três minutos por demonstração. Registre as boas ideias com um rápido desenho no quadro branco.
 
-## 10h15
+## 11h00
 - Intervalo.
 
-## 11h30
-- **Divida ou agrupe.** Decida quem fará os esboços de cada parte do [mapa](../segunda/Agenda.md#10h30). Se tiver uma grande parte do mapa como alvo do sprint, divida-a e dê cada seção a uma pessoa.
+## 11h40
+- **Divida ou agrupe. (10 min)** Decida quem fará os esboços de cada parte do [mapa](../segunda/Agenda.md#10h30). Se tiver uma grande parte do mapa como alvo do sprint, divida-a e dê cada seção a uma pessoa.
 
 <img src="https://i.imgur.com/K9PRhcE.jpg" width="500">
 
@@ -18,26 +18,26 @@
 - Almoço.
 
 ## 13h
-- [**Esboço em quatro etapas.**](./Esboco-em-quatro-etapas.md) Explique rapidamente as quatro etapas. Todos devem fazer esboços. Quando tiverem terminado, coloquem os esboços em uma pilha e deixem para analisá-los no dia seguinte.
+- **[Esboço em quatro etapas.](./Esboco-em-quatro-etapas.md) (10 min)** Explique rapidamente as quatro etapas. Todos devem fazer esboços. Quando tiverem terminado, coloquem os esboços em uma pilha e deixem para analisá-los no dia seguinte.
 
 <img src="https://i.imgur.com/Pos6e4o.jpg" width="500">
 
 ## 13h10
-- [**Anotações.**](./Esboco-em-quatro-etapas.md#1-anotações-20-min) Ande em silêncio pela sala e recolha as anotações.
+- **[Anotações.](./Esboco-em-quatro-etapas.md#1-anotações-20-min) (20 min)** Ande em silêncio pela sala e recolha as anotações.
 
 ## 13h30
-- [**Ideias.**](./Esboco-em-quatro-etapas.md#2-ideias-20-min) Rabisquem individualmente ideias básicas. Circulem as mais promissoras.
+- **[Ideias.](./Esboco-em-quatro-etapas.md#2-ideias-20-min) (20 min)** Rabisquem individualmente ideias básicas. Circulem as mais promissoras.
 
 ## 13h50
-- [**Crazy 8s.**](./Esboco-em-quatro-etapas.md#3-crazy-8s-10-min) Dobre uma folha de papel para criar oito blocos. Esboce a variação de uma de suas melhores ideias em cada um. Dedique um minuto a cada esboço.
+- **[Crazy 8s.](./Esboco-em-quatro-etapas.md#3-crazy-8s-10-min) (10 min)** Dobre uma folha de papel para criar oito blocos. Esboce a variação de uma de suas melhores ideias em cada um. Dedique um minuto a cada esboço.
 
 ## 14h
-- [**Esboço da solução.**](./Esboco-em-quatro-etapas.md#4-esboço-da-solução-90-min) De trinta a noventa minutos. Crie um storyboard de três painéis em notas autoadesivas ou em uma folha de papel. O storyboard deve ser autoexplicativo e anônimo. Não tem problema se ficar feio. Palavras são importantes. Use um título marcante.
+- **[Esboço da solução.](./Esboco-em-quatro-etapas.md#4-esboço-da-solução-90-min) (90 min)** Crie um storyboard de três painéis em notas autoadesivas ou em uma folha de papel. O storyboard deve ser autoexplicativo e anônimo. Não tem problema se ficar feio. Palavras são importantes. Use um título marcante.
 
-## 15h45
+## 15h30
 - Intervalo.
 
-## 16h
+## 15h45
 - [**Recrute clientes para o teste de sexta.**](https://brasil.uxdesign.cc/teste-de-usabilidade-o-que-%C3%A9-e-para-que-serve-de3622e4298b)
   - **Encarregue alguém do recrutamento.** A atividade vai levar uma ou duas horas de trabalho por dia durante o sprint.
   - **Recrute com anúncio.** Poste um anúncio genérico que atraia um público amplo. Ofereça compensação (use vale-presente ou brindes). Acrescente o link para a pesquisa de seleção.
