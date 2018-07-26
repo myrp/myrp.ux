@@ -8,12 +8,6 @@
 - **[Divida para conquistar.](./Divida-para-conquistar.md)** Distribua papéis: Executor, Costureiro, Escritor, Coletor de recursos e Entrevistador. Você também pode dividir o storyboard em cenas menores e atribuir cada uma a membros diferentes da equipe.
 - [**Protótipo!**](./Prototipo.md)
 
-## 11h
-- Intervalo
-
-## 11h15
-- [**Protótipo!**](./Prototipo.md)
-
 ## 12h
 - Almoço.
 
