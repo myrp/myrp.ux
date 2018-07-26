@@ -6,6 +6,7 @@
 - Post-its amarelos grandes 
 - Pincéis atômicos pretos, verdes e vermelhos
 - Canetas hidrográficas pretas (ponta média)
+- Tesouras
 - Papel carta ou A4
 - Fita-crepe ou fita adesiva
 - Adesivos de bolinha pequenos
