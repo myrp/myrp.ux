@@ -38,7 +38,7 @@
 - Intervalo.
 
 ## 16h
-- **Recrute clientes para o teste de sexta.**
+- [**Recrute clientes para o teste de sexta.**](https://brasil.uxdesign.cc/teste-de-usabilidade-o-que-%C3%A9-e-para-que-serve-de3622e4298b)
   - **Encarregue alguém do recrutamento.** A atividade vai levar uma ou duas horas de trabalho por dia durante o sprint.
   - **Recrute com anúncio.** Poste um anúncio genérico que atraia um público amplo. Ofereça compensação (use vale-presente ou brindes). Acrescente o link para a pesquisa de seleção.
   - **Escreva a pesquisa de seleção de participantes.** Faça perguntas que o ajudem a identificar os membros de seu público-alvo, mas não revele quem está procurando.
