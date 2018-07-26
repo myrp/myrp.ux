@@ -9,7 +9,7 @@
 - **[Mapa de calor.](./Decisao-que-cola.md#mapa-de-calor-10-min) (10 min)** Peça a cada um que analise os esboços em silêncio e cole de um a três adesivos de bolinha ao lado das partes de que gostarem.
 - **[Críticas-relâmpago.](./Decisao-que-cola.md#críticas-relâmpago-15-min) (30 min)** Três minutos por esboço. Discutam em grupo os destaques de cada solução. Registrem as ideias mais promissoras e objeções importantes. No fim, pergunte ao criador do esboço se o grupo deixou passar alguma coisa.
   
-## 11h00
+## 11h
 - Intervalo.
 
 ## 11h15
