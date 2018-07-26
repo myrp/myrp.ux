@@ -44,7 +44,7 @@
   - **Escreva a pesquisa de seleção de participantes.** Faça perguntas que o ajudem a identificar os membros de seu público-alvo, mas não revele quem está procurando.
   - **Recrute clientes de sua rede de contatos.** Se precisar de especialistas ou clientes preexistentes, use sua rede para encontrá-los.
   - **Faça confirmações por e-mail e telefone.** Ao longo da semana, entre em contato com cada cliente para se certificar de que ele vai aparecer na sexta-feira.
-  - [**Modelo de convite.**](https://codepen.io/anon/pen/OwjoeM) Use esse convite fazendo as alterações necessárias de acordo com o contexto, local e participantes do teste.
+  - [**Modelo de convite.**](https://codepen.io/anon/pen/OwjoeM) Use esse convite e faça as alterações necessárias de acordo com o contexto, local e participantes do teste.
 
 ## Pontos-chave
 - **Ajuste e aperfeiçoe.** Cada grande invenção é desenvolvida com base em ideias preexistentes. 
