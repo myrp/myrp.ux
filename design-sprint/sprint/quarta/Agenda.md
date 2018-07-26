@@ -31,5 +31,11 @@
   - **Escolha uma cena de abertura.** Pense em como os clientes geralmente encontram seu produto ou serviço. A cena de abertura deve ser simples: busca na internet, matéria de revista, prateleira de loja etc.
   - **Preencha o storyboard.** Se possível, coloque esboços prontos no storyboard; se não puder, desenhe. Não escrevam todos juntos. Inclua apenas o número suficiente de detalhes para ajudar a equipe a criar o protótipo na quinta-feira. Na dúvida, arrisque-se. A história final deve ter entre cinco e quinze etapas.
 
+## 15h30
+- Intervalo.
+
+## 15h45
+- **Continue o storyboard.**
+
 ## Dica para o Facilitador
 - **Não esgote a bateria.** Toda decisão consome energia. Quando surgirem decisões difíceis, recorra a um Definidor. Quanto aos pequenos impasses, adie para o dia seguinte. Não deixe novas ideias abstratas se infiltrarem. Trabalhe com o que já tem.
