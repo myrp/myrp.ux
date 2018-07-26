@@ -42,7 +42,7 @@ Coloque as vencedoras em seu mapa.
 - Intervalo.
 
 ## 15h45
-- **[Escolha um alvo.](./Escolha-um-alvo.md) (10 min) ** Circule seu cliente mais importante e um momento-alvo no mapa. A equipe pode dar opiniões, mas é o Definidor quem toma a decisão final.
+- **[Escolha um alvo.](./Escolha-um-alvo.md) (10 min)** Circule seu cliente mais importante e um momento-alvo no mapa. A equipe pode dar opiniões, mas é o Definidor quem toma a decisão final.
 - **[Defina métricas.](https://www.dtelepathy.com/ux-metrics/) (50 min)** Determine o que será considerado como sucesso. Como mensurar? Será necessário utilizar alguma ferramenta?
 
 ## Pontos-chave
