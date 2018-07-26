@@ -17,17 +17,21 @@ As anotações são uma coletânea de "maiores sucesso" das últimas 24 horas do
 - Não se preocupe com novas ideias nem com organização.
 - Sinta-se a vontade para consultar materiais de referência no laptop ou no celular.
 
+<img src="https://i.imgur.com/uKo5tFL.jpg" width="500">
+
 ## 2. Ideias (20 min)
 Agora que todo mundo tem uma pilha de anotações, chegou a hora de ativar o "modo ideias".
 
 Nessa etapa, cada pessoa escreverá ideias rudimentares, enchendo uma folha de papel com desenhos, títulos experimentais, diagramas e bonecos palito representando alguma ação.
+
+**Nos últimos 3 minutos revise e circule suas ideias favoritas**.
 
 ### Não esqueça
 - Essas páginas não serão compartilhadas com a equipe.
 - Não importa se essas ideias ficarem bagunçadas ou incompletas.
 - Pense nelas como um "bloco de rascunho".
 
-**Nos últimos 3 minutos revise e circule suas ideias favoritas**.
+<img src="https://i.imgur.com/P6YMrNS.jpg" width="500">
 
 ## 3. Crazy 8s (10 min)
 
@@ -42,6 +46,10 @@ O exercício funciona melhor se você desenhar versões variadas da mesma ideia:
 ### Não esqueça
 - O que for gerado pelo Crazy 8s não será compartilhado com a equipe.
 - Seja rápido e bagunceiro.
+
+<img src="https://i.imgur.com/IJFll8j.jpg" width="500">
+
+<img src="https://i.imgur.com/mmYldGW.jpg" width="500">
 
 ## 4. Esboço da solução (90 min)
 
@@ -73,3 +81,7 @@ Não use “lorem ipsum” nem desenhe linhas para indicar o lugar onde o texto 
 
 ##### 5. Use um título marcante
 Já que seu nome não estará no esboço, dê um título a ele. Mais tarde, os títulos vão ajudá-lo a identificar as diferentes soluções quando for avaliá-las e selecioná-las.
+
+<img src="https://i.imgur.com/xVJXWRF.jpg" width="500">
+
+<img src="https://i.imgur.com/MlEVN02.jpg" width="500">
