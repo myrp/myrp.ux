@@ -12,7 +12,7 @@
 
 <img src="https://i.imgur.com/UEjdyXZ.jpg" width="500">
 
-## 11h00
+## 11h
 - Intervalo.
 
 ## 11h15
