@@ -32,5 +32,5 @@
 - **Compre vales-presente para os clientes.** Geralmente usamos vale-presentes ou brindes.
 
 ## Pontos-chave
-- **Mentalidade do protótipo.** Você pode criar um protótipo para qualquer coisa. Protótipos são descartáveis. Construa apenas o suficiente para aprender, e nada mais. O protótipo precisa parecer real. (→)
+- [**Mentalidade do protótipo.**](./Prototipo.md) Você pode criar um protótipo para qualquer coisa. Protótipos são descartáveis. Construa apenas o suficiente para aprender, e nada mais. O protótipo precisa parecer real. (→)
 - **“Qualidade Cachinhos Dourados”.** Crie um protótipo que só tenha a qualidade necessária para suscitar reações sinceras dos clientes.
