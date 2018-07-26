@@ -1,16 +1,16 @@
 # Quinta-feira
 
-## 9h
+## 10h
 - **Revisão.** Relembre rapidamente o que foi discutido no [dia anterior](../quarta/Agenda.md).
 
-## 9h15
+## 10h10
 - **Escolha as ferramentas certas.** Não use as ferramentas habituais. Elas são feitas para um trabalho de qualidade. Em vez disso, use ferramentas simples, rápidas e flexíveis.
 - **Divida para conquistar.** Distribua papéis: Executor, Costureiro, Escritor, Coletor de recursos e Entrevistador. Você também pode dividir o storyboard em cenas menores e atribuir cada uma a membros diferentes da equipe.
 
-## 10h15
+## 11h00
 - Intervalo
 
-## 10h30
+## 11h15
 - **Protótipo!**
 
 ## 12h
