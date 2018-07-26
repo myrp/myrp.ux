@@ -4,18 +4,17 @@
 - **Revisão.** Relembre rapidamente o que foi discutido no [dia anterior](../terca/Agenda.md).
 
 ## 10h10
-- [**Decisão que cola.**](./Decisao-que-cola.md) Siga estes cinco passos para escolher as soluções mais promissoras:
-  - **[Museu de arte.](./Decisao-que-cola.md#museu-de-arte) (5 min)** Cole os esboços das soluções em uma longa fileira na parede.
-  - **[Mapa de calor.](./Decisao-que-cola.md#mapa-de-calor-10-min) (10 min)** Peça a cada um que analise os esboços em silêncio e cole de um a três adesivos de bolinha ao lado das partes de que gostarem.
-  - **[Críticas-relâmpago.](./Decisao-que-cola.md#críticas-relâmpago-15-min) (30 min)** Três minutos por esboço. Discutam em grupo os destaques de cada solução. Registrem as ideias mais promissoras e objeções importantes. No fim, pergunte ao criador do esboço se o grupo deixou passar alguma coisa.
+- **[Decisão que cola.](./Decisao-que-cola.md) (5 min)** Explique os cinco passos para escolher as soluções mais promissoras.
+- **[Museu de arte.](./Decisao-que-cola.md#museu-de-arte) (5 min)** Cole os esboços das soluções em uma longa fileira na parede.
+- **[Mapa de calor.](./Decisao-que-cola.md#mapa-de-calor-10-min) (10 min)** Peça a cada um que analise os esboços em silêncio e cole de um a três adesivos de bolinha ao lado das partes de que gostarem.
+- **[Críticas-relâmpago.](./Decisao-que-cola.md#críticas-relâmpago-15-min) (30 min)** Três minutos por esboço. Discutam em grupo os destaques de cada solução. Registrem as ideias mais promissoras e objeções importantes. No fim, pergunte ao criador do esboço se o grupo deixou passar alguma coisa.
   
 ## 11h00
 - Intervalo.
 
 ## 11h15
-- [**Decisão que cola.**](./Decisao-que-cola.md) Siga estes cinco passos para escolher as soluções mais promissoras:
-  - **[Pesquisa de intenção de voto.](./Decisao-que-cola.md#pesquisa-de-intenção-de-voto-15-min) (15 min)** Cada um escolhe em silêncio sua ideia favorita. Todos ao mesmo tempo colocam um adesivo grande de bolinha para registrar seu voto (que ainda não é definitivo).
-  - **[Supervoto.](./Decisao-que-cola.md#supervoto) (10 min)** Dê ao Definidor três adesivos grandes de bolinha e escreva as iniciais dele nos adesivos. Explique que as escolhas dele serão transformadas em protótipo e testadas.
+- **[Pesquisa de intenção de voto.](./Decisao-que-cola.md#pesquisa-de-intenção-de-voto-15-min) (15 min)** Cada um escolhe em silêncio sua ideia favorita. Todos ao mesmo tempo colocam um adesivo grande de bolinha para registrar seu voto (que ainda não é definitivo).
+- **[Supervoto.](./Decisao-que-cola.md#supervoto) (10 min)** Dê ao Definidor três adesivos grandes de bolinha e escreva as iniciais dele nos adesivos. Explique que as escolhas dele serão transformadas em protótipo e testadas.
 
 ## 11h40
 - [**Separe os esboços vencedores dos que estão na categoria “talvez mais tarde”.**](./Decisao-que-cola.md#talvez-mais-tarde) Reúna os esboços que receberam supervotos.
