@@ -1,8 +1,6 @@
 # Escolha as ferramentas certas
 > Se não souber direito como montar o protótipo, comece por aqui.
 
-Construir um protótipo em um dia parece uma tarefa intimidadora, mas, se formar uma equipe diversificada para o sprint, você terá todos os conhecimentos necessários na sala.
-
 - Se for em uma tela (site, aplicativo, software etc.) — use Keynote, PowerPoint ou então um software para criação de sites como o Squarespace.
 - Se for em papel (relatório, folder, folheto etc.) — use Keynote, PowerPoint, ou então um software de processamento de texto como o Word.
 - Se for um serviço (suporte ao cliente, serviço ao cliente, tratamento médico etc.) — escreva um roteiro e use sua equipe do sprint como atores.
