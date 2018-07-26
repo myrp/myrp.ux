@@ -5,7 +5,7 @@
 
 ## 10h10
 - **[Escolha as ferramentas certas.](./Ferramentas.md)** Não use as ferramentas habituais. Elas são feitas para um trabalho de qualidade. Em vez disso, use ferramentas simples, rápidas e flexíveis.
-- **Divida para conquistar.** Distribua papéis: Executor, Costureiro, Escritor, Coletor de recursos e Entrevistador. Você também pode dividir o storyboard em cenas menores e atribuir cada uma a membros diferentes da equipe.
+- **[Divida para conquistar.](./Divida-para-conquistar.md)** Distribua papéis: Executor, Costureiro, Escritor, Coletor de recursos e Entrevistador. Você também pode dividir o storyboard em cenas menores e atribuir cada uma a membros diferentes da equipe.
 
 ## 11h
 - Intervalo
