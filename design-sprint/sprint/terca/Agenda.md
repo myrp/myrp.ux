@@ -6,7 +6,7 @@
 ## 10h10
 - **[Demonstrações-relâmpago.](./Demonstracoes-relampago.md) (90 min)** Analise boas soluções de uma variedade de empresas, inclusive a sua. Três minutos por demonstração. Registre as boas ideias com um rápido desenho no quadro branco.
 
-## 11h00
+## 11h
 - Intervalo.
 
 ## 11h40
