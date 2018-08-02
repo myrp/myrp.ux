@@ -7,7 +7,7 @@
 > Links úteis relacionados à UI e UX
 
 ### myrp
-- [myrp Analytics](https://github.com/myrp/myrp.home/blob/master/Documentation/analytics.md#myrp-analytics) - Acessos ao GA, Amplitude, Hotjar, Pipz e InvisionApp.
+- [myrp Analytics](https://github.com/myrp/myrp.home/blob/master/Documentation/analytics.md#myrp-analytics) - GA, Amplitude, Hotjar, Pipz e InvisionApp.
 
 ### Material Design
 - [Guidelines](https://material.io/archive/guidelines/) (old)
