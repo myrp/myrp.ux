@@ -9,6 +9,9 @@
 ### myrp
 - [myrp Analytics](https://github.com/myrp/myrp.home/blob/master/Documentation/analytics.md#myrp-analytics) - GA, Amplitude, Hotjar, Pipz e InvisionApp.
 
+### Design Systems
+- [Awesome Design Systems](https://github.com/alexpate/awesome-design-systems)
+
 ### Material Design
 - [Guidelines](https://material.io/archive/guidelines/) (old)
 - [Guidelines](https://material.io/design) (new)
