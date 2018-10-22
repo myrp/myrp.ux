@@ -1,0 +1,88 @@
+extends base/layout.pug
+
+block vars
+	- var title = 'Timelines'
+
+block content
+	h2 Timelines
+
+	.section
+		h4 Padrão
+		p
+			| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
+		.row
+			.col.s12
+				.card-panel
+					.timeline
+						.timeline-header
+							.timeline-title 22 OUT
+						.timeline-item
+							i.material-icons.left.light-green-text check_circle
+							.timeline-title 13:00
+							.timeline-actions
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text Link 2
+							.timeline-content
+								.truncate Primeira linha
+								.truncate
+									label.grey-text Segunda linha
+						.timeline-item
+							i.material-icons.left.orange-text warning
+							.timeline-title 14:00
+							.timeline-actions
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text Link 2
+							.timeline-content
+								.truncate Primeira linha
+								.truncate
+									label.grey-text Segunda linha
+						.timeline-item
+							i.material-icons.left.grey-text schedule
+							.timeline-title 15:00
+							.timeline-actions
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text Link 2
+							.timeline-content
+								div Primeira linha
+								label.grey-text Segunda linha
+			.col.s12
+				include page-contents/timelines/timeline.html
+	
+	.section
+		h4 Sem horário
+		p
+			| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
+		.row
+			.col.s12
+				.card-panel
+					.timeline
+						.timeline-header
+							.timeline-title 22 OUT
+						.timeline-item
+							i.material-icons.left.light-green-text check_circle
+							.timeline-actions
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text Link 2
+							.timeline-content
+								.truncate Primeira linha
+								.truncate
+									label.grey-text Segunda linha
+						.timeline-item
+							i.material-icons.left.orange-text warning
+							.timeline-actions
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text Link 2
+							.timeline-content
+								.truncate Primeira linha
+								.truncate
+									label.grey-text Segunda linha
+						.timeline-item
+							i.material-icons.left.grey-text schedule
+							.timeline-actions
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text Link 2
+							.timeline-content
+								div Primeira linha
+								label.grey-text Segunda linha
+			.col.s12
+				include page-contents/timelines/timeline-compact.html
