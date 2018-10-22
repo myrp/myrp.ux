@@ -1,0 +1,97 @@
+extends base/layout.pug
+
+block vars
+	- var title = 'Lists'
+
+block content
+	h2 Lists
+
+	.section
+		h4 Padrão
+		p
+			| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
+		.row
+			.col.s12
+				.card-panel
+					.list
+						.list-item
+							.list-content
+								div Primeira linha
+								label Segunda linha
+						.list-item
+							.list-content
+								div Primeira linha
+								label Segunda linha
+						.list-item
+							.list-content
+								div Primeira linha
+								label Segunda linha
+			.col.s12
+				include page-contents/lists/list.html
+	
+	.section
+		h4 Com ações
+		p
+			| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
+		.row
+			.col.s12
+				.card-panel
+					.list
+						.list-item
+							.list-actions
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text Link 2
+							.list-content
+								div Primeira linha
+								label Segunda linha
+						.list-item
+							.list-actions
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text Link 2
+							.list-content
+								div Primeira linha
+								label Segunda linha
+						.list-item
+							.list-actions
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text Link 2
+							.list-content
+								div Primeira linha
+								label Segunda linha
+			.col.s12
+				include page-contents/lists/list-actions.html
+	
+	.section
+		h4 Com ícones
+		p
+			| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
+		.row
+			.col.s12
+				.card-panel
+					.list
+						.list-item
+							.list-actions
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text Link 2
+							.list-content
+								i.material-icons.left.light-green-text check_circle
+								div Primeira linha
+								label Segunda linha
+						.list-item
+							.list-actions
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text Link 2
+							.list-content
+								i.material-icons.left.orange-text warning
+								div Primeira linha
+								label Segunda linha
+						.list-item
+							.list-actions
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text Link 2
+							.list-content
+								i.material-icons.left.grey-text schedule
+								div Primeira linha
+								label Segunda linha
+			.col.s12
+				include page-contents/lists/list-icons.html

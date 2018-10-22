@@ -19,37 +19,26 @@ block content
 						.timeline-item
 							i.material-icons.light-green-text check_circle
 							.timeline-title Hora
-							.timeline-actions
-								a.btn-flat.blue-text Link 1
-								a.btn-flat.blue-text Link 2
 							.timeline-content
-								.truncate Primeira linha
-								.truncate
-									label.grey-text Segunda linha
+								div Primeira linha
+								label Segunda linha
 						.timeline-item
 							i.material-icons.orange-text warning
 							.timeline-title Hora
-							.timeline-actions
-								a.btn-flat.blue-text Link 1
-								a.btn-flat.blue-text Link 2
 							.timeline-content
-								.truncate Primeira linha
-								.truncate
-									label.grey-text Segunda linha
+								div Primeira linha
+								label Segunda linha
 						.timeline-item
 							i.material-icons.grey-text schedule
 							.timeline-title Hora
-							.timeline-actions
-								a.btn-flat.blue-text Link 1
-								a.btn-flat.blue-text Link 2
 							.timeline-content
 								div Primeira linha
-								label.grey-text Segunda linha
+								label Segunda linha
 			.col.s12
 				include page-contents/timelines/timeline.html
 	
 	.section
-		h4 Sem horário
+		h4 Com ações
 		p
 			| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
 		.row
@@ -60,29 +49,30 @@ block content
 							.timeline-title Data
 						.timeline-item
 							i.material-icons.light-green-text check_circle
-							.timeline-actions
-								a.btn-flat.blue-text Link 1
-								a.btn-flat.blue-text Link 2
-							.timeline-content
-								.truncate Primeira linha
-								.truncate
-									label.grey-text Segunda linha
-						.timeline-item
-							i.material-icons.orange-text warning
-							.timeline-actions
-								a.btn-flat.blue-text Link 1
-								a.btn-flat.blue-text Link 2
-							.timeline-content
-								.truncate Primeira linha
-								.truncate
-									label.grey-text Segunda linha
-						.timeline-item
-							i.material-icons.grey-text schedule
+							.timeline-title Hora
 							.timeline-actions
 								a.btn-flat.blue-text Link 1
 								a.btn-flat.blue-text Link 2
 							.timeline-content
 								div Primeira linha
-								label.grey-text Segunda linha
+								label Segunda linha
+						.timeline-item
+							i.material-icons.orange-text warning
+							.timeline-title Hora
+							.timeline-actions
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text Link 2
+							.timeline-content
+								div Primeira linha
+								label Segunda linha
+						.timeline-item
+							i.material-icons.grey-text schedule
+							.timeline-title Hora
+							.timeline-actions
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text Link 2
+							.timeline-content
+								div Primeira linha
+								label Segunda linha
 			.col.s12
-				include page-contents/timelines/timeline-compact.html
+				include page-contents/timelines/timeline-actions.html

@@ -1,7 +1,7 @@
 
 <html>
   <head>
-    <title>Timelines</title>
+    <title>Lists</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css" rel="stylesheet">
@@ -38,34 +38,28 @@
     </ul>
     <main>
       <div class="container">
-        <h2>Timelines</h2>
+        <h2>Lists</h2>
         <div class="section">
           <h4>Padrão</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.</p>
           <div class="row">
             <div class="col s12">
               <div class="card-panel">
-                <div class="timeline">
-                  <div class="timeline-header">
-                    <div class="timeline-title">Data</div>
-                  </div>
-                  <div class="timeline-item"><i class="material-icons light-green-text">check_circle</i>
-                    <div class="timeline-title">Hora</div>
-                    <div class="timeline-content">
+                <div class="list">
+                  <div class="list-item">
+                    <div class="list-content">
                       <div>Primeira linha</div>
                       <label>Segunda linha</label>
                     </div>
                   </div>
-                  <div class="timeline-item"><i class="material-icons orange-text">warning</i>
-                    <div class="timeline-title">Hora</div>
-                    <div class="timeline-content">
+                  <div class="list-item">
+                    <div class="list-content">
                       <div>Primeira linha</div>
                       <label>Segunda linha</label>
                     </div>
                   </div>
-                  <div class="timeline-item"><i class="material-icons grey-text">schedule</i>
-                    <div class="timeline-title">Hora</div>
-                    <div class="timeline-content">
+                  <div class="list-item">
+                    <div class="list-content">
                       <div>Primeira linha</div>
                       <label>Segunda linha</label>
                     </div>
@@ -76,14 +70,9 @@
             <div class="col s12"><pre class="language-markup">
 <code><!--
 <div class="card-panel">
-	<div class="timeline">
-		<div class="timeline-header">
-			<div class="timeline-title">Data</div>
-		</div>
-		<div class="timeline-item">
-			<i class="material-icons">check_circle</i>
-			<div class="timeline-title">Hora</div>
-			<div class="timeline-content">
+	<div class="list">
+		<div class="list-item">
+			<div class="list-content">
 				<div>Primeira linha</div>
 				<label>Segunda linha</label>
 			</div>
@@ -101,30 +90,24 @@
           <div class="row">
             <div class="col s12">
               <div class="card-panel">
-                <div class="timeline">
-                  <div class="timeline-header">
-                    <div class="timeline-title">Data</div>
-                  </div>
-                  <div class="timeline-item"><i class="material-icons light-green-text">check_circle</i>
-                    <div class="timeline-title">Hora</div>
-                    <div class="timeline-actions"><a class="btn-flat blue-text">Link 1</a><a class="btn-flat blue-text">Link 2</a></div>
-                    <div class="timeline-content">
+                <div class="list">
+                  <div class="list-item">
+                    <div class="list-actions"><a class="btn-flat blue-text">Link 1</a><a class="btn-flat blue-text">Link 2</a></div>
+                    <div class="list-content">
                       <div>Primeira linha</div>
                       <label>Segunda linha</label>
                     </div>
                   </div>
-                  <div class="timeline-item"><i class="material-icons orange-text">warning</i>
-                    <div class="timeline-title">Hora</div>
-                    <div class="timeline-actions"><a class="btn-flat blue-text">Link 1</a><a class="btn-flat blue-text">Link 2</a></div>
-                    <div class="timeline-content">
+                  <div class="list-item">
+                    <div class="list-actions"><a class="btn-flat blue-text">Link 1</a><a class="btn-flat blue-text">Link 2</a></div>
+                    <div class="list-content">
                       <div>Primeira linha</div>
                       <label>Segunda linha</label>
                     </div>
                   </div>
-                  <div class="timeline-item"><i class="material-icons grey-text">schedule</i>
-                    <div class="timeline-title">Hora</div>
-                    <div class="timeline-actions"><a class="btn-flat blue-text">Link 1</a><a class="btn-flat blue-text">Link 2</a></div>
-                    <div class="timeline-content">
+                  <div class="list-item">
+                    <div class="list-actions"><a class="btn-flat blue-text">Link 1</a><a class="btn-flat blue-text">Link 2</a></div>
+                    <div class="list-content">
                       <div>Primeira linha</div>
                       <label>Segunda linha</label>
                     </div>
@@ -133,28 +116,76 @@
               </div>
             </div>
             <div class="col s12"><pre class="language-markup">
-		<code><!--
-		<div class="card-panel">
-			<div class="timeline">
-				<div class="timeline-header">
-					<div class="timeline-title">Data</div>
-				</div>
-				<div class="timeline-item">
-					<i class="material-icons">check_circle</i>
-					<div class="timeline-title">Hora</div>
-					<div class="timeline-actions">
-						<a class="btn-flat">Link 1</a>
-						<a class="btn-flat">Link 2</a>
-					</div>
-					<div class="timeline-content">
-						<div>Primeira linha</div>
-						<label>Segunda linha</label>
-					</div>
-				</div>
+<code><!--
+<div class="card-panel">
+	<div class="list">
+		<div class="list-item">
+			<div class="list-actions">
+				<a class="btn-flat">Link 1</a>
+				<a class="btn-flat">Link 2</a>
+			</div>
+			<div class="list-content">
+				<div>Primeira linha</div>
+				<label>Segunda linha</label>
 			</div>
 		</div>
-		--></code>
-		</pre>
+	</div>
+</div>
+--></code>
+</pre>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <h4>Com ícones</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.</p>
+          <div class="row">
+            <div class="col s12">
+              <div class="card-panel">
+                <div class="list">
+                  <div class="list-item">
+                    <div class="list-actions"><a class="btn-flat blue-text">Link 1</a><a class="btn-flat blue-text">Link 2</a></div>
+                    <div class="list-content"><i class="material-icons left light-green-text">check_circle</i>
+                      <div>Primeira linha</div>
+                      <label>Segunda linha</label>
+                    </div>
+                  </div>
+                  <div class="list-item">
+                    <div class="list-actions"><a class="btn-flat blue-text">Link 1</a><a class="btn-flat blue-text">Link 2</a></div>
+                    <div class="list-content"><i class="material-icons left orange-text">warning</i>
+                      <div>Primeira linha</div>
+                      <label>Segunda linha</label>
+                    </div>
+                  </div>
+                  <div class="list-item">
+                    <div class="list-actions"><a class="btn-flat blue-text">Link 1</a><a class="btn-flat blue-text">Link 2</a></div>
+                    <div class="list-content"><i class="material-icons left grey-text">schedule</i>
+                      <div>Primeira linha</div>
+                      <label>Segunda linha</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col s12"><pre class="language-markup">
+<code><!--
+<div class="card-panel">
+	<div class="list">
+		<div class="list-item">
+			<div class="list-actions">
+				<a class="btn-flat">Link 1</a>
+				<a class="btn-flat">Link 2</a>
+			</div>
+			<div class="list-content">
+				<i class="material-icons left">check_circle</i>
+				<div>Primeira linha</div>
+				<label>Segunda linha</label>
+			</div>
+		</div>
+	</div>
+</div>
+--></code>
+</pre>
             </div>
           </div>
         </div>
