@@ -7,7 +7,7 @@ block content
 	h2 Side navs
 
 	.section
-		h4 Contendo um menu
+		h4 Padrão
 		p
 			| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
 		ul#side-nav1.side-nav
@@ -38,7 +38,7 @@ block content
 			include page-contents/sidenavs/sidenav.html
 
 	.section
-		h4 Contendo um formulário
+		h4 Formulário
 		p
 			| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
 		a#button-side-nav2.btn.button-collapse(href="#", data-activates="side-nav2") Abrir formulário
@@ -66,7 +66,43 @@ block content
 			include page-contents/sidenavs/sidenav-form.html
 
 	.section
-		h4 Contendo uma timeline
+		h4 Lista
+		p
+			| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
+		a#button-side-nav4.btn.button-collapse(href="#", data-activates="side-nav4") Abrir lista
+
+		div#side-nav4.side-nav.card-panel
+			h5 Título
+			.list
+				.list-item
+					.list-actions
+						a.btn-flat.blue-text Link 1
+						a.btn-flat.blue-text Link 2
+					.list-content
+						i.material-icons.left.light-green-text check_circle
+						div Primeira linha
+						label Segunda linha
+				.list-item
+					.list-actions
+						a.btn-flat.blue-text Link 1
+						a.btn-flat.blue-text Link 2
+					.list-content
+						i.material-icons.left.orange-text warning
+						div Primeira linha
+						label Segunda linha
+				.list-item
+					.list-actions
+						a.btn-flat.blue-text Link 1
+						a.btn-flat.blue-text Link 2
+					.list-content
+						i.material-icons.left.grey-text schedule
+						div Primeira linha
+						label Segunda linha
+		p
+			include page-contents/sidenavs/sidenav-list.html
+
+	.section
+		h4 Timeline
 		p
 			| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
 		a#button-side-nav3.btn.button-collapse(href="#", data-activates="side-nav3") Abrir timeline
@@ -103,7 +139,6 @@ block content
 					.timeline-content
 						div Primeira linha
 						label Segunda linha
-
 		p
 			include page-contents/sidenavs/sidenav-timeline.html
 
@@ -118,6 +153,11 @@ block content
 		});
 
 		$('#button-side-nav3').sideNav({
+			menuWidth: 700,
+			edge: 'right'
+		});
+
+		$('#button-side-nav4').sideNav({
 			menuWidth: 700,
 			edge: 'right'
 		});

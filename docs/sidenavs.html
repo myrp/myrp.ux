@@ -42,7 +42,7 @@
       <div class="container">
         <h2>Side navs</h2>
         <div class="section">
-          <h4>Contendo um menu</h4>
+          <h4>Padrão</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.</p>
           <ul class="side-nav" id="side-nav1">
             <li>
@@ -77,7 +77,7 @@
           </p>
         </div>
         <div class="section">
-          <h4>Contendo um formulário</h4>
+          <h4>Formulário</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.</p><a class="btn button-collapse" id="button-side-nav2" href="#" data-activates="side-nav2">Abrir formulário</a>
           <div class="side-nav card-panel" id="side-nav2">
             <h5>Título</h5>
@@ -135,7 +135,60 @@
           </p>
         </div>
         <div class="section">
-          <h4>Contendo uma timeline</h4>
+          <h4>Lista</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.</p><a class="btn button-collapse" id="button-side-nav4" href="#" data-activates="side-nav4">Abrir lista</a>
+          <div class="side-nav card-panel" id="side-nav4">
+            <h5>Título</h5>
+            <div class="list">
+              <div class="list-item">
+                <div class="list-actions"><a class="btn-flat blue-text">Link 1</a><a class="btn-flat blue-text">Link 2</a></div>
+                <div class="list-content"><i class="material-icons left light-green-text">check_circle</i>
+                  <div>Primeira linha</div>
+                  <label>Segunda linha</label>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="list-actions"><a class="btn-flat blue-text">Link 1</a><a class="btn-flat blue-text">Link 2</a></div>
+                <div class="list-content"><i class="material-icons left orange-text">warning</i>
+                  <div>Primeira linha</div>
+                  <label>Segunda linha</label>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="list-actions"><a class="btn-flat blue-text">Link 1</a><a class="btn-flat blue-text">Link 2</a></div>
+                <div class="list-content"><i class="material-icons left grey-text">schedule</i>
+                  <div>Primeira linha</div>
+                  <label>Segunda linha</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p><pre class="language-markup">
+<code><!--
+<a class="btn button-collapse" id="button-side-nav4" href="#" data-activates="side-nav3">Abrir lista</a>
+
+<div class="side-nav card-panel" id="side-nav4">
+    <h5>Título</h5>
+    <div class="list">
+		<div class="list-item">
+			<div class="list-actions">
+				<a class="btn-flat">Link 1</a>
+				<a class="btn-flat">Link 2</a>
+			</div>
+			<div class="list-content">
+				<i class="material-icons left">check_circle</i>
+				<div>Primeira linha</div>
+				<label>Segunda linha</label>
+			</div>
+		</div>
+	</div>
+</div>
+--></code>
+</pre>
+          </p>
+        </div>
+        <div class="section">
+          <h4>Timeline</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.</p><a class="btn button-collapse" id="button-side-nav3" href="#" data-activates="side-nav3">Abrir timeline</a>
           <div class="side-nav card-panel" id="side-nav3">
             <h5>Título</h5>
@@ -208,6 +261,11 @@
           });
           
           $('#button-side-nav3').sideNav({
+          	menuWidth: 700,
+          	edge: 'right'
+          });
+          
+          $('#button-side-nav4').sideNav({
           	menuWidth: 700,
           	edge: 'right'
           });
