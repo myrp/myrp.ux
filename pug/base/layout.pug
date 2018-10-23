@@ -19,21 +19,21 @@ html
 		.navbar-fixed
 			nav.z-depth-0.black
 				.nav-wrapper
-					ul
+					ul.left
 						li
-							a.sidenav-trigger(href='#', data-target='slide-out')
-								i.material-icons menu
-					a.brand-logo(href="index.pug") MYRP
+							img(src="http://localhost/cdn/myrp/img/logo-myrp-branco.png", style="height: 36px; margin: 14px")
+						li
+							a.white-text(href='index.pug', style='text-transform: uppercase; font-size: 0.8rem; font-weight: bold') Design Guidelines
 
-		ul#slide-out.side-nav.fixed.z-depth-0
+		ul#slide-out.side-nav.fixed.z-depth-0(style='z-index: 997')
 			li
-				a.subheader Estilos
+				span.badge.chip.yellow.black-text Rascunho 
+				a(href='layouts.pug') Layouts
 			li
-				a(href='#!') Cores
+				a(href='colors.pug') Colors
 			li
-				a(href='#!') Logos
-			li
-				a.subheader Componentes
+				a(href='logos.pug') Logos
+			li.divider
 			li
 				a(href='buttons.pug') Buttons
 			li
@@ -54,4 +54,7 @@ html
 		main
 			.container
 				block content
+
+		style(type='text/css').
+			.nav-wrapper { background-color: inherit; }
 					

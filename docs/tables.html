@@ -16,17 +16,18 @@
     <div class="navbar-fixed">
       <nav class="z-depth-0 black">
         <div class="nav-wrapper">
-          <ul>
-            <li><a class="sidenav-trigger" href="#" data-target="slide-out"><i class="material-icons">menu</i></a></li>
-          </ul><a class="brand-logo" href="/index.html">MYRP</a>
+          <ul class="left">
+            <li><img src="http://localhost/cdn/myrp/img/logo-myrp-branco.png" style="height: 36px; margin: 14px"></li>
+            <li><a class="white-text" href="/index.html" style="text-transform: uppercase; font-size: 0.8rem; font-weight: bold">Design Guidelines</a></li>
+          </ul>
         </div>
       </nav>
     </div>
-    <ul class="side-nav fixed z-depth-0" id="slide-out">
-      <li><a class="subheader">Estilos</a></li>
-      <li><a href="#!">Cores</a></li>
-      <li><a href="#!">Logos</a></li>
-      <li><a class="subheader">Componentes</a></li>
+    <ul class="side-nav fixed z-depth-0" id="slide-out" style="z-index: 997">
+      <li><span class="badge chip yellow black-text">Rascunho </span><a href="/layouts.html">Layouts</a></li>
+      <li><a href="/colors.html">Colors</a></li>
+      <li><a href="/logos.html">Logos</a></li>
+      <li class="divider"></li>
       <li><a href="/buttons.html">Buttons</a></li>
       <li><a href="/cards.html">Cards</a></li>
       <li><a href="/forms.html">Forms</a></li>
@@ -198,5 +199,9 @@
         </div>
       </div>
     </main>
+    <style type="text/css">
+      .nav-wrapper { background-color: inherit; }
+      		
+    </style>
   </body>
 </html>
