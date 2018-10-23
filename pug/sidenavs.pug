@@ -13,7 +13,7 @@ block content
 		ul#side-nav1.side-nav
 			li
 				.center.blue
-					img(src='https://github.com/myrp/myrp.ux/raw/master/logo-branco.png', style='width: auto; height: 48px; margin: 24px')
+					img(src='http://localhost/cdn/myrp/img/logo-myrp-branco.png', style='width: auto; height: 48px; margin: 24px')
 			li
 				a(href='#!')
 					i.material-icons cloud
@@ -32,10 +32,10 @@ block content
 				a(href='#!')
 					i.material-icons cloud
 					| Item 4
-		a#button-side-nav1.btn.button-collapse(href='#', data-activates='side-nav1') Abrir menu
+		a#button-side-nav1.btn.button-collapse(href='#', data-activates='side-nav1') Abrir
 
 		p
-			include page-contents/sidenavs/sidenav-menu.html
+			include page-contents/sidenavs/sidenav.html
 
 	.section
 		h4 Contendo um formulário
@@ -44,7 +44,7 @@ block content
 		a#button-side-nav2.btn.button-collapse(href="#", data-activates="side-nav2") Abrir formulário
 
 		div#side-nav2.side-nav.card-panel
-			h5.card-title Título
+			h5 Título
 			div.row
 				div.col.s12.m6.input-field
 					input#input1(type="text")
@@ -65,12 +65,59 @@ block content
 		p
 			include page-contents/sidenavs/sidenav-form.html
 
+	.section
+		h4 Contendo uma timeline
+		p
+			| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
+		a#button-side-nav3.btn.button-collapse(href="#", data-activates="side-nav3") Abrir timeline
+
+		div#side-nav3.side-nav.card-panel
+			h5 Título
+			.timeline
+				.timeline-header
+					.timeline-title Data
+				.timeline-item
+					i.material-icons.light-green-text check_circle
+					.timeline-title Hora
+					.timeline-actions
+						a.btn-flat.blue-text Link 1
+						a.btn-flat.blue-text Link 2
+					.timeline-content
+						div Primeira linha
+						label Segunda linha
+				.timeline-item
+					i.material-icons.orange-text warning
+					.timeline-title Hora
+					.timeline-actions
+						a.btn-flat.blue-text Link 1
+						a.btn-flat.blue-text Link 2
+					.timeline-content
+						div Primeira linha
+						label Segunda linha
+				.timeline-item
+					i.material-icons.grey-text schedule
+					.timeline-title Hora
+					.timeline-actions
+						a.btn-flat.blue-text Link 1
+						a.btn-flat.blue-text Link 2
+					.timeline-content
+						div Primeira linha
+						label Segunda linha
+
+		p
+			include page-contents/sidenavs/sidenav-timeline.html
+
 	script(type='text/javascript').
 		$('#button-side-nav1').sideNav({
 			closeOnClick: true
 		});
 
 		$('#button-side-nav2').sideNav({
+			menuWidth: 700,
+			edge: 'right'
+		});
+
+		$('#button-side-nav3').sideNav({
 			menuWidth: 700,
 			edge: 'right'
 		});
