@@ -48,7 +48,7 @@
             <div class="col s12">
               <div class="card-panel">
                 <h5 class="card-title">Título</h5>
-                <table>
+                <table class="bordered">
                   <thead>
                     <tr>
                       <th>Coluna 1</th>
@@ -80,7 +80,7 @@
 <code><!--
 <div class="card-panel">
 	<h5 class="card-title">Título</h5>
-	<table>
+	<table class="bordered">
 		<thead>
 			<tr>
 				<th>Coluna 1</th>
@@ -110,7 +110,7 @@
               <div class="card">
                 <div class="card-content">
                   <h5 class="card-title">Título</h5>
-                  <table>
+                  <table class="bordered">
                     <thead>
                       <tr>
                         <th>Coluna 1</th>
@@ -149,7 +149,7 @@
 <div class="card">
 	<div class="card-content">
 		<h5 class="card-title">Título</h5>
-		<table>
+		<table class="bordered">
 		<thead>
 			<tr>
 				<th>Coluna 1</th>
@@ -194,7 +194,7 @@
                 <div class="card-content">
                   <h5 class="card-title">Título</h5>
                   <label>Clique numa célula para editar o texto</label>
-                  <table class="table-edit">
+                  <table class="table-edit bordered">
                     <thead>
                       <tr>
                         <th>Coluna 1</th>
@@ -204,19 +204,64 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <td>Linha 1</td>
-                        <td>Linha 1</td>
-                        <td>Linha 1</td>
+                        <td>
+                          <div class="edit">
+                            <input value="Linha 1">
+                          </div>
+                          <div class="read">Linha 1</div>
+                        </td>
+                        <td>
+                          <div class="edit">
+                            <input value="Linha 1">
+                          </div>
+                          <div class="read">Linha 1</div>
+                        </td>
+                        <td>
+                          <div class="edit">
+                            <input value="Linha 1">
+                          </div>
+                          <div class="read">Linha 1</div>
+                        </td>
                       </tr>
                       <tr>
-                        <td>Linha 2</td>
-                        <td>Linha 2</td>
-                        <td>Linha 2</td>
+                        <td>
+                          <div class="edit">
+                            <input value="Linha 2">
+                          </div>
+                          <div class="read">Linha 2</div>
+                        </td>
+                        <td>
+                          <div class="edit">
+                            <input value="Linha 2">
+                          </div>
+                          <div class="read">Linha 2</div>
+                        </td>
+                        <td>
+                          <div class="edit">
+                            <input value="Linha 2">
+                          </div>
+                          <div class="read">Linha 2</div>
+                        </td>
                       </tr>
                       <tr>
-                        <td>Linha 3</td>
-                        <td>Linha 3</td>
-                        <td>Linha 3</td>
+                        <td>
+                          <div class="edit">
+                            <input value="Linha 3">
+                          </div>
+                          <div class="read">Linha 3</div>
+                        </td>
+                        <td>
+                          <div class="edit">
+                            <input value="Linha 3">
+                          </div>
+                          <div class="read">Linha 3</div>
+                        </td>
+                        <td>
+                          <div class="edit">
+                            <input value="Linha 3">
+                          </div>
+                          <div class="read">Linha 3</div>
+                        </td>
                       </tr>
                     </tbody>
                   </table>
@@ -228,7 +273,7 @@
 <div class="card-panel">
 	<h5 class="card-title">Título</h5>
 	<label>Clique numa célula para editar o texto</label>
-	<table class="table-edit">
+	<table class="table-edit bordered">
 		<thead>
 			<tr>
 				<th>Coluna 1</th>
@@ -238,9 +283,18 @@
 		</thead>
 		<tbody>
 			<tr>
-				<td>Linha 1</td>
-				<td>Linha 1</td>
-				<td>Linha 1</td>
+				<td>
+					<div class="edit"><input value="Linha 1" /></div>
+					<div class="read">Linha 1</div>
+				</td>
+				<td>
+					<div class="edit"><input value="Linha 1" /></div>
+					<div class="read">Linha 1</div>
+				</td>
+				<td>
+					<div class="edit"><input value="Linha 1" /></div>
+					<div class="read">Linha 1</div>
+				</td>
 			</tr>
 		</tbody>
 	</table>
@@ -253,21 +307,15 @@
         <script type="text/javascript">
           $('.table-edit tbody td').on('click', function() {
           	var td = $(this);
-          	var input = td.find('input');
-          	var acima = td.parent().prev().find('td').first();
-          	var abaixo = td.parent().next().find('td').first();
-          	var anterior = td.prev().length ? td.prev() : td.parent().prev().find('td').last();
+          	var edit = td.find('.edit');
+          	var read = td.find('.read');
+          	var input = td.find('input, select');
           	var proximo = td.next().length ? td.next() : td.parent().next().find('td').first();
           
-          	if (!input.length) {
-          		td.html('<input style="display: none;" value="'+td.text()+'" />' + td.html());
-          		input = td.find('input');
-          	}
-          	
-          	if (input.is(':visible')) {
-          		input.hide();
+          	if (edit.is(':visible')) {
+          		edit.hide();
           	} else {
-          		input.show();
+          		edit.show();
           		setTimeout(function() {
           			input.focus();
           			input.select();
@@ -276,8 +324,8 @@
           	
           	input.off('blur');
           	input.on('blur', function() {
-          		td.html(input.val());
-          		input.hide();
+          		read.html(input.val());
+          		edit.hide();
           	});
           	
           	input.off('click');
@@ -294,6 +342,8 @@
           			input.trigger('blur');
           	});
           });
+          
+          Materialize.updateTextFields();
         </script>
       </div>
     </main>

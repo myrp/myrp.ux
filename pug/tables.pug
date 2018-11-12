@@ -14,7 +14,7 @@ block content
 			.col.s12
 				.card-panel
 					h5.card-title Título
-					table
+					table.bordered
 						thead
 							tr
 								th Coluna 1
@@ -45,7 +45,7 @@ block content
 				.card
 					.card-content
 						h5.card-title Título
-						table
+						table.bordered
 							thead
 								tr
 									th Coluna 1
@@ -96,7 +96,7 @@ block content
 					.card-content
 						h5.card-title Título
 						label Clique numa célula para editar o texto
-						table.table-edit
+						table.table-edit.bordered
 							thead
 								tr
 									th Coluna 1
@@ -104,38 +104,59 @@ block content
 									th Coluna 3
 							tbody
 								tr
-									td Linha 1
-									td Linha 1
-									td Linha 1
+									td
+										div.edit
+											input(value='Linha 1')
+										div.read Linha 1
+									td
+										div.edit
+											input(value='Linha 1')
+										div.read Linha 1
+									td
+										div.edit
+											input(value='Linha 1')
+										div.read Linha 1
 								tr
-									td Linha 2
-									td Linha 2
-									td Linha 2
+									td
+										div.edit
+											input(value='Linha 2')
+										div.read Linha 2
+									td
+										div.edit
+											input(value='Linha 2')
+										div.read Linha 2
+									td
+										div.edit
+											input(value='Linha 2')
+										div.read Linha 2
 								tr
-									td Linha 3
-									td Linha 3
-									td Linha 3
+									td
+										div.edit
+											input(value='Linha 3')
+										div.read Linha 3
+									td
+										div.edit
+											input(value='Linha 3')
+										div.read Linha 3
+									td
+										div.edit
+											input(value='Linha 3')
+										div.read Linha 3
 			.col.s12
 				include page-contents/tables/table-edit.html
 
 	script(type='text/javascript').
 		$('.table-edit tbody td').on('click', function() {
 			var td = $(this);
-			var input = td.find('input');
-			var acima = td.parent().prev().find('td').first();
-			var abaixo = td.parent().next().find('td').first();
-			var anterior = td.prev().length ? td.prev() : td.parent().prev().find('td').last();
+			var edit = td.find('.edit');
+			var read = td.find('.read');
+			var input = td.find('input, select');
 			var proximo = td.next().length ? td.next() : td.parent().next().find('td').first();
 
-			if (!input.length) {
-				td.html('<input style="display: none;" value="'+td.text()+'" />' + td.html());
-				input = td.find('input');
-			}
-			
-			if (input.is(':visible')) {
-				input.hide();
+			if (edit.is(':visible')) {
+				edit.hide();
 			} else {
-				input.show();
+				edit.show();
 				setTimeout(function() {
 					input.focus();
 					input.select();
@@ -144,8 +165,8 @@ block content
 			
 			input.off('blur');
 			input.on('blur', function() {
-				td.html(input.val());
-				input.hide();
+				read.html(input.val());
+				edit.hide();
 			});
 			
 			input.off('click');
@@ -162,3 +183,5 @@ block content
 					input.trigger('blur');
 			});
 		});
+
+		Materialize.updateTextFields();
