@@ -20,35 +20,19 @@ block content
 								th Coluna 1
 								th Coluna 2
 								th Coluna 3
-								th
 						tbody
 							tr
 								td Linha 1
 								td Linha 1
 								td Linha 1
-								td.right-align
-									a
-										i.material-icons.grey-text.text-darken-2 edit
-									a
-										i.material-icons.grey-text.text-darken-2 delete
 							tr
 								td Linha 2
 								td Linha 2
 								td Linha 2
-								td.right-align
-									a
-										i.material-icons.grey-text.text-darken-2 edit
-									a
-										i.material-icons.grey-text.text-darken-2 delete
 							tr
 								td Linha 3
 								td Linha 3
 								td Linha 3
-								td.right-align
-									a
-										i.material-icons.grey-text.text-darken-2 edit
-									a
-										i.material-icons.grey-text.text-darken-2 delete
 			.col.s12
 				include page-contents/tables/table.html
 	
@@ -101,3 +85,80 @@ block content
 						a.blue-text Link 2
 			.col.s12
 				include page-contents/tables/table-actions.html
+
+	.section
+		h4 Com edição
+		p
+			| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
+		.row
+			.col.s12
+				.card
+					.card-content
+						h5.card-title Título
+						label Clique numa célula para editar o texto
+						table.table-edit
+							thead
+								tr
+									th Coluna 1
+									th Coluna 2
+									th Coluna 3
+							tbody
+								tr
+									td Linha 1
+									td Linha 1
+									td Linha 1
+								tr
+									td Linha 2
+									td Linha 2
+									td Linha 2
+								tr
+									td Linha 3
+									td Linha 3
+									td Linha 3
+			.col.s12
+				include page-contents/tables/table-edit.html
+
+	script(type='text/javascript').
+		$('.table-edit tbody td').on('click', function() {
+			var td = $(this);
+			var input = td.find('input');
+			var acima = td.parent().prev().find('td').first();
+			var abaixo = td.parent().next().find('td').first();
+			var anterior = td.prev().length ? td.prev() : td.parent().prev().find('td').last();
+			var proximo = td.next().length ? td.next() : td.parent().next().find('td').first();
+
+			if (!input.length) {
+				td.html('<input style="display: none;" value="'+td.text()+'" />' + td.html());
+				input = td.find('input');
+			}
+			
+			if (input.is(':visible')) {
+				input.hide();
+			} else {
+				input.show();
+				setTimeout(function() {
+					input.focus();
+					input.select();
+				});
+			}
+			
+			input.off('blur');
+			input.on('blur', function() {
+				td.html(input.val());
+				input.hide();
+			});
+			
+			input.off('click');
+			input.on('click', function(e) {
+				e.preventDefault();
+				return false;
+			});
+			
+			input.off('keydown');
+			input.on('keydown', function(e) {
+				if (e.which == 9)
+					proximo.trigger('click');
+				if (e.which == 13)
+					input.trigger('blur');
+			});
+		});

@@ -138,21 +138,13 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":19}],18:[function(require,module,exports) {
+},{"./bundle-url":19}],238:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":17}],2:[function(require,module,exports) {
-'use strict';
-
-require('./assets/scss/theme');
-
-$(document).ready(function () {
-    $('.sidenav-trigger').sideNav();
-});
-},{"./assets/scss/theme":18}],20:[function(require,module,exports) {
+},{"_css_loader":17}],242:[function(require,module,exports) {
 
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -321,5 +313,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[20,2])
-//# sourceMappingURL=/myrp.ux.1a66a674.map
+},{}]},{},[242])
+//# sourceMappingURL=/myrp.a9634ddc.map
