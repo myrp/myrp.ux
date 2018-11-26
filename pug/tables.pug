@@ -96,7 +96,7 @@ block content
 					.card-content
 						h5.card-title Título
 						label Clique numa célula para editar o texto
-						table.table-edit.bordered
+						table.table-sheet.bordered
 							thead
 								tr
 									th Coluna 1
@@ -146,7 +146,7 @@ block content
 				include page-contents/tables/table-edit.html
 
 	script(type='text/javascript').
-		$('.table-edit tbody td').on('click', function() {
+		$('.table-sheet tbody td').on('click', function() {
 			var td = $(this);
 			var edit = td.find('.edit');
 			var read = td.find('.read');
@@ -184,4 +184,4 @@ block content
 			});
 		});
 
-		Materialize.updateTextFields();
+		//Materialize.updateTextFields();
