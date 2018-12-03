@@ -13,6 +13,7 @@
 - [Awesome Design Systems](https://github.com/alexpate/awesome-design-systems)
 
 ### Material Design
+- [Web Fundamentals - Best practices for modern web development](https://developers.google.com/web/fundamentals/design-and-ux/ux-basics/)
 - [Guidelines](https://material.io/archive/guidelines/) (old)
 - [Guidelines](https://material.io/design) (new)
 - [Material Icons](https://material.io/icons/)
@@ -20,7 +21,6 @@
 - [Material Web Components](https://material-components.github.io/material-components-web-catalog) (new)
 - [Materialize](http://materializecss.com/)
 - [Google Design](https://medium.com/google-design)
-- [Fundamentos UX](https://developers.google.com/web/fundamentals/design-and-ux/ux-basics/)
 
 ## Tools
 > Ferramentas para os processos de UI e UX
