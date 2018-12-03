@@ -20,6 +20,7 @@
 - [Material Web Components](https://material-components.github.io/material-components-web-catalog) (new)
 - [Materialize](http://materializecss.com/)
 - [Google Design](https://medium.com/google-design)
+- [Fundamentos UX](https://developers.google.com/web/fundamentals/design-and-ux/ux-basics/)
 
 ## Tools
 > Ferramentas para os processos de UI e UX
