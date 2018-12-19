@@ -138,13 +138,21 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":19}],15:[function(require,module,exports) {
+},{"./bundle-url":19}],20:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":18}],21:[function(require,module,exports) {
+},{"_css_loader":18}],2:[function(require,module,exports) {
+'use strict';
+
+require('./assets/scss/theme');
+
+$(document).ready(function () {
+    $('.sidenav-trigger').sideNav();
+});
+},{"./assets/scss/theme":20}],21:[function(require,module,exports) {
 
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -174,7 +182,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '49944' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '62270' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -313,5 +321,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[21])
-//# sourceMappingURL=/prism.d159bbbc.map
+},{}]},{},[21,2])
+//# sourceMappingURL=/myrp.ux.a45f42ab.map

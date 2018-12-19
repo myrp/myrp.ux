@@ -146,42 +146,56 @@ block content
 				include page-contents/tables/table-edit.html
 
 	script(type='text/javascript').
-		$('.table-sheet tbody td').on('click', function() {
-			var td = $(this);
-			var edit = td.find('.edit');
-			var read = td.find('.read');
-			var input = td.find('input, select');
-			var proximo = td.next().length ? td.next() : td.parent().next().find('td').first();
+		$.fn.extend({
+			tableSheet: function() {
+				var table = $(this).find('tbody td');
+				table.find('.dropdown-button').dropdown();
 
-			if (edit.is(':visible')) {
-				edit.hide();
-			} else {
-				edit.show();
-				setTimeout(function() {
-					input.focus();
-					input.select();
+				table.off('click.table-sheet');
+				table.on('click.table-sheet', function() {
+					var td = $(this);
+					var edit = td.find('.edit');
+					var read = td.find('.read');
+					var input = td.find('input, select');
+					var proximo = td.next().length ? td.next() : td.parent().next().find('td').first();
+
+					if (edit.is(':visible')) {
+						edit.hide();
+					} else {
+						edit.show();
+						setTimeout(function() {
+							input.focus();
+							input.select();
+						});
+					}
+					
+					input.off('blur.table-sheet');
+					input.on('blur.table-sheet', function() {
+						edit.hide();
+					});
+					
+					input.off('click.table-sheet');
+					input.on('click.table-sheet', function(e) {
+						e.preventDefault();
+						return false;
+					});
+					
+					input.off('keydown.table-sheet');
+					input.on('keydown.table-sheet', function(e) {
+					if (e.which == 9) {
+						proximo.trigger('click.table-sheet');
+						e.preventDefault();
+					} 
+					
+					if (e.which == 13) {
+						input.trigger('blur.table-sheet');
+						e.preventDefault();
+					}
+					});
 				});
 			}
-			
-			input.off('blur');
-			input.on('blur', function() {
-				read.html(input.val());
-				edit.hide();
-			});
-			
-			input.off('click');
-			input.on('click', function(e) {
-				e.preventDefault();
-				return false;
-			});
-			
-			input.off('keydown');
-			input.on('keydown', function(e) {
-				if (e.which == 9)
-					proximo.trigger('click');
-				if (e.which == 13)
-					input.trigger('blur');
-			});
 		});
 
-		//Materialize.updateTextFields();
+		$('.table-sheet').tableSheet();
+
+		
