@@ -152,7 +152,7 @@ require('./assets/scss/theme');
 $(document).ready(function () {
     $('.sidenav-trigger').sideNav();
 });
-},{"./assets/scss/theme":20}],21:[function(require,module,exports) {
+},{"./assets/scss/theme":20}],31:[function(require,module,exports) {
 
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -182,7 +182,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '62270' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '55646' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -321,5 +321,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[21,2])
+},{}]},{},[31,2])
 //# sourceMappingURL=/myrp.ux.a45f42ab.map

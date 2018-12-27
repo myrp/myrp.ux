@@ -8,77 +8,234 @@ html
 		link(href='http://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
 		link(href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css', rel='stylesheet')
 		link(href='../vendor/prism/prism.css', rel='stylesheet')
-		link(href='http://localhost/cdn/myrp/css/principal.css', rel='stylesheet')
+		link(href='../vendor/myrp/myrp.css', rel='stylesheet')
 
 		script(src='https://code.jquery.com/jquery-3.2.1.min.js')
 		script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js')
 		script(src='../vendor/prism/prism.js')
 		script(src='../index.js')
 
-	body.white
-		.navbar-fixed
-			nav.z-depth-0.blue
-				.nav-wrapper
-					ul.left
-						li
-							img(src="http://localhost/cdn/myrp/img/logo-myrp-branco.png", style="height: 36px; margin: 14px")
-						li
-							a.white-text(href='index.pug', style='text-transform: uppercase; font-size: 0.8rem; font-weight: bold') Design Guidelines
-					ul.right
-						li
-							a.white-text(style='text-transform: uppercase; font-size: 0.8rem; font-weight: bold') Nome da empresa
-						li
-							a
-								i.material-icons notifications
-						li
-							a
-								i.material-icons apps
-						li
-							a
-								i.material-icons account_circle
+	body.grey.lighten-4
+		div.color.grey.lighten-3.background
 
-		ul#side-nav1.side-nav.fixed.blue.lighten-3(style="width: 56px; border: 0px")
-			li
+		nav.z-depth-0.transparent
+			.nav-wrapper.truncate
+				ul.left
+					li
+						img.logo(src="http://localhost/cdn/myrp/img/logo-myrp-colorido.png")
+					li
+						a.black-text(href='index.pug') Módulo
+				ul.right.hide-on-med-and-down
+					li
+						a.black-text Nome da empresa
+					li
+						a
+							i.material-icons.black-text notifications
+					li
+						a
+							i.material-icons.black-text apps
+					li
+						a
+							i.material-icons.black-text account_circle
+
+		div.z-depth-1.color.blue.menu
+			p
 				a(href='#!')
 					i.material-icons.white-text attach_money
-			li
+			p
 				a(href='#!')
 					i.material-icons.white-text shopping_cart
-			li
+			p
 				a(href='#!')
 					i.material-icons.white-text local_offer
-			li
+			p
 				a(href='#!')
 					i.material-icons.white-text local_shipping
-			li
+			p
 				a(href='#!')
 					i.material-icons.white-text widgets
-			li
+			p
 				a(href='#!')
 					i.material-icons.white-text done_all
-			li
+			p
 				a(href='#!')
 					i.material-icons.white-text help_outline
-			li
+			p
 				a(href='#!')
 					i.material-icons.white-text chat_bubble
-		a#button-side-nav1.btn.button-collapse.hide(href='#', data-activates='side-nav1')
 
-		#side-nav2.card-panel.side-nav.fixed.blue.lighten-5(style="z-index: 997; width: 200px; margin-left: 56px")
-		a#button-side-nav2.btn.button-collapse.hide(href='#', data-activates='side-nav2')
-
-		div(style="margin-left: 280px")
-			h2 Layouts		
-			.section
-				p
-					| Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				a#blue.btn.blue.white-text Blue
-				a#indigo.btn.indigo.white-text Indigo
-				a#green.btn.green.white-text Green
-				a#teal.btn.teal.white-text Teal
-				a#orange.btn.orange.white-text Orange
-				a#pink.btn.pink.white-text Pink
 		
+		.title.black-text.truncate
+			.left Título
+			.right
+				a(href='#!')
+					i.material-icons.black-text search
+				a(href='#!')
+					i.material-icons.black-text refresh
+
+		.row
+			.col.s12
+				a.chip.color.grey.lighten-2 Filtro 1
+				a.chip.color.grey.lighten-1
+					i.material-icons.left.tiny check
+					span Filtro 2
+				a.chip.color.grey.lighten-2 Filtro 3
+				a.chip.color.grey.lighten-2 Filtro 4
+				a.chip.color.grey.lighten-2 Filtro 5
+				a.chip.color.grey.lighten-2 Filtro 6
+			.col.s12
+				.card-panel
+					.timeline
+						.timeline-header
+							.timeline-title Data
+						.timeline-item
+							i.material-icons.light-green-text check_circle
+							.timeline-title Hora
+							.timeline-actions
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text Link 2
+							.timeline-content
+								div.truncate Primeira linha
+								label.truncate Segunda linha
+						.timeline-item
+							i.material-icons.orange-text warning
+							.timeline-title Hora
+							.timeline-actions
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text Link 2
+							.timeline-content
+								div.truncate Primeira linha
+								label.truncate Segunda linha
+						.timeline-item
+							i.material-icons.grey-text schedule
+							.timeline-title Hora
+							.timeline-actions
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text Link 2
+							.timeline-content
+								div.truncate Primeira linha
+								label.truncate Segunda linha
+		
+				//.card-panel
+					table.bordered
+						thead
+							tr
+								th Coluna 1
+								th Coluna 2
+								th Coluna 3
+								th
+						tbody
+							tr
+								td Linha 1
+								td Linha 1
+								td Linha 1
+								td.right-align
+									a
+										i.material-icons.grey-text.text-darken-2 edit
+									a
+										i.material-icons.grey-text.text-darken-2 delete
+							tr
+								td Linha 2
+								td Linha 2
+								td Linha 2
+								td.right-align
+									a
+										i.material-icons.grey-text.text-darken-2 edit
+									a
+										i.material-icons.grey-text.text-darken-2 delete
+							tr
+								td Linha 3
+								td Linha 3
+								td Linha 3
+								td.right-align
+									a
+										i.material-icons.grey-text.text-darken-2 edit
+									a
+										i.material-icons.grey-text.text-darken-2 delete
+
+				//.card-panel
+					.list
+						.list-item
+							.list-actions
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text Link 2
+							.list-content
+								i.material-icons.left.light-green-text check_circle
+								div Primeira linha
+								label Segunda linha
+						.list-item
+							.list-actions
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text Link 2
+							.list-content
+								i.material-icons.left.orange-text warning
+								div Primeira linha
+								label Segunda linha
+						.list-item
+							.list-actions
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text Link 2
+							.list-content
+								i.material-icons.left.grey-text schedule
+								div Primeira linha
+								label Segunda linha
+
+			//.card-panel
+				.row
+					.col.s12.m6
+						.input-field
+							i.material-icons.prefix.grey-text search
+							input#input11(type='text')
+							label(for='input11') Autocompletar
+					.col.s12.m6
+						.input-field
+							i.material-icons.prefix.grey-text today
+							input#input12(type='text')
+							label(for='input12') Data
+					.col.s12.m6
+						.input-field
+							label.active(for='input10') Lista
+							select#input10.browser-default
+								option Item 1
+								option Item 2
+								option Item 3
+					.col.s12.m6
+						.input-field
+							input#input9(type='text')
+							label(for='input9') Texto
+					.col.s12.m6
+						label Marcar vários itens
+						p
+							input#input13a.filled-in(type='checkbox')
+							label(for='input13a') Item 1
+						p
+							input#input13b.filled-in(type='checkbox')
+							label(for='input13b') Item 2
+						p
+							input#input13c.filled-in(type='checkbox')
+							label(for='input13c') Item 3
+					.col.s12.m6
+						label Marcar somente um item
+						p
+							input#input14a.filled-in(type='radio', name="input14")
+							label(for='input14a') Item 1
+						p
+							input#input14b.filled-in(type='radio', name="input14")
+							label(for='input14b') Item 2
+						p
+							input#input14c.filled-in(type='radio', name="input14")
+							label(for='input14c') Item 3
+					.col.s12
+						.switch
+							| Uma pergunta?
+							label
+								input(type='checkbox')
+								span.lever
+
+		.fixed-action-btn-menu
+			a.btn-floating.btn-large.indigo
+				i.large.material-icons add
+
 	script(type='text/javascript').
 		$('#button-side-nav1').sideNav();
 		$('#button-side-nav2').sideNav();
@@ -96,4 +253,16 @@ html
 		});
 
 	style(type='text/css').
-		.nav-wrapper { background-color: inherit; }
+		p > a > i { height: 32px; }
+		.chip .material-icons.left { line-height: 32px; margin-right: 6px; }
+		body { margin: 0 88px 0 144px; overflow-y: scroll; height: 2000px; }
+		.background { position: absolute; top: 0; left: 0; height: 300px; width: 100%; z-index: -1; }
+		.logo { height: 36px; margin: 14px; }
+		nav ul li a { text-transform: uppercase; font-size: 0.8rem; font-weight: bold; }
+		.menu { position: fixed; top: 0; left: 0; height: 100%; width: 56px; border: 0px; padding-top: 120px; text-align: center; }
+		.title { font-size: 1.64rem; height:64px; line-height: 64px; }
+		.title .left { }
+		.title .right { }
+		.title .material-icons { width:54px; height: 64px; line-height: 64px; text-align: center; }
+		.title .material-icons:hover { background-color: rgba(0,0,0,0.1) }
+		.fixed-action-btn-menu { position: fixed; top: 36px; left: 28px; width: 56px; height: 56px; }
