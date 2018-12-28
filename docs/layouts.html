@@ -20,24 +20,15 @@
           <li><img class="logo" src="http://localhost/cdn/myrp/img/logo-myrp-colorido.png"></li>
           <li><a class="black-text" href="/index.html">Módulo</a></li>
         </ul>
-        <ul class="right hide-on-med-and-down">
-          <li><a class="black-text">Nome da empresa</a></li>
+        <ul class="right">
+          <li class="hide-on-med-and-down"><a class="black-text">Nome da empresa</a></li>
           <li><a><i class="material-icons black-text">notifications</i></a></li>
           <li><a><i class="material-icons black-text">apps</i></a></li>
           <li><a><i class="material-icons black-text">account_circle</i></a></li>
         </ul>
       </div>
     </nav>
-    <div class="z-depth-1 color blue menu">
-      <p><a href="#!"><i class="material-icons white-text">attach_money</i></a></p>
-      <p><a href="#!"><i class="material-icons white-text">shopping_cart</i></a></p>
-      <p><a href="#!"><i class="material-icons white-text">local_offer</i></a></p>
-      <p><a href="#!"><i class="material-icons white-text">local_shipping</i></a></p>
-      <p><a href="#!"><i class="material-icons white-text">widgets</i></a></p>
-      <p><a href="#!"><i class="material-icons white-text">done_all</i></a></p>
-      <p><a href="#!"><i class="material-icons white-text">help_outline</i></a></p>
-      <p><a href="#!"><i class="material-icons white-text">chat_bubble</i></a></p>
-    </div>
+    <div class="z-depth-1 color blue menu"><a href="#!"><i class="material-icons white-text">attach_money</i></a><a href="#!"><i class="material-icons white-text">shopping_cart</i></a><a href="#!"><i class="material-icons white-text">local_offer</i></a><a href="#!"><i class="material-icons white-text">local_shipping</i></a><a href="#!"><i class="material-icons white-text">widgets</i></a><a href="#!"><i class="material-icons white-text">done_all</i></a><a href="#!"><i class="material-icons white-text">help_outline</i></a><a href="#!"><i class="material-icons white-text">chat_bubble</i></a></div>
     <div class="title black-text truncate">
       <div class="left">Título</div>
       <div class="right"><a href="#!"><i class="material-icons black-text">search</i></a><a href="#!"><i class="material-icons black-text">refresh</i></a></div>
@@ -217,7 +208,8 @@
     
   </script>
   <style type="text/css">
-    p > a > i { height: 32px; }
+    .menu a, .menu i { display: block; height: 56px; line-height: 56px; }
+    .menu a:hover { background-color: rgba(0,0,0,0.1) }
     .chip .material-icons.left { line-height: 32px; margin-right: 6px; }
     body { margin: 0 88px 0 144px; overflow-y: scroll; height: 2000px; }
     .background { position: absolute; top: 0; left: 0; height: 300px; width: 100%; z-index: -1; }
