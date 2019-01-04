@@ -138,7 +138,7 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":20}],17:[function(require,module,exports) {
+},{"./bundle-url":20}],15:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
@@ -174,7 +174,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '51886' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '59601' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
