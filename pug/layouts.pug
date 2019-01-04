@@ -59,14 +59,24 @@ html
 		
 		.title.black-text.truncate
 			.left Título
-			.right
+			//.right
 				a(href='#!')
 					i.material-icons.black-text search
 				a(href='#!')
 					i.material-icons.black-text refresh
 
+		ul.tabs.transparent.tabs-fixed-width
+			li.tab 
+				a Aba 1
+			li.tab 
+				a Aba 2
+			li.tab 
+				a Aba 3	
+			li.tab 
+				a Aba 4
+
 		.row
-			.col.s12.truncate
+			//.col.s12.truncate
 				a.chip.grey.lighten-2 Filtro 1
 				a.chip.grey.lighten-1
 					i.material-icons.left.tiny check
@@ -75,8 +85,32 @@ html
 				a.chip.grey.lighten-2 Filtro 4
 				a.chip.grey.lighten-2 Filtro 5
 				a.chip.grey.lighten-2 Filtro 6
+			//.col.s12.m4
+				.card
+					.card-content
+						label.black-text Título
+						h5.truncate
+							| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					.card-action
+						a(href='#').blue-text Link 1
+			//.col.s12.m4
+				.card
+					.card-content
+						label.black-text Título
+						h5.truncate
+							| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					.card-action
+						a(href='#').blue-text Link 1
+			//.col.s12.m4
+				.card
+					.card-content
+						label.black-text Título
+						h5.truncate
+							| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					.card-action
+						a(href='#').blue-text Link 1
 			.col.s12
-				.card-panel
+				//.card-panel
 					.timeline
 						.timeline-header
 							.timeline-title Data
@@ -172,61 +206,61 @@ html
 								div Primeira linha
 								label Segunda linha
 
-			//.card-panel
-				.row
-					.col.s12.m6
-						.input-field
-							i.material-icons.prefix.grey-text search
-							input#input11(type='text')
-							label(for='input11') Autocompletar
-					.col.s12.m6
-						.input-field
-							i.material-icons.prefix.grey-text today
-							input#input12(type='text')
-							label(for='input12') Data
-					.col.s12.m6
-						.input-field
-							label.active(for='input10') Lista
-							select#input10.browser-default
-								option Item 1
-								option Item 2
-								option Item 3
-					.col.s12.m6
-						.input-field
-							input#input9(type='text')
-							label(for='input9') Texto
-					.col.s12.m6
-						label Marcar vários itens
-						p
-							input#input13a.filled-in(type='checkbox')
-							label(for='input13a') Item 1
-						p
-							input#input13b.filled-in(type='checkbox')
-							label(for='input13b') Item 2
-						p
-							input#input13c.filled-in(type='checkbox')
-							label(for='input13c') Item 3
-					.col.s12.m6
-						label Marcar somente um item
-						p
-							input#input14a.filled-in(type='radio', name="input14")
-							label(for='input14a') Item 1
-						p
-							input#input14b.filled-in(type='radio', name="input14")
-							label(for='input14b') Item 2
-						p
-							input#input14c.filled-in(type='radio', name="input14")
-							label(for='input14c') Item 3
-					.col.s12
-						.switch
-							| Uma pergunta?
-							label
-								input(type='checkbox')
-								span.lever
+				.card-panel
+					.row
+						.col.s12.m6
+							.input-field
+								i.material-icons.prefix.grey-text search
+								input#input11(type='text')
+								label(for='input11') Autocompletar
+						.col.s12.m6
+							.input-field
+								i.material-icons.prefix.grey-text today
+								input#input12(type='text')
+								label(for='input12') Data
+						.col.s12.m6
+							.input-field
+								label.active(for='input10') Lista
+								select#input10.browser-default
+									option Item 1
+									option Item 2
+									option Item 3
+						.col.s12.m6
+							.input-field
+								input#input9(type='text')
+								label(for='input9') Texto
+						.col.s12.m6
+							label Marcar vários itens
+							p
+								input#input13a.filled-in(type='checkbox')
+								label(for='input13a') Item 1
+							p
+								input#input13b.filled-in(type='checkbox')
+								label(for='input13b') Item 2
+							p
+								input#input13c.filled-in(type='checkbox')
+								label(for='input13c') Item 3
+						.col.s12.m6
+							label Marcar somente um item
+							p
+								input#input14a.filled-in(type='radio', name="input14")
+								label(for='input14a') Item 1
+							p
+								input#input14b.filled-in(type='radio', name="input14")
+								label(for='input14b') Item 2
+							p
+								input#input14c.filled-in(type='radio', name="input14")
+								label(for='input14c') Item 3
+						.col.s12
+							.switch
+								| Uma pergunta?
+								label
+									input(type='checkbox')
+									span.lever
 
 		.fixed-action-btn-menu
 			a.btn-floating.btn-large.black
-				i.large.material-icons add
+				i.large.material-icons done
 
 	script(type='text/javascript').
 		$('#button-side-nav1').sideNav();
@@ -259,3 +293,8 @@ html
 		.title .material-icons { width:54px; height: 64px; line-height: 64px; text-align: center; }
 		.title .material-icons:hover { background-color: rgba(0,0,0,0.1) }
 		.fixed-action-btn-menu { position: fixed; top: 36px; left: 28px; width: 56px; height: 56px; }
+		.tabs { border-bottom: 1px solid #dddddd; }
+		.tabs .indicator { display: none; }
+		.tabs .tab a, .tabs .tab a:hover { color: #000000; }
+		.tabs .tab a { color: #000000; }
+		.tabs .tab a.active { color: #000000; font-weight: bold; border-bottom: 3px solid #000000; }

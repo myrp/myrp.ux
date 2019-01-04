@@ -31,42 +31,92 @@
     <div class="z-depth-1 light-blue menu"><a href="#!"><i class="material-icons white-text">attach_money</i></a><a href="#!"><i class="material-icons white-text">shopping_cart</i></a><a href="#!"><i class="material-icons white-text">local_offer</i></a><a href="#!"><i class="material-icons white-text">local_shipping</i></a><a href="#!"><i class="material-icons white-text">widgets</i></a><a href="#!"><i class="material-icons white-text">done_all</i></a><a href="#!"><i class="material-icons white-text">help_outline</i></a><a href="#!"><i class="material-icons white-text">chat_bubble</i></a></div>
     <div class="title black-text truncate">
       <div class="left">Título</div>
-      <div class="right"><a href="#!"><i class="material-icons black-text">search</i></a><a href="#!"><i class="material-icons black-text">refresh</i></a></div>
+      <!--.right
+      a(href='#!')
+      	i.material-icons.black-text search
+      a(href='#!')
+      	i.material-icons.black-text refresh
+      
+      -->
     </div>
+    <ul class="tabs transparent tabs-fixed-width">
+      <li class="tab"> <a>Aba 1</a></li>
+      <li class="tab"> <a>Aba 2</a></li>
+      <li class="tab"> <a>Aba 3	</a></li>
+      <li class="tab"> <a>Aba 4</a></li>
+    </ul>
     <div class="row">
-      <div class="col s12 truncate"><a class="chip grey lighten-2">Filtro 1</a><a class="chip grey lighten-1"><i class="material-icons left tiny">check</i><span>Filtro 2</span></a><a class="chip grey lighten-2">Filtro 3</a><a class="chip grey lighten-2">Filtro 4</a><a class="chip grey lighten-2">Filtro 5</a><a class="chip grey lighten-2">Filtro 6</a></div>
+      <!--.col.s12.truncate
+      a.chip.grey.lighten-2 Filtro 1
+      a.chip.grey.lighten-1
+      	i.material-icons.left.tiny check
+      	span Filtro 2
+      a.chip.grey.lighten-2 Filtro 3
+      a.chip.grey.lighten-2 Filtro 4
+      a.chip.grey.lighten-2 Filtro 5
+      a.chip.grey.lighten-2 Filtro 6
+      -->
+      <!--.col.s12.m4
+      .card
+      	.card-content
+      		label.black-text Título
+      		h5.truncate
+      			| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      	.card-action
+      		a(href='#').blue-text Link 1
+      -->
+      <!--.col.s12.m4
+      .card
+      	.card-content
+      		label.black-text Título
+      		h5.truncate
+      			| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      	.card-action
+      		a(href='#').blue-text Link 1
+      -->
+      <!--.col.s12.m4
+      .card
+      	.card-content
+      		label.black-text Título
+      		h5.truncate
+      			| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      	.card-action
+      		a(href='#').blue-text Link 1
+      -->
       <div class="col s12">
-        <div class="card-panel">
-          <div class="timeline">
-            <div class="timeline-header">
-              <div class="timeline-title">Data</div>
-            </div>
-            <div class="timeline-item"><i class="material-icons light-green-text">check_circle</i>
-              <div class="timeline-title">Hora</div>
-              <div class="timeline-actions"><a class="btn-flat blue-text">Link 1</a><a class="btn-flat blue-text">Link 2</a></div>
-              <div class="timeline-content">
-                <div class="truncate">Primeira linha</div>
-                <label class="truncate">Segunda linha</label>
-              </div>
-            </div>
-            <div class="timeline-item"><i class="material-icons orange-text">warning</i>
-              <div class="timeline-title">Hora</div>
-              <div class="timeline-actions"><a class="btn-flat blue-text">Link 1</a><a class="btn-flat blue-text">Link 2</a></div>
-              <div class="timeline-content">
-                <div class="truncate">Primeira linha</div>
-                <label class="truncate">Segunda linha</label>
-              </div>
-            </div>
-            <div class="timeline-item"><i class="material-icons grey-text">schedule</i>
-              <div class="timeline-title">Hora</div>
-              <div class="timeline-actions"><a class="btn-flat blue-text">Link 1</a><a class="btn-flat blue-text">Link 2</a></div>
-              <div class="timeline-content">
-                <div class="truncate">Primeira linha</div>
-                <label class="truncate">Segunda linha</label>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!--.card-panel
+        .timeline
+        	.timeline-header
+        		.timeline-title Data
+        	.timeline-item
+        		i.material-icons.light-green-text check_circle
+        		.timeline-title Hora
+        		.timeline-actions
+        			a.btn-flat.blue-text Link 1
+        			a.btn-flat.blue-text Link 2
+        		.timeline-content
+        			div.truncate Primeira linha
+        			label.truncate Segunda linha
+        	.timeline-item
+        		i.material-icons.orange-text warning
+        		.timeline-title Hora
+        		.timeline-actions
+        			a.btn-flat.blue-text Link 1
+        			a.btn-flat.blue-text Link 2
+        		.timeline-content
+        			div.truncate Primeira linha
+        			label.truncate Segunda linha
+        	.timeline-item
+        		i.material-icons.grey-text schedule
+        		.timeline-title Hora
+        		.timeline-actions
+        			a.btn-flat.blue-text Link 1
+        			a.btn-flat.blue-text Link 2
+        		.timeline-content
+        			div.truncate Primeira linha
+        			label.truncate Segunda linha
+        
+        -->
         <!--.card-panel
         table.bordered
         	thead
@@ -133,62 +183,78 @@
         			label Segunda linha
         
         -->
+        <div class="card-panel">
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="input-field"><i class="material-icons prefix grey-text">search</i>
+                <input id="input11" type="text">
+                <label for="input11">Autocompletar</label>
+              </div>
+            </div>
+            <div class="col s12 m6">
+              <div class="input-field"><i class="material-icons prefix grey-text">today</i>
+                <input id="input12" type="text">
+                <label for="input12">Data</label>
+              </div>
+            </div>
+            <div class="col s12 m6">
+              <div class="input-field">
+                <label class="active" for="input10">Lista</label>
+                <select class="browser-default" id="input10">
+                  <option>Item 1</option>
+                  <option>Item 2</option>
+                  <option>Item 3</option>
+                </select>
+              </div>
+            </div>
+            <div class="col s12 m6">
+              <div class="input-field">
+                <input id="input9" type="text">
+                <label for="input9">Texto</label>
+              </div>
+            </div>
+            <div class="col s12 m6">
+              <label>Marcar vários itens</label>
+              <p>
+                <input class="filled-in" id="input13a" type="checkbox">
+                <label for="input13a">Item 1</label>
+              </p>
+              <p>
+                <input class="filled-in" id="input13b" type="checkbox">
+                <label for="input13b">Item 2</label>
+              </p>
+              <p>
+                <input class="filled-in" id="input13c" type="checkbox">
+                <label for="input13c">Item 3</label>
+              </p>
+            </div>
+            <div class="col s12 m6">
+              <label>Marcar somente um item</label>
+              <p>
+                <input class="filled-in" id="input14a" type="radio" name="input14">
+                <label for="input14a">Item 1</label>
+              </p>
+              <p>
+                <input class="filled-in" id="input14b" type="radio" name="input14">
+                <label for="input14b">Item 2</label>
+              </p>
+              <p>
+                <input class="filled-in" id="input14c" type="radio" name="input14">
+                <label for="input14c">Item 3</label>
+              </p>
+            </div>
+            <div class="col s12">
+              <div class="switch">Uma pergunta?
+                <label>
+                  <input type="checkbox"><span class="lever"></span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <!--.card-panel
-      .row
-      	.col.s12.m6
-      		.input-field
-      			i.material-icons.prefix.grey-text search
-      			input#input11(type='text')
-      			label(for='input11') Autocompletar
-      	.col.s12.m6
-      		.input-field
-      			i.material-icons.prefix.grey-text today
-      			input#input12(type='text')
-      			label(for='input12') Data
-      	.col.s12.m6
-      		.input-field
-      			label.active(for='input10') Lista
-      			select#input10.browser-default
-      				option Item 1
-      				option Item 2
-      				option Item 3
-      	.col.s12.m6
-      		.input-field
-      			input#input9(type='text')
-      			label(for='input9') Texto
-      	.col.s12.m6
-      		label Marcar vários itens
-      		p
-      			input#input13a.filled-in(type='checkbox')
-      			label(for='input13a') Item 1
-      		p
-      			input#input13b.filled-in(type='checkbox')
-      			label(for='input13b') Item 2
-      		p
-      			input#input13c.filled-in(type='checkbox')
-      			label(for='input13c') Item 3
-      	.col.s12.m6
-      		label Marcar somente um item
-      		p
-      			input#input14a.filled-in(type='radio', name="input14")
-      			label(for='input14a') Item 1
-      		p
-      			input#input14b.filled-in(type='radio', name="input14")
-      			label(for='input14b') Item 2
-      		p
-      			input#input14c.filled-in(type='radio', name="input14")
-      			label(for='input14c') Item 3
-      	.col.s12
-      		.switch
-      			| Uma pergunta?
-      			label
-      				input(type='checkbox')
-      				span.lever
-      
-      -->
     </div>
-    <div class="fixed-action-btn-menu"><a class="btn-floating btn-large black"><i class="large material-icons">add</i></a></div>
+    <div class="fixed-action-btn-menu"><a class="btn-floating btn-large black"><i class="large material-icons">done</i></a></div>
   </body>
   <script type="text/javascript">
     $('#button-side-nav1').sideNav();
@@ -222,5 +288,10 @@
     .title .material-icons { width:54px; height: 64px; line-height: 64px; text-align: center; }
     .title .material-icons:hover { background-color: rgba(0,0,0,0.1) }
     .fixed-action-btn-menu { position: fixed; top: 36px; left: 28px; width: 56px; height: 56px; }
+    .tabs { border-bottom: 1px solid #dddddd; }
+    .tabs .indicator { display: none; }
+    .tabs .tab a, .tabs .tab a:hover { color: #000000; }
+    .tabs .tab a { color: #000000; }
+    .tabs .tab a.active { color: #000000; font-weight: bold; border-bottom: 3px solid #000000; }
   </style>
 </html>
