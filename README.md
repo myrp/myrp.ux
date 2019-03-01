@@ -49,3 +49,63 @@
 - [Dropmark](http://dropmark.com) - Organizador de links e imagens em coleções
 - [Dummi](http://dummi.io/) - Gerador de dados fake
 - [unDraw](https://undraw.co/illustrations) - Ilustrações (MIT licensed)
+
+## Férias
+
+## Como atualizar o changelog?
+- Abrir visual studio code em /erp/solutions/cdn
+- Adicionar imagens e videos em /erp/solutions/cdn/myrp/static
+- Alterar arquivo changelog.json em /erp/solutions/cdn/myrp/static
+- Após fazer as alterações gerar o bundle utilizando `Atualizar.bat`
+
+```
+Exemplo arquivo de changelog.json:
+
+[
+  // Primeiro changelog
+  {
+    "validade": "01/01/0001", // Preecha com a validade de exibição
+    "url": "?efetuandoLogin=1", // Preencha com parte da url onde o changelog deverá ser exibido, neste caso ao efetuar login
+    "uf": "", // Preencha com o código da uf se o changelog for para uma uf específica
+    "permissao": "", // Preecha com o código da permissão se o changelog for para uma permissão específica
+    "itens": [
+      {
+        "arquivo": "/cdn/myrp/static/imagem.png", // Preencha com a url da imagem ou video do slide
+        "url": "/financeiro/titulobeta", // Preencha com a url de redirecionamento ao clicar no botão "call to action" do slide
+        "titulo": "", Preencha com o título do slide
+        "texto": "", // Preencha com o texto do slide
+        "textoBotao": "" // Preencha com o texto do botão "call to action" do slide
+      }
+    ]
+  },
+  // Outro changelog
+  {
+    "validade": "",
+    "url": "",
+    "uf": "",
+    "permissao": "",
+    "itens": [
+      {
+        "arquivo": "",
+        "url": "",
+        "titulo": "",
+        "texto": "",
+        "textoBotao": ""
+      }
+    ]
+  }
+]
+
+Quando não tiver changelogs:
+[]
+```
+
+## Como atualizar o financeiro?
+
+- Abrir visual studio em /erp/solutions/financeiro
+- Alterar arquivo views/titulobeta/index.cshtml
+
+## Como atualizar a integração contábil?
+
+- Abrir visual studio code em /integracaocontabil.frontend
+- Após fazer as alterações gerar o bundle utilizando `Atualizar.bat`
