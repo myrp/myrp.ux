@@ -52,7 +52,7 @@
 
 ## Férias
 
-## Como atualizar o changelog?
+### Como atualizar o changelog?
 - Abrir visual studio code em /erp/solutions/cdn
 - Adicionar imagens e videos em /erp/solutions/cdn/myrp/static
 - Alterar arquivo changelog.json em /erp/solutions/cdn/myrp/static
@@ -100,12 +100,12 @@ Quando não tiver changelogs:
 []
 ```
 
-## Como atualizar o financeiro?
+### Como atualizar o financeiro?
 
 - Abrir visual studio em /erp/solutions/financeiro
 - Alterar arquivo views/titulobeta/index.cshtml
 
-## Como atualizar a integração contábil?
+### Como atualizar a integração contábil?
 
 - Abrir visual studio code em /integracaocontabil.frontend
 - Após fazer as alterações gerar o bundle utilizando `Atualizar.bat`
