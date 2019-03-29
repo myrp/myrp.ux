@@ -24,7 +24,7 @@ html
 					li
 						img.logo(src="http://localhost/cdn/myrp/img/logo-myrp-colorido.png")
 					li
-						a.black-text(href='index.pug') Módulo
+						a.black-text(href='index.pug') Financeiro
 				ul.right
 					li.hide-on-med-and-down
 						a.black-text Nome da empresa
@@ -58,12 +58,14 @@ html
 
 		
 		.title.black-text.truncate
-			.left Título
+			.left Contas a pagar e receber
 			.right
 				a(href='#!')
 					i.material-icons.black-text search
 				a(href='#!')
 					i.material-icons.black-text refresh
+				a(href='#!')
+					i.material-icons.black-text add
 
 		//ul.tabs.transparent.tabs-fixed-width
 			li.tab 
@@ -77,70 +79,86 @@ html
 
 		.row
 			.col.s12.truncate
-				a.chip.grey.lighten-2 Filtro 1
+				a.chip.grey.lighten-2 Hoje
 				a.chip.grey.lighten-1
 					i.material-icons.left.tiny check
-					span Filtro 2
-				a.chip.grey.lighten-2 Filtro 3
-				a.chip.grey.lighten-2 Filtro 4
-				a.chip.grey.lighten-2 Filtro 5
-				a.chip.grey.lighten-2 Filtro 6
-			//.col.s12.m4
+					span Neste mês
+				a.chip.grey.lighten-2 No mês passado
+				a.chip.grey.lighten-2 No próximo mês
+				a.chip.grey.lighten-2 Em aberto
+				a.chip.grey.lighten-2 Atrasadas (99)
+				a.chip.grey.lighten-2 Pagamentos
+				a.chip.grey.lighten-2 Recebimentos
+			.col.s12.m3
 				.card
 					.card-content
-						label.black-text Título
+						label.black-text Recebimento esperado
 						h5.truncate
-							| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-					.card-action
-						a(href='#').blue-text Link 1
-			//.col.s12.m4
+							| R$ 900,00
+			.col.s12.m3
 				.card
 					.card-content
-						label.black-text Título
+						label.black-text Recebido
 						h5.truncate
-							| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-					.card-action
-						a(href='#').blue-text Link 1
-			//.col.s12.m4
+							| R$ 800,00
+			.col.s12.m3
 				.card
 					.card-content
-						label.black-text Título
+						label.black-text Pagamento esperado
 						h5.truncate
-							| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-					.card-action
-						a(href='#').blue-text Link 1
+							| R$ 1.000,00
+			.col.s12.m3
+				.card
+					.card-content
+						label.black-text Pago
+						h5.truncate
+							| R$ 300,00
 			.col.s12
 				.card-panel
+					h5 Vencimentos
 					.timeline
 						.timeline-header
-							.timeline-title Data
+							.timeline-title 26/03
 						.timeline-item
 							i.material-icons.light-green-text check_circle
-							.timeline-title Hora
 							.timeline-actions
-								a.btn-flat.blue-text Link 1
-								a.btn-flat.blue-text Link 2
+								a.btn-flat.blue-text Editar
+								a.btn-flat.blue-text.dropdown-button( data-activates='dropdown1') Mais
+									i.material-icons.right arrow_drop_down
+								ul#dropdown1.dropdown-content
+									li
+										a Desfazer pagamento
+									li
+										a#button-side-nav1(href='#', data-activates='side-nav1') Renegociar
+									li
+										a Remover
 							.timeline-content
-								div.truncate Primeira linha
-								label.truncate Segunda linha
+								div.truncate Primeiro cliente
+								label.truncate
+									span.light-green-text + 100,00
+									span  | Vendas | Banco do Brasil
 						.timeline-item
 							i.material-icons.orange-text warning
-							.timeline-title Hora
 							.timeline-actions
-								a.btn-flat.blue-text Link 1
-								a.btn-flat.blue-text Link 2
+								a.btn-flat.blue-text Editar
+								a.btn-flat.blue-text Mais
+									i.material-icons.right arrow_drop_down
 							.timeline-content
-								div.truncate Primeira linha
-								label.truncate Segunda linha
+								div.truncate Segundo cliente
+								label.truncate
+									span.light-green-text + 100,00
+									span  | Vendas | Banco do Brasil
 						.timeline-item
 							i.material-icons.grey-text schedule
-							.timeline-title Hora
 							.timeline-actions
-								a.btn-flat.blue-text Link 1
-								a.btn-flat.blue-text Link 2
+								a.btn-flat.blue-text Editar
+								a.btn-flat.blue-text Mais
+									i.material-icons.right arrow_drop_down
 							.timeline-content
-								div.truncate Primeira linha
-								label.truncate Segunda linha
+								div.truncate Terceiro cliente
+								label.truncate
+									span.light-green-text + 100,00
+									span  | Vendas | Banco do Brasil
 		
 				//.card-panel
 					table.bordered
@@ -258,32 +276,109 @@ html
 									input(type='checkbox')
 									span.lever
 
-		.fixed-action-btn-menu
-			a.btn-floating.btn-large.black
-				i.large.material-icons add
+		div#side-nav1.side-nav.card-panel
+			div#list-renegociar
+				h5 Renegociar
+				p Quais recebimentos do cliente você quer renegociar?
+				.timeline
+					.timeline-header
+						.timeline-title Data
+					.timeline-item
+						i.material-icons.orange-text warning
+						.timeline-title Hora
+						.timeline-content
+							i.material-icons.right.grey-text.cursor-pointer(onclick="$(this).html($(this).html() == 'check_box_outline_blank' ? 'check_box_outline' : 'check_box_outline_blank')") check_box_outline_blank
+							div.truncate Primeiro cliente
+							label.truncate
+								span.light-green-text + 100,00
+								span  | Vendas | Banco do Brasil
+					.timeline-item
+						i.material-icons.grey-text schedule
+						.timeline-title Hora
+						.timeline-content
+							i.material-icons.right.grey-text.cursor-pointer(onclick="$(this).html($(this).html() == 'check_box_outline_blank' ? 'check_box_outline' : 'check_box_outline_blank')") check_box_outline_blank
+							div.truncate Primeiro cliente
+							label.truncate
+								span.light-green-text + 100,00
+								span  | Vendas | Banco do Brasil
+					.timeline-item
+						i.material-icons.grey-text schedule
+						.timeline-title Hora
+						.timeline-content
+							i.material-icons.right.grey-text.cursor-pointer(onclick="$(this).html($(this).html() == 'check_box_outline_blank' ? 'check_box_outline' : 'check_box_outline_blank')") check_box_outline_blank
+							div.truncate Primeiro cliente
+							label.truncate
+								span.light-green-text + 100,00
+								span  | Vendas | Banco do Brasil	
+				p.right-align
+					a.btn-flat(onclick="$('#button-side-nav1').trigger('click'); $('#form-renegociar').hide(); $('#list-renegociar').show();") Cancelar
+					a.btn.btn-large.light-green(onclick="$('#list-renegociar').hide(); $('#form-renegociar').show(); $('#input10').focus();") Continuar
+			div#form-renegociar(style="display: none")
+				h5 Renegociar
+				p Preencha os campos abaixo para concluir a renegociação. 
+				.row
+					.col.s12.m6.input-field
+						input#input6(type='text', value="300,00")
+						label(for='input6') Valor a renegociar
+					.col.s12.m6.input-field
+						i.material-icons.prefix today
+						input#input7(type='text', value="26/04/2019")
+						label(for='input7') Próximo vencimento
+					.col.s12.m6.input-field
+						input#input10(type='text')
+						label(for='input10') Quantidade de parcelas
+					.col.s12.m6.input-field
+						select#input11.browser-default
+							option Não informado
+						label.active(for='input11') Período entre as parcelas
+					.col.s12.m6.input-field.controlar
+						i.material-icons.prefix search
+						input#input8(type='text', value="Vendas")
+						label(for='input8') Categoria financeira
+					.col.s12.m6.input-field.controlar
+						i.material-icons.prefix search
+						input#input9(type='text', value="Banco do Brasil")
+						label(for='input9') Conta bancária
+					.col.s12.m6.input-field.controlar
+						i.material-icons.prefix search
+						input#input16(type='text', value="Primeiro cliente")
+						label(for='input16') Cliente
+					.col.s12.m6.input-field.controlar
+						input#input17(type='text', value="Vendas")
+						label(for='input17') Descricao
+					.col.s12.m6.input-field.controlar
+						select#input12.browser-default
+							option Não informado
+						label.active(for='input12') Espécie de título
+					.col.s12.m6.input-field.controlar
+						select#input13.browser-default
+							option Não informado
+						label.active(for='input13') Vendedor
+					.col.s12.m6.input-field.controlar
+						input#input14(type='text')
+						label(for='input14') Série do documento
+					.col.s12.m6.input-field.controlar
+						input#input15(type='text')
+						label(for='input15') Número do documento
+					.col.s12.center
+						i.material-icons.circle.grey.lighten-3.black-text(onclick="if ($('.controlar:visible').length) { $('.controlar').hide(); $(this).html('expand_more'); } else { $('.controlar').show(); $(this).html('expand_less'); }") expand_more
+				p.right-align
+					a.btn-flat(onclick="$('#form-renegociar').hide(); $('#list-renegociar').show();") Cancelar
+					a.btn.btn-large.light-green(onclick="$('#button-side-nav1').trigger('click'); $('#form-renegociar').hide(); $('#list-renegociar').show();") Salvar
 
 	script(type='text/javascript').
-		$('#button-side-nav1').sideNav();
-		$('#button-side-nav2').sideNav();
-		$('#blue, #green, #indigo, #orange, #teal, #pink').on('click', function() {
-			var id = $(this).attr('id');
-			var elementos = $('nav, nav-wrapper, #side-nav1, #side-nav2');
-			
-			$(elementos).removeClass('blue');
-			$(elementos).removeClass('indigo');
-			$(elementos).removeClass('green');
-			$(elementos).removeClass('teal');
-			$(elementos).removeClass('orange');
-			$(elementos).removeClass('pink');
-			$(elementos).addClass(id);
+		$('#button-side-nav1').sideNav({
+			menuWidth: 700,
+			edge: 'right'
 		});
-
+		
 	style(type='text/css').
 		.menu a, .menu i { display: block; height: 56px; line-height: 56px; }
 		.menu a:hover { background-color: rgba(0,0,0,0.1) }
 		.chip .material-icons.left { line-height: 32px; margin-right: 6px; }
-		body { margin: 0 88px 0 144px; overflow-y: scroll; height: 2000px; }
-		.background { position: absolute; top: 0; left: 0; height: 300px; width: 100%; z-index: -1; }
+		.chip { font-size: 0.8rem; }
+		body { margin: 0 88px 0 144px; overflow-y: scroll; }
+		.background { position: absolute; top: 0; left: 0; height: 300px; width: 100%; z-index: -2; }
 		.logo { height: 36px; margin: 14px; }
 		nav ul li a { text-transform: uppercase; font-size: 0.8rem; font-weight: bold; }
 		.menu { position: fixed; top: 0; left: 0; height: 100%; width: 56px; border: 0px; padding-top: 120px; text-align: center; }
@@ -298,3 +393,14 @@ html
 		.tabs .tab a, .tabs .tab a:hover { color: #000000; }
 		.tabs .tab a { color: #000000; }
 		.tabs .tab a.active { color: #000000; font-weight: bold; border-bottom: 3px solid #000000; }
+		.uppercase { text-transform: uppercase; }
+		.b { font-weight: bold; }
+		p + .timeline { margin-top: 24px; }
+		.side-nav { margin-top: -64px; }
+		h5 + .timeline { margin-top: 24px; }
+		.card-panel h5:first-child { margin-top: 0; }
+		input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea { box-sizing: border-box; }
+		select.browser-default { margin: 0 0 20px 0; }
+		.cursor-pointer { cursor: pointer; }
+		.dropdown-content li>a { line-height: normal; padding: 12px; font-size: 1rem; color: #000; }
+		.controlar { display: none; }

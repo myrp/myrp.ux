@@ -18,7 +18,7 @@
       <div class="nav-wrapper truncate">
         <ul class="left">
           <li><img class="logo" src="http://localhost/cdn/myrp/img/logo-myrp-colorido.png"></li>
-          <li><a class="black-text" href="/index.html">Módulo</a></li>
+          <li><a class="black-text" href="/index.html">Financeiro</a></li>
         </ul>
         <ul class="right">
           <li class="hide-on-med-and-down"><a class="black-text">Nome da empresa</a></li>
@@ -30,8 +30,8 @@
     </nav>
     <div class="z-depth-1 light-blue menu"><a href="#!"><i class="material-icons white-text">attach_money</i></a><a href="#!"><i class="material-icons white-text">shopping_cart</i></a><a href="#!"><i class="material-icons white-text">local_offer</i></a><a href="#!"><i class="material-icons white-text">local_shipping</i></a><a href="#!"><i class="material-icons white-text">widgets</i></a><a href="#!"><i class="material-icons white-text">done_all</i></a><a href="#!"><i class="material-icons white-text">help_outline</i></a><a href="#!"><i class="material-icons white-text">chat_bubble</i></a></div>
     <div class="title black-text truncate">
-      <div class="left">Título</div>
-      <div class="right"><a href="#!"><i class="material-icons black-text">search</i></a><a href="#!"><i class="material-icons black-text">refresh</i></a></div>
+      <div class="left">Contas a pagar e receber</div>
+      <div class="right"><a href="#!"><i class="material-icons black-text">search</i></a><a href="#!"><i class="material-icons black-text">refresh</i></a><a href="#!"><i class="material-icons black-text">add</i></a></div>
     </div>
     <!--ul.tabs.transparent.tabs-fixed-width
     li.tab 
@@ -45,62 +45,71 @@
     
     -->
     <div class="row">
-      <div class="col s12 truncate"><a class="chip grey lighten-2">Filtro 1</a><a class="chip grey lighten-1"><i class="material-icons left tiny">check</i><span>Filtro 2</span></a><a class="chip grey lighten-2">Filtro 3</a><a class="chip grey lighten-2">Filtro 4</a><a class="chip grey lighten-2">Filtro 5</a><a class="chip grey lighten-2">Filtro 6</a></div>
-      <!--.col.s12.m4
-      .card
-      	.card-content
-      		label.black-text Título
-      		h5.truncate
-      			| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      	.card-action
-      		a(href='#').blue-text Link 1
-      -->
-      <!--.col.s12.m4
-      .card
-      	.card-content
-      		label.black-text Título
-      		h5.truncate
-      			| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      	.card-action
-      		a(href='#').blue-text Link 1
-      -->
-      <!--.col.s12.m4
-      .card
-      	.card-content
-      		label.black-text Título
-      		h5.truncate
-      			| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      	.card-action
-      		a(href='#').blue-text Link 1
-      -->
+      <div class="col s12 truncate"><a class="chip grey lighten-2">Hoje</a><a class="chip grey lighten-1"><i class="material-icons left tiny">check</i><span>Neste mês</span></a><a class="chip grey lighten-2">No mês passado</a><a class="chip grey lighten-2">No próximo mês</a><a class="chip grey lighten-2">Em aberto</a><a class="chip grey lighten-2">Atrasadas (99)</a><a class="chip grey lighten-2">Pagamentos</a><a class="chip grey lighten-2">Recebimentos</a></div>
+      <div class="col s12 m3">
+        <div class="card">
+          <div class="card-content">
+            <label class="black-text">Recebimento esperado</label>
+            <h5 class="truncate">R$ 900,00</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m3">
+        <div class="card">
+          <div class="card-content">
+            <label class="black-text">Recebido</label>
+            <h5 class="truncate">R$ 800,00</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m3">
+        <div class="card">
+          <div class="card-content">
+            <label class="black-text">Pagamento esperado</label>
+            <h5 class="truncate">R$ 1.000,00</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m3">
+        <div class="card">
+          <div class="card-content">
+            <label class="black-text">Pago</label>
+            <h5 class="truncate">R$ 300,00</h5>
+          </div>
+        </div>
+      </div>
       <div class="col s12">
         <div class="card-panel">
+          <h5>Vencimentos</h5>
           <div class="timeline">
             <div class="timeline-header">
-              <div class="timeline-title">Data</div>
+              <div class="timeline-title">26/03</div>
             </div>
             <div class="timeline-item"><i class="material-icons light-green-text">check_circle</i>
-              <div class="timeline-title">Hora</div>
-              <div class="timeline-actions"><a class="btn-flat blue-text">Link 1</a><a class="btn-flat blue-text">Link 2</a></div>
+              <div class="timeline-actions"><a class="btn-flat blue-text">Editar</a><a class="btn-flat blue-text dropdown-button" data-activates="dropdown1">Mais<i class="material-icons right">arrow_drop_down</i></a>
+                <ul class="dropdown-content" id="dropdown1">
+                  <li><a>Desfazer pagamento</a></li>
+                  <li><a id="button-side-nav1" href="#" data-activates="side-nav1">Renegociar</a></li>
+                  <li><a>Remover</a></li>
+                </ul>
+              </div>
               <div class="timeline-content">
-                <div class="truncate">Primeira linha</div>
-                <label class="truncate">Segunda linha</label>
+                <div class="truncate">Primeiro cliente</div>
+                <label class="truncate"><span class="light-green-text">+ 100,00</span><span> | Vendas | Banco do Brasil</span></label>
               </div>
             </div>
             <div class="timeline-item"><i class="material-icons orange-text">warning</i>
-              <div class="timeline-title">Hora</div>
-              <div class="timeline-actions"><a class="btn-flat blue-text">Link 1</a><a class="btn-flat blue-text">Link 2</a></div>
+              <div class="timeline-actions"><a class="btn-flat blue-text">Editar</a><a class="btn-flat blue-text">Mais<i class="material-icons right">arrow_drop_down</i></a></div>
               <div class="timeline-content">
-                <div class="truncate">Primeira linha</div>
-                <label class="truncate">Segunda linha</label>
+                <div class="truncate">Segundo cliente</div>
+                <label class="truncate"><span class="light-green-text">+ 100,00</span><span> | Vendas | Banco do Brasil</span></label>
               </div>
             </div>
             <div class="timeline-item"><i class="material-icons grey-text">schedule</i>
-              <div class="timeline-title">Hora</div>
-              <div class="timeline-actions"><a class="btn-flat blue-text">Link 1</a><a class="btn-flat blue-text">Link 2</a></div>
+              <div class="timeline-actions"><a class="btn-flat blue-text">Editar</a><a class="btn-flat blue-text">Mais<i class="material-icons right">arrow_drop_down</i></a></div>
               <div class="timeline-content">
-                <div class="truncate">Primeira linha</div>
-                <label class="truncate">Segunda linha</label>
+                <div class="truncate">Terceiro cliente</div>
+                <label class="truncate"><span class="light-green-text">+ 100,00</span><span> | Vendas | Banco do Brasil</span></label>
               </div>
             </div>
           </div>
@@ -226,22 +235,106 @@
         -->
       </div>
     </div>
-    <div class="fixed-action-btn-menu"><a class="btn-floating btn-large black"><i class="large material-icons">add</i></a></div>
+    <div class="side-nav card-panel" id="side-nav1">
+      <div id="list-renegociar">
+        <h5>Renegociar</h5>
+        <p>Quais recebimentos do cliente você quer renegociar?</p>
+        <div class="timeline">
+          <div class="timeline-header">
+            <div class="timeline-title">Data</div>
+          </div>
+          <div class="timeline-item"><i class="material-icons orange-text">warning</i>
+            <div class="timeline-title">Hora</div>
+            <div class="timeline-content"><i class="material-icons right grey-text cursor-pointer" onclick="$(this).html($(this).html() == 'check_box_outline_blank' ? 'check_box_outline' : 'check_box_outline_blank')">check_box_outline_blank</i>
+              <div class="truncate">Primeiro cliente</div>
+              <label class="truncate"><span class="light-green-text">+ 100,00</span><span> | Vendas | Banco do Brasil</span></label>
+            </div>
+          </div>
+          <div class="timeline-item"><i class="material-icons grey-text">schedule</i>
+            <div class="timeline-title">Hora</div>
+            <div class="timeline-content"><i class="material-icons right grey-text cursor-pointer" onclick="$(this).html($(this).html() == 'check_box_outline_blank' ? 'check_box_outline' : 'check_box_outline_blank')">check_box_outline_blank</i>
+              <div class="truncate">Primeiro cliente</div>
+              <label class="truncate"><span class="light-green-text">+ 100,00</span><span> | Vendas | Banco do Brasil</span></label>
+            </div>
+          </div>
+          <div class="timeline-item"><i class="material-icons grey-text">schedule</i>
+            <div class="timeline-title">Hora</div>
+            <div class="timeline-content"><i class="material-icons right grey-text cursor-pointer" onclick="$(this).html($(this).html() == 'check_box_outline_blank' ? 'check_box_outline' : 'check_box_outline_blank')">check_box_outline_blank</i>
+              <div class="truncate">Primeiro cliente</div>
+              <label class="truncate"><span class="light-green-text">+ 100,00</span><span> | Vendas | Banco do Brasil	</span></label>
+            </div>
+          </div>
+        </div>
+        <p class="right-align"><a class="btn-flat" onclick="$('#button-side-nav1').trigger('click'); $('#form-renegociar').hide(); $('#list-renegociar').show();">Cancelar</a><a class="btn btn-large light-green" onclick="$('#list-renegociar').hide(); $('#form-renegociar').show(); $('#input10').focus();">Continuar</a></p>
+      </div>
+      <div id="form-renegociar" style="display: none">
+        <h5>Renegociar</h5>
+        <p>Preencha os campos abaixo para concluir a renegociação. </p>
+        <div class="row">
+          <div class="col s12 m6 input-field">
+            <input id="input6" type="text" value="300,00">
+            <label for="input6">Valor a renegociar</label>
+          </div>
+          <div class="col s12 m6 input-field"><i class="material-icons prefix">today</i>
+            <input id="input7" type="text" value="26/04/2019">
+            <label for="input7">Próximo vencimento</label>
+          </div>
+          <div class="col s12 m6 input-field">
+            <input id="input10" type="text">
+            <label for="input10">Quantidade de parcelas</label>
+          </div>
+          <div class="col s12 m6 input-field">
+            <select class="browser-default" id="input11">
+              <option>Não informado</option>
+            </select>
+            <label class="active" for="input11">Período entre as parcelas</label>
+          </div>
+          <div class="col s12 m6 input-field controlar"><i class="material-icons prefix">search</i>
+            <input id="input8" type="text" value="Vendas">
+            <label for="input8">Categoria financeira</label>
+          </div>
+          <div class="col s12 m6 input-field controlar"><i class="material-icons prefix">search</i>
+            <input id="input9" type="text" value="Banco do Brasil">
+            <label for="input9">Conta bancária</label>
+          </div>
+          <div class="col s12 m6 input-field controlar"><i class="material-icons prefix">search</i>
+            <input id="input16" type="text" value="Primeiro cliente">
+            <label for="input16">Cliente</label>
+          </div>
+          <div class="col s12 m6 input-field controlar">
+            <input id="input17" type="text" value="Vendas">
+            <label for="input17">Descricao</label>
+          </div>
+          <div class="col s12 m6 input-field controlar">
+            <select class="browser-default" id="input12">
+              <option>Não informado</option>
+            </select>
+            <label class="active" for="input12">Espécie de título</label>
+          </div>
+          <div class="col s12 m6 input-field controlar">
+            <select class="browser-default" id="input13">
+              <option>Não informado</option>
+            </select>
+            <label class="active" for="input13">Vendedor</label>
+          </div>
+          <div class="col s12 m6 input-field controlar">
+            <input id="input14" type="text">
+            <label for="input14">Série do documento</label>
+          </div>
+          <div class="col s12 m6 input-field controlar">
+            <input id="input15" type="text">
+            <label for="input15">Número do documento</label>
+          </div>
+          <div class="col s12 center"><i class="material-icons circle grey lighten-3 black-text" onclick="if ($('.controlar:visible').length) { $('.controlar').hide(); $(this).html('expand_more'); } else { $('.controlar').show(); $(this).html('expand_less'); }">expand_more</i></div>
+        </div>
+        <p class="right-align"><a class="btn-flat" onclick="$('#form-renegociar').hide(); $('#list-renegociar').show();">Cancelar</a><a class="btn btn-large light-green" onclick="$('#button-side-nav1').trigger('click'); $('#form-renegociar').hide(); $('#list-renegociar').show();">Salvar</a></p>
+      </div>
+    </div>
   </body>
   <script type="text/javascript">
-    $('#button-side-nav1').sideNav();
-    $('#button-side-nav2').sideNav();
-    $('#blue, #green, #indigo, #orange, #teal, #pink').on('click', function() {
-    	var id = $(this).attr('id');
-    	var elementos = $('nav, nav-wrapper, #side-nav1, #side-nav2');
-    	
-    	$(elementos).removeClass('blue');
-    	$(elementos).removeClass('indigo');
-    	$(elementos).removeClass('green');
-    	$(elementos).removeClass('teal');
-    	$(elementos).removeClass('orange');
-    	$(elementos).removeClass('pink');
-    	$(elementos).addClass(id);
+    $('#button-side-nav1').sideNav({
+    	menuWidth: 700,
+    	edge: 'right'
     });
     
   </script>
@@ -249,8 +342,9 @@
     .menu a, .menu i { display: block; height: 56px; line-height: 56px; }
     .menu a:hover { background-color: rgba(0,0,0,0.1) }
     .chip .material-icons.left { line-height: 32px; margin-right: 6px; }
-    body { margin: 0 88px 0 144px; overflow-y: scroll; height: 2000px; }
-    .background { position: absolute; top: 0; left: 0; height: 300px; width: 100%; z-index: -1; }
+    .chip { font-size: 0.8rem; }
+    body { margin: 0 88px 0 144px; overflow-y: scroll; }
+    .background { position: absolute; top: 0; left: 0; height: 300px; width: 100%; z-index: -2; }
     .logo { height: 36px; margin: 14px; }
     nav ul li a { text-transform: uppercase; font-size: 0.8rem; font-weight: bold; }
     .menu { position: fixed; top: 0; left: 0; height: 100%; width: 56px; border: 0px; padding-top: 120px; text-align: center; }
@@ -265,5 +359,16 @@
     .tabs .tab a, .tabs .tab a:hover { color: #000000; }
     .tabs .tab a { color: #000000; }
     .tabs .tab a.active { color: #000000; font-weight: bold; border-bottom: 3px solid #000000; }
+    .uppercase { text-transform: uppercase; }
+    .b { font-weight: bold; }
+    p + .timeline { margin-top: 24px; }
+    .side-nav { margin-top: -64px; }
+    h5 + .timeline { margin-top: 24px; }
+    .card-panel h5:first-child { margin-top: 0; }
+    input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea { box-sizing: border-box; }
+    select.browser-default { margin: 0 0 20px 0; }
+    .cursor-pointer { cursor: pointer; }
+    .dropdown-content li>a { line-height: normal; padding: 12px; font-size: 1rem; color: #000; }
+    .controlar { display: none; }
   </style>
 </html>
