@@ -15,6 +15,7 @@
 .timeline-content { padding: 12px 0; min-height: 68px; margin: 0; }
 .timeline-content i { margin-top: 9px; width: 24px; height: 24px; }
 .timeline-content .preloader-wrapper { margin: 10px 15px 0 0; }
+.timeline-content .truncate * { display: inline-block; }
 
 .timeline-actions { float: right; padding: 0; margin-top: 16px; white-space: nowrap; }
 .timeline-actions a { margin: 0; padding: 0 6px; font-size: 0.9rem; }
@@ -29,6 +30,7 @@
 .list-content { padding: 12px 0; min-height: 68px; margin: 0; }
 .list-content i { margin-top: 9px; width: 24px; height: 24px; text-align: center; }
 .list-content .preloader-wrapper { margin: 10px 15px 0 0; }
+.list-content .truncate * { display: inline-block; }
 
 .list-actions { float: right; padding: 0; margin-top: 16px; white-space: nowrap; }
 .list-actions a { margin: 0; padding: 0 6px; font-size: 0.9rem; }
