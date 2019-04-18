@@ -36,9 +36,6 @@ html
 							i.material-icons.black-text notifications
 					li
 						a
-							i.material-icons.black-text settings
-					li
-						a
 							i.material-icons.black-text apps
 					li
 						a
@@ -47,23 +44,166 @@ html
 						a
 							i.material-icons.black-text account_circle
 
-		div.z-depth-1.light-blue.menu
-			a(href='#!')
-				i.material-icons.white-text home
-			a(href='#!')
-				i.material-icons.white-text attach_money
-			a(href='#!')
-				i.material-icons.white-text shopping_cart
-			a(href='#!')
-				i.material-icons.white-text local_offer
-			a(href='#!')
-				i.material-icons.white-text local_shipping
-			a(href='#!')
-				i.material-icons.white-text widgets
-			a(href='#!')
-				i.material-icons.white-text done_all
-			a(href='#!')
-				i.material-icons.white-text print
+		//div.logo-menu.white
+
+		div.z-depth-1.menu.light-blue(style="width: 56px")
+			.left.center(style="width: 56px")
+				a(href='#menu-cadastros')
+					i.material-icons.white-text home
+				a(href='#menu-financeiro')
+					i.material-icons.white-text attach_money
+				a(href='#menu-compras')
+					i.material-icons.white-text shopping_cart
+				a(href='#menu-vendas')
+					i.material-icons.white-text local_offer
+				a(href='#menu-transporte')
+					i.material-icons.white-text local_shipping
+				a(href='#menu-estoque')
+					i.material-icons.white-text widgets
+				a(href='#menu-sped')
+					i.material-icons.white-text done_all
+				a(href='#menu-relatorios')
+					i.material-icons.white-text print
+				a(href='#menu-configuracoes')
+					i.material-icons.white-text settings
+			.left(style="width: 350px; padding:0 24px;")
+				#menu-vendas(style="display: none")
+					h5.white-text Vendas
+					p.white-text Resumo
+					p.white-text Orçamentos
+					p.white-text Pedidos de Venda
+					p.white-text Ordens de Serviço
+					p.white-text Operações PDV
+					p.white-text NF-e
+					p.white-text NFC-e
+					p.white-text NFS-e
+				#menu-financeiro(style="display: none")
+					h5.white-text Financeiro
+					p.white-text Resumo
+					p.white-text Transferência entre Contas
+					p.white-text Contas a Pagar e Receber
+					p.white-text Recebimentos Cartão
+					p.white-text Boleto com Registro
+					p.white-text Remessas Geredas
+					p.white-text Conciliação Bancária
+				#menu-compras(style="display: none")
+					h5.white-text Compras
+					p.white-text Pedidos de Compra
+					p.white-text Importar NF-e de Fornecedor
+					p.white-text NF-e de Fornecedor
+					p.white-text NFS-e de Fornecedor
+				#menu-transporte(style="display: none")
+					h5.white-text Transporte
+					p.white-text CT-e
+					p.white-text CT-e de Fornecedor
+					p.white-text Importar CT-e de Fornecedor
+					p.white-text MDF-e
+				#menu-estoque(style="display: none")
+					h5.white-text Estoque
+					p.white-text Controle de Estoque
+					p.white-text Ordens de Produção
+					p.white-text Consulta Estoque Terceiro por Produto
+					p.white-text Consulta Estoque Terceiro por Participante
+				#menu-sped(style="display: none")
+					h5.white-text SPED
+					p.white-text Entradas de Energia Elétrica
+					p.white-text Declarações de Exportação
+					p.white-text Operações com Cartão Crédito/Débito
+					p.white-text SPED Contribuição
+					p.white-text SPED Fiscal
+					p.white-text e-CAC
+				#menu-cadastros(style="display: none")
+					h5.white-text Cadastros
+					p.white-text Produtos
+					p.white-text Serviços
+					p.white-text Clientes
+					p.white-text Fornecedores
+					p.white-text Transportadores
+					p.white-text Motoristas
+					p.white-text Veículos
+					p.white-text Contadores
+					p.white-text PDVs
+					p.white-text Observações
+					p.white-text Unidades de Medida
+					p.white-text Naturezas de Operação
+					p.white-text Formas de Pagamento
+					p.white-text Contas Bancárias
+					p.white-text Categorias Financeiras
+					p.white-text Bandeiras de Cartão
+					p.white-text Vendedores
+				#menu-configuracoes(style="display: none")
+					h5.white-text Configurações
+					p.white-text Transações de Saída
+					p.white-text Transações do PDV
+					p.white-text Transações de Entrada
+					p.white-text Personalizar Campos CT-e
+					p.white-text Certificado Digital
+					p.white-text Minha Empresa
+					p.white-text E-mail
+					p.white-text Imagem para Impressao
+					p.white-text Imagem para Documentos
+					p.white-text Fundos de Combate a Pobreza
+				#menu-relatorios(style="display: none")
+					h5.white-text Relatórios
+					p.white-text Produtos
+					p.white-text Clientes
+					p.white-text Fornecedores
+					p.white-text Transportadores
+					p.white-text Contadores
+
+					p.divider &nbsp;
+					p.white-text Contas a Pagar
+					p.white-text Contas a Pagar por Categoria
+					p.white-text Contas a Receber
+					p.white-text Contas a Receber por Categoria
+					p.white-text Financeiro Sintético
+					p.white-text Detalhamento de Conta Bancária
+					p.white-text Quitação de Contas a Pagar e Receber
+					p.white-text Recebimentos Cartão
+					p.white-text Fluxo de Caixa
+					p.white-text Comissões por Conta a Receber
+					p.white-text Comissões por Pedido de Venda
+					p.white-text Comissões por NF-e
+					p.white-text Comissões por NFS-e
+					p.white-text Comissões por NFC-e
+					
+					p.divider &nbsp;
+					p.white-text NF-e de Fornecedor
+					p.white-text Itens de NF-e de Fornecedor
+					p.white-text NFS-e de Fornecedor
+					p.white-text Retenções de NFS-e de Fornecedor
+
+					p.divider &nbsp;
+					p.white-text Produtos Mais Vendidos
+					p.white-text Produtos Mais Lucrativos
+					p.white-text Clientes Mais Fiéis
+					p.white-text Clientes Mais Lucrativos
+					p.white-text Formas de Pagamento Mais Utilizadas
+					p.white-text NF-e
+					p.white-text Itens de NF-e
+					p.white-text NFC-e
+					p.white-text Itens da NFC-e
+					p.white-text Itens de Pedido de Venda
+					p.white-text Margem de Contribuição por Itens de Pedido de Venda
+					p.white-text Orçamentos
+					p.white-text Itens de Orçamento
+					p.white-text Faturamento Sintético
+					p.white-text NFS-e
+					p.white-text Retenções de NFS-e
+
+					p.divider &nbsp;
+					p.white-text CT-e
+					p.white-text CT-e de Fornecedor
+
+					p.divider &nbsp;
+					p.white-text Estoque Próprio
+					p.white-text Estoque (Preço de Compra)
+					p.white-text Estoque de Terceiro
+					p.white-text Estoque em Terceiro
+					p.white-text Movimentação Estoque Próprio
+					p.white-text Movimentação Estoque de Terceiro
+					p.white-text Movimentação Estoque em Terceiro
+					p.white-text Inventário
 		
 		.title.black-text.truncate
 			.left Contas a pagar e receber
@@ -379,9 +519,37 @@ html
 			menuWidth: 700,
 			edge: 'right'
 		});
+
+		$('.menu .left a').on('click', function() {
+			$('.menu .left div').hide();
+			$('.menu').css('transition', 'width 0.2s ease-out');
+			$('.menu').css('width', '454px');
+			$($(this).attr('href')).show();
+
+			return false;
+		});
+
+		$('.menu .left a').on('mouseover', function() {
+			if (!$('.menu .left div').is(':visible'))
+				return;
+
+			$('.menu .left div').hide();
+			$('.menu').css('transition', 'width 0.2s ease-out');
+			$('.menu').css('width', '454px');
+			$($(this).attr('href')).show();
+
+			return false;
+		});
+
+		$(document).on('click', function() {
+			$('.menu .left div').hide();
+			$('.menu').css('transition', 'width 0.2s ease-in');
+			$('.menu').css('width', '56px');
+		});
+
 		
 	style(type='text/css').
-		.menu a, .menu i { display: block; height: 56px; line-height: 56px; }
+		.menu a, .menu i { display: block; width: 56px; height: 56px; line-height: 56px; }
 		.menu a:hover { background-color: rgba(0,0,0,0.1) }
 		.chip .material-icons.left, .chip .material-icons.right { margin: 5px 0 0 0; line-height: normal; font-size: 21px; }
 		.chip { font-size: 0.8rem; }
@@ -389,7 +557,10 @@ html
 		.background { position: absolute; top: 0; left: 0; height: 300px; width: 100%; z-index: -2; }
 		.logo { height: 36px; margin: 14px; }
 		nav ul li a { text-transform: uppercase; font-size: 0.8rem; font-weight: bold; }
-		.menu { position: fixed; top: 0; left: 0; height: 100%; width: 56px; border: 0px; padding-top: 120px; text-align: center; }
+		.menu { position: fixed; top: 0; left: 0; height: 100%; width: 56px; border: 0px; z-index: 999; overflow-y: auto; overflow-x: hidden }
+		.menu::-webkit-scrollbar { width: 8px; }
+		.menu::-webkit-scrollbar-track { background: none; }
+		.menu::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.2); }
 		.title { font-size: 1.64rem; height:64px; line-height: 64px; }
 		.title .left { }
 		.title .right { }
@@ -414,3 +585,6 @@ html
 		.controlar { display: none; }
 		.chip input, .chip input:focus { width: 200px !important; margin: 0; padding: 8px; display: inline; border: none !important; font-size: 0.8rem; height: auto; box-shadow: none !important; }
 		.chip input::placeholder { color: rgba(0,0,0,0.3); }
+		.label { font-size: 0.8rem; }
+		.menu .divider { background-color: rgba(0,0,0,0.2)!important; }
+		.logo-menu { position: fixed; z-index:99999; top:0; left:0; width: 100px; height:100px; border-radius: 0 0 100% 0; background-image: url(http://localhost/cdn/myrp/img/logo-myrp-colorido.png); background-position: 4px 16px; background-repeat: no-repeat; background-size: 80%; }

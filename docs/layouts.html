@@ -24,14 +24,159 @@
         <ul class="right">
           <li><a><i class="material-icons black-text">chat_bubble</i></a></li>
           <li><a><i class="material-icons black-text">notifications</i></a></li>
-          <li><a><i class="material-icons black-text">settings</i></a></li>
           <li><a><i class="material-icons black-text">apps</i></a></li>
           <li><a><i class="material-icons black-text">help_outline</i></a></li>
           <li><a><i class="material-icons black-text">account_circle</i></a></li>
         </ul>
       </div>
     </nav>
-    <div class="z-depth-1 light-blue menu"><a href="#!"><i class="material-icons white-text">home</i></a><a href="#!"><i class="material-icons white-text">attach_money</i></a><a href="#!"><i class="material-icons white-text">shopping_cart</i></a><a href="#!"><i class="material-icons white-text">local_offer</i></a><a href="#!"><i class="material-icons white-text">local_shipping</i></a><a href="#!"><i class="material-icons white-text">widgets</i></a><a href="#!"><i class="material-icons white-text">done_all</i></a><a href="#!"><i class="material-icons white-text">print</i></a></div>
+    <!--div.logo-menu.white-->
+    <div class="z-depth-1 menu light-blue" style="width: 56px">
+      <div class="left center" style="width: 56px"><a href="#menu-cadastros"><i class="material-icons white-text">home</i></a><a href="#menu-financeiro"><i class="material-icons white-text">attach_money</i></a><a href="#menu-compras"><i class="material-icons white-text">shopping_cart</i></a><a href="#menu-vendas"><i class="material-icons white-text">local_offer</i></a><a href="#menu-transporte"><i class="material-icons white-text">local_shipping</i></a><a href="#menu-estoque"><i class="material-icons white-text">widgets</i></a><a href="#menu-sped"><i class="material-icons white-text">done_all</i></a><a href="#menu-relatorios"><i class="material-icons white-text">print</i></a><a href="#menu-configuracoes"><i class="material-icons white-text">settings</i></a></div>
+      <div class="left" style="width: 350px; padding:0 24px;">
+        <div id="menu-vendas" style="display: none">
+          <h5 class="white-text">Vendas</h5>
+          <p class="white-text">Resumo</p>
+          <p class="white-text">Orçamentos</p>
+          <p class="white-text">Pedidos de Venda</p>
+          <p class="white-text">Ordens de Serviço</p>
+          <p class="white-text">Operações PDV</p>
+          <p class="white-text">NF-e</p>
+          <p class="white-text">NFC-e</p>
+          <p class="white-text">NFS-e</p>
+        </div>
+        <div id="menu-financeiro" style="display: none">
+          <h5 class="white-text">Financeiro</h5>
+          <p class="white-text">Resumo</p>
+          <p class="white-text">Transferência entre Contas</p>
+          <p class="white-text">Contas a Pagar e Receber</p>
+          <p class="white-text">Recebimentos Cartão</p>
+          <p class="white-text">Boleto com Registro</p>
+          <p class="white-text">Remessas Geredas</p>
+          <p class="white-text">Conciliação Bancária</p>
+        </div>
+        <div id="menu-compras" style="display: none">
+          <h5 class="white-text">Compras</h5>
+          <p class="white-text">Pedidos de Compra</p>
+          <p class="white-text">Importar NF-e de Fornecedor</p>
+          <p class="white-text">NF-e de Fornecedor</p>
+          <p class="white-text">NFS-e de Fornecedor</p>
+        </div>
+        <div id="menu-transporte" style="display: none">
+          <h5 class="white-text">Transporte</h5>
+          <p class="white-text">CT-e</p>
+          <p class="white-text">CT-e de Fornecedor</p>
+          <p class="white-text">Importar CT-e de Fornecedor</p>
+          <p class="white-text">MDF-e</p>
+        </div>
+        <div id="menu-estoque" style="display: none">
+          <h5 class="white-text">Estoque</h5>
+          <p class="white-text">Controle de Estoque</p>
+          <p class="white-text">Ordens de Produção</p>
+          <p class="white-text">Consulta Estoque Terceiro por Produto</p>
+          <p class="white-text">Consulta Estoque Terceiro por Participante</p>
+        </div>
+        <div id="menu-sped" style="display: none">
+          <h5 class="white-text">SPED</h5>
+          <p class="white-text">Entradas de Energia Elétrica</p>
+          <p class="white-text">Declarações de Exportação</p>
+          <p class="white-text">Operações com Cartão Crédito/Débito</p>
+          <p class="white-text">SPED Contribuição</p>
+          <p class="white-text">SPED Fiscal</p>
+          <p class="white-text">e-CAC</p>
+        </div>
+        <div id="menu-cadastros" style="display: none">
+          <h5 class="white-text">Cadastros</h5>
+          <p class="white-text">Produtos</p>
+          <p class="white-text">Serviços</p>
+          <p class="white-text">Clientes</p>
+          <p class="white-text">Fornecedores</p>
+          <p class="white-text">Transportadores</p>
+          <p class="white-text">Motoristas</p>
+          <p class="white-text">Veículos</p>
+          <p class="white-text">Contadores</p>
+          <p class="white-text">PDVs</p>
+          <p class="white-text">Observações</p>
+          <p class="white-text">Unidades de Medida</p>
+          <p class="white-text">Naturezas de Operação</p>
+          <p class="white-text">Formas de Pagamento</p>
+          <p class="white-text">Contas Bancárias</p>
+          <p class="white-text">Categorias Financeiras</p>
+          <p class="white-text">Bandeiras de Cartão</p>
+          <p class="white-text">Vendedores</p>
+        </div>
+        <div id="menu-configuracoes" style="display: none">
+          <h5 class="white-text">Configurações</h5>
+          <p class="white-text">Transações de Saída</p>
+          <p class="white-text">Transações do PDV</p>
+          <p class="white-text">Transações de Entrada</p>
+          <p class="white-text">Personalizar Campos CT-e</p>
+          <p class="white-text">Certificado Digital</p>
+          <p class="white-text">Minha Empresa</p>
+          <p class="white-text">E-mail</p>
+          <p class="white-text">Imagem para Impressao</p>
+          <p class="white-text">Imagem para Documentos</p>
+          <p class="white-text">Fundos de Combate a Pobreza</p>
+        </div>
+        <div id="menu-relatorios" style="display: none">
+          <h5 class="white-text">Relatórios</h5>
+          <p class="white-text">Produtos</p>
+          <p class="white-text">Clientes</p>
+          <p class="white-text">Fornecedores</p>
+          <p class="white-text">Transportadores</p>
+          <p class="white-text">Contadores</p>
+          <p class="divider">&nbsp;</p>
+          <p class="white-text">Contas a Pagar</p>
+          <p class="white-text">Contas a Pagar por Categoria</p>
+          <p class="white-text">Contas a Receber</p>
+          <p class="white-text">Contas a Receber por Categoria</p>
+          <p class="white-text">Financeiro Sintético</p>
+          <p class="white-text">Detalhamento de Conta Bancária</p>
+          <p class="white-text">Quitação de Contas a Pagar e Receber</p>
+          <p class="white-text">Recebimentos Cartão</p>
+          <p class="white-text">Fluxo de Caixa</p>
+          <p class="white-text">Comissões por Conta a Receber</p>
+          <p class="white-text">Comissões por Pedido de Venda</p>
+          <p class="white-text">Comissões por NF-e</p>
+          <p class="white-text">Comissões por NFS-e</p>
+          <p class="white-text">Comissões por NFC-e</p>
+          <p class="divider">&nbsp;</p>
+          <p class="white-text">NF-e de Fornecedor</p>
+          <p class="white-text">Itens de NF-e de Fornecedor</p>
+          <p class="white-text">NFS-e de Fornecedor</p>
+          <p class="white-text">Retenções de NFS-e de Fornecedor</p>
+          <p class="divider">&nbsp;</p>
+          <p class="white-text">Produtos Mais Vendidos</p>
+          <p class="white-text">Produtos Mais Lucrativos</p>
+          <p class="white-text">Clientes Mais Fiéis</p>
+          <p class="white-text">Clientes Mais Lucrativos</p>
+          <p class="white-text">Formas de Pagamento Mais Utilizadas</p>
+          <p class="white-text">NF-e</p>
+          <p class="white-text">Itens de NF-e</p>
+          <p class="white-text">NFC-e</p>
+          <p class="white-text">Itens da NFC-e</p>
+          <p class="white-text">Itens de Pedido de Venda</p>
+          <p class="white-text">Margem de Contribuição por Itens de Pedido de Venda</p>
+          <p class="white-text">Orçamentos</p>
+          <p class="white-text">Itens de Orçamento</p>
+          <p class="white-text">Faturamento Sintético</p>
+          <p class="white-text">NFS-e</p>
+          <p class="white-text">Retenções de NFS-e</p>
+          <p class="divider">&nbsp;</p>
+          <p class="white-text">CT-e</p>
+          <p class="white-text">CT-e de Fornecedor</p>
+          <p class="divider">&nbsp;</p>
+          <p class="white-text">Estoque Próprio</p>
+          <p class="white-text">Estoque (Preço de Compra)</p>
+          <p class="white-text">Estoque de Terceiro</p>
+          <p class="white-text">Estoque em Terceiro</p>
+          <p class="white-text">Movimentação Estoque Próprio</p>
+          <p class="white-text">Movimentação Estoque de Terceiro</p>
+          <p class="white-text">Movimentação Estoque em Terceiro</p>
+          <p class="white-text">Inventário</p>
+        </div>
+      </div>
+    </div>
     <div class="title black-text truncate">
       <div class="left">Contas a pagar e receber</div>
       <div class="right"><a class="right" href="#!"><i class="material-icons black-text">add</i></a>
@@ -343,9 +488,37 @@
     	edge: 'right'
     });
     
+    $('.menu .left a').on('click', function() {
+    	$('.menu .left div').hide();
+    	$('.menu').css('transition', 'width 0.2s ease-out');
+    	$('.menu').css('width', '454px');
+    	$($(this).attr('href')).show();
+    
+    	return false;
+    });
+    
+    $('.menu .left a').on('mouseover', function() {
+    	if (!$('.menu .left div').is(':visible'))
+    		return;
+    
+    	$('.menu .left div').hide();
+    	$('.menu').css('transition', 'width 0.2s ease-out');
+    	$('.menu').css('width', '454px');
+    	$($(this).attr('href')).show();
+    
+    	return false;
+    });
+    
+    $(document).on('click', function() {
+    	$('.menu .left div').hide();
+    	$('.menu').css('transition', 'width 0.2s ease-in');
+    	$('.menu').css('width', '56px');
+    });
+    
+    
   </script>
   <style type="text/css">
-    .menu a, .menu i { display: block; height: 56px; line-height: 56px; }
+    .menu a, .menu i { display: block; width: 56px; height: 56px; line-height: 56px; }
     .menu a:hover { background-color: rgba(0,0,0,0.1) }
     .chip .material-icons.left, .chip .material-icons.right { margin: 5px 0 0 0; line-height: normal; font-size: 21px; }
     .chip { font-size: 0.8rem; }
@@ -353,7 +526,10 @@
     .background { position: absolute; top: 0; left: 0; height: 300px; width: 100%; z-index: -2; }
     .logo { height: 36px; margin: 14px; }
     nav ul li a { text-transform: uppercase; font-size: 0.8rem; font-weight: bold; }
-    .menu { position: fixed; top: 0; left: 0; height: 100%; width: 56px; border: 0px; padding-top: 120px; text-align: center; }
+    .menu { position: fixed; top: 0; left: 0; height: 100%; width: 56px; border: 0px; z-index: 999; overflow-y: auto; overflow-x: hidden }
+    .menu::-webkit-scrollbar { width: 8px; }
+    .menu::-webkit-scrollbar-track { background: none; }
+    .menu::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.2); }
     .title { font-size: 1.64rem; height:64px; line-height: 64px; }
     .title .left { }
     .title .right { }
@@ -378,5 +554,8 @@
     .controlar { display: none; }
     .chip input, .chip input:focus { width: 200px !important; margin: 0; padding: 8px; display: inline; border: none !important; font-size: 0.8rem; height: auto; box-shadow: none !important; }
     .chip input::placeholder { color: rgba(0,0,0,0.3); }
+    .label { font-size: 0.8rem; }
+    .menu .divider { background-color: rgba(0,0,0,0.2)!important; }
+    .logo-menu { position: fixed; z-index:99999; top:0; left:0; width: 100px; height:100px; border-radius: 0 0 100% 0; background-image: url(http://localhost/cdn/myrp/img/logo-myrp-colorido.png); background-position: 4px 16px; background-repeat: no-repeat; background-size: 80%; }
   </style>
 </html>
