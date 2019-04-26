@@ -16,32 +16,33 @@ html
 		script(src='../index.js')
 
 	body.grey.lighten-4
-		div.grey.lighten-3.background
+		.grey.lighten-3.background-top
+		//.grey.lighten-3.background-bottom.center
+			.btn-flat Cancelar
+			.btn.light-blue.white-text Salvar
 
-		nav.z-depth-0.transparent
-			.nav-wrapper.truncate
-				ul.left
-					li
-						img.logo(src="http://localhost/cdn/myrp/img/logo-myrp-colorido.png")
-					li.hide-on-med-and-down
-						a.black-text Nome da empresa
-					li
-						a.black-text(href='index.pug') Financeiro
-				ul.right
-					li
-						a
+		div(style="padding:24px 0")
+			.row.valign-wrapper
+				.col.s6.valign-wrapper
+					img.left.logo(src="http://localhost/cdn/myrp/img/logo-myrp-colorido.png")
+					.left
+						a.label.uppercase.b.black-text(style="margin-right: 15px") Nome da empresa
+						a.label.uppercase.b.black-text(href='index.pug', style="margin-right: 15px") Financeiro
+						.title.valign-wrapper(style='margin-top: 6px')
+							| Contas a pagar e receber
+							.btn.light-blue.white-text(style="margin: 0 12px") Adicionar
+							//.btn.light-blue.white-text(style="margin: 0 12px") Salvar
+				.col.s6
+					.right.valign-wrapper
+						a.center(style="width: 56px")
 							i.material-icons.black-text chat_bubble
-					li
-						a
+						a.center(style="width: 56px")
 							i.material-icons.black-text notifications
-					li
-						a
+						a.center(style="width: 56px")
 							i.material-icons.black-text apps
-					li
-						a
+						a.center(style="width: 56px")
 							i.material-icons.black-text help_outline
-					li
-						a
+						a.center(style="width: 56px")
 							i.material-icons.black-text account_circle
 
 		//div.logo-menu-branco
@@ -275,7 +276,7 @@ html
 					p.divider &nbsp;
 					p Transportadores
 		
-		.title.black-text.truncate
+		//.title.black-text.truncate
 			.left Contas a pagar e receber
 			.right
 				a.right(href='#!')
@@ -294,7 +295,7 @@ html
 				a Internet Banking
 
 		.row
-			.col.s8.truncate
+			//.col.s8.truncate
 				a.chip.grey.lighten-2 Hoje
 				a.chip.grey.lighten-1
 					span Neste mês
@@ -302,30 +303,30 @@ html
 				a.chip.grey.lighten-2 No próximo mês
 				a.chip.grey.lighten-2 Em aberto
 				a.chip.grey.lighten-2 Atrasadas (99)
-			.col.s4.right-align
+			//.col.s4.right-align
 				a.chip.white.z-depth-1
 					i.material-icons.left search
 					input(placeholder='Pesquise por número ou cliente')
 					i.material-icons.right keyboard_voice
-			.col.s12.m3
+			//.col.s12.m3
 				.card
 					.card-content
 						label.black-text Recebimento esperado
 						h5.truncate
 							| R$ 900,00
-			.col.s12.m3
+			//.col.s12.m3
 				.card
 					.card-content
 						label.black-text Recebido
 						h5.truncate
 							| R$ 800,00
-			.col.s12.m3
+			//.col.s12.m3
 				.card
 					.card-content
 						label.black-text Pagamento esperado
 						h5.truncate
 							| R$ 1.000,00
-			.col.s12.m3
+			//.col.s12.m3
 				.card
 					.card-content
 						label.black-text Pago
@@ -392,7 +393,7 @@ html
 									span.light-green-text + 100,00
 									span &nbsp;de "Vendas" para "Banco do Brasil"
 		
-				.card-panel
+				//.card-panel
 					h5 Timeline
 					.timeline
 						.timeline-item
@@ -452,7 +453,7 @@ html
 									span.light-green-text + 100,00
 									span &nbsp;de "Vendas" para "Banco do Brasil"
 
-				.card-panel
+				//.card-panel
 					h5 List
 					.list
 						.list-item
@@ -510,7 +511,7 @@ html
 									span.light-green-text + 100,00
 									span &nbsp;de "Vendas" para "Banco do Brasil"
 
-				.card-panel
+				//.card-panel
 					h5 List
 					.list
 						.list-item
@@ -829,14 +830,15 @@ html
 		.chip .material-icons.left, .chip .material-icons.right { margin: 5px 0 0 0; line-height: normal; font-size: 21px; }
 		.chip { font-size: 0.8rem; }
 		body { margin: 0 88px 0 144px; overflow-y: scroll; }
-		.background { position: absolute; top: 0; left: 0; height: 300px; width: 100%; z-index: -2; }
+		.background-top { position: absolute; top: 0; left: 0; height: 300px; width: 100%; z-index: -2; }
+		.background-bottom { position: fixed; bottom: 0; left: 0; height: 64px; width: 100%; z-index: 999; padding: 12px; }
 		.logo { height: 36px; margin: 14px; }
 		nav ul li a { text-transform: uppercase; font-size: 0.8rem; font-weight: bold; }
 		.menu { position: fixed; top: 0; left: 0; height: 100%; width: 56px; border: 0px; z-index: 999; overflow-y: auto; overflow-x: hidden; }
 		.menu::-webkit-scrollbar { width: 8px; }
 		.menu::-webkit-scrollbar-track { background: none; }
 		.menu::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.2); }
-		.title { font-size: 1.64rem; height:64px; line-height: 64px; }
+		.title { font-size: 1.64rem; }
 		.title .left { }
 		.title .right { }
 		.title .material-icons { width:54px; height: 64px; line-height: 64px; text-align: center; }

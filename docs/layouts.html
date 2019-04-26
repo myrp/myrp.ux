@@ -13,23 +13,27 @@
     <script src="/myrp.ux.a45f42ab.js"></script>
   <script src="/prism.09c23770.js"></script><script src="/myrp.182bdb6a.js"></script><link rel="stylesheet" href="/myrp.ux.a45f42ab.css"></head>
   <body class="grey lighten-4">
-    <div class="grey lighten-3 background"></div>
-    <nav class="z-depth-0 transparent">
-      <div class="nav-wrapper truncate">
-        <ul class="left">
-          <li><img class="logo" src="http://localhost/cdn/myrp/img/logo-myrp-colorido.png"></li>
-          <li class="hide-on-med-and-down"><a class="black-text">Nome da empresa</a></li>
-          <li><a class="black-text" href="/index.html">Financeiro</a></li>
-        </ul>
-        <ul class="right">
-          <li><a><i class="material-icons black-text">chat_bubble</i></a></li>
-          <li><a><i class="material-icons black-text">notifications</i></a></li>
-          <li><a><i class="material-icons black-text">apps</i></a></li>
-          <li><a><i class="material-icons black-text">help_outline</i></a></li>
-          <li><a><i class="material-icons black-text">account_circle</i></a></li>
-        </ul>
+    <div class="grey lighten-3 background-top"></div>
+    <!--.grey.lighten-3.background-bottom.center
+    .btn-flat Cancelar
+    .btn.light-blue.white-text Salvar
+    
+    -->
+    <div style="padding:24px 0">
+      <div class="row valign-wrapper">
+        <div class="col s6 valign-wrapper"><img class="left logo" src="http://localhost/cdn/myrp/img/logo-myrp-colorido.png">
+          <div class="left"><a class="label uppercase b black-text" style="margin-right: 15px">Nome da empresa</a><a class="label uppercase b black-text" href="/index.html" style="margin-right: 15px">Financeiro</a>
+            <div class="title valign-wrapper" style="margin-top: 6px">Contas a pagar e receber
+              <div class="btn light-blue white-text" style="margin: 0 12px">Adicionar</div>
+              <!--.btn.light-blue.white-text(style="margin: 0 12px") Salvar-->
+            </div>
+          </div>
+        </div>
+        <div class="col s6">
+          <div class="right valign-wrapper"><a class="center" style="width: 56px"><i class="material-icons black-text">chat_bubble</i></a><a class="center" style="width: 56px"><i class="material-icons black-text">notifications</i></a><a class="center" style="width: 56px"><i class="material-icons black-text">apps</i></a><a class="center" style="width: 56px"><i class="material-icons black-text">help_outline</i></a><a class="center" style="width: 56px"><i class="material-icons black-text">account_circle</i></a></div>
+        </div>
       </div>
-    </nav>
+    </div>
     <!--div.logo-menu-branco-->
     <!--div.logo-menu-preto-->
     <!--div.logo-menu-azul-->
@@ -254,13 +258,17 @@
         </div>
       </div>
     </div>
-    <div class="title black-text truncate">
-      <div class="left">Contas a pagar e receber</div>
-      <div class="right"><a class="right" href="#!"><i class="material-icons black-text">add</i></a>
-        <!--a.right(href='#!')i.material-icons.black-text refresh
-        --><a class="right" href="#!"><i class="material-icons black-text">search</i></a>
-      </div>
-    </div>
+    <!--.title.black-text.truncate
+    .left Contas a pagar e receber
+    .right
+    	a.right(href='#!')
+    		i.material-icons.black-text add
+    	//a.right(href='#!')
+    		i.material-icons.black-text refresh
+    	a.right(href='#!')
+    		i.material-icons.black-text search
+    
+    -->
     <!--ul.tabs.transparent
     li.tab 
     	a Conta
@@ -271,41 +279,49 @@
     
     -->
     <div class="row">
-      <div class="col s8 truncate"><a class="chip grey lighten-2">Hoje</a><a class="chip grey lighten-1"><span>Neste mês</span></a><a class="chip grey lighten-2">No mês passado</a><a class="chip grey lighten-2">No próximo mês</a><a class="chip grey lighten-2">Em aberto</a><a class="chip grey lighten-2">Atrasadas (99)</a></div>
-      <div class="col s4 right-align"><a class="chip white z-depth-1"><i class="material-icons left">search</i>
-          <input placeholder="Pesquise por número ou cliente"><i class="material-icons right">keyboard_voice</i></a></div>
-      <div class="col s12 m3">
-        <div class="card">
-          <div class="card-content">
-            <label class="black-text">Recebimento esperado</label>
-            <h5 class="truncate">R$ 900,00</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col s12 m3">
-        <div class="card">
-          <div class="card-content">
-            <label class="black-text">Recebido</label>
-            <h5 class="truncate">R$ 800,00</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col s12 m3">
-        <div class="card">
-          <div class="card-content">
-            <label class="black-text">Pagamento esperado</label>
-            <h5 class="truncate">R$ 1.000,00</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col s12 m3">
-        <div class="card">
-          <div class="card-content">
-            <label class="black-text">Pago</label>
-            <h5 class="truncate">R$ 300,00</h5>
-          </div>
-        </div>
-      </div>
+      <!--.col.s8.truncate
+      a.chip.grey.lighten-2 Hoje
+      a.chip.grey.lighten-1
+      	span Neste mês
+      a.chip.grey.lighten-2 No mês passado
+      a.chip.grey.lighten-2 No próximo mês
+      a.chip.grey.lighten-2 Em aberto
+      a.chip.grey.lighten-2 Atrasadas (99)
+      -->
+      <!--.col.s4.right-align
+      a.chip.white.z-depth-1
+      	i.material-icons.left search
+      	input(placeholder='Pesquise por número ou cliente')
+      	i.material-icons.right keyboard_voice
+      -->
+      <!--.col.s12.m3
+      .card
+      	.card-content
+      		label.black-text Recebimento esperado
+      		h5.truncate
+      			| R$ 900,00
+      -->
+      <!--.col.s12.m3
+      .card
+      	.card-content
+      		label.black-text Recebido
+      		h5.truncate
+      			| R$ 800,00
+      -->
+      <!--.col.s12.m3
+      .card
+      	.card-content
+      		label.black-text Pagamento esperado
+      		h5.truncate
+      			| R$ 1.000,00
+      -->
+      <!--.col.s12.m3
+      .card
+      	.card-content
+      		label.black-text Pago
+      		h5.truncate
+      			| R$ 300,00
+      -->
       <div class="col s12">
         <div class="card-panel">
           <h5>Timeline</h5>
@@ -350,131 +366,185 @@
             </div>
           </div>
         </div>
-        <div class="card-panel">
-          <h5>Timeline</h5>
-          <div class="timeline">
-            <div class="timeline-item">
-              <!--i.material-icons.grey-text check_box_outline_blank--><i class="material-icons light-blue-text">check_box</i>
-              <div class="timeline-actions"><a class="btn-flat blue-text">Baixar</a><a class="btn-flat blue-text">Renegociar</a><a class="btn-flat blue-text">Boleto</a><a class="btn-flat blue-text">Mais<i class="material-icons right">arrow_drop_down</i></a></div>
-              <div class="timeline-content valign-wrapper"><span class="uppercase" style="font-size:0.9rem; font-weight: 500;">3 selecionados</span></div>
-            </div>
-            <div class="timeline-header">
-              <div class="timeline-title">26/03</div>
-            </div>
-            <div class="timeline-item">
-              <!--i.material-icons.light-green-text check_circle--><i class="material-icons light-blue-text">check_box</i>
-              <div class="timeline-actions"><a class="btn-flat blue-text">Editar</a><a class="btn-flat blue-text dropdown-button" data-activates="dropdown1">Mais<i class="material-icons right">arrow_drop_down</i></a>
-                <ul class="dropdown-content" id="dropdown1">
-                  <li><a>Desfazer pagamento</a></li>
-                  <li><a id="button-side-nav1" href="#" data-activates="side-nav1">Renegociar</a></li>
-                  <li><a>Remover</a></li>
-                </ul>
-              </div>
-              <div class="timeline-content">
-                <div class="truncate">Primeiro cliente</div>
-                <label class="truncate"><span class="light-green-text">+ 100,00</span><span>&nbsp;de "Vendas" para "Banco do Brasil"</span></label>
-              </div>
-            </div>
-            <div class="timeline-item">
-              <!--i.material-icons.orange-text warning--><i class="material-icons light-blue-text">check_box</i>
-              <div class="timeline-actions"><a class="btn-flat blue-text">Editar</a><a class="btn-flat blue-text">Mais<i class="material-icons right">arrow_drop_down</i></a></div>
-              <div class="timeline-content">
-                <div class="truncate">Segundo cliente</div>
-                <label class="truncate"><span class="light-green-text">+ 100,00</span><span>&nbsp;de "Vendas" para "Banco do Brasil"</span></label>
-              </div>
-            </div>
-            <div class="timeline-item">
-              <!--i.material-icons.grey-text schedule--><i class="material-icons light-blue-text">check_box</i>
-              <div class="timeline-actions"><a class="btn-flat blue-text">Editar</a><a class="btn-flat blue-text">Mais<i class="material-icons right">arrow_drop_down</i></a></div>
-              <div class="timeline-content">
-                <div class="truncate">Terceiro cliente</div>
-                <label class="truncate"><span class="light-green-text">+ 100,00</span><span>&nbsp;de "Vendas" para "Banco do Brasil"</span></label>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card-panel">
-          <h5>List</h5>
-          <div class="list">
-            <div class="list-item">
-              <div class="list-actions"><a class="btn-flat grey-text">Baixar</a><a class="btn-flat grey-text">Renegociar</a><a class="btn-flat grey-text">Boleto</a><a class="btn-flat grey-text">Mais<i class="material-icons right">arrow_drop_down</i></a></div>
-              <div class="list-content"><i class="material-icons grey-text left">check_box_outline_blank</i>
-                <!--i.material-icons.light-blue-text.left check_box--><span class="uppercase left" style="font-size:0.9rem; font-weight: 500; margin-top: 10px;">Selecionar todos</span>
-              </div>
-            </div>
-            <div class="list-item">
-              <div class="list-actions"><a class="btn-flat blue-text">Editar</a><a class="btn-flat blue-text dropdown-button" data-activates="dropdown1">Mais<i class="material-icons right">arrow_drop_down</i></a>
-                <ul class="dropdown-content" id="dropdown1">
-                  <li><a>Desfazer pagamento</a></li>
-                  <li><a id="button-side-nav1" href="#" data-activates="side-nav1">Renegociar</a></li>
-                  <li><a>Remover</a></li>
-                </ul>
-              </div>
-              <div class="list-content"><i class="material-icons light-green-text left">check_circle</i>
-                <!--i.material-icons.light-blue-text.left check_box-->
-                <div class="truncate">Primeiro cliente</div>
-                <label class="truncate"><span class="light-green-text">+ 100,00</span><span>&nbsp;de "Vendas" para "Banco do Brasil"</span></label>
-              </div>
-            </div>
-            <div class="list-item">
-              <div class="list-actions"><a class="btn-flat blue-text">Editar</a><a class="btn-flat blue-text">Mais<i class="material-icons right">arrow_drop_down</i></a></div>
-              <div class="list-content"><i class="material-icons orange-text left">warning</i>
-                <!--i.material-icons.light-blue-text.left check_box-->
-                <div class="truncate">Segundo cliente</div>
-                <label class="truncate"><span class="light-green-text">+ 100,00</span><span>&nbsp;de "Vendas" para "Banco do Brasil"</span></label>
-              </div>
-            </div>
-            <div class="list-item">
-              <div class="list-actions"><a class="btn-flat blue-text">Editar</a><a class="btn-flat blue-text">Mais<i class="material-icons right">arrow_drop_down</i></a></div>
-              <div class="list-content"><i class="material-icons grey-text left">schedule</i>
-                <!--i.material-icons.light-blue-text.left check_box-->
-                <div class="truncate">Terceiro cliente</div>
-                <label class="truncate"><span class="light-green-text">+ 100,00</span><span>&nbsp;de "Vendas" para "Banco do Brasil"</span></label>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card-panel">
-          <h5>List</h5>
-          <div class="list">
-            <div class="list-item">
-              <div class="list-actions"><a class="btn-flat blue-text">Baixar</a><a class="btn-flat blue-text">Renegociar</a><a class="btn-flat blue-text">Boleto</a><a class="btn-flat blue-text">Mais<i class="material-icons right">arrow_drop_down</i></a></div>
-              <div class="list-content">
-                <!--i.material-icons.grey-text.left check_box_outline_blank--><i class="material-icons light-blue-text left">check_box</i><span class="uppercase left" style="font-size:0.9rem; font-weight: 500; margin-top: 10px;">3 selecionados</span>
-              </div>
-            </div>
-            <div class="list-item">
-              <div class="list-actions"><a class="btn-flat blue-text">Editar</a><a class="btn-flat blue-text dropdown-button" data-activates="dropdown1">Mais<i class="material-icons right">arrow_drop_down</i></a>
-                <ul class="dropdown-content" id="dropdown1">
-                  <li><a>Desfazer pagamento</a></li>
-                  <li><a id="button-side-nav1" href="#" data-activates="side-nav1">Renegociar</a></li>
-                  <li><a>Remover</a></li>
-                </ul>
-              </div>
-              <div class="list-content">
-                <!--i.material-icons.light-green-text.left check_circle--><i class="material-icons light-blue-text left">check_box</i>
-                <div class="truncate">Primeiro cliente</div>
-                <label class="truncate"><span class="light-green-text">+ 100,00</span><span>&nbsp;de "Vendas" para "Banco do Brasil"</span></label>
-              </div>
-            </div>
-            <div class="list-item">
-              <div class="list-actions"><a class="btn-flat blue-text">Editar</a><a class="btn-flat blue-text">Mais<i class="material-icons right">arrow_drop_down</i></a></div>
-              <div class="list-content">
-                <!--i.material-icons.orange-text.left warning--><i class="material-icons light-blue-text left">check_box</i>
-                <div class="truncate">Segundo cliente</div>
-                <label class="truncate"><span class="light-green-text">+ 100,00</span><span>&nbsp;de "Vendas" para "Banco do Brasil"</span></label>
-              </div>
-            </div>
-            <div class="list-item">
-              <div class="list-actions"><a class="btn-flat blue-text">Editar</a><a class="btn-flat blue-text">Mais<i class="material-icons right">arrow_drop_down</i></a></div>
-              <div class="list-content">
-                <!--i.material-icons.grey-text.left schedule--><i class="material-icons light-blue-text left">check_box</i>
-                <div class="truncate">Terceiro cliente</div>
-                <label class="truncate"><span class="light-green-text">+ 100,00</span><span>&nbsp;de "Vendas" para "Banco do Brasil"</span></label>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!--.card-panel
+        h5 Timeline
+        .timeline
+        	.timeline-item
+        		//i.material-icons.grey-text check_box_outline_blank
+        		i.material-icons.light-blue-text check_box
+        		.timeline-actions
+        			a.btn-flat.blue-text Baixar
+        			a.btn-flat.blue-text Renegociar
+        			a.btn-flat.blue-text Boleto
+        			a.btn-flat.blue-text Mais
+        				i.material-icons.right arrow_drop_down
+        		.timeline-content.valign-wrapper
+        			span.uppercase(style="font-size:0.9rem; font-weight: 500;") 3 selecionados
+        	.timeline-header
+        		.timeline-title 26/03
+        	.timeline-item
+        		//i.material-icons.light-green-text check_circle
+        		i.material-icons.light-blue-text check_box
+        		.timeline-actions
+        			a.btn-flat.blue-text Editar
+        			a.btn-flat.blue-text.dropdown-button( data-activates='dropdown1') Mais
+        				i.material-icons.right arrow_drop_down
+        			ul#dropdown1.dropdown-content
+        				li
+        					a Desfazer pagamento
+        				li
+        					a#button-side-nav1(href='#', data-activates='side-nav1') Renegociar
+        				li
+        					a Remover
+        		.timeline-content
+        			div.truncate Primeiro cliente
+        			label.truncate
+        				span.light-green-text + 100,00
+        				span &nbsp;de "Vendas" para "Banco do Brasil"
+        	.timeline-item
+        		//i.material-icons.orange-text warning
+        		i.material-icons.light-blue-text check_box
+        		.timeline-actions
+        			a.btn-flat.blue-text Editar
+        			a.btn-flat.blue-text Mais
+        				i.material-icons.right arrow_drop_down
+        		.timeline-content
+        			div.truncate Segundo cliente
+        			label.truncate
+        				span.light-green-text + 100,00
+        				span &nbsp;de "Vendas" para "Banco do Brasil"
+        	.timeline-item
+        		//i.material-icons.grey-text schedule
+        		i.material-icons.light-blue-text check_box
+        		.timeline-actions
+        			a.btn-flat.blue-text Editar
+        			a.btn-flat.blue-text Mais
+        				i.material-icons.right arrow_drop_down
+        		.timeline-content
+        			div.truncate Terceiro cliente
+        			label.truncate
+        				span.light-green-text + 100,00
+        				span &nbsp;de "Vendas" para "Banco do Brasil"
+        
+        -->
+        <!--.card-panel
+        h5 List
+        .list
+        	.list-item
+        		.list-actions
+        			a.btn-flat.grey-text Baixar
+        			a.btn-flat.grey-text Renegociar
+        			a.btn-flat.grey-text Boleto
+        			a.btn-flat.grey-text Mais
+        				i.material-icons.right arrow_drop_down
+        		.list-content
+        			i.material-icons.grey-text.left check_box_outline_blank
+        			//i.material-icons.light-blue-text.left check_box
+        			span.uppercase.left(style="font-size:0.9rem; font-weight: 500; margin-top: 10px;") Selecionar todos
+        	.list-item
+        		.list-actions
+        			a.btn-flat.blue-text Editar
+        			a.btn-flat.blue-text.dropdown-button( data-activates='dropdown1') Mais
+        				i.material-icons.right arrow_drop_down
+        			ul#dropdown1.dropdown-content
+        				li
+        					a Desfazer pagamento
+        				li
+        					a#button-side-nav1(href='#', data-activates='side-nav1') Renegociar
+        				li
+        					a Remover
+        		.list-content
+        			i.material-icons.light-green-text.left check_circle
+        			//i.material-icons.light-blue-text.left check_box
+        			div.truncate Primeiro cliente
+        			label.truncate
+        				span.light-green-text + 100,00
+        				span &nbsp;de "Vendas" para "Banco do Brasil"
+        	.list-item
+        		.list-actions
+        			a.btn-flat.blue-text Editar
+        			a.btn-flat.blue-text Mais
+        				i.material-icons.right arrow_drop_down
+        		.list-content
+        			i.material-icons.orange-text.left warning
+        			//i.material-icons.light-blue-text.left check_box
+        			div.truncate Segundo cliente
+        			label.truncate
+        				span.light-green-text + 100,00
+        				span &nbsp;de "Vendas" para "Banco do Brasil"
+        	.list-item
+        		.list-actions
+        			a.btn-flat.blue-text Editar
+        			a.btn-flat.blue-text Mais
+        				i.material-icons.right arrow_drop_down
+        		.list-content
+        			i.material-icons.grey-text.left schedule
+        			//i.material-icons.light-blue-text.left check_box
+        			div.truncate Terceiro cliente
+        			label.truncate
+        				span.light-green-text + 100,00
+        				span &nbsp;de "Vendas" para "Banco do Brasil"
+        
+        -->
+        <!--.card-panel
+        h5 List
+        .list
+        	.list-item
+        		.list-actions
+        			a.btn-flat.blue-text Baixar
+        			a.btn-flat.blue-text Renegociar
+        			a.btn-flat.blue-text Boleto
+        			a.btn-flat.blue-text Mais
+        				i.material-icons.right arrow_drop_down
+        		.list-content
+        			//i.material-icons.grey-text.left check_box_outline_blank
+        			i.material-icons.light-blue-text.left check_box
+        			span.uppercase.left(style="font-size:0.9rem; font-weight: 500; margin-top: 10px;") 3 selecionados
+        	.list-item
+        		.list-actions
+        			a.btn-flat.blue-text Editar
+        			a.btn-flat.blue-text.dropdown-button( data-activates='dropdown1') Mais
+        				i.material-icons.right arrow_drop_down
+        			ul#dropdown1.dropdown-content
+        				li
+        					a Desfazer pagamento
+        				li
+        					a#button-side-nav1(href='#', data-activates='side-nav1') Renegociar
+        				li
+        					a Remover
+        		.list-content
+        			//i.material-icons.light-green-text.left check_circle
+        			i.material-icons.light-blue-text.left check_box
+        			div.truncate Primeiro cliente
+        			label.truncate
+        				span.light-green-text + 100,00
+        				span &nbsp;de "Vendas" para "Banco do Brasil"
+        	.list-item
+        		.list-actions
+        			a.btn-flat.blue-text Editar
+        			a.btn-flat.blue-text Mais
+        				i.material-icons.right arrow_drop_down
+        		.list-content
+        			//i.material-icons.orange-text.left warning
+        			i.material-icons.light-blue-text.left check_box
+        			div.truncate Segundo cliente
+        			label.truncate
+        				span.light-green-text + 100,00
+        				span &nbsp;de "Vendas" para "Banco do Brasil"
+        	.list-item
+        		.list-actions
+        			a.btn-flat.blue-text Editar
+        			a.btn-flat.blue-text Mais
+        				i.material-icons.right arrow_drop_down
+        		.list-content
+        			//i.material-icons.grey-text.left schedule
+        			i.material-icons.light-blue-text.left check_box
+        			div.truncate Terceiro cliente
+        			label.truncate
+        				span.light-green-text + 100,00
+        				span &nbsp;de "Vendas" para "Banco do Brasil"
+        
+        -->
         <!--.card-panel
         table.bordered
         	thead
@@ -748,14 +818,15 @@
     .chip .material-icons.left, .chip .material-icons.right { margin: 5px 0 0 0; line-height: normal; font-size: 21px; }
     .chip { font-size: 0.8rem; }
     body { margin: 0 88px 0 144px; overflow-y: scroll; }
-    .background { position: absolute; top: 0; left: 0; height: 300px; width: 100%; z-index: -2; }
+    .background-top { position: absolute; top: 0; left: 0; height: 300px; width: 100%; z-index: -2; }
+    .background-bottom { position: fixed; bottom: 0; left: 0; height: 64px; width: 100%; z-index: 999; padding: 12px; }
     .logo { height: 36px; margin: 14px; }
     nav ul li a { text-transform: uppercase; font-size: 0.8rem; font-weight: bold; }
     .menu { position: fixed; top: 0; left: 0; height: 100%; width: 56px; border: 0px; z-index: 999; overflow-y: auto; overflow-x: hidden; }
     .menu::-webkit-scrollbar { width: 8px; }
     .menu::-webkit-scrollbar-track { background: none; }
     .menu::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.2); }
-    .title { font-size: 1.64rem; height:64px; line-height: 64px; }
+    .title { font-size: 1.64rem; }
     .title .left { }
     .title .right { }
     .title .material-icons { width:54px; height: 64px; line-height: 64px; text-align: center; }
