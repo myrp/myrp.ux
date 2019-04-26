@@ -44,166 +44,236 @@ html
 						a
 							i.material-icons.black-text account_circle
 
-		//div.logo-menu.white
+		//div.logo-menu-branco
+		//div.logo-menu-preto
+		//div.logo-menu-azul
 
-		div.z-depth-1.menu.light-blue(style="width: 56px")
+		div.z-depth-1.menu.light-blue.white-text
+			#busca.center(style="opacity: 0; height: 64px; padding: 0 24px")
+				img.logo(src="http://localhost/cdn/myrp/img/logo-myrp-branco.png")
+				//.chip.white.z-depth-1
+					i.material-icons.left(style="width: auto") search
+					input(placeholder='O que você procura?')
+					i.material-icons.right(style="width: auto") keyboard_voice
 			.left.center(style="width: 56px")
 				a(href='#menu-cadastros')
-					i.material-icons.white-text home
+					i.material-icons home
 				a(href='#menu-financeiro')
-					i.material-icons.white-text attach_money
+					i.material-icons attach_money
 				a(href='#menu-compras')
-					i.material-icons.white-text shopping_cart
+					i.material-icons shopping_cart
 				a(href='#menu-vendas')
-					i.material-icons.white-text local_offer
+					i.material-icons local_offer
 				a(href='#menu-transporte')
-					i.material-icons.white-text local_shipping
+					i.material-icons local_shipping
 				a(href='#menu-estoque')
-					i.material-icons.white-text widgets
+					i.material-icons widgets
 				a(href='#menu-sped')
-					i.material-icons.white-text done_all
+					i.material-icons done_all
 				a(href='#menu-relatorios')
-					i.material-icons.white-text print
+					i.material-icons print
 				a(href='#menu-configuracoes')
-					i.material-icons.white-text settings
-			.left(style="width: 350px; padding:0 24px;")
+					i.material-icons settings
+			.left(style="width: 246px; padding:0 24px;")
 				#menu-vendas(style="display: none")
-					h5.white-text Vendas
-					p.white-text Resumo
-					p.white-text Orçamentos
-					p.white-text Pedidos de Venda
-					p.white-text Ordens de Serviço
-					p.white-text Operações PDV
-					p.white-text NF-e
-					p.white-text NFC-e
-					p.white-text NFS-e
+					h5 Vendas
+					p Resumo
+					p Orçamentos
+					p Pedidos de Venda
+					p Ordens de Serviço
+					p Operações PDV
+					p NF-e
+					p NFC-e
+					p NFS-e
 				#menu-financeiro(style="display: none")
-					h5.white-text Financeiro
-					p.white-text Resumo
-					p.white-text Transferência entre Contas
-					p.white-text Contas a Pagar e Receber
-					p.white-text Recebimentos Cartão
-					p.white-text Boleto com Registro
-					p.white-text Remessas Geredas
-					p.white-text Conciliação Bancária
+					h5 Financeiro
+					p Resumo
+					p Transferência entre Contas
+					p Contas a Pagar e Receber
+					p Recebimentos Cartão
+					p Boleto com Registro
+					p Remessas Geredas
+					p Conciliação Bancária
 				#menu-compras(style="display: none")
-					h5.white-text Compras
-					p.white-text Pedidos de Compra
-					p.white-text Importar NF-e de Fornecedor
-					p.white-text NF-e de Fornecedor
-					p.white-text NFS-e de Fornecedor
+					h5 Compras
+					p Pedidos de Compra
+					p Importar NF-e de Fornecedor
+					p NF-e de Fornecedor
+					p NFS-e de Fornecedor
 				#menu-transporte(style="display: none")
-					h5.white-text Transporte
-					p.white-text CT-e
-					p.white-text CT-e de Fornecedor
-					p.white-text Importar CT-e de Fornecedor
-					p.white-text MDF-e
+					h5 Transporte
+					p CT-e
+					p CT-e de Fornecedor
+					p Importar CT-e de Fornecedor
+					p MDF-e
 				#menu-estoque(style="display: none")
-					h5.white-text Estoque
-					p.white-text Controle de Estoque
-					p.white-text Ordens de Produção
-					p.white-text Consulta Estoque Terceiro por Produto
-					p.white-text Consulta Estoque Terceiro por Participante
+					h5 Estoque
+					p Controle de Estoque
+					p Ordens de Produção
+					p Consulta Estoque Terceiro por Produto
+					p Consulta Estoque Terceiro por Participante
 				#menu-sped(style="display: none")
-					h5.white-text SPED
-					p.white-text Entradas de Energia Elétrica
-					p.white-text Declarações de Exportação
-					p.white-text Operações com Cartão Crédito/Débito
-					p.white-text SPED Contribuição
-					p.white-text SPED Fiscal
-					p.white-text e-CAC
+					h5 SPED
+					p Entradas de Energia Elétrica
+					p Declarações de Exportação
+					p Operações com Cartão Crédito/Débito
+					p SPED Contribuição
+					p SPED Fiscal
+					p e-CAC
 				#menu-cadastros(style="display: none")
-					h5.white-text Cadastros
-					p.white-text Produtos
-					p.white-text Serviços
-					p.white-text Clientes
-					p.white-text Fornecedores
-					p.white-text Transportadores
-					p.white-text Motoristas
-					p.white-text Veículos
-					p.white-text Contadores
-					p.white-text PDVs
-					p.white-text Observações
-					p.white-text Unidades de Medida
-					p.white-text Naturezas de Operação
-					p.white-text Formas de Pagamento
-					p.white-text Contas Bancárias
-					p.white-text Categorias Financeiras
-					p.white-text Bandeiras de Cartão
-					p.white-text Vendedores
+					h5 Cadastros
+					p Produtos
+					p Serviços
+					p Clientes
+					p Fornecedores
+					p Transportadores
+					p Motoristas
+					p Veículos
+					p Contadores
+					p PDVs
+					p Observações
+					p Unidades de Medida
+					p Naturezas de Operação
+					p Formas de Pagamento
+					p Contas Bancárias
+					p Categorias Financeiras
+					p Bandeiras de Cartão
+					p Vendedores
 				#menu-configuracoes(style="display: none")
-					h5.white-text Configurações
-					p.white-text Transações de Saída
-					p.white-text Transações do PDV
-					p.white-text Transações de Entrada
-					p.white-text Personalizar Campos CT-e
-					p.white-text Certificado Digital
-					p.white-text Minha Empresa
-					p.white-text E-mail
-					p.white-text Imagem para Impressao
-					p.white-text Imagem para Documentos
-					p.white-text Fundos de Combate a Pobreza
-				#menu-relatorios(style="display: none")
-					h5.white-text Relatórios
-					p.white-text Produtos
-					p.white-text Clientes
-					p.white-text Fornecedores
-					p.white-text Transportadores
-					p.white-text Contadores
+					h5 Configurações
+					p Transações de Saída
+					p Transações do PDV
+					p Transações de Entrada
+					p Personalizar Campos CT-e
+					p Certificado Digital
+					p Minha Empresa
+					p E-mail
+					p Imagem para Impressao
+					p Imagem para Documentos
+					p Fundos de Combate a Pobreza
+				//#menu-relatorios(style="display: none")
+					h5 Relatórios
+					p Produtos
+					p Clientes
+					p Fornecedores
+					p Transportadores
+					p Contadores
 
 					p.divider &nbsp;
-					p.white-text Contas a Pagar
-					p.white-text Contas a Pagar por Categoria
-					p.white-text Contas a Receber
-					p.white-text Contas a Receber por Categoria
-					p.white-text Financeiro Sintético
-					p.white-text Detalhamento de Conta Bancária
-					p.white-text Quitação de Contas a Pagar e Receber
-					p.white-text Recebimentos Cartão
-					p.white-text Fluxo de Caixa
-					p.white-text Comissões por Conta a Receber
-					p.white-text Comissões por Pedido de Venda
-					p.white-text Comissões por NF-e
-					p.white-text Comissões por NFS-e
-					p.white-text Comissões por NFC-e
+					p Contas a Pagar
+					p Contas a Pagar por Categoria
+					p Contas a Receber
+					p Contas a Receber por Categoria
+					p Financeiro Sintético
+					p Detalhamento de Conta Bancária
+					p Quitação de Contas a Pagar e Receber
+					p Recebimentos Cartão
+					p Fluxo de Caixa
+					p Comissões por Conta a Receber
+					p Comissões por Pedido de Venda
+					p Comissões por NF-e
+					p Comissões por NFS-e
+					p Comissões por NFC-e
 					
 					p.divider &nbsp;
-					p.white-text NF-e de Fornecedor
-					p.white-text Itens de NF-e de Fornecedor
-					p.white-text NFS-e de Fornecedor
-					p.white-text Retenções de NFS-e de Fornecedor
+					p NF-e de Fornecedor
+					p Itens de NF-e de Fornecedor
+					p NFS-e de Fornecedor
+					p Retenções de NFS-e de Fornecedor
 
 					p.divider &nbsp;
-					p.white-text Produtos Mais Vendidos
-					p.white-text Produtos Mais Lucrativos
-					p.white-text Clientes Mais Fiéis
-					p.white-text Clientes Mais Lucrativos
-					p.white-text Formas de Pagamento Mais Utilizadas
-					p.white-text NF-e
-					p.white-text Itens de NF-e
-					p.white-text NFC-e
-					p.white-text Itens da NFC-e
-					p.white-text Itens de Pedido de Venda
-					p.white-text Margem de Contribuição por Itens de Pedido de Venda
-					p.white-text Orçamentos
-					p.white-text Itens de Orçamento
-					p.white-text Faturamento Sintético
-					p.white-text NFS-e
-					p.white-text Retenções de NFS-e
+					p Produtos Mais Vendidos
+					p Produtos Mais Lucrativos
+					p Clientes Mais Fiéis
+					p Clientes Mais Lucrativos
+					p Formas de Pagamento Mais Utilizadas
+					p NF-e
+					p Itens de NF-e
+					p NFC-e
+					p Itens da NFC-e
+					p Itens de Pedido de Venda
+					p Margem de Contribuição por Itens de Pedido de Venda
+					p Orçamentos
+					p Itens de Orçamento
+					p Faturamento Sintético
+					p NFS-e
+					p Retenções de NFS-e
 
 					p.divider &nbsp;
-					p.white-text CT-e
-					p.white-text CT-e de Fornecedor
+					p CT-e
+					p CT-e de Fornecedor
 
 					p.divider &nbsp;
-					p.white-text Estoque Próprio
-					p.white-text Estoque (Preço de Compra)
-					p.white-text Estoque de Terceiro
-					p.white-text Estoque em Terceiro
-					p.white-text Movimentação Estoque Próprio
-					p.white-text Movimentação Estoque de Terceiro
-					p.white-text Movimentação Estoque em Terceiro
-					p.white-text Inventário
+					p Estoque Próprio
+					p Estoque (Preço de Compra)
+					p Estoque de Terceiro
+					p Estoque em Terceiro
+					p Movimentação Estoque Próprio
+					p Movimentação Estoque de Terceiro
+					p Movimentação Estoque em Terceiro
+					p Inventário
+				#menu-relatorios(style="display: none")
+					h5 Relatórios
+					p Clientes
+					p Clientes Mais Fiéis
+					p Clientes Mais Lucrativos
+					p Comissões por Conta a Receber
+					p Comissões por Pedido de Venda
+					p Comissões por NF-e
+					p Comissões por NFS-e
+					p Comissões por NFC-e
+					p Contadores
+					p Contas a Pagar
+					p Contas a Pagar por Categoria
+					p Contas a Receber
+					p Contas a Receber por Categoria
+					p CT-e
+					p CT-e de Fornecedor
+					p.divider &nbsp;
+					p Detalhamento de Conta Bancária
+					p.divider &nbsp;
+					p Estoque Próprio
+					p Estoque (Preço de Compra)
+					p Estoque de Terceiro
+					p Estoque em Terceiro
+					p.divider &nbsp;
+					p Faturamento Sintético
+					p Financeiro Sintético
+					p Fluxo de Caixa
+					p Formas de Pagamento Mais Utilizadas
+					p Fornecedores
+					p.divider &nbsp;
+					p Inventário
+					p Itens de NF-e
+					p Itens de NF-e de Fornecedor
+					p Itens da NFC-e
+					p Itens de Orçamento
+					p Itens de Pedido de Venda
+					p.divider &nbsp;
+					p Margem de Contribuição por Itens de Pedido de Venda
+					p Movimentação Estoque Próprio
+					p Movimentação Estoque de Terceiro
+					p Movimentação Estoque em Terceiro
+					p.divider &nbsp;
+					p NF-e
+					p NF-e de Fornecedor
+					p NFC-e
+					p NFS-e
+					p NFS-e de Fornecedor
+					p.divider &nbsp;
+					p Orçamentos
+					p.divider &nbsp;
+					p Produtos
+					p Produtos Mais Lucrativos
+					p Produtos Mais Vendidos
+					p.divider &nbsp;
+					p Quitação de Contas a Pagar e Receber
+					p.divider &nbsp;
+					p Recebimentos Cartão
+					p Retenções de NFS-e
+					p Retenções de NFS-e de Fornecedor
+					p.divider &nbsp;
+					p Transportadores
 		
 		.title.black-text.truncate
 			.left Contas a pagar e receber
@@ -263,12 +333,24 @@ html
 							| R$ 300,00
 			.col.s12
 				.card-panel
-					h5 Vencimentos
+					h5 Timeline
 					.timeline
+						.timeline-item
+							i.material-icons.grey-text check_box_outline_blank
+							//i.material-icons.light-blue-text check_box
+							.timeline-actions
+								a.btn-flat.grey-text Baixar
+								a.btn-flat.grey-text Renegociar
+								a.btn-flat.grey-text Boleto
+								a.btn-flat.grey-text Mais
+									i.material-icons.right arrow_drop_down
+							.timeline-content.valign-wrapper
+								span.uppercase(style="font-size:0.9rem; font-weight: 500;") Selecionar todos
 						.timeline-header
 							.timeline-title 26/03
 						.timeline-item
 							i.material-icons.light-green-text check_circle
+							//i.material-icons.light-blue-text check_box
 							.timeline-actions
 								a.btn-flat.blue-text Editar
 								a.btn-flat.blue-text.dropdown-button( data-activates='dropdown1') Mais
@@ -284,9 +366,10 @@ html
 								div.truncate Primeiro cliente
 								label.truncate
 									span.light-green-text + 100,00
-									span  | Vendas | Banco do Brasil
+									span &nbsp;de "Vendas" para "Banco do Brasil"
 						.timeline-item
 							i.material-icons.orange-text warning
+							//i.material-icons.light-blue-text check_box
 							.timeline-actions
 								a.btn-flat.blue-text Editar
 								a.btn-flat.blue-text Mais
@@ -295,9 +378,10 @@ html
 								div.truncate Segundo cliente
 								label.truncate
 									span.light-green-text + 100,00
-									span  | Vendas | Banco do Brasil
+									span &nbsp;de "Vendas" para "Banco do Brasil"
 						.timeline-item
 							i.material-icons.grey-text schedule
+							//i.material-icons.light-blue-text check_box
 							.timeline-actions
 								a.btn-flat.blue-text Editar
 								a.btn-flat.blue-text Mais
@@ -306,8 +390,184 @@ html
 								div.truncate Terceiro cliente
 								label.truncate
 									span.light-green-text + 100,00
-									span  | Vendas | Banco do Brasil
+									span &nbsp;de "Vendas" para "Banco do Brasil"
 		
+				.card-panel
+					h5 Timeline
+					.timeline
+						.timeline-item
+							//i.material-icons.grey-text check_box_outline_blank
+							i.material-icons.light-blue-text check_box
+							.timeline-actions
+								a.btn-flat.blue-text Baixar
+								a.btn-flat.blue-text Renegociar
+								a.btn-flat.blue-text Boleto
+								a.btn-flat.blue-text Mais
+									i.material-icons.right arrow_drop_down
+							.timeline-content.valign-wrapper
+								span.uppercase(style="font-size:0.9rem; font-weight: 500;") 3 selecionados
+						.timeline-header
+							.timeline-title 26/03
+						.timeline-item
+							//i.material-icons.light-green-text check_circle
+							i.material-icons.light-blue-text check_box
+							.timeline-actions
+								a.btn-flat.blue-text Editar
+								a.btn-flat.blue-text.dropdown-button( data-activates='dropdown1') Mais
+									i.material-icons.right arrow_drop_down
+								ul#dropdown1.dropdown-content
+									li
+										a Desfazer pagamento
+									li
+										a#button-side-nav1(href='#', data-activates='side-nav1') Renegociar
+									li
+										a Remover
+							.timeline-content
+								div.truncate Primeiro cliente
+								label.truncate
+									span.light-green-text + 100,00
+									span &nbsp;de "Vendas" para "Banco do Brasil"
+						.timeline-item
+							//i.material-icons.orange-text warning
+							i.material-icons.light-blue-text check_box
+							.timeline-actions
+								a.btn-flat.blue-text Editar
+								a.btn-flat.blue-text Mais
+									i.material-icons.right arrow_drop_down
+							.timeline-content
+								div.truncate Segundo cliente
+								label.truncate
+									span.light-green-text + 100,00
+									span &nbsp;de "Vendas" para "Banco do Brasil"
+						.timeline-item
+							//i.material-icons.grey-text schedule
+							i.material-icons.light-blue-text check_box
+							.timeline-actions
+								a.btn-flat.blue-text Editar
+								a.btn-flat.blue-text Mais
+									i.material-icons.right arrow_drop_down
+							.timeline-content
+								div.truncate Terceiro cliente
+								label.truncate
+									span.light-green-text + 100,00
+									span &nbsp;de "Vendas" para "Banco do Brasil"
+
+				.card-panel
+					h5 List
+					.list
+						.list-item
+							.list-actions
+								a.btn-flat.grey-text Baixar
+								a.btn-flat.grey-text Renegociar
+								a.btn-flat.grey-text Boleto
+								a.btn-flat.grey-text Mais
+									i.material-icons.right arrow_drop_down
+							.list-content
+								i.material-icons.grey-text.left check_box_outline_blank
+								//i.material-icons.light-blue-text.left check_box
+								span.uppercase.left(style="font-size:0.9rem; font-weight: 500; margin-top: 10px;") Selecionar todos
+						.list-item
+							.list-actions
+								a.btn-flat.blue-text Editar
+								a.btn-flat.blue-text.dropdown-button( data-activates='dropdown1') Mais
+									i.material-icons.right arrow_drop_down
+								ul#dropdown1.dropdown-content
+									li
+										a Desfazer pagamento
+									li
+										a#button-side-nav1(href='#', data-activates='side-nav1') Renegociar
+									li
+										a Remover
+							.list-content
+								i.material-icons.light-green-text.left check_circle
+								//i.material-icons.light-blue-text.left check_box
+								div.truncate Primeiro cliente
+								label.truncate
+									span.light-green-text + 100,00
+									span &nbsp;de "Vendas" para "Banco do Brasil"
+						.list-item
+							.list-actions
+								a.btn-flat.blue-text Editar
+								a.btn-flat.blue-text Mais
+									i.material-icons.right arrow_drop_down
+							.list-content
+								i.material-icons.orange-text.left warning
+								//i.material-icons.light-blue-text.left check_box
+								div.truncate Segundo cliente
+								label.truncate
+									span.light-green-text + 100,00
+									span &nbsp;de "Vendas" para "Banco do Brasil"
+						.list-item
+							.list-actions
+								a.btn-flat.blue-text Editar
+								a.btn-flat.blue-text Mais
+									i.material-icons.right arrow_drop_down
+							.list-content
+								i.material-icons.grey-text.left schedule
+								//i.material-icons.light-blue-text.left check_box
+								div.truncate Terceiro cliente
+								label.truncate
+									span.light-green-text + 100,00
+									span &nbsp;de "Vendas" para "Banco do Brasil"
+
+				.card-panel
+					h5 List
+					.list
+						.list-item
+							.list-actions
+								a.btn-flat.blue-text Baixar
+								a.btn-flat.blue-text Renegociar
+								a.btn-flat.blue-text Boleto
+								a.btn-flat.blue-text Mais
+									i.material-icons.right arrow_drop_down
+							.list-content
+								//i.material-icons.grey-text.left check_box_outline_blank
+								i.material-icons.light-blue-text.left check_box
+								span.uppercase.left(style="font-size:0.9rem; font-weight: 500; margin-top: 10px;") 3 selecionados
+						.list-item
+							.list-actions
+								a.btn-flat.blue-text Editar
+								a.btn-flat.blue-text.dropdown-button( data-activates='dropdown1') Mais
+									i.material-icons.right arrow_drop_down
+								ul#dropdown1.dropdown-content
+									li
+										a Desfazer pagamento
+									li
+										a#button-side-nav1(href='#', data-activates='side-nav1') Renegociar
+									li
+										a Remover
+							.list-content
+								//i.material-icons.light-green-text.left check_circle
+								i.material-icons.light-blue-text.left check_box
+								div.truncate Primeiro cliente
+								label.truncate
+									span.light-green-text + 100,00
+									span &nbsp;de "Vendas" para "Banco do Brasil"
+						.list-item
+							.list-actions
+								a.btn-flat.blue-text Editar
+								a.btn-flat.blue-text Mais
+									i.material-icons.right arrow_drop_down
+							.list-content
+								//i.material-icons.orange-text.left warning
+								i.material-icons.light-blue-text.left check_box
+								div.truncate Segundo cliente
+								label.truncate
+									span.light-green-text + 100,00
+									span &nbsp;de "Vendas" para "Banco do Brasil"
+						.list-item
+							.list-actions
+								a.btn-flat.blue-text Editar
+								a.btn-flat.blue-text Mais
+									i.material-icons.right arrow_drop_down
+							.list-content
+								//i.material-icons.grey-text.left schedule
+								i.material-icons.light-blue-text.left check_box
+								div.truncate Terceiro cliente
+								label.truncate
+									span.light-green-text + 100,00
+									span &nbsp;de "Vendas" para "Banco do Brasil"
+
 				//.card-panel
 					table.bordered
 						thead
@@ -521,9 +781,15 @@ html
 		});
 
 		$('.menu .left a').on('click', function() {
+			$('#busca').css('opacity', 1);
 			$('.menu .left div').hide();
-			$('.menu').css('transition', 'width 0.2s ease-out');
-			$('.menu').css('width', '454px');
+			$('.menu').css('transition', 'all 0.2s ease-out');
+			$('.menu').css('width', '350px');
+			//$('.menu').css('opacity', 0.9);
+			$('.menu').css('background-color', '#ffffff!important');
+			$('.logo-menu-branco, .logo-menu-preto').css('transition', 'all 0.2s ease-out');
+			$('.logo-menu-branco, .logo-menu-preto').css('transform', 'scale(0)');
+
 			$($(this).attr('href')).show();
 
 			return false;
@@ -533,23 +799,32 @@ html
 			if (!$('.menu .left div').is(':visible'))
 				return;
 
+			$('#busca').css('opacity', 1);
 			$('.menu .left div').hide();
-			$('.menu').css('transition', 'width 0.2s ease-out');
-			$('.menu').css('width', '454px');
+			$('.menu').css('transition', 'all 0.2s ease-out');
+			$('.menu').css('width', '350px');
+			//$('.menu').css('opacity', 0.9);
+			$('.menu').css('background-color', '#ffffff!important');
+			$('.logo-menu-branco, .logo-menu-preto').css('transition', 'all 0.2s ease-out');
+			$('.logo-menu-branco, .logo-menu-preto').css('transform', 'scale(0)');
+
 			$($(this).attr('href')).show();
 
 			return false;
 		});
 
 		$(document).on('click', function() {
+			$('#busca').css('opacity', 0);
 			$('.menu .left div').hide();
-			$('.menu').css('transition', 'width 0.2s ease-in');
+			$('.menu').css('transition', 'all 0.2s ease-in');
 			$('.menu').css('width', '56px');
+			$('.menu').css('opacity', 1);
+			$('.logo-menu-branco, .logo-menu-preto').css('transition', 'all 0.2s ease-out');
+			$('.logo-menu-branco, .logo-menu-preto').css('transform', 'scale(1)');
 		});
 
-		
 	style(type='text/css').
-		.menu a, .menu i { display: block; width: 56px; height: 56px; line-height: 56px; }
+		.menu a, .menu i { display: block; width: 56px; height: 56px; line-height: 56px; color: inherit; }
 		.menu a:hover { background-color: rgba(0,0,0,0.1) }
 		.chip .material-icons.left, .chip .material-icons.right { margin: 5px 0 0 0; line-height: normal; font-size: 21px; }
 		.chip { font-size: 0.8rem; }
@@ -557,7 +832,7 @@ html
 		.background { position: absolute; top: 0; left: 0; height: 300px; width: 100%; z-index: -2; }
 		.logo { height: 36px; margin: 14px; }
 		nav ul li a { text-transform: uppercase; font-size: 0.8rem; font-weight: bold; }
-		.menu { position: fixed; top: 0; left: 0; height: 100%; width: 56px; border: 0px; z-index: 999; overflow-y: auto; overflow-x: hidden }
+		.menu { position: fixed; top: 0; left: 0; height: 100%; width: 56px; border: 0px; z-index: 999; overflow-y: auto; overflow-x: hidden; }
 		.menu::-webkit-scrollbar { width: 8px; }
 		.menu::-webkit-scrollbar-track { background: none; }
 		.menu::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.2); }
@@ -587,4 +862,7 @@ html
 		.chip input::placeholder { color: rgba(0,0,0,0.3); }
 		.label { font-size: 0.8rem; }
 		.menu .divider { background-color: rgba(0,0,0,0.2)!important; }
-		.logo-menu { position: fixed; z-index:99999; top:0; left:0; width: 100px; height:100px; border-radius: 0 0 100% 0; background-image: url(http://localhost/cdn/myrp/img/logo-myrp-colorido.png); background-position: 4px 16px; background-repeat: no-repeat; background-size: 80%; }
+		.logo-menu-branco { position: fixed; z-index:99999; top:0; left:16px; width: 80px; height:80px; border-radius: 50%; background-image: url(http://localhost/cdn/myrp/img/logo-myrp-colorido.png); background-position: center; background-repeat: no-repeat; background-size: 80%; background-color: rgba(255,255,255,0.9); }
+		.logo-menu-preto { position: fixed; z-index:99999; top:0; left:16px; width: 80px; height:80px; border-radius: 50%; background-image: url(http://localhost/cdn/myrp/img/logo-myrp-branco.png); background-position: center; background-repeat: no-repeat; background-size: 80%; background-color: rgba(0,0,0,0.3); }
+		.logo-menu-azul { position: fixed; z-index:99999; top:0; left:16px; width: 80px; height:80px; border-radius: 50%; background-image: url(http://localhost/cdn/myrp/img/logo-myrp-branco.png); background-position: center; background-repeat: no-repeat; background-size: 80%; background-color: rgba(3, 169, 244, 0.3); }
+		.timeline .timeline-title { font-size: 0.9rem; font-weight: 500; }
