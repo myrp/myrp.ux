@@ -21,30 +21,33 @@ html
 			.btn-flat Cancelar
 			.btn.light-blue.white-text Salvar
 
-		div(style="padding:24px 0")
+		#top(style="padding:24px 0")
 			.row.valign-wrapper
 				.col.s6.valign-wrapper
-					img.left.logo(src="http://localhost/cdn/myrp/img/logo-myrp-colorido.png")
+					img#logo.left.logo(src="http://localhost/cdn/myrp/img/logo-myrp-colorido.png")
 					.left
-						a.label.uppercase.b.black-text(style="margin-right: 15px") Nome da empresa
-						a.label.uppercase.b.black-text(href='index.pug', style="margin-right: 15px") Financeiro
+						a#empresa.label.uppercase.b.black-text(style="margin-right: 15px") Nome da empresa
+						a#modulo.label.uppercase.b.black-text(href='index.pug', style="margin-right: 15px") Financeiro
 						.title.valign-wrapper(style='margin-top: 6px')
 							| Contas a pagar e receber
 							.btn.light-blue.white-text(style="margin: 0 12px") Adicionar
 							//.btn.light-blue.white-text(style="margin: 0 12px") Salvar
 				.col.s6
-					.right.valign-wrapper
-						a.center(style="width: 56px")
+					.right.valign-wrapper#icons-1
+						a#chat.center(style="width: 56px")
 							i.material-icons.black-text chat_bubble
-						a.center(style="width: 56px")
+						a#notifications.center(style="width: 56px")
 							i.material-icons.black-text notifications
-						a.center(style="width: 56px")
+						a#apps.center(style="width: 56px")
 							i.material-icons.black-text apps
-						a.center(style="width: 56px")
+						a#help.center(style="width: 56px")
 							i.material-icons.black-text help_outline
-						a.center(style="width: 56px")
+						a#account.center(style="width: 56px")
 							i.material-icons.black-text account_circle
-
+					.right.valign-wrapper#icons-2(style="display: none")
+						a#up.center(style="width: 56px")
+							i.material-icons.black-text arrow_upward
+		
 		//div.logo-menu-branco
 		//div.logo-menu-preto
 		//div.logo-menu-azul
@@ -71,50 +74,114 @@ html
 					i.material-icons widgets
 				a(href='#menu-sped')
 					i.material-icons done_all
-				a(href='#menu-relatorios')
+				//a(href='#menu-relatorios')
 					i.material-icons print
 				a(href='#menu-configuracoes')
 					i.material-icons settings
-			.left(style="width: 246px; padding:0 24px;")
+			.left(style="width: calc(100% - 56px); padding:0 24px;")
 				#menu-vendas(style="display: none")
-					h5 Vendas
-					p Resumo
-					p Orçamentos
-					p Pedidos de Venda
-					p Ordens de Serviço
-					p Operações PDV
-					p NF-e
-					p NFC-e
-					p NFS-e
+					.row
+						.col.s6
+							.menu-title Vendas
+							p Resumo
+							p Orçamentos
+							p Pedidos de Venda
+							p Ordens de Serviço
+							p Operações PDV
+							p NF-e
+							p NFC-e
+							p NFS-e
+						.col.s6
+							.menu-title Relatórios
+							p Produtos Mais Vendidos
+							p Produtos Mais Lucrativos
+							p Clientes Mais Fiéis
+							p Clientes Mais Lucrativos
+							p Formas de Pagamento Mais Utilizadas
+							p NF-e
+							p Itens de NF-e
+							p NFC-e
+							p Itens da NFC-e
+							p Itens de Pedido de Venda
+							p Margem de Contribuição por Itens de Pedido de Venda
+							p Orçamentos
+							p Itens de Orçamento
+							p Faturamento Sintético
+							p NFS-e
+							p Retenções de NFS-e
 				#menu-financeiro(style="display: none")
-					h5 Financeiro
-					p Resumo
-					p Transferência entre Contas
-					p Contas a Pagar e Receber
-					p Recebimentos Cartão
-					p Boleto com Registro
-					p Remessas Geredas
-					p Conciliação Bancária
+					.row
+						.col.s6
+							.menu-title Financeiro
+							p Resumo
+							p Transferência entre Contas
+							p Contas a Pagar e Receber
+							p Recebimentos Cartão
+							p Boleto com Registro
+							p Remessas Geredas
+							p Conciliação Bancária
+						.col.s6
+							.menu-title Relatórios
+							p Contas a Pagar
+							p Contas a Pagar por Categoria
+							p Contas a Receber
+							p Contas a Receber por Categoria
+							p Financeiro Sintético
+							p Detalhamento de Conta Bancária
+							p Quitação de Contas a Pagar e Receber
+							p Recebimentos Cartão
+							p Fluxo de Caixa
+							p Comissões por Conta a Receber
+							p Comissões por Pedido de Venda
+							p Comissões por NF-e
+							p Comissões por NFS-e
+							p Comissões por NFC-e
 				#menu-compras(style="display: none")
-					h5 Compras
-					p Pedidos de Compra
-					p Importar NF-e de Fornecedor
-					p NF-e de Fornecedor
-					p NFS-e de Fornecedor
+					.row
+						.col.s6
+							.menu-title Compras
+							p Pedidos de Compra
+							p Importar NF-e de Fornecedor
+							p NF-e de Fornecedor
+							p NFS-e de Fornecedor
+						.col.s6
+							.menu-title Relatórios
+							p NF-e de Fornecedor
+							p Itens de NF-e de Fornecedor
+							p NFS-e de Fornecedor
+							p Retenções de NFS-e de Fornecedor
 				#menu-transporte(style="display: none")
-					h5 Transporte
-					p CT-e
-					p CT-e de Fornecedor
-					p Importar CT-e de Fornecedor
-					p MDF-e
+					.row
+						.col.s6
+							.menu-title Transporte
+							p CT-e
+							p CT-e de Fornecedor
+							p Importar CT-e de Fornecedor
+							p MDF-e
+						.col.s6
+							.menu-title Relatórios
+							p CT-e
+							p CT-e de Fornecedor
 				#menu-estoque(style="display: none")
-					h5 Estoque
-					p Controle de Estoque
-					p Ordens de Produção
-					p Consulta Estoque Terceiro por Produto
-					p Consulta Estoque Terceiro por Participante
+					.row
+						.col.s6
+							.menu-title Estoque
+							p Controle de Estoque
+							p Ordens de Produção
+							p Consulta Estoque Terceiro por Produto
+							p Consulta Estoque Terceiro por Participante
+						.col.s6
+							.menu-title Relatórios
+							p Estoque Próprio
+							p Estoque (Preço de Compra)
+							p Estoque de Terceiro
+							p Estoque em Terceiro
+							p Movimentação Estoque Próprio
+							p Movimentação Estoque de Terceiro
+							p Movimentação Estoque em Terceiro
+							p Inventário
 				#menu-sped(style="display: none")
-					h5 SPED
+					.menu-title SPED
 					p Entradas de Energia Elétrica
 					p Declarações de Exportação
 					p Operações com Cartão Crédito/Débito
@@ -122,26 +189,34 @@ html
 					p SPED Fiscal
 					p e-CAC
 				#menu-cadastros(style="display: none")
-					h5 Cadastros
-					p Produtos
-					p Serviços
-					p Clientes
-					p Fornecedores
-					p Transportadores
-					p Motoristas
-					p Veículos
-					p Contadores
-					p PDVs
-					p Observações
-					p Unidades de Medida
-					p Naturezas de Operação
-					p Formas de Pagamento
-					p Contas Bancárias
-					p Categorias Financeiras
-					p Bandeiras de Cartão
-					p Vendedores
+					.row
+						.col.s6
+							.menu-title Cadastros
+							p Produtos
+							p Serviços
+							p Clientes
+							p Fornecedores
+							p Transportadores
+							p Motoristas
+							p Veículos
+							p Contadores
+							p PDVs
+							p Observações
+							p Unidades de Medida
+							p Naturezas de Operação
+							p Formas de Pagamento
+							p Contas Bancárias
+							p Categorias Financeiras
+							p Bandeiras de Cartão
+							p Vendedores
+						.col.s6
+							.menu-title Relatórios
+							p Produtos
+							p Clientes
+							p Fornecedores
+							p Transportadores
 				#menu-configuracoes(style="display: none")
-					h5 Configurações
+					.menu-title Configurações
 					p Transações de Saída
 					p Transações do PDV
 					p Transações de Entrada
@@ -152,6 +227,61 @@ html
 					p Imagem para Impressao
 					p Imagem para Documentos
 					p Fundos de Combate a Pobreza
+				#menu-relatorios(style="display: none")
+					.row
+						.col.s3
+							.menu-title Financeiro
+							p Contas a Pagar
+							p Contas a Pagar por Categoria
+							p Contas a Receber
+							p Contas a Receber por Categoria
+							p Financeiro Sintético
+							p Detalhamento de Conta Bancária
+							p Quitação de Contas a Pagar e Receber
+							p Recebimentos Cartão
+							p Fluxo de Caixa
+							p Comissões por Conta a Receber
+							p Comissões por Pedido de Venda
+							p Comissões por NF-e
+							p Comissões por NFS-e
+							p Comissões por NFC-e
+						.col.s3
+							.menu-title Compras
+							p Pedidos de Compra
+							p Importar NF-e de Fornecedor
+							p NF-e de Fornecedor
+							p NFS-e de Fornecedor
+						.col.s3
+							.menu-title Vendas
+							p Produtos Mais Vendidos
+							p Produtos Mais Lucrativos
+							p Clientes Mais Fiéis
+							p Clientes Mais Lucrativos
+							p Formas de Pagamento Mais Utilizadas
+							p NF-e
+							p Itens de NF-e
+							p NFC-e
+							p Itens da NFC-e
+							p Itens de Pedido de Venda
+							p Margem de Contribuição por Itens de Pedido de Venda
+							p Orçamentos
+							p Itens de Orçamento
+							p Faturamento Sintético
+							p NFS-e
+							p Retenções de NFS-e
+						.col.s3
+							.menu-title Transporte
+							p CT-e
+							p CT-e de Fornecedor
+							p Importar CT-e de Fornecedor
+							p MDF-e
+							.menu-title Estoque
+							p CT-e
+							p CT-e de Fornecedor
+							p Importar CT-e de Fornecedor
+							p MDF-e
+
+
 				//#menu-relatorios(style="display: none")
 					h5 Relatórios
 					p Produtos
@@ -213,7 +343,7 @@ html
 					p Movimentação Estoque de Terceiro
 					p Movimentação Estoque em Terceiro
 					p Inventário
-				#menu-relatorios(style="display: none")
+				//#menu-relatorios(style="display: none")
 					h5 Relatórios
 					p Clientes
 					p Clientes Mais Fiéis
@@ -295,7 +425,7 @@ html
 				a Internet Banking
 
 		.row
-			//.col.s8.truncate
+			.col.s8.truncate
 				a.chip.grey.lighten-2 Hoje
 				a.chip.grey.lighten-1
 					span Neste mês
@@ -303,7 +433,7 @@ html
 				a.chip.grey.lighten-2 No próximo mês
 				a.chip.grey.lighten-2 Em aberto
 				a.chip.grey.lighten-2 Atrasadas (99)
-			//.col.s4.right-align
+			.col.s4.right-align
 				a.chip.white.z-depth-1
 					i.material-icons.left search
 					input(placeholder='Pesquise por número ou cliente')
@@ -338,238 +468,223 @@ html
 					.timeline
 						.timeline-item
 							i.material-icons.grey-text check_box_outline_blank
-							//i.material-icons.light-blue-text check_box
 							.timeline-actions
-								a.btn-flat.grey-text Baixar
-								a.btn-flat.grey-text Renegociar
-								a.btn-flat.grey-text Boleto
-								a.btn-flat.grey-text Mais
+								a.btn-flat.grey-text Link 1
+								a.btn-flat.grey-text Link 2
+								a.btn-flat.grey-text Link 3
+								a.btn-flat.grey-text Link 4
 									i.material-icons.right arrow_drop_down
 							.timeline-content.valign-wrapper
 								span.uppercase(style="font-size:0.9rem; font-weight: 500;") Selecionar todos
 						.timeline-header
-							.timeline-title 26/03
+							.timeline-title Data
 						.timeline-item
 							i.material-icons.light-green-text check_circle
-							//i.material-icons.light-blue-text check_box
 							.timeline-actions
-								a.btn-flat.blue-text Editar
-								a.btn-flat.blue-text.dropdown-button( data-activates='dropdown1') Mais
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text.dropdown-button( data-activates='dropdown1') Link 2
 									i.material-icons.right arrow_drop_down
 								ul#dropdown1.dropdown-content
 									li
-										a Desfazer pagamento
+										a Link 1
 									li
-										a#button-side-nav1(href='#', data-activates='side-nav1') Renegociar
+										a#button-side-nav1(href='#', data-activates='side-nav1') Link 2
 									li
-										a Remover
+										a Link 3
 							.timeline-content
-								div.truncate Primeiro cliente
+								div.truncate Primeira linha
 								label.truncate
-									span.light-green-text + 100,00
-									span &nbsp;de "Vendas" para "Banco do Brasil"
+									
+									span Segunda linha
 						.timeline-item
 							i.material-icons.orange-text warning
-							//i.material-icons.light-blue-text check_box
 							.timeline-actions
-								a.btn-flat.blue-text Editar
-								a.btn-flat.blue-text Mais
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text Link 2
 									i.material-icons.right arrow_drop_down
 							.timeline-content
-								div.truncate Segundo cliente
+								div.truncate Segunda linha
 								label.truncate
-									span.light-green-text + 100,00
-									span &nbsp;de "Vendas" para "Banco do Brasil"
+									
+									span Segunda linha
 						.timeline-item
 							i.material-icons.grey-text schedule
-							//i.material-icons.light-blue-text check_box
 							.timeline-actions
-								a.btn-flat.blue-text Editar
-								a.btn-flat.blue-text Mais
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text Link 2
 									i.material-icons.right arrow_drop_down
 							.timeline-content
-								div.truncate Terceiro cliente
+								div.truncate Terceira linha
 								label.truncate
-									span.light-green-text + 100,00
-									span &nbsp;de "Vendas" para "Banco do Brasil"
+									
+									span Segunda linha
 		
-				//.card-panel
+				.card-panel
 					h5 Timeline
 					.timeline
 						.timeline-item
-							//i.material-icons.grey-text check_box_outline_blank
 							i.material-icons.light-blue-text check_box
 							.timeline-actions
-								a.btn-flat.blue-text Baixar
-								a.btn-flat.blue-text Renegociar
-								a.btn-flat.blue-text Boleto
-								a.btn-flat.blue-text Mais
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text Link 2
+								a.btn-flat.blue-text Link 3
+								a.btn-flat.blue-text Link 4
 									i.material-icons.right arrow_drop_down
 							.timeline-content.valign-wrapper
 								span.uppercase(style="font-size:0.9rem; font-weight: 500;") 3 selecionados
 						.timeline-header
-							.timeline-title 26/03
+							.timeline-title Data
 						.timeline-item
-							//i.material-icons.light-green-text check_circle
 							i.material-icons.light-blue-text check_box
 							.timeline-actions
-								a.btn-flat.blue-text Editar
-								a.btn-flat.blue-text.dropdown-button( data-activates='dropdown1') Mais
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text.dropdown-button( data-activates='dropdown1') Link 2
 									i.material-icons.right arrow_drop_down
 								ul#dropdown1.dropdown-content
 									li
-										a Desfazer pagamento
+										a Link 1
 									li
-										a#button-side-nav1(href='#', data-activates='side-nav1') Renegociar
+										a#button-side-nav1(href='#', data-activates='side-nav1') Link 2
 									li
-										a Remover
+										a Link 3
 							.timeline-content
-								div.truncate Primeiro cliente
+								div.truncate Primeira linha
 								label.truncate
-									span.light-green-text + 100,00
-									span &nbsp;de "Vendas" para "Banco do Brasil"
+									
+									span Segunda linha
 						.timeline-item
-							//i.material-icons.orange-text warning
 							i.material-icons.light-blue-text check_box
 							.timeline-actions
-								a.btn-flat.blue-text Editar
-								a.btn-flat.blue-text Mais
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text Link 2
 									i.material-icons.right arrow_drop_down
 							.timeline-content
-								div.truncate Segundo cliente
+								div.truncate Segunda linha
 								label.truncate
-									span.light-green-text + 100,00
-									span &nbsp;de "Vendas" para "Banco do Brasil"
+									
+									span Segunda linha
 						.timeline-item
-							//i.material-icons.grey-text schedule
 							i.material-icons.light-blue-text check_box
 							.timeline-actions
-								a.btn-flat.blue-text Editar
-								a.btn-flat.blue-text Mais
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text Link 2
 									i.material-icons.right arrow_drop_down
 							.timeline-content
-								div.truncate Terceiro cliente
+								div.truncate Terceira linha
 								label.truncate
-									span.light-green-text + 100,00
-									span &nbsp;de "Vendas" para "Banco do Brasil"
+									
+									span Segunda linha
 
-				//.card-panel
+				.card-panel
 					h5 List
 					.list
 						.list-item
 							.list-actions
-								a.btn-flat.grey-text Baixar
-								a.btn-flat.grey-text Renegociar
-								a.btn-flat.grey-text Boleto
-								a.btn-flat.grey-text Mais
+								a.btn-flat.grey-text Link 1
+								a.btn-flat.grey-text Link 2
+								a.btn-flat.grey-text Link 3
+								a.btn-flat.grey-text Link 4
 									i.material-icons.right arrow_drop_down
 							.list-content
 								i.material-icons.grey-text.left check_box_outline_blank
-								//i.material-icons.light-blue-text.left check_box
 								span.uppercase.left(style="font-size:0.9rem; font-weight: 500; margin-top: 10px;") Selecionar todos
 						.list-item
 							.list-actions
-								a.btn-flat.blue-text Editar
-								a.btn-flat.blue-text.dropdown-button( data-activates='dropdown1') Mais
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text.dropdown-button( data-activates='dropdown1') Link 2
 									i.material-icons.right arrow_drop_down
 								ul#dropdown1.dropdown-content
 									li
-										a Desfazer pagamento
+										a Link 1
 									li
-										a#button-side-nav1(href='#', data-activates='side-nav1') Renegociar
+										a#button-side-nav1(href='#', data-activates='side-nav1') Link 2
 									li
-										a Remover
+										a Link 3
 							.list-content
 								i.material-icons.light-green-text.left check_circle
-								//i.material-icons.light-blue-text.left check_box
-								div.truncate Primeiro cliente
+								div.truncate Primeira linha
 								label.truncate
-									span.light-green-text + 100,00
-									span &nbsp;de "Vendas" para "Banco do Brasil"
+									
+									span Segunda linha
 						.list-item
 							.list-actions
-								a.btn-flat.blue-text Editar
-								a.btn-flat.blue-text Mais
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text Link 2
 									i.material-icons.right arrow_drop_down
 							.list-content
 								i.material-icons.orange-text.left warning
-								//i.material-icons.light-blue-text.left check_box
-								div.truncate Segundo cliente
+								div.truncate Segunda linha
 								label.truncate
-									span.light-green-text + 100,00
-									span &nbsp;de "Vendas" para "Banco do Brasil"
+									
+									span Segunda linha
 						.list-item
 							.list-actions
-								a.btn-flat.blue-text Editar
-								a.btn-flat.blue-text Mais
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text Link 2
 									i.material-icons.right arrow_drop_down
 							.list-content
 								i.material-icons.grey-text.left schedule
-								//i.material-icons.light-blue-text.left check_box
-								div.truncate Terceiro cliente
+								div.truncate Terceira linha
 								label.truncate
-									span.light-green-text + 100,00
-									span &nbsp;de "Vendas" para "Banco do Brasil"
+									
+									span Segunda linha
 
-				//.card-panel
+				.card-panel
 					h5 List
 					.list
 						.list-item
 							.list-actions
-								a.btn-flat.blue-text Baixar
-								a.btn-flat.blue-text Renegociar
-								a.btn-flat.blue-text Boleto
-								a.btn-flat.blue-text Mais
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text Link 2
+								a.btn-flat.blue-text Link 3
+								a.btn-flat.blue-text Link 4
 									i.material-icons.right arrow_drop_down
 							.list-content
-								//i.material-icons.grey-text.left check_box_outline_blank
 								i.material-icons.light-blue-text.left check_box
 								span.uppercase.left(style="font-size:0.9rem; font-weight: 500; margin-top: 10px;") 3 selecionados
 						.list-item
 							.list-actions
-								a.btn-flat.blue-text Editar
-								a.btn-flat.blue-text.dropdown-button( data-activates='dropdown1') Mais
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text.dropdown-button( data-activates='dropdown1') Link 2
 									i.material-icons.right arrow_drop_down
 								ul#dropdown1.dropdown-content
 									li
-										a Desfazer pagamento
+										a Link 1
 									li
-										a#button-side-nav1(href='#', data-activates='side-nav1') Renegociar
+										a#button-side-nav1(href='#', data-activates='side-nav1') Link 2
 									li
-										a Remover
+										a Link 3
 							.list-content
-								//i.material-icons.light-green-text.left check_circle
 								i.material-icons.light-blue-text.left check_box
-								div.truncate Primeiro cliente
+								div.truncate Primeira linha
 								label.truncate
-									span.light-green-text + 100,00
-									span &nbsp;de "Vendas" para "Banco do Brasil"
+									
+									span Segunda linha
 						.list-item
 							.list-actions
-								a.btn-flat.blue-text Editar
-								a.btn-flat.blue-text Mais
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text Link 2
 									i.material-icons.right arrow_drop_down
 							.list-content
-								//i.material-icons.orange-text.left warning
 								i.material-icons.light-blue-text.left check_box
-								div.truncate Segundo cliente
+								div.truncate Segunda linha
 								label.truncate
-									span.light-green-text + 100,00
-									span &nbsp;de "Vendas" para "Banco do Brasil"
+									
+									span Segunda linha
 						.list-item
 							.list-actions
-								a.btn-flat.blue-text Editar
-								a.btn-flat.blue-text Mais
+								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text Link 2
 									i.material-icons.right arrow_drop_down
 							.list-content
-								//i.material-icons.grey-text.left schedule
 								i.material-icons.light-blue-text.left check_box
-								div.truncate Terceiro cliente
+								div.truncate Terceira linha
 								label.truncate
-									span.light-green-text + 100,00
-									span &nbsp;de "Vendas" para "Banco do Brasil"
+									
+									span Segunda linha
 
-				//.card-panel
+				.card-panel
+					h5 Table
 					table.bordered
 						thead
 							tr
@@ -606,34 +721,8 @@ html
 									a
 										i.material-icons.grey-text.text-darken-2 delete
 
-				//.card-panel
-					.list
-						.list-item
-							.list-actions
-								a.btn-flat.blue-text Link 1
-								a.btn-flat.blue-text Link 2
-							.list-content
-								i.material-icons.left.light-green-text check_circle
-								div Primeira linha
-								label Segunda linha
-						.list-item
-							.list-actions
-								a.btn-flat.blue-text Link 1
-								a.btn-flat.blue-text Link 2
-							.list-content
-								i.material-icons.left.orange-text warning
-								div Primeira linha
-								label Segunda linha
-						.list-item
-							.list-actions
-								a.btn-flat.blue-text Link 1
-								a.btn-flat.blue-text Link 2
-							.list-content
-								i.material-icons.left.grey-text schedule
-								div Primeira linha
-								label Segunda linha
-
-				//.card-panel
+				.card-panel
+					h5 Form
 					.row
 						.col.s12.m6
 							.input-field
@@ -697,27 +786,27 @@ html
 						.timeline-title Hora
 						.timeline-content
 							i.material-icons.right.grey-text.cursor-pointer(onclick="$(this).html($(this).html() == 'check_box_outline_blank' ? 'check_box_outline' : 'check_box_outline_blank')") check_box_outline_blank
-							div.truncate Primeiro cliente
+							div.truncate Primeira linha
 							label.truncate
-								span.light-green-text + 100,00
+								
 								span  | Vendas | Banco do Brasil
 					.timeline-item
 						i.material-icons.grey-text schedule
 						.timeline-title Hora
 						.timeline-content
 							i.material-icons.right.grey-text.cursor-pointer(onclick="$(this).html($(this).html() == 'check_box_outline_blank' ? 'check_box_outline' : 'check_box_outline_blank')") check_box_outline_blank
-							div.truncate Primeiro cliente
+							div.truncate Primeira linha
 							label.truncate
-								span.light-green-text + 100,00
+								
 								span  | Vendas | Banco do Brasil
 					.timeline-item
 						i.material-icons.grey-text schedule
 						.timeline-title Hora
 						.timeline-content
 							i.material-icons.right.grey-text.cursor-pointer(onclick="$(this).html($(this).html() == 'check_box_outline_blank' ? 'check_box_outline' : 'check_box_outline_blank')") check_box_outline_blank
-							div.truncate Primeiro cliente
+							div.truncate Primeira linha
 							label.truncate
-								span.light-green-text + 100,00
+								
 								span  | Vendas | Banco do Brasil	
 				p.right-align
 					a.btn-flat(onclick="$('#button-side-nav1').trigger('click'); $('#form-renegociar').hide(); $('#list-renegociar').show();") Cancelar
@@ -750,7 +839,7 @@ html
 						label(for='input9') Conta bancária
 					.col.s12.m6.input-field.controlar
 						i.material-icons.prefix search
-						input#input16(type='text', value="Primeiro cliente")
+						input#input16(type='text', value="Primeira linha")
 						label(for='input16') Cliente
 					.col.s12.m6.input-field.controlar
 						input#input17(type='text', value="Vendas")
@@ -782,15 +871,9 @@ html
 		});
 
 		$('.menu .left a').on('click', function() {
-			$('#busca').css('opacity', 1);
-			$('.menu .left div').hide();
+			$('.menu .left > div').hide();
 			$('.menu').css('transition', 'all 0.2s ease-out');
-			$('.menu').css('width', '350px');
-			//$('.menu').css('opacity', 0.9);
-			$('.menu').css('background-color', '#ffffff!important');
-			$('.logo-menu-branco, .logo-menu-preto').css('transition', 'all 0.2s ease-out');
-			$('.logo-menu-branco, .logo-menu-preto').css('transform', 'scale(0)');
-
+			$('.menu').css('width', '600px');
 			$($(this).attr('href')).show();
 
 			return false;
@@ -800,28 +883,53 @@ html
 			if (!$('.menu .left div').is(':visible'))
 				return;
 
-			$('#busca').css('opacity', 1);
-			$('.menu .left div').hide();
+			$('.menu .left > div').hide();
 			$('.menu').css('transition', 'all 0.2s ease-out');
-			$('.menu').css('width', '350px');
-			//$('.menu').css('opacity', 0.9);
-			$('.menu').css('background-color', '#ffffff!important');
-			$('.logo-menu-branco, .logo-menu-preto').css('transition', 'all 0.2s ease-out');
-			$('.logo-menu-branco, .logo-menu-preto').css('transform', 'scale(0)');
-
+			$('.menu').css('width', '600px');
 			$($(this).attr('href')).show();
 
 			return false;
 		});
 
 		$(document).on('click', function() {
-			$('#busca').css('opacity', 0);
-			$('.menu .left div').hide();
+			$('.menu .left > div').hide();
 			$('.menu').css('transition', 'all 0.2s ease-in');
 			$('.menu').css('width', '56px');
-			$('.menu').css('opacity', 1);
-			$('.logo-menu-branco, .logo-menu-preto').css('transition', 'all 0.2s ease-out');
-			$('.logo-menu-branco, .logo-menu-preto').css('transform', 'scale(1)');
+		});
+
+		$(document).on('scroll', function() {
+			if ($(document).scrollTop() > 112) {
+				$('#top').css({
+					padding: '4px 88px 8px 144px',
+					zIndex: 999,
+					position: 'fixed',
+					width: 'auto',
+					left: '0',
+					right: '0',
+					backgroundColor: '#eeeeee'
+				});
+
+				$('#logo').hide();
+				$('#empresa').hide();
+				$('#modulo').hide();
+				$('#icons-1').hide();
+				$('#icons-2').show();
+			} else {
+				$('#top').css({
+					padding: '24px 0',
+					position: 'relative',
+					width: 'auto',
+					left: 'auto',
+					right: 'auto',
+					backgroundColor: '#eeeeee'
+				});
+
+				$('#logo').show();
+				$('#empresa').show();
+				$('#modulo').show();
+				$('#icons-1').show();
+				$('#icons-2').hide();
+			}
 		});
 
 	style(type='text/css').
@@ -868,3 +976,4 @@ html
 		.logo-menu-preto { position: fixed; z-index:99999; top:0; left:16px; width: 80px; height:80px; border-radius: 50%; background-image: url(http://localhost/cdn/myrp/img/logo-myrp-branco.png); background-position: center; background-repeat: no-repeat; background-size: 80%; background-color: rgba(0,0,0,0.3); }
 		.logo-menu-azul { position: fixed; z-index:99999; top:0; left:16px; width: 80px; height:80px; border-radius: 50%; background-image: url(http://localhost/cdn/myrp/img/logo-myrp-branco.png); background-position: center; background-repeat: no-repeat; background-size: 80%; background-color: rgba(3, 169, 244, 0.3); }
 		.timeline .timeline-title { font-size: 0.9rem; font-weight: 500; }
+		.menu-title { font-size: 1rem; text-transform: uppercase; font-weight: 500; }
