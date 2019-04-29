@@ -24,38 +24,44 @@ html
 		#top(style="padding:24px 0")
 			.row.valign-wrapper
 				.col.s6.valign-wrapper
-					img#logo.left.logo(src="http://localhost/cdn/myrp/img/logo-myrp-colorido.png")
+					img.left.logo(src="http://localhost/cdn/myrp/img/logo-myrp-colorido.png")
 					.left
-						a#empresa.label.uppercase.b.black-text(style="margin-right: 15px") Nome da empresa
-						a#modulo.label.uppercase.b.black-text(href='index.pug', style="margin-right: 15px") Financeiro
+						a.label.uppercase.b.black-text(style="margin-right: 15px") Nome da empresa
+						a.label.uppercase.b.black-text(href='index.pug', style="margin-right: 15px") Financeiro
 						.title.valign-wrapper(style='margin-top: 6px')
 							| Contas a pagar e receber
 							.btn.light-blue.white-text(style="margin: 0 12px") Adicionar
 							//.btn.light-blue.white-text(style="margin: 0 12px") Salvar
 				.col.s6
-					.right.valign-wrapper#icons-1
-						a#chat.center(style="width: 56px")
+					.right.valign-wrapper
+						a.center(style="width: 56px")
 							i.material-icons.black-text chat_bubble
-						a#notifications.center(style="width: 56px")
+						a.center(style="width: 56px")
 							i.material-icons.black-text notifications
-						a#apps.center(style="width: 56px")
+						a.center(style="width: 56px")
 							i.material-icons.black-text apps
-						a#help.center(style="width: 56px")
+						a.center(style="width: 56px")
 							i.material-icons.black-text help_outline
-						a#account.center(style="width: 56px")
+						a.center(style="width: 56px")
 							i.material-icons.black-text account_circle
-					.right.valign-wrapper#icons-2(style="display: none")
-						a#up.center(style="width: 56px")
+		
+		#bottom.grey.lighten-3(style="display: none")
+			.row.valign-wrapper
+				.col.s6.valign-wrapper
+					.title Contas a pagar e receber
+					.btn.light-blue.white-text(style="margin: 0 12px") Adicionar
+				.col.s6
+					.right.valign-wrapper
+						a#up.center(style="width: 56px", href="javascript:;")
 							i.material-icons.black-text arrow_upward
 		
 		//div.logo-menu-branco
 		//div.logo-menu-preto
 		//div.logo-menu-azul
 
-		div.z-depth-1.menu.light-blue.white-text
-			#busca.center(style="opacity: 0; height: 64px; padding: 0 24px")
-				img.logo(src="http://localhost/cdn/myrp/img/logo-myrp-branco.png")
-				//.chip.white.z-depth-1
+		div.z-depth-1.menu.light-blue.white-text(style="padding-top: 64px")
+			//#busca.center(style="height: 64px; padding: 24px")
+				.chip.white.z-depth-1
 					i.material-icons.left(style="width: auto") search
 					input(placeholder='O que você procura?')
 					i.material-icons.right(style="width: auto") keyboard_voice
@@ -78,7 +84,7 @@ html
 					i.material-icons print
 				a(href='#menu-configuracoes')
 					i.material-icons settings
-			.left(style="width: calc(100% - 56px); padding:0 24px;")
+			.left(style="width: calc(100% - 56px); padding:24px;")
 				#menu-vendas(style="display: none")
 					.row
 						.col.s6
@@ -688,38 +694,80 @@ html
 					table.bordered
 						thead
 							tr
+								th
+									i.material-icons.left check_box_outline_blank
 								th Coluna 1
 								th Coluna 2
 								th Coluna 3
 								th
 						tbody
 							tr
+								td
+									i.material-icons.left check_box_outline_blank
 								td Linha 1
 								td Linha 1
 								td Linha 1
 								td.right-align
-									a
-										i.material-icons.grey-text.text-darken-2 edit
-									a
-										i.material-icons.grey-text.text-darken-2 delete
+									a.btn-flat.blue-text Link 1
+									a.btn-flat.blue-text Link 2
 							tr
+								td
+									i.material-icons.left check_box_outline_blank
 								td Linha 2
 								td Linha 2
 								td Linha 2
 								td.right-align
-									a
-										i.material-icons.grey-text.text-darken-2 edit
-									a
-										i.material-icons.grey-text.text-darken-2 delete
+									a.btn-flat.blue-text Link 1
+									a.btn-flat.blue-text Link 2
 							tr
+								td
+									i.material-icons.left check_box_outline_blank
 								td Linha 3
 								td Linha 3
 								td Linha 3
 								td.right-align
-									a
-										i.material-icons.grey-text.text-darken-2 edit
-									a
-										i.material-icons.grey-text.text-darken-2 delete
+									a.btn-flat.blue-text Link 1
+									a.btn-flat.blue-text Link 2
+
+				.card-panel
+					h5 Table
+					table.bordered
+						thead
+							tr
+								th
+									i.material-icons.light-blue-text.left check_box
+								th Coluna 1
+								th Coluna 2
+								th Coluna 3
+								th
+						tbody
+							tr
+								td
+									i.material-icons.light-blue-text.left check_box
+								td Linha 1
+								td Linha 1
+								td Linha 1
+								td.right-align
+									a.btn-flat.blue-text Link 1
+									a.btn-flat.blue-text Link 2
+							tr
+								td
+									i.material-icons.light-blue-text.left check_box
+								td Linha 2
+								td Linha 2
+								td Linha 2
+								td.right-align
+									a.btn-flat.blue-text Link 1
+									a.btn-flat.blue-text Link 2
+							tr
+								td
+									i.material-icons.light-blue-text.left check_box
+								td Linha 3
+								td Linha 3
+								td Linha 3
+								td.right-align
+									a.btn-flat.blue-text Link 1
+									a.btn-flat.blue-text Link 2
 
 				.card-panel
 					h5 Form
@@ -899,37 +947,14 @@ html
 
 		$(document).on('scroll', function() {
 			if ($(document).scrollTop() > 112) {
-				$('#top').css({
-					padding: '4px 88px 8px 144px',
-					zIndex: 999,
-					position: 'fixed',
-					width: 'auto',
-					left: '0',
-					right: '0',
-					backgroundColor: '#eeeeee'
-				});
-
-				$('#logo').hide();
-				$('#empresa').hide();
-				$('#modulo').hide();
-				$('#icons-1').hide();
-				$('#icons-2').show();
+				$('#bottom').show();
 			} else {
-				$('#top').css({
-					padding: '24px 0',
-					position: 'relative',
-					width: 'auto',
-					left: 'auto',
-					right: 'auto',
-					backgroundColor: '#eeeeee'
-				});
-
-				$('#logo').show();
-				$('#empresa').show();
-				$('#modulo').show();
-				$('#icons-1').show();
-				$('#icons-2').hide();
+				$('#bottom').hide();
 			}
+		});
+
+		$('#up').on('click', function() {
+			$(document).scrollTop(0);
 		});
 
 	style(type='text/css').
@@ -977,3 +1002,6 @@ html
 		.logo-menu-azul { position: fixed; z-index:99999; top:0; left:16px; width: 80px; height:80px; border-radius: 50%; background-image: url(http://localhost/cdn/myrp/img/logo-myrp-branco.png); background-position: center; background-repeat: no-repeat; background-size: 80%; background-color: rgba(3, 169, 244, 0.3); }
 		.timeline .timeline-title { font-size: 0.9rem; font-weight: 500; }
 		.menu-title { font-size: 1rem; text-transform: uppercase; font-weight: 500; }
+		td .btn-flat { margin: 0; padding: 0 6px; font-size: 0.9rem; }
+		table th:first-child, table td:first-child { width: 0.1%; }
+		#bottom { position: fixed; z-index: 999; left: 0; bottom: 0; width: 100%; padding: 12px 88px 12px 144px;}

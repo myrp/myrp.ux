@@ -21,8 +21,8 @@
     -->
     <div id="top" style="padding:24px 0">
       <div class="row valign-wrapper">
-        <div class="col s6 valign-wrapper"><img class="left logo" id="logo" src="http://localhost/cdn/myrp/img/logo-myrp-colorido.png">
-          <div class="left"><a class="label uppercase b black-text" id="empresa" style="margin-right: 15px">Nome da empresa</a><a class="label uppercase b black-text" id="modulo" href="/index.html" style="margin-right: 15px">Financeiro</a>
+        <div class="col s6 valign-wrapper"><img class="left logo" src="http://localhost/cdn/myrp/img/logo-myrp-colorido.png">
+          <div class="left"><a class="label uppercase b black-text" style="margin-right: 15px">Nome da empresa</a><a class="label uppercase b black-text" href="/index.html" style="margin-right: 15px">Financeiro</a>
             <div class="title valign-wrapper" style="margin-top: 6px">Contas a pagar e receber
               <div class="btn light-blue white-text" style="margin: 0 12px">Adicionar</div>
               <!--.btn.light-blue.white-text(style="margin: 0 12px") Salvar-->
@@ -30,27 +30,36 @@
           </div>
         </div>
         <div class="col s6">
-          <div class="right valign-wrapper" id="icons-1"><a class="center" id="chat" style="width: 56px"><i class="material-icons black-text">chat_bubble</i></a><a class="center" id="notifications" style="width: 56px"><i class="material-icons black-text">notifications</i></a><a class="center" id="apps" style="width: 56px"><i class="material-icons black-text">apps</i></a><a class="center" id="help" style="width: 56px"><i class="material-icons black-text">help_outline</i></a><a class="center" id="account" style="width: 56px"><i class="material-icons black-text">account_circle</i></a></div>
-          <div class="right valign-wrapper" id="icons-2" style="display: none"><a class="center" id="up" style="width: 56px"><i class="material-icons black-text">arrow_upward</i></a></div>
+          <div class="right valign-wrapper"><a class="center" style="width: 56px"><i class="material-icons black-text">chat_bubble</i></a><a class="center" style="width: 56px"><i class="material-icons black-text">notifications</i></a><a class="center" style="width: 56px"><i class="material-icons black-text">apps</i></a><a class="center" style="width: 56px"><i class="material-icons black-text">help_outline</i></a><a class="center" style="width: 56px"><i class="material-icons black-text">account_circle</i></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="grey lighten-3" id="bottom" style="display: none">
+      <div class="row valign-wrapper">
+        <div class="col s6 valign-wrapper">
+          <div class="title">Contas a pagar e receber</div>
+          <div class="btn light-blue white-text" style="margin: 0 12px">Adicionar</div>
+        </div>
+        <div class="col s6">
+          <div class="right valign-wrapper"><a class="center" id="up" style="width: 56px" href="javascript:;"><i class="material-icons black-text">arrow_upward</i></a></div>
         </div>
       </div>
     </div>
     <!--div.logo-menu-branco-->
     <!--div.logo-menu-preto-->
     <!--div.logo-menu-azul-->
-    <div class="z-depth-1 menu light-blue white-text">
-      <div class="center" id="busca" style="opacity: 0; height: 64px; padding: 0 24px"><img class="logo" src="http://localhost/cdn/myrp/img/logo-myrp-branco.png">
-        <!--.chip.white.z-depth-1
-        i.material-icons.left(style="width: auto") search
-        input(placeholder='O que você procura?')
-        i.material-icons.right(style="width: auto") keyboard_voice
-        -->
-      </div>
+    <div class="z-depth-1 menu light-blue white-text" style="padding-top: 64px">
+      <!--#busca.center(style="height: 64px; padding: 24px")
+      .chip.white.z-depth-1
+      	i.material-icons.left(style="width: auto") search
+      	input(placeholder='O que você procura?')
+      	i.material-icons.right(style="width: auto") keyboard_voice
+      -->
       <div class="left center" style="width: 56px"><a href="#menu-cadastros"><i class="material-icons">home</i></a><a href="#menu-financeiro"><i class="material-icons">attach_money</i></a><a href="#menu-compras"><i class="material-icons">shopping_cart</i></a><a href="#menu-vendas"><i class="material-icons">local_offer</i></a><a href="#menu-transporte"><i class="material-icons">local_shipping</i></a><a href="#menu-estoque"><i class="material-icons">widgets</i></a><a href="#menu-sped"><i class="material-icons">done_all</i></a>
         <!--a(href='#menu-relatorios')i.material-icons print
         --><a href="#menu-configuracoes"><i class="material-icons">settings</i></a>
       </div>
-      <div class="left" style="width: calc(100% - 56px); padding:0 24px;">
+      <div class="left" style="width: calc(100% - 56px); padding:24px;">
         <div id="menu-vendas" style="display: none">
           <div class="row">
             <div class="col s6">
@@ -620,6 +629,7 @@
           <table class="bordered">
             <thead>
               <tr>
+                <th><i class="material-icons left">check_box_outline_blank</i></th>
                 <th>Coluna 1</th>
                 <th>Coluna 2</th>
                 <th>Coluna 3</th>
@@ -628,22 +638,62 @@
             </thead>
             <tbody>
               <tr>
+                <td><i class="material-icons left">check_box_outline_blank</i></td>
                 <td>Linha 1</td>
                 <td>Linha 1</td>
                 <td>Linha 1</td>
-                <td class="right-align"><a><i class="material-icons grey-text text-darken-2">edit</i></a><a><i class="material-icons grey-text text-darken-2">delete</i></a></td>
+                <td class="right-align"><a class="btn-flat blue-text">Link 1</a><a class="btn-flat blue-text">Link 2</a></td>
               </tr>
               <tr>
+                <td><i class="material-icons left">check_box_outline_blank</i></td>
                 <td>Linha 2</td>
                 <td>Linha 2</td>
                 <td>Linha 2</td>
-                <td class="right-align"><a><i class="material-icons grey-text text-darken-2">edit</i></a><a><i class="material-icons grey-text text-darken-2">delete</i></a></td>
+                <td class="right-align"><a class="btn-flat blue-text">Link 1</a><a class="btn-flat blue-text">Link 2</a></td>
               </tr>
               <tr>
+                <td><i class="material-icons left">check_box_outline_blank</i></td>
                 <td>Linha 3</td>
                 <td>Linha 3</td>
                 <td>Linha 3</td>
-                <td class="right-align"><a><i class="material-icons grey-text text-darken-2">edit</i></a><a><i class="material-icons grey-text text-darken-2">delete</i></a></td>
+                <td class="right-align"><a class="btn-flat blue-text">Link 1</a><a class="btn-flat blue-text">Link 2</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="card-panel">
+          <h5>Table</h5>
+          <table class="bordered">
+            <thead>
+              <tr>
+                <th><i class="material-icons light-blue-text left">check_box</i></th>
+                <th>Coluna 1</th>
+                <th>Coluna 2</th>
+                <th>Coluna 3</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><i class="material-icons light-blue-text left">check_box</i></td>
+                <td>Linha 1</td>
+                <td>Linha 1</td>
+                <td>Linha 1</td>
+                <td class="right-align"><a class="btn-flat blue-text">Link 1</a><a class="btn-flat blue-text">Link 2</a></td>
+              </tr>
+              <tr>
+                <td><i class="material-icons light-blue-text left">check_box</i></td>
+                <td>Linha 2</td>
+                <td>Linha 2</td>
+                <td>Linha 2</td>
+                <td class="right-align"><a class="btn-flat blue-text">Link 1</a><a class="btn-flat blue-text">Link 2</a></td>
+              </tr>
+              <tr>
+                <td><i class="material-icons light-blue-text left">check_box</i></td>
+                <td>Linha 3</td>
+                <td>Linha 3</td>
+                <td>Linha 3</td>
+                <td class="right-align"><a class="btn-flat blue-text">Link 1</a><a class="btn-flat blue-text">Link 2</a></td>
               </tr>
             </tbody>
           </table>
@@ -851,37 +901,14 @@
     
     $(document).on('scroll', function() {
     	if ($(document).scrollTop() > 112) {
-    		$('#top').css({
-    			padding: '4px 88px 8px 144px',
-    			zIndex: 999,
-    			position: 'fixed',
-    			width: 'auto',
-    			left: '0',
-    			right: '0',
-    			backgroundColor: '#eeeeee'
-    		});
-    
-    		$('#logo').hide();
-    		$('#empresa').hide();
-    		$('#modulo').hide();
-    		$('#icons-1').hide();
-    		$('#icons-2').show();
+    		$('#bottom').show();
     	} else {
-    		$('#top').css({
-    			padding: '24px 0',
-    			position: 'relative',
-    			width: 'auto',
-    			left: 'auto',
-    			right: 'auto',
-    			backgroundColor: '#eeeeee'
-    		});
-    
-    		$('#logo').show();
-    		$('#empresa').show();
-    		$('#modulo').show();
-    		$('#icons-1').show();
-    		$('#icons-2').hide();
+    		$('#bottom').hide();
     	}
+    });
+    
+    $('#up').on('click', function() {
+    	$(document).scrollTop(0);
     });
     
   </script>
@@ -930,5 +957,8 @@
     .logo-menu-azul { position: fixed; z-index:99999; top:0; left:16px; width: 80px; height:80px; border-radius: 50%; background-image: url(http://localhost/cdn/myrp/img/logo-myrp-branco.png); background-position: center; background-repeat: no-repeat; background-size: 80%; background-color: rgba(3, 169, 244, 0.3); }
     .timeline .timeline-title { font-size: 0.9rem; font-weight: 500; }
     .menu-title { font-size: 1rem; text-transform: uppercase; font-weight: 500; }
+    td .btn-flat { margin: 0; padding: 0 6px; font-size: 0.9rem; }
+    table th:first-child, table td:first-child { width: 0.1%; }
+    #bottom { position: fixed; z-index: 999; left: 0; bottom: 0; width: 100%; padding: 12px 88px 12px 144px;}
   </style>
 </html>
