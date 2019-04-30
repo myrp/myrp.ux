@@ -14,36 +14,22 @@
   <script src="/prism.09c23770.js"></script><script src="/myrp.182bdb6a.js"></script><link rel="stylesheet" href="/myrp.ux.a45f42ab.css"></head>
   <body class="grey lighten-4">
     <div class="grey lighten-3 background-top"></div>
-    <!--.grey.lighten-3.background-bottom.center
-    .btn-flat Cancelar
-    .btn.light-blue.white-text Salvar
-    
-    -->
-    <div id="top" style="padding:24px 0">
-      <div class="row valign-wrapper">
-        <div class="col s6 valign-wrapper"><img class="left logo" src="http://localhost/cdn/myrp/img/logo-myrp-colorido.png">
-          <div class="left"><a class="label uppercase b black-text" style="margin-right: 15px">Nome da empresa</a><a class="label uppercase b black-text" href="/index.html" style="margin-right: 15px">Financeiro</a>
-            <div class="title valign-wrapper" style="margin-top: 6px">Contas a pagar e receber
-              <div class="btn light-blue white-text" style="margin: 0 12px">Adicionar</div>
-              <!--.btn.light-blue.white-text(style="margin: 0 12px") Salvar-->
-            </div>
-          </div>
-        </div>
-        <div class="col s6">
-          <div class="right valign-wrapper"><a class="center" style="width: 56px"><i class="material-icons black-text">chat_bubble</i></a><a class="center" style="width: 56px"><i class="material-icons black-text">notifications</i></a><a class="center" style="width: 56px"><i class="material-icons black-text">apps</i></a><a class="center" style="width: 56px"><i class="material-icons black-text">help_outline</i></a><a class="center" style="width: 56px"><i class="material-icons black-text">account_circle</i></a></div>
+    <div id="top">
+      <div class="left"><img class="logo" src="http://localhost/cdn/myrp/img/logo-myrp-colorido.png"></div>
+      <div class="left"><a class="label uppercase b black-text" style="margin-right: 15px">Empresa</a><a class="label uppercase b black-text" href="/index.html" style="margin-right: 15px">Módulo</a>
+        <div class="valign-wrapper">
+          <div class="title" style="margin-top: 6px">Título da página</div>
+          <div class="btn light-blue white-text" style="margin: 0 12px">Botão</div>
         </div>
       </div>
+      <div class="right hide-on-med-and-down"><a class="center"><i class="material-icons black-text">chat_bubble</i></a><a class="center"><i class="material-icons black-text">notifications</i></a><a class="center"><i class="material-icons black-text">apps</i></a><a class="center"><i class="material-icons black-text">help_outline</i></a><a class="center"><i class="material-icons black-text">account_circle</i></a></div>
     </div>
     <div class="grey lighten-3" id="bottom" style="display: none">
-      <div class="row valign-wrapper">
-        <div class="col s6 valign-wrapper">
-          <div class="title">Contas a pagar e receber</div>
-          <div class="btn light-blue white-text" style="margin: 0 12px">Adicionar</div>
-        </div>
-        <div class="col s6">
-          <div class="right valign-wrapper"><a class="center" id="up" style="width: 56px" href="javascript:;"><i class="material-icons black-text">arrow_upward</i></a></div>
-        </div>
+      <div class="left valign-wrapper">
+        <div class="title truncate">Título da página</div>
+        <div class="btn light-blue white-text" style="margin: 0 12px">Botão</div>
       </div>
+      <div class="right hide-on-med-and-down"><a class="center" id="up" href="javascript:;"><i class="material-icons black-text">arrow_upward</i></a></div>
     </div>
     <!--div.logo-menu-branco-->
     <!--div.logo-menu-preto-->
@@ -442,9 +428,11 @@
     
     -->
     <div class="row">
-      <div class="col s8 truncate"><a class="chip grey lighten-2">Hoje</a><a class="chip grey lighten-1"><span>Neste mês</span></a><a class="chip grey lighten-2">No mês passado</a><a class="chip grey lighten-2">No próximo mês</a><a class="chip grey lighten-2">Em aberto</a><a class="chip grey lighten-2">Atrasadas (99)</a></div>
-      <div class="col s4 right-align"><a class="chip white z-depth-1"><i class="material-icons left">search</i>
-          <input placeholder="Pesquise por número ou cliente"><i class="material-icons right">keyboard_voice</i></a></div>
+      <div class="col s12 truncate">
+        <div class="left"><a class="chip grey lighten-2">Filtro 1</a><a class="chip grey lighten-1"><span>Filtro 2</span></a><a class="chip grey lighten-2">Filtro 3</a><a class="chip grey lighten-2">Filtro 4</a><a class="chip grey lighten-2">Filtro 5</a><a class="chip grey lighten-2">Filtro 6</a><a class="chip grey lighten-2">Filtro 7</a></div>
+        <div class="right"><a class="chip white z-depth-1"><i class="material-icons left">search</i>
+            <input placeholder="Nome dos campos"><i class="material-icons right">keyboard_voice</i></a></div>
+      </div>
       <!--.col.s12.m3
       .card
       	.card-content
@@ -625,7 +613,10 @@
           </div>
         </div>
         <div class="card-panel">
-          <h5>Table</h5>
+          <div class="left"> 
+            <h5>Table</h5>
+          </div>
+          <div class="right"><a class="btn-flat grey-text">Link 1</a><a class="btn-flat grey-text">Link 2</a><a class="btn-flat grey-text">Link 3</a><a class="btn-flat grey-text">Link 4<i class="material-icons right">arrow_drop_down</i></a></div>
           <table class="bordered">
             <thead>
               <tr>
@@ -662,7 +653,10 @@
           </table>
         </div>
         <div class="card-panel">
-          <h5>Table</h5>
+          <div class="left"> 
+            <h5>Table</h5>
+          </div>
+          <div class="right"><a class="btn-flat blue-text">Link 1</a><a class="btn-flat blue-text">Link 2</a><a class="btn-flat blue-text">Link 3</a><a class="btn-flat blue-text">Link 4<i class="material-icons right">arrow_drop_down</i></a></div>
           <table class="bordered">
             <thead>
               <tr>
@@ -731,33 +725,23 @@
             </div>
             <div class="col s12 m6">
               <label>Marcar vários itens</label>
-              <p>
-                <input class="filled-in" id="input13a" type="checkbox">
-                <label for="input13a">Item 1</label>
-              </p>
-              <p>
-                <input class="filled-in" id="input13b" type="checkbox">
-                <label for="input13b">Item 2</label>
-              </p>
-              <p>
-                <input class="filled-in" id="input13c" type="checkbox">
-                <label for="input13c">Item 3</label>
-              </p>
+              <p><span>
+                  <input class="filled-in" id="input13a" type="checkbox">
+                  <label for="input13a">Item 1</label></span><span>
+                  <input class="filled-in" id="input13b" type="checkbox">
+                  <label for="input13b">Item 2</label></span><span>
+                  <input class="filled-in" id="input13c" type="checkbox">
+                  <label for="input13c">Item 3</label></span></p>
             </div>
             <div class="col s12 m6">
               <label>Marcar somente um item</label>
-              <p>
-                <input class="filled-in" id="input14a" type="radio" name="input14">
-                <label for="input14a">Item 1</label>
-              </p>
-              <p>
-                <input class="filled-in" id="input14b" type="radio" name="input14">
-                <label for="input14b">Item 2</label>
-              </p>
-              <p>
-                <input class="filled-in" id="input14c" type="radio" name="input14">
-                <label for="input14c">Item 3</label>
-              </p>
+              <p><span>
+                  <input class="filled-in" id="input14a" type="radio" name="input14">
+                  <label for="input14a">Item 1</label></span><span>
+                  <input class="filled-in" id="input14b" type="radio" name="input14">
+                  <label for="input14b">Item 2</label></span><span>
+                  <input class="filled-in" id="input14c" type="radio" name="input14">
+                  <label for="input14c">Item 3</label></span></p>
             </div>
             <div class="col s12">
               <div class="switch">Uma pergunta?
@@ -957,8 +941,11 @@
     .logo-menu-azul { position: fixed; z-index:99999; top:0; left:16px; width: 80px; height:80px; border-radius: 50%; background-image: url(http://localhost/cdn/myrp/img/logo-myrp-branco.png); background-position: center; background-repeat: no-repeat; background-size: 80%; background-color: rgba(3, 169, 244, 0.3); }
     .timeline .timeline-title { font-size: 0.9rem; font-weight: 500; }
     .menu-title { font-size: 1rem; text-transform: uppercase; font-weight: 500; }
-    td .btn-flat { margin: 0; padding: 0 6px; font-size: 0.9rem; }
+    td .btn-flat, .card-panel > .right .btn-flat { margin: 0; padding: 0 6px; font-size: 0.9rem; }
     table th:first-child, table td:first-child { width: 0.1%; }
     #bottom { position: fixed; z-index: 999; left: 0; bottom: 0; width: 100%; padding: 12px 88px 12px 144px;}
+    .card-panel > .right .btn-flat i { margin: 0 !important; }
+    #top i, #bottom i { width: 56px; }
+    #top { height: 112px; padding: 24px 0; }
   </style>
 </html>

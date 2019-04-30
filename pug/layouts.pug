@@ -17,43 +17,35 @@ html
 
 	body.grey.lighten-4
 		.grey.lighten-3.background-top
-		//.grey.lighten-3.background-bottom.center
-			.btn-flat Cancelar
-			.btn.light-blue.white-text Salvar
 
-		#top(style="padding:24px 0")
-			.row.valign-wrapper
-				.col.s6.valign-wrapper
-					img.left.logo(src="http://localhost/cdn/myrp/img/logo-myrp-colorido.png")
-					.left
-						a.label.uppercase.b.black-text(style="margin-right: 15px") Nome da empresa
-						a.label.uppercase.b.black-text(href='index.pug', style="margin-right: 15px") Financeiro
-						.title.valign-wrapper(style='margin-top: 6px')
-							| Contas a pagar e receber
-							.btn.light-blue.white-text(style="margin: 0 12px") Adicionar
-							//.btn.light-blue.white-text(style="margin: 0 12px") Salvar
-				.col.s6
-					.right.valign-wrapper
-						a.center(style="width: 56px")
-							i.material-icons.black-text chat_bubble
-						a.center(style="width: 56px")
-							i.material-icons.black-text notifications
-						a.center(style="width: 56px")
-							i.material-icons.black-text apps
-						a.center(style="width: 56px")
-							i.material-icons.black-text help_outline
-						a.center(style="width: 56px")
-							i.material-icons.black-text account_circle
+		#top
+			.left
+				img.logo(src="http://localhost/cdn/myrp/img/logo-myrp-colorido.png")
+			.left
+				a.label.uppercase.b.black-text(style="margin-right: 15px") Empresa
+				a.label.uppercase.b.black-text(href='index.pug', style="margin-right: 15px") Módulo
+				.valign-wrapper
+					.title(style='margin-top: 6px') Título da página
+					.btn.light-blue.white-text(style="margin: 0 12px") Botão
+			.right.hide-on-med-and-down
+				a.center
+					i.material-icons.black-text chat_bubble
+				a.center
+					i.material-icons.black-text notifications
+				a.center
+					i.material-icons.black-text apps
+				a.center
+					i.material-icons.black-text help_outline
+				a.center
+					i.material-icons.black-text account_circle
 		
 		#bottom.grey.lighten-3(style="display: none")
-			.row.valign-wrapper
-				.col.s6.valign-wrapper
-					.title Contas a pagar e receber
-					.btn.light-blue.white-text(style="margin: 0 12px") Adicionar
-				.col.s6
-					.right.valign-wrapper
-						a#up.center(style="width: 56px", href="javascript:;")
-							i.material-icons.black-text arrow_upward
+			.left.valign-wrapper
+				.title.truncate Título da página
+				.btn.light-blue.white-text(style="margin: 0 12px") Botão
+			.right.hide-on-med-and-down
+				a#up.center(href="javascript:;")
+					i.material-icons.black-text arrow_upward
 		
 		//div.logo-menu-branco
 		//div.logo-menu-preto
@@ -431,19 +423,21 @@ html
 				a Internet Banking
 
 		.row
-			.col.s8.truncate
-				a.chip.grey.lighten-2 Hoje
-				a.chip.grey.lighten-1
-					span Neste mês
-				a.chip.grey.lighten-2 No mês passado
-				a.chip.grey.lighten-2 No próximo mês
-				a.chip.grey.lighten-2 Em aberto
-				a.chip.grey.lighten-2 Atrasadas (99)
-			.col.s4.right-align
-				a.chip.white.z-depth-1
-					i.material-icons.left search
-					input(placeholder='Pesquise por número ou cliente')
-					i.material-icons.right keyboard_voice
+			.col.s12.truncate
+				.left
+					a.chip.grey.lighten-2 Filtro 1
+					a.chip.grey.lighten-1
+						span Filtro 2
+					a.chip.grey.lighten-2 Filtro 3
+					a.chip.grey.lighten-2 Filtro 4
+					a.chip.grey.lighten-2 Filtro 5
+					a.chip.grey.lighten-2 Filtro 6
+					a.chip.grey.lighten-2 Filtro 7
+				.right
+					a.chip.white.z-depth-1
+						i.material-icons.left search
+						input(placeholder='Nome dos campos')
+						i.material-icons.right keyboard_voice
 			//.col.s12.m3
 				.card
 					.card-content
@@ -690,7 +684,14 @@ html
 									span Segunda linha
 
 				.card-panel
-					h5 Table
+					.left 
+						h5 Table
+					.right
+						a.btn-flat.grey-text Link 1
+						a.btn-flat.grey-text Link 2
+						a.btn-flat.grey-text Link 3
+						a.btn-flat.grey-text Link 4
+							i.material-icons.right arrow_drop_down
 					table.bordered
 						thead
 							tr
@@ -730,7 +731,14 @@ html
 									a.btn-flat.blue-text Link 2
 
 				.card-panel
-					h5 Table
+					.left 
+						h5 Table
+					.right
+						a.btn-flat.blue-text Link 1
+						a.btn-flat.blue-text Link 2
+						a.btn-flat.blue-text Link 3
+						a.btn-flat.blue-text Link 4
+							i.material-icons.right arrow_drop_down
 					table.bordered
 						thead
 							tr
@@ -796,25 +804,28 @@ html
 						.col.s12.m6
 							label Marcar vários itens
 							p
-								input#input13a.filled-in(type='checkbox')
-								label(for='input13a') Item 1
-							p
-								input#input13b.filled-in(type='checkbox')
-								label(for='input13b') Item 2
-							p
-								input#input13c.filled-in(type='checkbox')
-								label(for='input13c') Item 3
+								span
+									input#input13a.filled-in(type='checkbox')
+									label(for='input13a') Item 1
+								span
+									input#input13b.filled-in(type='checkbox')
+									label(for='input13b') Item 2
+								span
+									input#input13c.filled-in(type='checkbox')
+									label(for='input13c') Item 3
 						.col.s12.m6
 							label Marcar somente um item
 							p
-								input#input14a.filled-in(type='radio', name="input14")
-								label(for='input14a') Item 1
-							p
-								input#input14b.filled-in(type='radio', name="input14")
-								label(for='input14b') Item 2
-							p
-								input#input14c.filled-in(type='radio', name="input14")
-								label(for='input14c') Item 3
+								span
+									input#input14a.filled-in(type='radio', name="input14")
+									label(for='input14a') Item 1
+								span
+									input#input14b.filled-in(type='radio', name="input14")
+									label(for='input14b') Item 2
+								span
+									input#input14c.filled-in(type='radio', name="input14")
+									label(for='input14c') Item 3
+							
 						.col.s12
 							.switch
 								| Uma pergunta?
@@ -1002,6 +1013,9 @@ html
 		.logo-menu-azul { position: fixed; z-index:99999; top:0; left:16px; width: 80px; height:80px; border-radius: 50%; background-image: url(http://localhost/cdn/myrp/img/logo-myrp-branco.png); background-position: center; background-repeat: no-repeat; background-size: 80%; background-color: rgba(3, 169, 244, 0.3); }
 		.timeline .timeline-title { font-size: 0.9rem; font-weight: 500; }
 		.menu-title { font-size: 1rem; text-transform: uppercase; font-weight: 500; }
-		td .btn-flat { margin: 0; padding: 0 6px; font-size: 0.9rem; }
+		td .btn-flat, .card-panel > .right .btn-flat { margin: 0; padding: 0 6px; font-size: 0.9rem; }
 		table th:first-child, table td:first-child { width: 0.1%; }
 		#bottom { position: fixed; z-index: 999; left: 0; bottom: 0; width: 100%; padding: 12px 88px 12px 144px;}
+		.card-panel > .right .btn-flat i { margin: 0 !important; }
+		#top i, #bottom i { width: 56px; }
+		#top { height: 112px; padding: 24px 0; }
