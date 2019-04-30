@@ -18,16 +18,16 @@ html
 	body.grey.lighten-4
 		.grey.lighten-3.background-top
 
-		#top
+		.top.hide-on-med-and-down
 			.left
 				img.logo(src="http://localhost/cdn/myrp/img/logo-myrp-colorido.png")
 			.left
 				a.label.uppercase.b.black-text(style="margin-right: 15px") Empresa
 				a.label.uppercase.b.black-text(href='index.pug', style="margin-right: 15px") Módulo
 				.valign-wrapper
-					.title(style='margin-top: 6px') Título da página
+					.title(style='margin-top: 6px; white-space: nowrap') Título da página
 					.btn.light-blue.white-text(style="margin: 0 12px") Botão
-			.right.hide-on-med-and-down
+			.right
 				a.center
 					i.material-icons.black-text chat_bubble
 				a.center
@@ -39,24 +39,27 @@ html
 				a.center
 					i.material-icons.black-text account_circle
 		
-		#bottom.grey.lighten-3(style="display: none")
+		.top.center.hide-on-large-only
+			img.logo(src="http://localhost/cdn/myrp/img/logo-myrp-colorido.png")
+			.title(style='margin-top: 6px; white-space: nowrap') Título da página
+			.btn.light-blue.white-text(style="margin: 0 12px") Botão
+
+		.bottom.grey.lighten-3.hide-on-med-and-down
 			.left.valign-wrapper
-				.title.truncate Título da página
+				.title.truncate.hide-on-med-and-down Título da página
 				.btn.light-blue.white-text(style="margin: 0 12px") Botão
-			.right.hide-on-med-and-down
+			.right
 				a#up.center(href="javascript:;")
 					i.material-icons.black-text arrow_upward
+
+		.bottom.grey.lighten-3.center.hide-on-large-only
+			.btn.light-blue.white-text(style="margin: 0 12px") Botão
 		
 		//div.logo-menu-branco
 		//div.logo-menu-preto
 		//div.logo-menu-azul
 
-		div.z-depth-1.menu.light-blue.white-text(style="padding-top: 64px")
-			//#busca.center(style="height: 64px; padding: 24px")
-				.chip.white.z-depth-1
-					i.material-icons.left(style="width: auto") search
-					input(placeholder='O que você procura?')
-					i.material-icons.right(style="width: auto") keyboard_voice
+		.menu.light-blue.white-text.z-depth-1.hide-on-med-and-down
 			.left.center(style="width: 56px")
 				a(href='#menu-cadastros')
 					i.material-icons home
@@ -72,9 +75,6 @@ html
 					i.material-icons widgets
 				a(href='#menu-sped')
 					i.material-icons done_all
-				//a(href='#menu-relatorios')
-					i.material-icons print
-				a(href='#menu-configuracoes')
 					i.material-icons settings
 			.left(style="width: calc(100% - 56px); padding:24px;")
 				#menu-vendas(style="display: none")
@@ -279,148 +279,13 @@ html
 							p Importar CT-e de Fornecedor
 							p MDF-e
 
-
-				//#menu-relatorios(style="display: none")
-					h5 Relatórios
-					p Produtos
-					p Clientes
-					p Fornecedores
-					p Transportadores
-					p Contadores
-
-					p.divider &nbsp;
-					p Contas a Pagar
-					p Contas a Pagar por Categoria
-					p Contas a Receber
-					p Contas a Receber por Categoria
-					p Financeiro Sintético
-					p Detalhamento de Conta Bancária
-					p Quitação de Contas a Pagar e Receber
-					p Recebimentos Cartão
-					p Fluxo de Caixa
-					p Comissões por Conta a Receber
-					p Comissões por Pedido de Venda
-					p Comissões por NF-e
-					p Comissões por NFS-e
-					p Comissões por NFC-e
-					
-					p.divider &nbsp;
-					p NF-e de Fornecedor
-					p Itens de NF-e de Fornecedor
-					p NFS-e de Fornecedor
-					p Retenções de NFS-e de Fornecedor
-
-					p.divider &nbsp;
-					p Produtos Mais Vendidos
-					p Produtos Mais Lucrativos
-					p Clientes Mais Fiéis
-					p Clientes Mais Lucrativos
-					p Formas de Pagamento Mais Utilizadas
-					p NF-e
-					p Itens de NF-e
-					p NFC-e
-					p Itens da NFC-e
-					p Itens de Pedido de Venda
-					p Margem de Contribuição por Itens de Pedido de Venda
-					p Orçamentos
-					p Itens de Orçamento
-					p Faturamento Sintético
-					p NFS-e
-					p Retenções de NFS-e
-
-					p.divider &nbsp;
-					p CT-e
-					p CT-e de Fornecedor
-
-					p.divider &nbsp;
-					p Estoque Próprio
-					p Estoque (Preço de Compra)
-					p Estoque de Terceiro
-					p Estoque em Terceiro
-					p Movimentação Estoque Próprio
-					p Movimentação Estoque de Terceiro
-					p Movimentação Estoque em Terceiro
-					p Inventário
-				//#menu-relatorios(style="display: none")
-					h5 Relatórios
-					p Clientes
-					p Clientes Mais Fiéis
-					p Clientes Mais Lucrativos
-					p Comissões por Conta a Receber
-					p Comissões por Pedido de Venda
-					p Comissões por NF-e
-					p Comissões por NFS-e
-					p Comissões por NFC-e
-					p Contadores
-					p Contas a Pagar
-					p Contas a Pagar por Categoria
-					p Contas a Receber
-					p Contas a Receber por Categoria
-					p CT-e
-					p CT-e de Fornecedor
-					p.divider &nbsp;
-					p Detalhamento de Conta Bancária
-					p.divider &nbsp;
-					p Estoque Próprio
-					p Estoque (Preço de Compra)
-					p Estoque de Terceiro
-					p Estoque em Terceiro
-					p.divider &nbsp;
-					p Faturamento Sintético
-					p Financeiro Sintético
-					p Fluxo de Caixa
-					p Formas de Pagamento Mais Utilizadas
-					p Fornecedores
-					p.divider &nbsp;
-					p Inventário
-					p Itens de NF-e
-					p Itens de NF-e de Fornecedor
-					p Itens da NFC-e
-					p Itens de Orçamento
-					p Itens de Pedido de Venda
-					p.divider &nbsp;
-					p Margem de Contribuição por Itens de Pedido de Venda
-					p Movimentação Estoque Próprio
-					p Movimentação Estoque de Terceiro
-					p Movimentação Estoque em Terceiro
-					p.divider &nbsp;
-					p NF-e
-					p NF-e de Fornecedor
-					p NFC-e
-					p NFS-e
-					p NFS-e de Fornecedor
-					p.divider &nbsp;
-					p Orçamentos
-					p.divider &nbsp;
-					p Produtos
-					p Produtos Mais Lucrativos
-					p Produtos Mais Vendidos
-					p.divider &nbsp;
-					p Quitação de Contas a Pagar e Receber
-					p.divider &nbsp;
-					p Recebimentos Cartão
-					p Retenções de NFS-e
-					p Retenções de NFS-e de Fornecedor
-					p.divider &nbsp;
-					p Transportadores
-		
-		//.title.black-text.truncate
-			.left Contas a pagar e receber
-			.right
-				a.right(href='#!')
-					i.material-icons.black-text add
-				//a.right(href='#!')
-					i.material-icons.black-text refresh
-				a.right(href='#!')
-					i.material-icons.black-text search
-
 		//ul.tabs.transparent
 			li.tab 
-				a Conta
+				a Aba 1
 			li.tab 
-				a Boleto
+				a Aba 2
 			li.tab 
-				a Internet Banking
+				a Aba 3
 
 		.row
 			.col.s12.truncate
@@ -433,35 +298,12 @@ html
 					a.chip.grey.lighten-2 Filtro 5
 					a.chip.grey.lighten-2 Filtro 6
 					a.chip.grey.lighten-2 Filtro 7
-				.right
+				.right.hide-on-med-and-down
 					a.chip.white.z-depth-1
 						i.material-icons.left search
 						input(placeholder='Nome dos campos')
 						i.material-icons.right keyboard_voice
-			//.col.s12.m3
-				.card
-					.card-content
-						label.black-text Recebimento esperado
-						h5.truncate
-							| R$ 900,00
-			//.col.s12.m3
-				.card
-					.card-content
-						label.black-text Recebido
-						h5.truncate
-							| R$ 800,00
-			//.col.s12.m3
-				.card
-					.card-content
-						label.black-text Pagamento esperado
-						h5.truncate
-							| R$ 1.000,00
-			//.col.s12.m3
-				.card
-					.card-content
-						label.black-text Pago
-						h5.truncate
-							| R$ 300,00
+
 			.col.s12
 				.card-panel
 					h5 Timeline
@@ -469,19 +311,19 @@ html
 						.timeline-item
 							i.material-icons.grey-text check_box_outline_blank
 							.timeline-actions
-								a.btn-flat.grey-text Link 1
-								a.btn-flat.grey-text Link 2
-								a.btn-flat.grey-text Link 3
+								a.btn-flat.grey-text.hide-on-med-and-down Link 1
+								a.btn-flat.grey-text.hide-on-med-and-down Link 2
+								a.btn-flat.grey-text.hide-on-med-and-down Link 3
 								a.btn-flat.grey-text Link 4
 									i.material-icons.right arrow_drop_down
 							.timeline-content.valign-wrapper
-								span.uppercase(style="font-size:0.9rem; font-weight: 500;") Selecionar todos
+								span.uppercase.left.hide-on-med-and-down(style="font-size:0.9rem; font-weight: 500;") Selecionar todos
 						.timeline-header
 							.timeline-title Data
 						.timeline-item
 							i.material-icons.light-green-text check_circle
 							.timeline-actions
-								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text.hide-on-med-and-down Link 1
 								a.btn-flat.blue-text.dropdown-button( data-activates='dropdown1') Link 2
 									i.material-icons.right arrow_drop_down
 								ul#dropdown1.dropdown-content
@@ -499,7 +341,7 @@ html
 						.timeline-item
 							i.material-icons.orange-text warning
 							.timeline-actions
-								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text.hide-on-med-and-down Link 1
 								a.btn-flat.blue-text Link 2
 									i.material-icons.right arrow_drop_down
 							.timeline-content
@@ -510,7 +352,7 @@ html
 						.timeline-item
 							i.material-icons.grey-text schedule
 							.timeline-actions
-								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text.hide-on-med-and-down Link 1
 								a.btn-flat.blue-text Link 2
 									i.material-icons.right arrow_drop_down
 							.timeline-content
@@ -525,19 +367,19 @@ html
 						.timeline-item
 							i.material-icons.light-blue-text check_box
 							.timeline-actions
-								a.btn-flat.blue-text Link 1
-								a.btn-flat.blue-text Link 2
-								a.btn-flat.blue-text Link 3
+								a.btn-flat.blue-text.hide-on-med-and-down Link 1
+								a.btn-flat.blue-text.hide-on-med-and-down Link 2
+								a.btn-flat.blue-text.hide-on-med-and-down Link 3
 								a.btn-flat.blue-text Link 4
 									i.material-icons.right arrow_drop_down
 							.timeline-content.valign-wrapper
-								span.uppercase(style="font-size:0.9rem; font-weight: 500;") 3 selecionados
+								span.uppercase.left.hide-on-med-and-down(style="font-size:0.9rem; font-weight: 500;") 3 selecionados
 						.timeline-header
 							.timeline-title Data
 						.timeline-item
 							i.material-icons.light-blue-text check_box
 							.timeline-actions
-								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text.hide-on-med-and-down Link 1
 								a.btn-flat.blue-text.dropdown-button( data-activates='dropdown1') Link 2
 									i.material-icons.right arrow_drop_down
 								ul#dropdown1.dropdown-content
@@ -555,7 +397,7 @@ html
 						.timeline-item
 							i.material-icons.light-blue-text check_box
 							.timeline-actions
-								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text.hide-on-med-and-down Link 1
 								a.btn-flat.blue-text Link 2
 									i.material-icons.right arrow_drop_down
 							.timeline-content
@@ -566,7 +408,7 @@ html
 						.timeline-item
 							i.material-icons.light-blue-text check_box
 							.timeline-actions
-								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text.hide-on-med-and-down Link 1
 								a.btn-flat.blue-text Link 2
 									i.material-icons.right arrow_drop_down
 							.timeline-content
@@ -580,17 +422,17 @@ html
 					.list
 						.list-item
 							.list-actions
-								a.btn-flat.grey-text Link 1
-								a.btn-flat.grey-text Link 2
-								a.btn-flat.grey-text Link 3
+								a.btn-flat.grey-text.hide-on-med-and-down Link 1
+								a.btn-flat.grey-text.hide-on-med-and-down Link 2
+								a.btn-flat.grey-text.hide-on-med-and-down Link 3
 								a.btn-flat.grey-text Link 4
 									i.material-icons.right arrow_drop_down
 							.list-content
 								i.material-icons.grey-text.left check_box_outline_blank
-								span.uppercase.left(style="font-size:0.9rem; font-weight: 500; margin-top: 10px;") Selecionar todos
+								span.uppercase.left.hide-on-med-and-down(style="font-size:0.9rem; font-weight: 500; margin-top: 10px;") Selecionar todos
 						.list-item
 							.list-actions
-								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text.hide-on-med-and-down Link 1
 								a.btn-flat.blue-text.dropdown-button( data-activates='dropdown1') Link 2
 									i.material-icons.right arrow_drop_down
 								ul#dropdown1.dropdown-content
@@ -608,7 +450,7 @@ html
 									span Segunda linha
 						.list-item
 							.list-actions
-								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text.hide-on-med-and-down Link 1
 								a.btn-flat.blue-text Link 2
 									i.material-icons.right arrow_drop_down
 							.list-content
@@ -619,7 +461,7 @@ html
 									span Segunda linha
 						.list-item
 							.list-actions
-								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text.hide-on-med-and-down Link 1
 								a.btn-flat.blue-text Link 2
 									i.material-icons.right arrow_drop_down
 							.list-content
@@ -634,17 +476,17 @@ html
 					.list
 						.list-item
 							.list-actions
-								a.btn-flat.blue-text Link 1
-								a.btn-flat.blue-text Link 2
-								a.btn-flat.blue-text Link 3
+								a.btn-flat.blue-text.hide-on-med-and-down Link 1
+								a.btn-flat.blue-text.hide-on-med-and-down Link 2
+								a.btn-flat.blue-text.hide-on-med-and-down Link 3
 								a.btn-flat.blue-text Link 4
 									i.material-icons.right arrow_drop_down
 							.list-content
 								i.material-icons.light-blue-text.left check_box
-								span.uppercase.left(style="font-size:0.9rem; font-weight: 500; margin-top: 10px;") 3 selecionados
+								span.uppercase.left.hide-on-med-and-down(style="font-size:0.9rem; font-weight: 500; margin-top: 10px;") 3 selecionados
 						.list-item
 							.list-actions
-								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text.hide-on-med-and-down Link 1
 								a.btn-flat.blue-text.dropdown-button( data-activates='dropdown1') Link 2
 									i.material-icons.right arrow_drop_down
 								ul#dropdown1.dropdown-content
@@ -662,7 +504,7 @@ html
 									span Segunda linha
 						.list-item
 							.list-actions
-								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text.hide-on-med-and-down Link 1
 								a.btn-flat.blue-text Link 2
 									i.material-icons.right arrow_drop_down
 							.list-content
@@ -673,7 +515,7 @@ html
 									span Segunda linha
 						.list-item
 							.list-actions
-								a.btn-flat.blue-text Link 1
+								a.btn-flat.blue-text.hide-on-med-and-down Link 1
 								a.btn-flat.blue-text Link 2
 									i.material-icons.right arrow_drop_down
 							.list-content
@@ -687,9 +529,9 @@ html
 					.left 
 						h5 Table
 					.right
-						a.btn-flat.grey-text Link 1
-						a.btn-flat.grey-text Link 2
-						a.btn-flat.grey-text Link 3
+						a.btn-flat.grey-text.hide-on-med-and-down Link 1
+						a.btn-flat.grey-text.hide-on-med-and-down Link 2
+						a.btn-flat.grey-text.hide-on-med-and-down Link 3
 						a.btn-flat.grey-text Link 4
 							i.material-icons.right arrow_drop_down
 					table.bordered
@@ -709,8 +551,9 @@ html
 								td Linha 1
 								td Linha 1
 								td.right-align
-									a.btn-flat.blue-text Link 1
+									a.btn-flat.blue-text.hide-on-med-and-down Link 1
 									a.btn-flat.blue-text Link 2
+										i.material-icons.right arrow_drop_down
 							tr
 								td
 									i.material-icons.left check_box_outline_blank
@@ -718,8 +561,9 @@ html
 								td Linha 2
 								td Linha 2
 								td.right-align
-									a.btn-flat.blue-text Link 1
+									a.btn-flat.blue-text.hide-on-med-and-down Link 1
 									a.btn-flat.blue-text Link 2
+										i.material-icons.right arrow_drop_down
 							tr
 								td
 									i.material-icons.left check_box_outline_blank
@@ -727,16 +571,17 @@ html
 								td Linha 3
 								td Linha 3
 								td.right-align
-									a.btn-flat.blue-text Link 1
+									a.btn-flat.blue-text.hide-on-med-and-down Link 1
 									a.btn-flat.blue-text Link 2
+										i.material-icons.right arrow_drop_down
 
 				.card-panel
 					.left 
 						h5 Table
 					.right
-						a.btn-flat.blue-text Link 1
-						a.btn-flat.blue-text Link 2
-						a.btn-flat.blue-text Link 3
+						a.btn-flat.blue-text.hide-on-med-and-down Link 1
+						a.btn-flat.blue-text.hide-on-med-and-down Link 2
+						a.btn-flat.blue-text.hide-on-med-and-down Link 3
 						a.btn-flat.blue-text Link 4
 							i.material-icons.right arrow_drop_down
 					table.bordered
@@ -756,8 +601,9 @@ html
 								td Linha 1
 								td Linha 1
 								td.right-align
-									a.btn-flat.blue-text Link 1
+									a.btn-flat.blue-text.hide-on-med-and-down Link 1
 									a.btn-flat.blue-text Link 2
+										i.material-icons.right arrow_drop_down
 							tr
 								td
 									i.material-icons.light-blue-text.left check_box
@@ -765,8 +611,9 @@ html
 								td Linha 2
 								td Linha 2
 								td.right-align
-									a.btn-flat.blue-text Link 1
+									a.btn-flat.blue-text.hide-on-med-and-down Link 1
 									a.btn-flat.blue-text Link 2
+										i.material-icons.right arrow_drop_down
 							tr
 								td
 									i.material-icons.light-blue-text.left check_box
@@ -774,8 +621,9 @@ html
 								td Linha 3
 								td Linha 3
 								td.right-align
-									a.btn-flat.blue-text Link 1
+									a.btn-flat.blue-text.hide-on-med-and-down Link 1
 									a.btn-flat.blue-text Link 2
+										i.material-icons.right arrow_drop_down
 
 				.card-panel
 					h5 Form
@@ -958,9 +806,9 @@ html
 
 		$(document).on('scroll', function() {
 			if ($(document).scrollTop() > 112) {
-				$('#bottom').show();
+				$('.bottom').show();
 			} else {
-				$('#bottom').hide();
+				$('.bottom').hide();
 			}
 		});
 
@@ -1014,8 +862,16 @@ html
 		.timeline .timeline-title { font-size: 0.9rem; font-weight: 500; }
 		.menu-title { font-size: 1rem; text-transform: uppercase; font-weight: 500; }
 		td .btn-flat, .card-panel > .right .btn-flat { margin: 0; padding: 0 6px; font-size: 0.9rem; }
+		td .btn-flat i { margin: 0!important; }
 		table th:first-child, table td:first-child { width: 0.1%; }
-		#bottom { position: fixed; z-index: 999; left: 0; bottom: 0; width: 100%; padding: 12px 88px 12px 144px;}
+		.bottom { position: fixed; z-index: 999; left: 0; bottom: 0; width: 100%; padding: 12px 88px 12px 144px;}
 		.card-panel > .right .btn-flat i { margin: 0 !important; }
-		#top i, #bottom i { width: 56px; }
-		#top { height: 112px; padding: 24px 0; }
+		.top .right i, .top .right a { width: 56px; line-height: 64px; }
+		.bottom .right i, .bottom .right a { width: 56px; line-height: 36px; } 
+		.top { height: 112px; padding: 24px 0; }
+
+		@media only screen and (max-width: 992px) {
+			body { margin: 0 24px; }
+			.bottom { padding: 12px 24px;}
+			.top { height: auto; }
+		}
