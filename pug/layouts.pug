@@ -186,7 +186,7 @@ html
 					p Imagem para Documentos
 					p Fundos de Combate a Pobreza
 
-		.top.hide-on-med-and-down
+		.top.truncate
 			.left
 				img.logo(src="http://localhost/cdn/myrp/img/logo-myrp-colorido.png")
 			.left
@@ -194,8 +194,8 @@ html
 				a.label.uppercase.b.black-text(href='index.pug', style="margin-right: 15px") Módulo
 				.valign-wrapper
 					.title(style='margin-top: 6px; white-space: nowrap') Título da página
-					.btn.grey.darken-4.white-text(style="margin: 0 12px") Botão
-			.right
+					.btn.grey.darken-4.white-text.hide-on-med-and-down(style="margin: 0 12px") Botão
+			.right.hide-on-med-and-down
 				a.center
 					i.material-icons.black-text chat_bubble
 				a.center
@@ -207,11 +207,6 @@ html
 				a.center
 					i.material-icons.black-text account_circle
 		
-		.top.center.hide-on-large-only
-			img.logo(src="http://localhost/cdn/myrp/img/logo-myrp-colorido.png")
-			.title(style='margin-top: 6px; white-space: nowrap') Título da página
-				
-
 		.bottom.grey.lighten-3.hide-on-med-and-down
 			.left.valign-wrapper
 				.title.truncate.hide-on-med-and-down Título da página
@@ -237,7 +232,7 @@ html
 				a Aba 3
 
 		.row
-			.col.s12.truncate
+			.col.s12
 				.left
 					a.chip.grey.lighten-2 Filtro 1
 					a.chip.grey.lighten-1
@@ -275,8 +270,8 @@ html
 								a.btn-flat.grey-text.hide-on-med-and-down Link 1
 								a.btn-flat.grey-text.hide-on-med-and-down Link 2
 								a.btn-flat.grey-text.hide-on-med-and-down Link 3
-								a.btn-flat.grey-text Link 4
-									i.material-icons.right arrow_drop_down
+								a.btn-flat.grey-text
+									i.material-icons.right more_vert
 							.timeline-content.valign-wrapper
 								span.uppercase.left.hide-on-med-and-down(style="font-size:0.9rem; font-weight: 500;") Selecionar todos
 						.timeline-header
@@ -285,8 +280,8 @@ html
 							i.material-icons.light-green-text check_circle
 							.timeline-actions
 								a.btn-flat.blue-text.hide-on-med-and-down Link 1
-								a.btn-flat.blue-text.dropdown-button( data-activates='dropdown1') Link 2
-									i.material-icons.right arrow_drop_down
+								a.btn-flat.blue-text.dropdown-button( data-activates='dropdown1')
+									i.material-icons.right more_vert
 								ul#dropdown1.dropdown-content
 									li
 										a Link 1
@@ -303,8 +298,8 @@ html
 							i.material-icons.orange-text warning
 							.timeline-actions
 								a.btn-flat.blue-text.hide-on-med-and-down Link 1
-								a.btn-flat.blue-text Link 2
-									i.material-icons.right arrow_drop_down
+								a.btn-flat.blue-text
+									i.material-icons.right more_vert
 							.timeline-content
 								div.truncate Segunda linha
 								label.truncate
@@ -314,8 +309,8 @@ html
 							i.material-icons.grey-text schedule
 							.timeline-actions
 								a.btn-flat.blue-text.hide-on-med-and-down Link 1
-								a.btn-flat.blue-text Link 2
-									i.material-icons.right arrow_drop_down
+								a.btn-flat.blue-text
+									i.material-icons.right more_vert
 							.timeline-content
 								div.truncate Terceira linha
 								label.truncate
@@ -331,8 +326,8 @@ html
 								a.btn-flat.blue-text.hide-on-med-and-down Link 1
 								a.btn-flat.blue-text.hide-on-med-and-down Link 2
 								a.btn-flat.blue-text.hide-on-med-and-down Link 3
-								a.btn-flat.blue-text Link 4
-									i.material-icons.right arrow_drop_down
+								a.btn-flat.blue-text
+									i.material-icons.right more_vert
 							.timeline-content.valign-wrapper
 								span.uppercase.left.hide-on-med-and-down(style="font-size:0.9rem; font-weight: 500;") 3 selecionados
 						.timeline-header
@@ -341,8 +336,8 @@ html
 							i.material-icons.light-blue-text check_box
 							.timeline-actions
 								a.btn-flat.blue-text.hide-on-med-and-down Link 1
-								a.btn-flat.blue-text.dropdown-button( data-activates='dropdown1') Link 2
-									i.material-icons.right arrow_drop_down
+								a.btn-flat.blue-text.dropdown-button( data-activates='dropdown1')
+									i.material-icons.right more_vert
 								ul#dropdown1.dropdown-content
 									li
 										a Link 1
@@ -359,8 +354,8 @@ html
 							i.material-icons.light-blue-text check_box
 							.timeline-actions
 								a.btn-flat.blue-text.hide-on-med-and-down Link 1
-								a.btn-flat.blue-text Link 2
-									i.material-icons.right arrow_drop_down
+								a.btn-flat.blue-text
+									i.material-icons.right more_vert
 							.timeline-content
 								div.truncate Segunda linha
 								label.truncate
@@ -370,8 +365,8 @@ html
 							i.material-icons.light-blue-text check_box
 							.timeline-actions
 								a.btn-flat.blue-text.hide-on-med-and-down Link 1
-								a.btn-flat.blue-text Link 2
-									i.material-icons.right arrow_drop_down
+								a.btn-flat.blue-text
+									i.material-icons.right more_vert
 							.timeline-content
 								div.truncate Terceira linha
 								label.truncate
@@ -386,16 +381,16 @@ html
 								a.btn-flat.grey-text.hide-on-med-and-down Link 1
 								a.btn-flat.grey-text.hide-on-med-and-down Link 2
 								a.btn-flat.grey-text.hide-on-med-and-down Link 3
-								a.btn-flat.grey-text Link 4
-									i.material-icons.right arrow_drop_down
+								a.btn-flat.grey-text
+									i.material-icons.right more_vert
 							.list-content
 								i.material-icons.grey-text.left check_box_outline_blank
 								span.uppercase.left.hide-on-med-and-down(style="font-size:0.9rem; font-weight: 500; margin-top: 10px;") Selecionar todos
 						.list-item
 							.list-actions
 								a.btn-flat.blue-text.hide-on-med-and-down Link 1
-								a.btn-flat.blue-text.dropdown-button( data-activates='dropdown1') Link 2
-									i.material-icons.right arrow_drop_down
+								a.btn-flat.blue-text.dropdown-button( data-activates='dropdown1')
+									i.material-icons.right more_vert
 								ul#dropdown1.dropdown-content
 									li
 										a Link 1
@@ -412,8 +407,8 @@ html
 						.list-item
 							.list-actions
 								a.btn-flat.blue-text.hide-on-med-and-down Link 1
-								a.btn-flat.blue-text Link 2
-									i.material-icons.right arrow_drop_down
+								a.btn-flat.blue-text
+									i.material-icons.right more_vert
 							.list-content
 								i.material-icons.orange-text.left warning
 								div.truncate Segunda linha
@@ -423,8 +418,8 @@ html
 						.list-item
 							.list-actions
 								a.btn-flat.blue-text.hide-on-med-and-down Link 1
-								a.btn-flat.blue-text Link 2
-									i.material-icons.right arrow_drop_down
+								a.btn-flat.blue-text
+									i.material-icons.right more_vert
 							.list-content
 								i.material-icons.grey-text.left schedule
 								div.truncate Terceira linha
@@ -440,16 +435,16 @@ html
 								a.btn-flat.blue-text.hide-on-med-and-down Link 1
 								a.btn-flat.blue-text.hide-on-med-and-down Link 2
 								a.btn-flat.blue-text.hide-on-med-and-down Link 3
-								a.btn-flat.blue-text Link 4
-									i.material-icons.right arrow_drop_down
+								a.btn-flat.blue-text
+									i.material-icons.right more_vert
 							.list-content
 								i.material-icons.light-blue-text.left check_box
 								span.uppercase.left.hide-on-med-and-down(style="font-size:0.9rem; font-weight: 500; margin-top: 10px;") 3 selecionados
 						.list-item
 							.list-actions
 								a.btn-flat.blue-text.hide-on-med-and-down Link 1
-								a.btn-flat.blue-text.dropdown-button( data-activates='dropdown1') Link 2
-									i.material-icons.right arrow_drop_down
+								a.btn-flat.blue-text.dropdown-button( data-activates='dropdown1')
+									i.material-icons.right more_vert
 								ul#dropdown1.dropdown-content
 									li
 										a Link 1
@@ -466,8 +461,8 @@ html
 						.list-item
 							.list-actions
 								a.btn-flat.blue-text.hide-on-med-and-down Link 1
-								a.btn-flat.blue-text Link 2
-									i.material-icons.right arrow_drop_down
+								a.btn-flat.blue-text
+									i.material-icons.right more_vert
 							.list-content
 								i.material-icons.light-blue-text.left check_box
 								div.truncate Segunda linha
@@ -477,8 +472,8 @@ html
 						.list-item
 							.list-actions
 								a.btn-flat.blue-text.hide-on-med-and-down Link 1
-								a.btn-flat.blue-text Link 2
-									i.material-icons.right arrow_drop_down
+								a.btn-flat.blue-text
+									i.material-icons.right more_vert
 							.list-content
 								i.material-icons.light-blue-text.left check_box
 								div.truncate Terceira linha
@@ -493,8 +488,8 @@ html
 						a.btn-flat.grey-text.hide-on-med-and-down Link 1
 						a.btn-flat.grey-text.hide-on-med-and-down Link 2
 						a.btn-flat.grey-text.hide-on-med-and-down Link 3
-						a.btn-flat.grey-text Link 4
-							i.material-icons.right arrow_drop_down
+						a.btn-flat.grey-text
+							i.material-icons.right more_vert
 					table.bordered
 						thead
 							tr
@@ -513,8 +508,8 @@ html
 								td Linha 1
 								td.right-align
 									a.btn-flat.blue-text.hide-on-med-and-down Link 1
-									a.btn-flat.blue-text Link 2
-										i.material-icons.right arrow_drop_down
+									a.btn-flat.blue-text
+										i.material-icons.right more_vert
 							tr
 								td
 									i.material-icons.left check_box_outline_blank
@@ -523,8 +518,8 @@ html
 								td Linha 2
 								td.right-align
 									a.btn-flat.blue-text.hide-on-med-and-down Link 1
-									a.btn-flat.blue-text Link 2
-										i.material-icons.right arrow_drop_down
+									a.btn-flat.blue-text
+										i.material-icons.right more_vert
 							tr
 								td
 									i.material-icons.left check_box_outline_blank
@@ -533,8 +528,8 @@ html
 								td Linha 3
 								td.right-align
 									a.btn-flat.blue-text.hide-on-med-and-down Link 1
-									a.btn-flat.blue-text Link 2
-										i.material-icons.right arrow_drop_down
+									a.btn-flat.blue-text
+										i.material-icons.right more_vert
 
 				.card-panel
 					.left 
@@ -543,8 +538,8 @@ html
 						a.btn-flat.blue-text.hide-on-med-and-down Link 1
 						a.btn-flat.blue-text.hide-on-med-and-down Link 2
 						a.btn-flat.blue-text.hide-on-med-and-down Link 3
-						a.btn-flat.blue-text Link 4
-							i.material-icons.right arrow_drop_down
+						a.btn-flat.blue-text
+							i.material-icons.right more_vert
 					table.bordered
 						thead
 							tr
@@ -563,8 +558,8 @@ html
 								td Linha 1
 								td.right-align
 									a.btn-flat.blue-text.hide-on-med-and-down Link 1
-									a.btn-flat.blue-text Link 2
-										i.material-icons.right arrow_drop_down
+									a.btn-flat.blue-text
+										i.material-icons.right more_vert
 							tr
 								td
 									i.material-icons.light-blue-text.left check_box
@@ -573,8 +568,8 @@ html
 								td Linha 2
 								td.right-align
 									a.btn-flat.blue-text.hide-on-med-and-down Link 1
-									a.btn-flat.blue-text Link 2
-										i.material-icons.right arrow_drop_down
+									a.btn-flat.blue-text
+										i.material-icons.right more_vert
 							tr
 								td
 									i.material-icons.light-blue-text.left check_box
@@ -583,8 +578,8 @@ html
 								td Linha 3
 								td.right-align
 									a.btn-flat.blue-text.hide-on-med-and-down Link 1
-									a.btn-flat.blue-text Link 2
-										i.material-icons.right arrow_drop_down
+									a.btn-flat.blue-text
+										i.material-icons.right more_vert
 
 				.card-panel
 					h5 Form
