@@ -77,7 +77,7 @@ parcelRequire = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({17:[function(require,module,exports) {
+})({18:[function(require,module,exports) {
 var global = (1,eval)("this");
 /* PrismJS 1.14.0
 http://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javascript&plugins=unescaped-markup */
@@ -250,7 +250,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '61151' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '64951' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -389,5 +389,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[22,17])
+},{}]},{},[22,18])
 //# sourceMappingURL=/prism.749787ad.map
