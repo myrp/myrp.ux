@@ -207,17 +207,17 @@ html
 				a.center
 					i.material-icons.black-text account_circle
 		
-		.bottom.grey.lighten-3.hide-on-med-and-down
-			.left.valign-wrapper
-				.title.truncate.hide-on-med-and-down Título da página
-				.btn.grey.darken-4.white-text(style="margin: 0 12px") Botão
-			.right
-				a#up.center(href="javascript:;")
-					i.material-icons.black-text arrow_upward
-
-		.fixed-action-btn.hide-on-large-only
-			a.btn-floating.btn-large.grey.darken-4.white-text
-				i.material-icons.large add
+		.bottom
+			.hide-on-med-and-down
+				.left.valign-wrapper
+					.title.truncate.hide-on-med-and-down Título da página
+					.btn.grey.darken-4.white-text(style="margin: 0 12px") Botão
+				.right
+					a#up.center(href="javascript:;")
+						i.material-icons.black-text arrow_upward
+			.hide-on-large-only
+				a.btn-floating.btn-large.grey.darken-4.white-text
+					i.material-icons.large add
 		
 		//div.logo-menu-branco
 		//div.logo-menu-preto
@@ -780,64 +780,75 @@ html
 		});
 
 	style(type='text/css').
-		.chip .material-icons.left, .chip .material-icons.right { margin: 5px 0 0 0; line-height: normal; font-size: 21px; }
-		.chip { font-size: 0.8rem; }
 		body { margin: 0 88px 0 144px; overflow-y: scroll; min-width: 320px; }
 		.background { position: absolute; top: 0; left: 0; height: 300px; width: 100%; z-index: -2; }
 		.logo { height: 36px; margin: 14px; }
 		nav ul li a { text-transform: uppercase; font-size: 0.8rem; font-weight: bold; }
-		.menu { position: fixed; top: 0; left: 0; height: 100%; width: auto; border: 0px; z-index: 999; overflow-y: auto; overflow-x: hidden; }
-		.menu::-webkit-scrollbar { width: 8px; }
-		.menu::-webkit-scrollbar-track { background: none; }
-		.menu::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.2); }
-		.menu-collapsed { float: left; width: 56px; text-align: center; }
-		.menu-collapsed a, .menu-collapsed i { display: block; width: 56px; height: 56px; line-height: 56px; color: inherit; }
-		.menu-collapsed a:hover { background-color: rgba(0,0,0,0.1) }
-		.menu-expanded { float: left; width: 600px; padding:24px; }
-		.title { font-size: 1.64rem; }
-		.title .left { }
-		.title .right { }
-		.title .material-icons { width:54px; height: 64px; line-height: 64px; text-align: center; }
-		.title .material-icons:hover { background-color: rgba(0,0,0,0.1) }
-		.fixed-action-btn-menu { position: fixed; top: 36px; left: 28px; width: 56px; height: 56px; }
-		.tabs { border-bottom: 1px solid #e0e0e0; }
-		.tabs .indicator { display: none; }
-		.tabs .tab a, .tabs .tab a:hover { color: #000000; }
-		.tabs .tab a { color: #000000; font-size: 0.8rem; font-weight: bold; }
-		.tabs .tab a.active { color: #000000; border-bottom: 3px solid #000000; }
 		.uppercase { text-transform: uppercase; }
 		.b { font-weight: bold; }
 		p + .timeline { margin-top: 24px; }
 		.side-nav { margin-top: -64px; }
 		h5 + .timeline { margin-top: 24px; }
 		.card-panel h5:first-child { margin-top: 0; }
+		.card-panel > .right .btn-flat i { margin: 0 !important; }
 		input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea { box-sizing: border-box; }
 		select.browser-default { margin: 0 0 20px 0; }
 		.cursor-pointer { cursor: pointer; }
 		.dropdown-content li>a { line-height: normal; padding: 12px; font-size: 1rem; color: #000; }
 		.controlar { display: none; }
+		.label { font-size: 0.8rem; }
+		table th:first-child, table td:first-child { width: 0.1%; }
+
+		.menu { position: fixed; top: 0; left: 0; height: 100%; width: auto; border: 0px; z-index: 999; overflow-y: auto; overflow-x: hidden; }
+		.menu::-webkit-scrollbar { width: 8px; }
+		.menu::-webkit-scrollbar-track { background: none; }
+		.menu::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.2); }
+		.menu .divider { background-color: rgba(0,0,0,0.2)!important; }
+		.menu-collapsed { float: left; width: 56px; text-align: center; }
+		.menu-collapsed a, .menu-collapsed i { display: block; width: 56px; height: 56px; line-height: 56px; color: inherit; }
+		.menu-collapsed a:hover { background-color: rgba(0,0,0,0.1) }
+		.menu-expanded { float: left; width: 600px; padding:24px; }
+		.menu-title { font-size: 1rem; text-transform: uppercase; font-weight: 500; }
+
+		.chip .material-icons.left, .chip .material-icons.right { margin: 5px 0 0 0; line-height: normal; font-size: 21px; }
+		.chip { font-size: 0.8rem; }
+
+		.title { font-size: 1.64rem; }
+		.title .left { }
+		.title .right { }
+		.title .material-icons { width:54px; height: 64px; line-height: 64px; text-align: center; }
+		.title .material-icons:hover { background-color: rgba(0,0,0,0.1) }
+
+		.tabs { border-bottom: 1px solid #e0e0e0; }
+		.tabs .indicator { display: none; }
+		.tabs .tab a, .tabs .tab a:hover { color: #000000; }
+		.tabs .tab a { color: #000000; font-size: 0.8rem; font-weight: bold; }
+		.tabs .tab a.active { color: #000000; border-bottom: 3px solid #000000; }
+		
 		.chip input, .chip input:focus { width: 200px !important; margin: 0; padding: 8px; display: inline; border: none !important; font-size: 0.8rem; height: auto; box-shadow: none !important; }
 		.chip input::placeholder { color: rgba(0,0,0,0.3); }
-		.label { font-size: 0.8rem; }
-		.menu .divider { background-color: rgba(0,0,0,0.2)!important; }
+		
 		.logo-menu-branco { position: fixed; z-index:99999; top:0; left:16px; width: 80px; height:80px; border-radius: 50%; background-image: url(http://localhost/cdn/myrp/img/logo-myrp-colorido.png); background-position: center; background-repeat: no-repeat; background-size: 80%; background-color: rgba(255,255,255,0.9); }
 		.logo-menu-preto { position: fixed; z-index:99999; top:0; left:16px; width: 80px; height:80px; border-radius: 50%; background-image: url(http://localhost/cdn/myrp/img/logo-myrp-branco.png); background-position: center; background-repeat: no-repeat; background-size: 80%; background-color: rgba(0,0,0,0.3); }
 		.logo-menu-azul { position: fixed; z-index:99999; top:0; left:16px; width: 80px; height:80px; border-radius: 50%; background-image: url(http://localhost/cdn/myrp/img/logo-myrp-branco.png); background-position: center; background-repeat: no-repeat; background-size: 80%; background-color: rgba(3, 169, 244, 0.3); }
+
+		.timeline { margin-left: 50px; }
 		.timeline .timeline-title { font-size: 0.9rem; font-weight: 500; }
-		.menu-title { font-size: 1rem; text-transform: uppercase; font-weight: 500; }
+		
 		td .btn-flat, .card-panel > .right .btn-flat { margin: 0; padding: 0 6px; font-size: 0.9rem; }
 		td .btn-flat i { margin: 0!important; }
-		table th:first-child, table td:first-child { width: 0.1%; }
-		.bottom { position: fixed; z-index: 998; left: 0; bottom: 0; width: 100%; padding: 12px 88px 12px 144px;}
-		.card-panel > .right .btn-flat i { margin: 0 !important; }
-		.top .right i, .top .right a { width: 56px; line-height: 64px; }
+
+		.bottom { position: fixed; z-index: 998; left: 0; bottom: 0; width: 100%; padding: 12px 88px 12px 144px; background-color: #eeeeee; }
 		.bottom .right i, .bottom .right a { width: 56px; line-height: 36px; } 
+
 		.top { height: 112px; padding: 24px 0; }
-		.timeline { margin-left: 50px; }
+		.top .right i, .top .right a { width: 56px; line-height: 64px; }
 
 		@media only screen and (max-width: 992px) {
 			body { margin: 0 12px; }
 			.top { height: auto; }
+			.bottom { position: fixed; z-index: 998; left: auto; right: 24px; bottom: 24px; width: auto; padding: 0; background-color: transparent; display: relative!important; }
+			
 			.menu { position: relative; text-align: center; height: auto; width: 100%; overflow-y: hidden; background: #000000!important; }
 			.menu-collapsed { float: none; width: 100%; }
 			.menu-collapsed a, .menu-collapsed i { display: inline-block; text-align: center; width: 56px; height: 56px; line-height: 56px; color: inherit; }

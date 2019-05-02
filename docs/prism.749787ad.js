@@ -220,7 +220,7 @@ Prism.languages.javascript = Prism.languages.extend("clike", { keyword: /\b(?:as
     }var n = e.element.parentNode;!e.code && n && "pre" == n.nodeName.toLowerCase() && e.element.childNodes.length && "#comment" == e.element.childNodes[0].nodeName && (e.element.textContent = e.code = e.element.childNodes[0].textContent);
   }));
 }();
-},{}],22:[function(require,module,exports) {
+},{}],29:[function(require,module,exports) {
 
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -250,7 +250,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '57038' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '49960' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -389,5 +389,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[22,18])
+},{}]},{},[29,18])
 //# sourceMappingURL=/prism.749787ad.map
