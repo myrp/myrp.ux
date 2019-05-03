@@ -219,9 +219,9 @@ html
 				a.btn-floating.btn-large.grey.darken-4.white-text
 					i.material-icons.large add
 		
-		//div.logo-menu-branco
-		//div.logo-menu-preto
-		//div.logo-menu-azul
+		//.logo-menu-branco
+		//.logo-menu-preto
+		//.logo-menu-azul
 
 		//ul.tabs.transparent
 			li.tab 
@@ -781,23 +781,32 @@ html
 
 	style(type='text/css').
 		body { margin: 0 88px 0 144px; overflow-y: scroll; min-width: 320px; }
-		.background { position: absolute; top: 0; left: 0; height: 300px; width: 100%; z-index: -2; }
-		.logo { height: 36px; margin: 14px; }
-		nav ul li a { text-transform: uppercase; font-size: 0.8rem; font-weight: bold; }
-		.uppercase { text-transform: uppercase; }
+		table th:first-child, table td:first-child { width: 0.1%; }
+
+		td .btn-flat, .card-panel > .right .btn-flat { margin: 0; padding: 0 6px; font-size: 0.9rem; }
+		td .btn-flat i { margin: 0!important; }
+
 		.b { font-weight: bold; }
-		p + .timeline { margin-top: 24px; }
-		.side-nav { margin-top: -64px; }
-		h5 + .timeline { margin-top: 24px; }
+		.background { position: absolute; top: 0; left: 0; height: 300px; width: 100%; z-index: -2; }
 		.card-panel h5:first-child { margin-top: 0; }
-		.card-panel > .right .btn-flat i { margin: 0 !important; }
-		input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea { box-sizing: border-box; }
-		select.browser-default { margin: 0 0 20px 0; }
 		.cursor-pointer { cursor: pointer; }
 		.dropdown-content li>a { line-height: normal; padding: 12px; font-size: 1rem; color: #000; }
-		.controlar { display: none; }
 		.label { font-size: 0.8rem; }
-		table th:first-child, table td:first-child { width: 0.1%; }
+		.logo { height: 36px; margin: 14px; }
+		.title { font-size: 1.64rem; }
+		.uppercase { text-transform: uppercase; }
+
+		.bottom { position: fixed; z-index: 998; left: 0; bottom: 0; width: 100%; padding: 12px 88px 12px 144px; background-color: #eeeeee; }
+		.bottom .right i, .bottom .right a { width: 56px; line-height: 36px; } 
+
+		.chip .material-icons.left, .chip .material-icons.right { margin: 5px 0 0 0; line-height: normal; font-size: 21px; }
+		.chip { font-size: 0.8rem; }
+		.chip input, .chip input:focus { width: 200px !important; margin: 0; padding: 8px; display: inline; border: none !important; font-size: 0.8rem; height: auto; box-shadow: none !important; }
+		.chip input::placeholder { color: rgba(0,0,0,0.3); }
+
+		.logo-menu-branco { position: fixed; z-index:99999; top:0; left:16px; width: 80px; height:80px; border-radius: 50%; background-image: url(http://localhost/cdn/myrp/img/logo-myrp-colorido.png); background-position: center; background-repeat: no-repeat; background-size: 80%; background-color: rgba(255,255,255,0.97); }
+		.logo-menu-preto { position: fixed; z-index:99999; top:0; left:16px; width: 80px; height:80px; border-radius: 50%; background-image: url(http://localhost/cdn/myrp/img/logo-myrp-branco.png); background-position: center; background-repeat: no-repeat; background-size: 80%; background-color: rgba(0,0,0,0.3); }
+		.logo-menu-azul { position: fixed; z-index:99999; top:0; left:16px; width: 80px; height:80px; border-radius: 50%; background-image: url(http://localhost/cdn/myrp/img/logo-myrp-branco.png); background-position: center; background-repeat: no-repeat; background-size: 80%; background-color: rgba(3, 169, 244, 0.3); }
 
 		.menu { position: fixed; top: 0; left: 0; height: 100%; width: auto; border: 0px; z-index: 999; overflow-y: auto; overflow-x: hidden; }
 		.menu::-webkit-scrollbar { width: 8px; }
@@ -810,36 +819,14 @@ html
 		.menu-expanded { float: left; width: 600px; padding:24px; }
 		.menu-title { font-size: 1rem; text-transform: uppercase; font-weight: 500; }
 
-		.chip .material-icons.left, .chip .material-icons.right { margin: 5px 0 0 0; line-height: normal; font-size: 21px; }
-		.chip { font-size: 0.8rem; }
-
-		.title { font-size: 1.64rem; }
-		.title .left { }
-		.title .right { }
-		.title .material-icons { width:54px; height: 64px; line-height: 64px; text-align: center; }
-		.title .material-icons:hover { background-color: rgba(0,0,0,0.1) }
-
 		.tabs { border-bottom: 1px solid #e0e0e0; }
 		.tabs .indicator { display: none; }
 		.tabs .tab a, .tabs .tab a:hover { color: #000000; }
 		.tabs .tab a { color: #000000; font-size: 0.8rem; font-weight: bold; }
 		.tabs .tab a.active { color: #000000; border-bottom: 3px solid #000000; }
 		
-		.chip input, .chip input:focus { width: 200px !important; margin: 0; padding: 8px; display: inline; border: none !important; font-size: 0.8rem; height: auto; box-shadow: none !important; }
-		.chip input::placeholder { color: rgba(0,0,0,0.3); }
-		
-		.logo-menu-branco { position: fixed; z-index:99999; top:0; left:16px; width: 80px; height:80px; border-radius: 50%; background-image: url(http://localhost/cdn/myrp/img/logo-myrp-colorido.png); background-position: center; background-repeat: no-repeat; background-size: 80%; background-color: rgba(255,255,255,0.9); }
-		.logo-menu-preto { position: fixed; z-index:99999; top:0; left:16px; width: 80px; height:80px; border-radius: 50%; background-image: url(http://localhost/cdn/myrp/img/logo-myrp-branco.png); background-position: center; background-repeat: no-repeat; background-size: 80%; background-color: rgba(0,0,0,0.3); }
-		.logo-menu-azul { position: fixed; z-index:99999; top:0; left:16px; width: 80px; height:80px; border-radius: 50%; background-image: url(http://localhost/cdn/myrp/img/logo-myrp-branco.png); background-position: center; background-repeat: no-repeat; background-size: 80%; background-color: rgba(3, 169, 244, 0.3); }
-
 		.timeline { margin-left: 50px; }
 		.timeline .timeline-title { font-size: 0.9rem; font-weight: 500; }
-		
-		td .btn-flat, .card-panel > .right .btn-flat { margin: 0; padding: 0 6px; font-size: 0.9rem; }
-		td .btn-flat i { margin: 0!important; }
-
-		.bottom { position: fixed; z-index: 998; left: 0; bottom: 0; width: 100%; padding: 12px 88px 12px 144px; background-color: #eeeeee; }
-		.bottom .right i, .bottom .right a { width: 56px; line-height: 36px; } 
 
 		.top { height: 112px; padding: 24px 0; }
 		.top .right i, .top .right a { width: 56px; line-height: 64px; }
