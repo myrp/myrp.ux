@@ -187,41 +187,43 @@ html
 					p Fundos de Combate a Pobreza
 
 		.top.truncate
-			.left
-				img.logo(src="http://localhost/cdn/myrp/img/logo-myrp-colorido.png")
-			.left
-				a.label.uppercase.b.black-text(style="margin-right: 15px") Empresa
-				a.label.uppercase.b.black-text(href='index.pug', style="margin-right: 15px") Módulo
-				.valign-wrapper
-					.title(style='margin-top: 6px; white-space: nowrap') Título da página
-					.btn.light-blue.white-text.hide-on-med-and-down(style="margin: 0 12px") Botão
-			.right.hide-on-med-and-down
-				a.center
-					i.material-icons.black-text chat_bubble
-				a.center
-					i.material-icons.black-text notifications
-				a.center
-					i.material-icons.black-text apps
-				a.center
-					i.material-icons.black-text help_outline
-				a.center
-					i.material-icons.black-text account_circle
+			.row
+				.col.s12
+					.left.hide-on-large-only
+						img.logo(src="http://localhost/cdn/myrp/img/logo-myrp-colorido.png")
+					.left
+						a.label.uppercase.b.black-text(style="margin-right: 15px") Empresa
+						a.label.uppercase.b.black-text(href='index.pug', style="margin-right: 15px") Módulo
+						.valign-wrapper
+							.title(style='margin-top: 6px; white-space: nowrap') Título da página
+							.btn.light-blue.white-text.hide-on-med-and-down(style="margin: 0 12px") Botão
+					.right.hide-on-med-and-down
+						a.center
+							i.material-icons.black-text chat_bubble
+						a.center
+							i.material-icons.black-text notifications
+						a.center
+							i.material-icons.black-text apps
+						a.center
+							i.material-icons.black-text help_outline
+						a.center
+							i.material-icons.black-text account_circle
 		
-		.bottom
-			.hide-on-med-and-down
-				.left.valign-wrapper
-					.title.truncate.hide-on-med-and-down Título da página
-					.btn.light-blue.white-text(style="margin: 0 12px") Botão
-				.right
-					a#up.center(href="javascript:;")
-						i.material-icons.black-text arrow_upward
-			.hide-on-large-only
-				a.btn-floating.btn-large.light-blue.white-text
-					i.material-icons.large add
-		
-		//.logo-menu-branco
-		//.logo-menu-preto
-		//.logo-menu-azul
+		.bottom.truncate
+			.row
+				.col.s12
+					.hide-on-med-and-down
+						.left.valign-wrapper
+							.title.truncate.hide-on-med-and-down Título da página
+							.btn.light-blue.white-text(style="margin: 0 12px") Botão
+						.right
+							a#up.center(href="javascript:;")
+								i.material-icons.black-text arrow_upward
+					.hide-on-large-only
+						a.btn-floating.btn-large.light-blue.white-text
+							i.material-icons.large add
+
+		.logo-menu-branco.hide-on-med-and-down
 
 		//ul.tabs.transparent
 			li.tab 
@@ -798,17 +800,16 @@ html
 
 		.bottom { position: fixed; z-index: 998; left: 0; bottom: 0; width: 100%; padding: 12px 88px 12px 144px; background-color: #eeeeee; }
 		.bottom .right i, .bottom .right a { width: 56px; line-height: 36px; } 
+		.bottom .row { margin: 0; }
 
 		.chip .material-icons.left, .chip .material-icons.right { margin: 5px 0 0 0; line-height: normal; font-size: 21px; }
 		.chip { font-size: 0.8rem; }
 		.chip input, .chip input:focus { width: 200px !important; margin: 0; padding: 8px; display: inline; border: none !important; font-size: 0.8rem; height: auto; box-shadow: none !important; }
 		.chip input::placeholder { color: rgba(0,0,0,0.3); }
 
-		.logo-menu-branco { position: fixed; z-index:99999; top:0; left:16px; width: 80px; height:80px; border-radius: 50%; background-image: url(http://localhost/cdn/myrp/img/logo-myrp-colorido.png); background-position: center; background-repeat: no-repeat; background-size: 80%; background-color: rgba(255,255,255,0.97); }
-		.logo-menu-preto { position: fixed; z-index:99999; top:0; left:16px; width: 80px; height:80px; border-radius: 50%; background-image: url(http://localhost/cdn/myrp/img/logo-myrp-branco.png); background-position: center; background-repeat: no-repeat; background-size: 80%; background-color: rgba(0,0,0,0.3); }
-		.logo-menu-azul { position: fixed; z-index:99999; top:0; left:16px; width: 80px; height:80px; border-radius: 50%; background-image: url(http://localhost/cdn/myrp/img/logo-myrp-branco.png); background-position: center; background-repeat: no-repeat; background-size: 80%; background-color: rgba(3, 169, 244, 0.3); }
+		.logo-menu-branco { position: fixed; z-index:99999; top:-10px; left:16px; width: 80px; height:80px; border-radius: 50%; background-image: url(http://localhost/cdn/myrp/img/logo-myrp-colorido.png); background-position: center; background-repeat: no-repeat; background-size: 80%; background-color: rgba(255,255,255,0.97); }
 
-		.menu { position: fixed; top: 0; left: 0; height: 100%; width: auto; border: 0px; z-index: 999; overflow-y: auto; overflow-x: hidden; }
+		.menu { position: fixed; top: 0; left: 0; height: 100%; width: auto; border: 0px; z-index: 999; overflow-y: auto; overflow-x: hidden; padding-top: 80px; }
 		.menu::-webkit-scrollbar { width: 8px; }
 		.menu::-webkit-scrollbar-track { background: none; }
 		.menu::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.2); }
@@ -830,13 +831,14 @@ html
 
 		.top { height: 112px; padding: 24px 0; }
 		.top .right i, .top .right a { width: 56px; line-height: 64px; }
+		.top .row { margin: 0; }
 
 		@media only screen and (max-width: 992px) {
 			body { margin: 0 12px; }
 			.top { height: auto; }
 			.bottom { position: fixed; z-index: 998; left: auto; right: 24px; bottom: 24px; width: auto; padding: 0; background-color: transparent; display: relative!important; }
 			
-			.menu { position: relative; text-align: center; height: auto; width: 100%; overflow-y: hidden; }
+			.menu { position: relative; text-align: center; height: auto; width: 100%; overflow-y: hidden; padding-top: 0; }
 			.menu-collapsed { float: none; width: 100%; }
 			.menu-collapsed a, .menu-collapsed i { display: inline-block; text-align: center; width: 56px; height: 56px; line-height: 56px; color: inherit; }
 			.menu-expanded { float: none; width: 100%; text-align: left; }
