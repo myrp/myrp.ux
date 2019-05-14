@@ -18,7 +18,7 @@ html
 	body.grey.lighten-4
 		.grey.lighten-3.background.hide-on-med-and-down
 
-		.menu.light-blue.white-text.z-depth-1
+		.menu.blue-grey.white-text.z-depth-1
 			.menu-collapsed
 				a(href='#menu-cadastros')
 					i.material-icons home
@@ -189,7 +189,7 @@ html
 		.top.truncate
 			.row
 				.col.s12
-					.left.hide-on-large-only
+					.left
 						img.logo(src="http://localhost/cdn/myrp/img/logo-myrp-colorido.png")
 					.left
 						a.label.uppercase.b.black-text(style="margin-right: 15px") Empresa
@@ -197,6 +197,7 @@ html
 						.valign-wrapper
 							.title(style='margin-top: 6px; white-space: nowrap') Título da página
 							.btn.light-blue.white-text.hide-on-med-and-down(style="margin: 0 12px") Botão
+							
 					.right.hide-on-med-and-down
 						a.center
 							i.material-icons.black-text chat_bubble
@@ -211,19 +212,14 @@ html
 		
 		.bottom.truncate
 			.row
-				.col.s12
+				.col.s12.center
 					.hide-on-med-and-down
-						.left.valign-wrapper
-							.title.truncate.hide-on-med-and-down Título da página
-							.btn.light-blue.white-text(style="margin: 0 12px") Botão
-						.right
-							a#up.center(href="javascript:;")
-								i.material-icons.black-text arrow_upward
+						.btn.light-blue.white-text(style="margin: 0 12px") Botão
 					.hide-on-large-only
 						a.btn-floating.btn-large.light-blue.white-text
 							i.material-icons.large add
 
-		.logo-menu-branco.hide-on-med-and-down
+		//.logo-menu-branco.hide-on-med-and-down
 
 		//ul.tabs.transparent
 			li.tab 
@@ -244,11 +240,9 @@ html
 					a.chip.grey.lighten-2 Filtro 5
 					a.chip.grey.lighten-2 Filtro 6
 					a.chip.grey.lighten-2 Filtro 7
-				.right.hide-on-med-and-down
 					a.chip.white.border-chip
-						i.material-icons.left search
 						input(placeholder='Nome dos campos')
-						i.material-icons.right keyboard_voice
+						i.material-icons.right search
 
 			.col.s12.l4
 				.card-panel.light-green.white-text
@@ -794,11 +788,11 @@ html
 		.cursor-pointer { cursor: pointer; }
 		.dropdown-content li>a { line-height: normal; padding: 12px; font-size: 1rem; color: #000; }
 		.label { font-size: 0.8rem; }
-		.logo { height: 36px; margin: 14px; }
 		.title { font-size: 1.64rem; }
 		.uppercase { text-transform: uppercase; }
 		.border-chip { border: 1px solid #e0e0e0; }
 
+		.bottom .logo { height: 36px; margin: 0 16px; }
 		.bottom { position: fixed; z-index: 998; left: 0; bottom: 0; width: 100%; padding: 12px 88px 12px 144px; background-color: #eeeeee; }
 		.bottom .right i, .bottom .right a { width: 56px; line-height: 36px; } 
 		.bottom .row { margin: 0; }
@@ -831,6 +825,7 @@ html
 		.timeline .timeline-title { font-size: 0.9rem; font-weight: 500; }
 
 		.top { height: 112px; padding: 24px 0; }
+		.top .logo { height: 36px; margin: 14px 16px; }
 		.top .right i, .top .right a { width: 56px; line-height: 64px; }
 		.top .row { margin: 0; }
 
