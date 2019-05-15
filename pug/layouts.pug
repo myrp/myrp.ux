@@ -200,8 +200,8 @@ html
 							p Imagem para Documentos
 							p Fundos de Combate a Pobreza
 
-		.center
-			a.label.uppercase.b.black-text Nome da empresa
+		.top-small.center
+			a.black-text Nome da empresa
 		
 		.top.truncate
 			.row
@@ -810,7 +810,7 @@ html
 		.menu::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.2); }
 		.menu .divider { background-color: rgba(0,0,0,0.2)!important; }
 		.menu-top { padding: 24px 0; }
-		.menu-collapsed { float: left; width: auto; text-align: center; }
+		.menu-collapsed { float: left; width: 80px; text-align: center; }
 		.menu-collapsed a { display: block; color: inherit; padding: 12px 4px; font-size: .6rem; text-transform: uppercase; }
 		.menu-collapsed a div { padding-top: 4px; }
 		.menu-collapsed a:hover { background-color: rgba(0,0,0,0.1) }
@@ -832,9 +832,12 @@ html
 		.top .right i, .top .right a { width: 56px; line-height: 64px; }
 		.top .row { margin: 0; }
 
+		.top-small { font-size: .8rem; text-transform: uppercase; font-weight: bold; }
+
 		@media only screen and (max-width: 992px) {
 			body { margin: 0 12px; }
 			.top { height: auto; }
+			.top-small { padding-top: 12px; }
 			.bottom { position: fixed; z-index: 998; left: auto; right: 24px; bottom: 24px; width: auto; height: auto; padding: 0; background-color: transparent; overflow: unset; display: block; }
 			
 			.menu { position: relative; text-align: center; height: auto; width: 100%; overflow-y: hidden; padding-top: 0; }
