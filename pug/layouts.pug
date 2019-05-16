@@ -18,34 +18,33 @@ html
 	body.grey.lighten-4
 		.grey.lighten-3.background.hide-on-med-and-down
 
-		.menu.blue-grey.white-text.z-depth-1
+		.menu.white.grey-text.text-darken-3.z-depth-1
 			.menu-top.center
-				img.logo(src="http://localhost/cdn/myrp/img/logo-myrp-branco.png")
+				img.logo(src="http://localhost/cdn/myrp/img/logo-myrp-colorido.png")
 			.menu-collapsed
 				a(href='#menu-cadastros')
 					i.material-icons home
-					.hide-on-med-and-down Cadastros
 				a(href='#menu-financeiro')
 					i.material-icons attach_money
-					.hide-on-med-and-down Financeiro
+					//.hide-on-med-and-down Financeiro
 				a(href='#menu-compras')
 					i.material-icons shopping_cart
-					.hide-on-med-and-down Compras
+					//.hide-on-med-and-down Compras
 				a(href='#menu-vendas')
 					i.material-icons local_offer
-					.hide-on-med-and-down Vendas
+					//.hide-on-med-and-down Vendas
 				a(href='#menu-transporte')
 					i.material-icons local_shipping
-					.hide-on-med-and-down Transporte
+					//.hide-on-med-and-down Transporte
 				a(href='#menu-estoque')
 					i.material-icons widgets
-					.hide-on-med-and-down Estoque
+					//.hide-on-med-and-down Estoque
 				a(href='#menu-sped')
 					i.material-icons done_all
-					.hide-on-med-and-down SPED
-				a(href='#menu-configuracoes')
+					//.hide-on-med-and-down SPED
+				//a(href='#menu-configuracoes')
 					i.material-icons settings
-					.hide-on-med-and-down Configurações
+					.hide-on-med-and-down Configuração
 			.menu-expanded(style="display: none")
 				#menu-vendas(style="display: none")
 					.row
@@ -188,7 +187,7 @@ html
 				#menu-configuracoes(style="display: none")
 					.row
 						.col.s12
-							.menu-title Configurações
+							.menu-title Configuração
 							p Transações de Saída
 							p Transações do PDV
 							p Transações de Entrada
@@ -207,12 +206,17 @@ html
 			.row
 				.col.s12
 					.left
-						a.label.uppercase.b.black-text Home
-						a.label.uppercase.b.black-text Módulo
+						.valign-wrapper
+							a.label.uppercase.b.black-text Home
+							i.material-icons keyboard_arrow_right
+							a.label.uppercase.b.black-text Módulo
 						.valign-wrapper
 							.title Título da página
-							.btn.light-blue.white-text.hide-on-med-and-down Botão
-							
+							//.btn.light-blue.white-text.hide-on-med-and-down Botão
+							.btn.btn-floating.light-blue.white-text.hide-on-med-and-down
+								i.material-icons search
+							.btn.btn-floating.light-blue.white-text.hide-on-med-and-down
+								i.material-icons add
 					.right.hide-on-med-and-down
 						a.center
 							i.material-icons.black-text search
@@ -220,8 +224,8 @@ html
 							i.material-icons.black-text notifications
 						a.center
 							i.material-icons.black-text apps
-						//a.center
-							i.material-icons.black-text chat_bubble
+						a.center
+							i.material-icons.black-text settings
 						a.center
 							i.material-icons.black-text account_circle
 		
@@ -229,7 +233,11 @@ html
 			.row
 				.col.s12.center
 					.hide-on-med-and-down
-						.btn.light-blue.white-text Botão
+						//.btn.light-blue.white-text Botão
+						.btn.btn-floating.light-blue.white-text.hide-on-med-and-down
+							i.material-icons search
+						.btn.btn-floating.light-blue.white-text.hide-on-med-and-down
+							i.material-icons add
 					.hide-on-large-only
 						a.btn-floating.btn-large.light-blue.white-text
 							i.material-icons.large add
@@ -743,20 +751,9 @@ html
 			edge: 'right'
 		});
 
-		$('.menu-collapsed a').on('click', function() {
+		$('.menu-collapsed a').on('click mouseover', function() {
 			$('.menu-expanded').show();
-			$('.menu-expanded > div').hide();
-			$($(this).attr('href')).show();
-
-			return false;
-		});
-
-		$('.menu-collapsed a').on('mouseover', function() {
-			if (!$('.menu-expanded').is(':visible'))
-				return;
-
-			$('.menu-expanded').show();
-			$('.menu-expanded > div').hide();
+			$('.menu-expanded > div[id]').hide();
 			$($(this).attr('href')).show();
 
 			return false;
@@ -778,7 +775,7 @@ html
 		});
 
 	style(type='text/css').
-		body { margin: 0 64px 0 144px; overflow-y: scroll; min-width: 320px; }
+		body { margin: 0 64px 0 128px; overflow-y: scroll; min-width: 320px; }
 		table th:first-child, table td:first-child { width: 0.1%; }
 
 		td .btn-flat, .card-panel > .right .btn-flat { margin: 0; padding: 0 6px; font-size: 0.9rem; }
@@ -793,11 +790,12 @@ html
 		.title { font-size: 1.64rem; }
 		.uppercase { text-transform: uppercase; }
 		.border-chip { border: 1px solid #e0e0e0; }
-		.logo { width: 64px; height: auto; }
+		.logo { width: 56px; height: auto; }
 
 		.bottom { position: fixed; z-index: 998; left: 0; bottom: 0; width: 100%; padding: 12px 88px 12px 144px; background-color: #eeeeee; display: none; }
 		.bottom .right i, .bottom .right a { width: 56px; line-height: 36px; } 
 		.bottom .row { margin: 0; }
+		.bottom .btn { margin: 0 8px; }
 
 		.chip .material-icons.left, .chip .material-icons.right { margin: 5px 0 0 0; line-height: normal; font-size: 21px; }
 		.chip { font-size: 0.8rem; }
@@ -810,10 +808,11 @@ html
 		.menu::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.2); }
 		.menu .divider { background-color: rgba(0,0,0,0.2)!important; }
 		.menu-top { padding: 24px 0; }
-		.menu-collapsed { float: left; width: 80px; text-align: center; }
-		.menu-collapsed a { display: block; color: inherit; padding: 12px 4px; font-size: .6rem; text-transform: uppercase; }
-		.menu-collapsed a div { padding-top: 4px; }
-		.menu-collapsed a:hover { background-color: rgba(0,0,0,0.1) }
+		.menu-collapsed { float: left; width: 64px; text-align: center; }
+		.menu-collapsed a { display: inline-block; color: inherit; width: 56px; height: 56px; line-height: 56px; }
+		.menu-collapsed i { line-height: 56px; }
+		.menu-collapsed a div { display: inline-block; padding-top: 4px; }
+		.menu-collapsed a:hover { background-color: rgba(0,0,0,0.1); border-radius: 50%; }
 		.menu-expanded { float: left; width: 600px; padding:24px; }
 		.menu-title { font-size: 1rem; text-transform: uppercase; font-weight: 500; }
 
@@ -827,12 +826,14 @@ html
 		.timeline .timeline-title { font-size: 0.9rem; font-weight: 500; }
 
 		.top { padding: 12px 0; }
-		.top .left .btn { margin-left: 16px; }
-		.top .left a { margin-right: 16px; }
-		.top .right i, .top .right a { width: 56px; line-height: 64px; }
+		.top .right a { display: inline-block; width: 56px; height: 56px; line-height: 56px; }
+		.top .right a:hover { background-color: rgba(0,0,0,0.1); border-radius: 50%; }
+		.top .right i { line-height: 56px; }
 		.top .row { margin: 0; }
+		.top .btn { margin: 0 8px; }
 
 		.top-small { font-size: .8rem; text-transform: uppercase; font-weight: bold; }
+
 
 		@media only screen and (max-width: 992px) {
 			body { margin: 0; }
@@ -842,6 +843,6 @@ html
 			
 			.menu { position: relative; text-align: center; height: auto; width: 100%; overflow-y: hidden; padding-top: 0; }
 			.menu-collapsed { float: none; width: 100%; }
-			.menu-collapsed a, .menu-collapsed i { display: inline-block; text-align: center; width: 56px; height: 64px; line-height: 64px; color: inherit; padding: 0; margin: auto; }
+			.menu-collapsed a, .menu-collapsed i { display: inline-block; text-align: center; width: 56px; height: 56px; line-height: 56px; color: inherit; padding: 0; margin: auto; }
 			.menu-expanded { float: none; width: 100%; text-align: left; }
 		}
