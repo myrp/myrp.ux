@@ -207,7 +207,17 @@ html
 		.top.truncate
 			.row
 				.col.s12
-					.left
+					.left.valign-wrapper
+						a.label.uppercase.b.black-text Home
+						a.grey-text(style="margin: 0 8px") /
+						a.label.uppercase.b.black-text Módulo
+						a.grey-text(style="margin: 0 8px") /
+						a.title.black-text Título da página
+						a.btn.btn-floating.primary-color.white-text.hide-on-med-and-down
+							i.material-icons search
+						a.btn.btn-floating.primary-color.white-text.hide-on-med-and-down
+							i.material-icons add
+					//.left
 						.valign-wrapper
 							a.label.uppercase.b.black-text Home
 							span.grey-text(style="margin: 0 8px") /
@@ -827,7 +837,8 @@ html
 		.timeline { margin-left: 50px; }
 		.timeline .timeline-title { font-size: 0.9rem; font-weight: 500; }
 
-		.top { padding: 12px 0; }
+		.top { padding: 8px 0; }
+		.top .left { height: 56px; }
 		.top .right a { display: inline-block; width: 56px; height: 56px; line-height: 56px; }
 		.top .right a:hover { background-color: rgba(0,0,0,0.1); border-radius: 50%; }
 		.top .right i { line-height: 56px; }
@@ -841,7 +852,6 @@ html
 
 		@media only screen and (max-width: 992px) {
 			body { margin: 0; }
-			.top { height: auto; }
 			.top-small { padding-top: 12px; }
 			.bottom { position: fixed; z-index: 998; left: auto; right: 24px; bottom: 24px; width: auto; height: auto; padding: 0; background-color: transparent; overflow: unset; display: block; }
 			
