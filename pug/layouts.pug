@@ -201,17 +201,17 @@ html
 
 		.top-small.center
 			a.black-text Nome da empresa
-			span.grey-text(style="margin: 0 8px") /
-			a.black-text 00.000.000/0000-00
+			span.grey-text.hide-on-med-and-down(style="margin: 0 8px") /
+			a.black-text.hide-on-med-and-down 00.000.000/0000-00
 		
 		.top.truncate
 			.row
 				.col.s12
 					.left.valign-wrapper
-						a.label.uppercase.b.black-text Home
-						a.grey-text(style="margin: 0 8px") /
-						a.label.uppercase.b.black-text Módulo
-						a.grey-text(style="margin: 0 8px") /
+						//a.label.uppercase.b.black-text.hide-on-med-and-down Home
+						//a.grey-text.hide-on-med-and-down(style="margin: 0 8px") /
+						//a.label.uppercase.b.black-text.hide-on-med-and-down Módulo
+						//a.grey-text.hide-on-med-and-down(style="margin: 0 8px") /
 						a.title.black-text Título da página
 						a.btn.btn-floating.primary-color.white-text.hide-on-med-and-down
 							i.material-icons search
@@ -229,7 +229,7 @@ html
 								i.material-icons search
 							.btn.btn-floating.primary-color.white-text.hide-on-med-and-down
 								i.material-icons add
-					.right.hide-on-med-and-down
+					.right.hide-on-small-only
 						a.center
 							i.material-icons.black-text search
 						a.center
@@ -240,6 +240,9 @@ html
 							i.material-icons.black-text settings
 						a.center
 							i.material-icons.black-text account_circle
+					.right.hide-on-med-and-up
+						a.center
+							i.material-icons.black-text more_vert
 		
 		.bottom.truncate
 			.row
@@ -297,9 +300,9 @@ html
 							.timeline-item
 								i.material-icons.grey-text check_box_outline_blank
 								.timeline-actions
-									a.btn-flat.grey-text.hide-on-med-and-down Link 1
-									a.btn-flat.grey-text.hide-on-med-and-down Link 2
-									a.btn-flat.grey-text.hide-on-med-and-down Link 3
+									a.btn-flat.grey-text.hide-on-small-only Link 1
+									a.btn-flat.grey-text.hide-on-small-only Link 2
+									a.btn-flat.grey-text.hide-on-small-only Link 3
 									a.btn-flat.grey-text
 										i.material-icons.right more_vert
 								.timeline-content.valign-wrapper
@@ -309,7 +312,7 @@ html
 							.timeline-item
 								i.material-icons.light-green-text check_circle
 								.timeline-actions
-									a.btn-flat.primary-color-text.hide-on-med-and-down Link 1
+									a.btn-flat.primary-color-text.hide-on-small-only Link 1
 									a.btn-flat.primary-color-text.dropdown-button( data-activates='dropdown1')
 										i.material-icons.right more_vert
 									ul#dropdown1.dropdown-content
@@ -327,7 +330,7 @@ html
 							.timeline-item
 								i.material-icons.orange-text warning
 								.timeline-actions
-									a.btn-flat.primary-color-text.hide-on-med-and-down Link 1
+									a.btn-flat.primary-color-text.hide-on-small-only Link 1
 									a.btn-flat.primary-color-text
 										i.material-icons.right more_vert
 								.timeline-content
@@ -338,7 +341,7 @@ html
 							.timeline-item
 								i.material-icons.grey-text schedule
 								.timeline-actions
-									a.btn-flat.primary-color-text.hide-on-med-and-down Link 1
+									a.btn-flat.primary-color-text.hide-on-small-only Link 1
 									a.btn-flat.primary-color-text
 										i.material-icons.right more_vert
 								.timeline-content
@@ -353,9 +356,9 @@ html
 							.timeline-item
 								i.material-icons.primary-color-text check_box
 								.timeline-actions
-									a.btn-flat.primary-color-text.hide-on-med-and-down Link 1
-									a.btn-flat.primary-color-text.hide-on-med-and-down Link 2
-									a.btn-flat.primary-color-text.hide-on-med-and-down Link 3
+									a.btn-flat.primary-color-text.hide-on-small-only Link 1
+									a.btn-flat.primary-color-text.hide-on-small-only Link 2
+									a.btn-flat.primary-color-text.hide-on-small-only Link 3
 									a.btn-flat.primary-color-text
 										i.material-icons.right more_vert
 								.timeline-content.valign-wrapper
@@ -365,7 +368,7 @@ html
 							.timeline-item
 								i.material-icons.primary-color-text check_box
 								.timeline-actions
-									a.btn-flat.primary-color-text.hide-on-med-and-down Link 1
+									a.btn-flat.primary-color-text.hide-on-small-only Link 1
 									a.btn-flat.primary-color-text.dropdown-button( data-activates='dropdown1')
 										i.material-icons.right more_vert
 									ul#dropdown1.dropdown-content
@@ -383,7 +386,7 @@ html
 							.timeline-item
 								i.material-icons.primary-color-text check_box
 								.timeline-actions
-									a.btn-flat.primary-color-text.hide-on-med-and-down Link 1
+									a.btn-flat.primary-color-text.hide-on-small-only Link 1
 									a.btn-flat.primary-color-text
 										i.material-icons.right more_vert
 								.timeline-content
@@ -394,7 +397,7 @@ html
 							.timeline-item
 								i.material-icons.primary-color-text check_box
 								.timeline-actions
-									a.btn-flat.primary-color-text.hide-on-med-and-down Link 1
+									a.btn-flat.primary-color-text.hide-on-small-only Link 1
 									a.btn-flat.primary-color-text
 										i.material-icons.right more_vert
 								.timeline-content
@@ -408,9 +411,9 @@ html
 						.list
 							.list-item
 								.list-actions
-									a.btn-flat.grey-text.hide-on-med-and-down Link 1
-									a.btn-flat.grey-text.hide-on-med-and-down Link 2
-									a.btn-flat.grey-text.hide-on-med-and-down Link 3
+									a.btn-flat.grey-text.hide-on-small-only Link 1
+									a.btn-flat.grey-text.hide-on-small-only Link 2
+									a.btn-flat.grey-text.hide-on-small-only Link 3
 									a.btn-flat.grey-text
 										i.material-icons.right more_vert
 								.list-content
@@ -418,7 +421,7 @@ html
 									span.uppercase.left.hide-on-med-and-down(style="font-size:0.9rem; font-weight: 500; margin-top: 10px;") Selecionar todos
 							.list-item
 								.list-actions
-									a.btn-flat.primary-color-text.hide-on-med-and-down Link 1
+									a.btn-flat.primary-color-text.hide-on-small-only Link 1
 									a.btn-flat.primary-color-text.dropdown-button( data-activates='dropdown1')
 										i.material-icons.right more_vert
 									ul#dropdown1.dropdown-content
@@ -436,7 +439,7 @@ html
 										span Segunda linha
 							.list-item
 								.list-actions
-									a.btn-flat.primary-color-text.hide-on-med-and-down Link 1
+									a.btn-flat.primary-color-text.hide-on-small-only Link 1
 									a.btn-flat.primary-color-text
 										i.material-icons.right more_vert
 								.list-content
@@ -447,7 +450,7 @@ html
 										span Segunda linha
 							.list-item
 								.list-actions
-									a.btn-flat.primary-color-text.hide-on-med-and-down Link 1
+									a.btn-flat.primary-color-text.hide-on-small-only Link 1
 									a.btn-flat.primary-color-text
 										i.material-icons.right more_vert
 								.list-content
@@ -462,9 +465,9 @@ html
 						.list
 							.list-item
 								.list-actions
-									a.btn-flat.primary-color-text.hide-on-med-and-down Link 1
-									a.btn-flat.primary-color-text.hide-on-med-and-down Link 2
-									a.btn-flat.primary-color-text.hide-on-med-and-down Link 3
+									a.btn-flat.primary-color-text.hide-on-small-only Link 1
+									a.btn-flat.primary-color-text.hide-on-small-only Link 2
+									a.btn-flat.primary-color-text.hide-on-small-only Link 3
 									a.btn-flat.primary-color-text
 										i.material-icons.right more_vert
 								.list-content
@@ -472,7 +475,7 @@ html
 									span.uppercase.left.hide-on-med-and-down(style="font-size:0.9rem; font-weight: 500; margin-top: 10px;") 3 selecionados
 							.list-item
 								.list-actions
-									a.btn-flat.primary-color-text.hide-on-med-and-down Link 1
+									a.btn-flat.primary-color-text.hide-on-small-only Link 1
 									a.btn-flat.primary-color-text.dropdown-button( data-activates='dropdown1')
 										i.material-icons.right more_vert
 									ul#dropdown1.dropdown-content
@@ -490,7 +493,7 @@ html
 										span Segunda linha
 							.list-item
 								.list-actions
-									a.btn-flat.primary-color-text.hide-on-med-and-down Link 1
+									a.btn-flat.primary-color-text.hide-on-small-only Link 1
 									a.btn-flat.primary-color-text
 										i.material-icons.right more_vert
 								.list-content
@@ -501,7 +504,7 @@ html
 										span Segunda linha
 							.list-item
 								.list-actions
-									a.btn-flat.primary-color-text.hide-on-med-and-down Link 1
+									a.btn-flat.primary-color-text.hide-on-small-only Link 1
 									a.btn-flat.primary-color-text
 										i.material-icons.right more_vert
 								.list-content
@@ -515,9 +518,9 @@ html
 						.left 
 							h5 Table
 						.right
-							a.btn-flat.grey-text.hide-on-med-and-down Link 1
-							a.btn-flat.grey-text.hide-on-med-and-down Link 2
-							a.btn-flat.grey-text.hide-on-med-and-down Link 3
+							a.btn-flat.grey-text.hide-on-small-only Link 1
+							a.btn-flat.grey-text.hide-on-small-only Link 2
+							a.btn-flat.grey-text.hide-on-small-only Link 3
 							a.btn-flat.grey-text
 								i.material-icons.right more_vert
 						table.bordered
@@ -537,7 +540,7 @@ html
 									td Linha 1
 									td Linha 1
 									td.right-align
-										a.btn-flat.primary-color-text.hide-on-med-and-down Link 1
+										a.btn-flat.primary-color-text.hide-on-small-only Link 1
 										a.btn-flat.primary-color-text
 											i.material-icons.right more_vert
 								tr
@@ -547,7 +550,7 @@ html
 									td Linha 2
 									td Linha 2
 									td.right-align
-										a.btn-flat.primary-color-text.hide-on-med-and-down Link 1
+										a.btn-flat.primary-color-text.hide-on-small-only Link 1
 										a.btn-flat.primary-color-text
 											i.material-icons.right more_vert
 								tr
@@ -557,7 +560,7 @@ html
 									td Linha 3
 									td Linha 3
 									td.right-align
-										a.btn-flat.primary-color-text.hide-on-med-and-down Link 1
+										a.btn-flat.primary-color-text.hide-on-small-only Link 1
 										a.btn-flat.primary-color-text
 											i.material-icons.right more_vert
 
@@ -565,9 +568,9 @@ html
 						.left 
 							h5 Table
 						.right
-							a.btn-flat.primary-color-text.hide-on-med-and-down Link 1
-							a.btn-flat.primary-color-text.hide-on-med-and-down Link 2
-							a.btn-flat.primary-color-text.hide-on-med-and-down Link 3
+							a.btn-flat.primary-color-text.hide-on-small-only Link 1
+							a.btn-flat.primary-color-text.hide-on-small-only Link 2
+							a.btn-flat.primary-color-text.hide-on-small-only Link 3
 							a.btn-flat.primary-color-text
 								i.material-icons.right more_vert
 						table.bordered
@@ -587,7 +590,7 @@ html
 									td Linha 1
 									td Linha 1
 									td.right-align
-										a.btn-flat.primary-color-text.hide-on-med-and-down Link 1
+										a.btn-flat.primary-color-text.hide-on-small-only Link 1
 										a.btn-flat.primary-color-text
 											i.material-icons.right more_vert
 								tr
@@ -597,7 +600,7 @@ html
 									td Linha 2
 									td Linha 2
 									td.right-align
-										a.btn-flat.primary-color-text.hide-on-med-and-down Link 1
+										a.btn-flat.primary-color-text.hide-on-small-only Link 1
 										a.btn-flat.primary-color-text
 											i.material-icons.right more_vert
 								tr
@@ -607,7 +610,7 @@ html
 									td Linha 3
 									td Linha 3
 									td.right-align
-										a.btn-flat.primary-color-text.hide-on-med-and-down Link 1
+										a.btn-flat.primary-color-text.hide-on-small-only Link 1
 										a.btn-flat.primary-color-text
 											i.material-icons.right more_vert
 
