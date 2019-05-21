@@ -24,27 +24,28 @@ html
 			.menu-collapsed
 				a(href='#menu-cadastros')
 					i.material-icons home
+					.hide-on-med-and-down Cadastros
 				a(href='#menu-financeiro')
 					i.material-icons attach_money
-					//.hide-on-med-and-down Financeiro
+					.hide-on-med-and-down Financeiro
 				a(href='#menu-compras')
 					i.material-icons shopping_cart
-					//.hide-on-med-and-down Compras
+					.hide-on-med-and-down Compras
 				a(href='#menu-vendas')
 					i.material-icons local_offer
-					//.hide-on-med-and-down Vendas
+					.hide-on-med-and-down Vendas
 				a(href='#menu-transporte')
 					i.material-icons local_shipping
-					//.hide-on-med-and-down Transporte
+					.hide-on-med-and-down Transporte
 				a(href='#menu-estoque')
 					i.material-icons widgets
-					//.hide-on-med-and-down Estoque
+					.hide-on-med-and-down Estoque
 				a(href='#menu-sped')
 					i.material-icons done_all
-					//.hide-on-med-and-down SPED
+					.hide-on-med-and-down SPED
 				a(href='#menu-configuracoes')
 					i.material-icons settings
-					//.hide-on-med-and-down Configuração
+					.hide-on-med-and-down Configuração
 			.menu-expanded(style="display: none")
 				#menu-vendas(style="display: none")
 					.row
@@ -217,7 +218,8 @@ html
 						a.label.uppercase.b.black-text Módulo
 						.valign-wrapper
 							a.title.black-text Título da página
-							a.btn.btn-floating.primary-color.white-text.hide-on-med-and-down
+							a.btn.primary-color.white-text.hide-on-med-and-down Botão
+							//a.btn.btn-floating.primary-color.white-text.hide-on-med-and-down
 								i.material-icons add
 					//.left.valign-wrapper
 						a.label.uppercase.b.black-text.hide-on-med-and-down Home
@@ -258,12 +260,13 @@ html
 			.row
 				.col.s12.center
 					.hide-on-med-and-down
-						//.btn.primary-color.white-text Botão
-						.btn.btn-floating.primary-color.white-text.hide-on-med-and-down
+						.btn.primary-color.white-text Botão
+						//.btn.btn-floating.primary-color.white-text.hide-on-med-and-down
 							i.material-icons add
 					.hide-on-large-only
 						a.btn-floating.btn-large.primary-color.white-text
 							i.material-icons.large add
+						
 
 		//ul.tabs.transparent
 			li.tab 
@@ -798,7 +801,7 @@ html
 		});
 
 	style(type='text/css').
-		body { margin: 0 64px 0 128px; overflow-y: scroll; min-width: 320px; }
+		body { margin: 0 64px 0 144px; overflow-y: scroll; min-width: 320px; }
 		table th:first-child, table td:first-child { width: 0.1%; }
 
 		td .btn-flat, .card-panel > .right .btn-flat { margin: 0; padding: 0 6px; font-size: 0.9rem; }
@@ -831,11 +834,10 @@ html
 		.menu::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.2); }
 		.menu .divider { background-color: rgba(0,0,0,0.2)!important; }
 		.menu-top { padding: 24px 0; }
-		.menu-collapsed { float: left; width: 64px; text-align: center; }
-		.menu-collapsed a { display: inline-block; color: inherit; width: 56px; height: 56px; line-height: 56px; }
-		.menu-collapsed i { line-height: 56px; }
-		.menu-collapsed a div { display: inline-block; padding-top: 4px; }
-		.menu-collapsed a:hover { background-color: rgba(0,0,0,0.1); border-radius: 50%; }
+		.menu-collapsed { float: left; width: 80px; text-align: center; }
+		.menu-collapsed a { display: block; color: inherit; padding: 12px 0; }
+		.menu-collapsed a div { font-size:.6rem; text-transform: uppercase; display: block; padding-top: 4px; }
+		.menu-collapsed a:hover { background-color: rgba(0,0,0,0.1); }
 		.menu-expanded { float: left; width: 600px; padding:24px; }
 		.menu-title { font-size: 1rem; text-transform: uppercase; font-weight: 500; }
 
