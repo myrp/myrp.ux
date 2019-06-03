@@ -12,6 +12,7 @@ html
 
 		script(src='https://code.jquery.com/jquery-3.2.1.min.js')
 		script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js')
+		script(src='https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js')
 		script(src='../vendor/prism/prism.js')
 		script(src='../index.js')
 
@@ -236,14 +237,6 @@ html
 							i.material-icons.large add
 						
 
-		//ul.tabs.transparent
-			li.tab 
-				a Aba 1
-			li.tab 
-				a Aba 2
-			li.tab 
-				a Aba 3
-
 		#body
 			.row
 				.col.s12
@@ -257,8 +250,8 @@ html
 						a.chip.grey.lighten-2 Filtro 6
 						a.chip.grey.lighten-2 Filtro 7
 						a.chip.white.border-chip
+							i.material-icons.left search
 							input(placeholder='Nome dos campos')
-							i.material-icons.right search
 
 				.col.s12.l4
 					.card-panel.light-green.white-text
@@ -272,7 +265,33 @@ html
 					.card-panel.cyan.white-text
 						label.white-text Primeira linha
 						h5 Segunda linha
+				.col.s12.l6
+					.card
+						.card-content
+							h5 Gráfico de barra
+							div
+								canvas#grafico0
+						.card-action
+							a.blue-text Link 1
+							a.blue-text Link 2
+				.col.s12.l6
+					.card
+						.card-content
+							h5 Gráfico de linha
+							div
+								canvas#grafico1
+						.card-action
+							a.blue-text Link 1
+							a.blue-text Link 2
 				.col.s12
+					//ul.tabs.transparent
+						li.tab 
+							a Aba 1
+						li.tab 
+							a Aba 2
+						li.tab 
+							a Aba 3
+
 					.card-panel
 						h5 Timeline
 						.timeline
@@ -768,6 +787,46 @@ html
 			$(document).scrollTop(0);
 		});
 
+		for (var i=0; i<2; i++) {
+			var ctx = document.getElementById('grafico'+i);
+			var myChart = new Chart(ctx, {
+				type: i == 0 ? 'bar' : 'line',
+				data: {
+					labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+					datasets: [{
+						label: '# of Votes',
+						data: [12, 19, 3, 5, 2, 3],
+						backgroundColor: [
+							'rgba(255, 99, 132, 0.2)',
+							'rgba(54, 162, 235, 0.2)',
+							'rgba(255, 206, 86, 0.2)',
+							'rgba(75, 192, 192, 0.2)',
+							'rgba(153, 102, 255, 0.2)',
+							'rgba(255, 159, 64, 0.2)'
+						],
+						borderColor: [
+							'rgba(255, 99, 132, 1)',
+							'rgba(54, 162, 235, 1)',
+							'rgba(255, 206, 86, 1)',
+							'rgba(75, 192, 192, 1)',
+							'rgba(153, 102, 255, 1)',
+							'rgba(255, 159, 64, 1)'
+						],
+						borderWidth: 1
+					}]
+				},
+				options: {
+					scales: {
+						yAxes: [{
+							ticks: {
+								beginAtZero: true
+							}
+						}]
+					}
+				}
+			});
+		}
+
 	style(type='text/css').
 		body { margin: 0 24px 0 104px; overflow-y: scroll; min-width: 320px; }
 		table th:first-child, table td:first-child { width: 0.1%; }
@@ -777,7 +836,7 @@ html
 
 		.b { font-weight: bold; }
 		.background { position: absolute; top: 0; left: 0; height: 350px; width: 100%; z-index: -2; }
-		.card-panel h5:first-child { margin-top: 0; }
+		.card-panel h5:first-child, .card-content h5:first-child { margin-top: 0; }
 		.cursor-pointer { cursor: pointer; }
 		.dropdown-content li>a { line-height: normal; padding: 12px; font-size: 1rem; color: #000; }
 		.label { font-size: 0.8rem; }
