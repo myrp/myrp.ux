@@ -842,6 +842,11 @@ html
 		body { margin: 0 24px 0 104px; overflow-y: scroll; min-width: 320px; }
 		table th:first-child, table td:first-child { width: 0.1%; }
 
+		::-webkit-scrollbar { width: 8px; }
+		::-webkit-scrollbar-track { background: none; }
+		::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.2); }
+		::-webkit-scrollbar-thumb:hover { background: rgba(0,0,0,0.4); }
+
 		td .btn-flat, .card-panel > .right .btn-flat { margin: 0; padding: 0 6px; font-size: 0.9rem; }
 		td .btn-flat i, .card-panel > .right .btn-flat i { margin: 0!important; }
 
@@ -871,9 +876,6 @@ html
 		.chip input::placeholder { color: rgba(0,0,0,0.3); }
 
 		.menu { position: fixed; top: 0; left: 0; height: 100%; width: auto; border: 0px; z-index: 999; overflow-y: auto; overflow-x: hidden; }
-		.menu::-webkit-scrollbar { width: 8px; }
-		.menu::-webkit-scrollbar-track { background: none; }
-		.menu::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.2); }
 		.menu .divider { background-color: rgba(0,0,0,0.2)!important; }
 		.menu-top { padding: 48px 0 16px 0; }
 		.menu-collapsed { float: left; width: 80px; text-align: center; }
