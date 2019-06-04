@@ -16,26 +16,62 @@ html
 		script(src='../index.js')
 
 	body.grey.lighten-4
-		.navbar-fixed
-			nav.z-depth-0.black
-				.nav-wrapper
-					ul.left
-						li
-							img(src="http://prd.myrp.com.br/cdn/myrp/img/logo-myrp-branco.png", style="height: 36px; margin: 14px")
-						li
-							a.white-text(href='index.pug', style='text-transform: uppercase; font-size: 0.8rem; font-weight: bold') Design Guidelines
+		nav.hide-on-large-only
+			.nav-wrapper.black
+				ul.left
+					li
+						a#button-slide-out(href="#", data-activates="slide-out")
+							i.material-icons.white-text(style="padding: 0 16px") menu
+					//li
+						img(src="../assets/img/logo-branco.png", style="height: 36px; margin: 14px")
+					li
+						.white-text(style="text-transform: uppercase; font-weight: bold; font-size: .8rem;") System Guidelines
 
-		ul#slide-out.side-nav.fixed.z-depth-0(style='z-index: 997')
+		ul.side-nav.fixed.transparent.z-depth-0(style="border-right: 1px solid #e0e0e0")
+			li.center(style="padding: 12px 0; line-height: normal")
+				img(src="../assets/img/logo.png", style="height: 36px; margin: 14px")
+				.black-text(style="text-transform: uppercase; font-weight: bold; font-size: .8rem;") System Guidelines
+			li.divider
 			li
-				
-				a(href='layouts.pug') Layouts
+				a(href='layouts.pug', target="_blank") Layouts
 			li
 				a(href='colors.pug') Colors
 			li
 				a(href='logos.pug') Logos
 			li
 				a(href='icons.pug') Icons
+			li
+				a(href='buttons.pug') Buttons
+			li
+				a(href='cards.pug') Cards
+			li
+				a(href='chips.pug') Chips
+			li
+				a(href='forms.pug') Forms
+			li
+				a(href='lists.pug') Lists
+			li
+				a(href='messages.pug') Messages
+			li
+				a(href='sidenavs.pug') Sidenavs
+			li
+				a(href='tables.pug') Tables
+			li
+				a(href='timelines.pug') Timelines
+
+		ul#slide-out.side-nav
+			li.center(style="padding: 12px 0; line-height: normal")
+				img(src="../assets/img/logo.png", style="height: 36px; margin: 14px")
+				.black-text(style="text-transform: uppercase; font-weight: bold; font-size: .8rem;") System Guidelines
 			li.divider
+			li
+				a(href='layouts.pug', target="_blank") Layouts
+			li
+				a(href='colors.pug') Colors
+			li
+				a(href='logos.pug') Logos
+			li
+				a(href='icons.pug') Icons
 			li
 				a(href='buttons.pug') Buttons
 			li
@@ -60,5 +96,12 @@ html
 				block content
 
 		style(type='text/css').
-			.nav-wrapper { background-color: inherit; }
-					
+			body { margin: 0 0 0 300px; padding: 0; }
+			.container { width: auto; margin: 24px; }
+
+			@media only screen and (max-width: 992px) {
+				body { margin: 0; }
+			}
+
+		script(type="text/javascript").
+			$("#button-slide-out").sideNav();

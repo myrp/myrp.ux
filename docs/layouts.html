@@ -8,7 +8,11 @@ li.tab
   menuWidth: 700,
   edge: 'right'
 });
-$('.menu-collapsed a').on('click mouseover', function () {
+$('.menu-collapsed a').on('mouseover', function () {
+  if (!$('.menu-expanded').is(':visible')) return;
+  $(this).trigger("click");
+});
+$('.menu-collapsed a').on('click', function () {
   $('.menu-expanded').show();
   $('.menu-expanded > div[id]').hide();
   $($(this).attr('href')).show();
