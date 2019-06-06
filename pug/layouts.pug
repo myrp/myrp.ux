@@ -210,7 +210,9 @@ html
 			.row.valign-wrapper
 				.col.s6.valign-wrapper
 					a.title.black-text Título da página
-					a.btn.primary-color.white-text.hide-on-med-and-down Botão
+					a.btn.chip.primary-color.white-text.hide-on-med-and-down
+						i.material-icons.left add
+						| Botão
 				.col.s6
 					.right.hide-on-small-only
 						a.center
@@ -229,9 +231,9 @@ html
 			.row
 				.col.s12.center
 					.hide-on-med-and-down
-						.btn.primary-color.white-text Botão
-						//.btn.btn-floating.primary-color.white-text.hide-on-med-and-down
-							i.material-icons add
+						.chip.btn.primary-color.white-text
+							i.material-icons.left add
+							| Botão
 					.hide-on-large-only
 						a.btn-floating.btn-large.primary-color.white-text
 							i.material-icons.large add
@@ -253,19 +255,19 @@ html
 							i.material-icons.left search
 							input(placeholder='Nome dos campos')
 
-				.col.s12.l3
+				.col.s12.m6.l3
 					.card-panel
 						label.black-text Primeira linha
 						h5 Segunda linha
-				.col.s12.l3
+				.col.s12.m6.l3
 					.card-panel
 						label.black-text Primeira linha
 						h5 Segunda linha
-				.col.s12.l3
+				.col.s12.m6.l3
 					.card-panel
 						label.black-text Primeira linha
 						h5 Segunda linha
-				.col.s12.l3
+				.col.s12.m6.l3
 					.card-panel
 						label.black-text Primeira linha
 						h5 Segunda linha
@@ -854,6 +856,7 @@ html
 		.uppercase { text-transform: uppercase; }
 		.border-chip { border: 1px solid #e0e0e0; }
 		.logo { width: 56px; height: auto; }
+		.btn-flat, .btn { font-weight: 500; }
 		
 		.breadcrumbs { margin: 4px 0; }
 		.breadcrumb { font-size: 0.8rem; text-transform: uppercase; }
@@ -868,6 +871,7 @@ html
 		.chip { font-size: 0.8rem; }
 		.chip input, .chip input:focus { width: 200px !important; margin: 0; padding: 8px; display: inline; border: none !important; font-size: 0.8rem; height: auto; box-shadow: none !important; }
 		.chip input::placeholder { color: rgba(0,0,0,0.3); }
+		.chip.btn .material-icons.left { margin-right: 5px;  }
 
 		.menu { position: fixed; top: 0; left: 0; height: 100%; width: auto; border: 0px; z-index: 999; overflow-y: auto; overflow-x: hidden; }
 		.menu .divider { background-color: rgba(0,0,0,0.2)!important; }
