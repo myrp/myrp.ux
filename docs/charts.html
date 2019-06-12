@@ -1,0 +1,132 @@
+<html><head><title>Charts</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css" rel="stylesheet"><link href="/prism.6d16d487.css" rel="stylesheet"><link href="/myrp.f3bbc37e.css" rel="stylesheet"><script src="https://code.jquery.com/jquery-3.2.1.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script><script src="/prism.5bd05bf3.js"></script><script src="/myrp.ux.80dfb952.js"></script></head><body class="grey lighten-4"><nav class="hide-on-large-only"><div class="nav-wrapper black"><ul class="left"><li><a id="button-slide-out" href="#" data-activates="slide-out"><i class="material-icons white-text" style="padding: 0 16px">menu</i></a></li><!--liimg(src="../assets/img/logo-branco.png", style="height: 36px; margin: 14px")--><li><div class="white-text" style="text-transform: uppercase; font-weight: bold; font-size: .8rem;">System Guidelines</div></li></ul></div></nav><ul class="side-nav fixed transparent z-depth-0" style="border-right: 1px solid #e0e0e0"><li class="center" style="padding: 12px 0; line-height: normal"><img src="/logo.bc646dd2.png" style="height: 36px; margin: 14px"><div class="black-text" style="text-transform: uppercase; font-weight: bold; font-size: .8rem;">System Guidelines</div></li><li class="divider"></li><li><a href="/layouts.html" target="_blank">Theme</a></li><li><a href="/colors.html">Colors</a></li><li><a href="/logos.html">Logos</a></li><li><a href="/icons.html">Icons</a></li><li><a href="/buttons.html">Buttons</a></li><li><a href="/cards.html">Cards</a></li><li><a href="/charts.html">Charts</a></li><li><a href="/chips.html">Chips</a></li><li><a href="/forms.html">Forms</a></li><li><a href="/lists.html">Lists</a></li><li><a href="/messages.html">Messages</a></li><li><a href="/sidenavs.html">Sidenavs</a></li><li><a href="/tables.html">Tables</a></li><li><a href="/timelines.html">Timelines</a></li></ul><ul class="side-nav" id="slide-out"><li class="center" style="padding: 12px 0; line-height: normal"><img src="/logo.bc646dd2.png" style="height: 36px; margin: 14px"><div class="black-text" style="text-transform: uppercase; font-weight: bold; font-size: .8rem;">System Guidelines</div></li><li class="divider"></li><li><a href="/layouts.html" target="_blank">Layouts</a></li><li><a href="/colors.html">Colors</a></li><li><a href="/logos.html">Logos</a></li><li><a href="/icons.html">Icons</a></li><li><a href="/buttons.html">Buttons</a></li><li><a href="/cards.html">Cards</a></li><li><a href="/chips.html">Chips</a></li><li><a href="/forms.html">Forms</a></li><li><a href="/lists.html">Lists</a></li><li><a href="/messages.html">Messages</a></li><li><a href="/sidenavs.html">Sidenavs</a></li><li><a href="/tables.html">Tables</a></li><li><a href="/timelines.html">Timelines</a></li></ul><main><div class="container"><h2>Charts</h2><div class="section"><div class="row"><div class="col s12"><div class="section"><h4>Charts</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.</p></div></div><div class="col s6"><div class="card-panel"><h5>Colunas</h5><div><canvas id="grafico0"></canvas></div></div></div><div class="col s6"><div class="card-panel"><h5>Linhas</h5><div><canvas id="grafico1"></canvas></div></div></div><div class="col s6"><div class="card-panel"><h5>Donuts</h5><div><canvas id="grafico2"></canvas></div></div></div><div class="col s6"><div class="card-panel"><h5>Pizza</h5><div><canvas id="grafico3"></canvas></div></div></div></div><p><pre class="language-markup">
+<code><!--
+<div class="card-panel">
+    <h5 class="card-title">Colunas</h5>
+    <div>
+        <canvas id="colunas"></canvas>
+    </div>
+</div>
+
+<div class="card-panel">
+    <h5 class="card-title">Linhas</h5>
+    <div>
+        <canvas id="linhas"></canvas>
+    </div>
+</div>
+
+<div class="card-panel">
+    <h5 class="card-title">Donuts</h5>
+    <div>
+        <canvas id="donuts"></canvas>
+    </div>
+</div>
+
+<div class="card-panel">
+    <h5 class="card-title">Pizza</h5>
+    <div>
+        <canvas id="pizza"></canvas>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var lightBlue = ['#03a9f4', '#29b6f6', '#4fc3f7', '#81d4fa', '#b3e5fc', '#e1f5fe'];
+    var amber = ['#ffc107', '#ffca28', '#ffd54f', '#ffe082', '#ffecb3', '#fff8e1'];
+    var pink = ['#e91e63','#ec407a','#f06292','#f48fb1','#f8bbd0','#fce4ec'];
+    var lightGreen = ['#8bc34a','#9ccc65','#aed581','#c5e1a5','#dcedc8', '#f1f8e9'];
+    var purple = ['#9c27b0','#ab47bc','#ba68c8','#ce93d8','#e1bee7', '#f3e5f5'];
+    var teal = ['#009688','#26a69a','#4db6ac','#80cbc4','#b2dfdb', '#e0f2f1'];
+
+    new Chart(document.getElementById('colunas'), {
+        type: 'bar',
+        data: {
+            labels: ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5'],
+            datasets: [{
+                label: 'Label',
+                data: [12, 19, 3, 5, 2],
+                backgroundColor: lightBlue,
+                borderColor: lightBlue,
+                borderWidth: 0,
+                fill: false
+            }]
+        }
+    });
+
+    new Chart(document.getElementById('linhas'), {
+        type: 'line',
+        data: {
+            labels: ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5'],
+            datasets: [{
+                label: 'Label',
+                data: [12, 19, 3, 5, 2],
+                backgroundColor: lightBlue[0],
+                borderColor: lightBlue[0],
+                borderWidth: 2,
+                fill: false
+            }]
+        }
+    });
+
+    new Chart(document.getElementById('donuts'), {
+        type: 'doughnut',
+        data: {
+            labels: ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5'],
+            datasets: [{
+                label: 'Label',
+                data: [12, 19, 3, 5, 2],
+                backgroundColor: lightBlue,
+                borderColor: lightBlue,
+                borderWidth: 0,
+                fill: false
+            }]
+        }
+    });
+
+    new Chart(document.getElementById('pizza'), {
+        type: 'pie',
+        data: {
+            labels: ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5'],
+            datasets: [{
+                label: 'Label',
+                data: [12, 19, 3, 5, 2],
+                backgroundColor: lightBlue,
+                borderColor: lightBlue,
+                borderWidth: 0,
+                fill: false
+            }]
+        }
+    });
+</script>
+--></code>
+</pre></p></div><script>for (var i = 0; i < 4; i++) {
+  var lightBlue = ['#03a9f4', '#29b6f6', '#4fc3f7', '#81d4fa', '#b3e5fc', '#e1f5fe'];
+  var amber = ['#ffc107', '#ffca28', '#ffd54f', '#ffe082', '#ffecb3', '#fff8e1'];
+  var pink = ['#e91e63', '#ec407a', '#f06292', '#f48fb1', '#f8bbd0', '#fce4ec'];
+  var lightGreen = ['#8bc34a', '#9ccc65', '#aed581', '#c5e1a5', '#dcedc8', '#f1f8e9'];
+  var purple = ['#9c27b0', '#ab47bc', '#ba68c8', '#ce93d8', '#e1bee7', '#f3e5f5'];
+  var teal = ['#009688', '#26a69a', '#4db6ac', '#80cbc4', '#b2dfdb', '#e0f2f1'];
+  var colors = [lightBlue, amber, pink, lightGreen, purple];
+  var color = i == 1 ? colors[Math.floor(Math.random() * 5)][0] : colors[Math.floor(Math.random() * 5)];
+  var borderWidth = i == 1 ? 2 : 0;
+  var types = ['bar', 'line', 'doughnut', 'pie'];
+  var type = types[i];
+  var ctx = document.getElementById('grafico' + i);
+  new Chart(ctx, {
+    type: type,
+    data: {
+      labels: ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5'],
+      datasets: [{
+        label: 'Label',
+        data: [12, 19, 3, 5, 2],
+        backgroundColor: color,
+        borderColor: color,
+        borderWidth: borderWidth,
+        fill: false
+      }]
+    }
+  });
+}</script></div></main><style>body { margin: 0 0 0 300px; padding: 0; }
+.container { width: auto; margin: 24px; }
+
+@media only screen and (max-width: 992px) {
+	body { margin: 0; }
+}</style><script>$("#button-slide-out").sideNav();</script></body></html>
