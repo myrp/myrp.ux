@@ -309,7 +309,7 @@ html
 									a.btn-flat.grey-text.hide-on-small-only Link 3
 									a.btn-flat.grey-text
 										i.material-icons.right more_vert
-								.timeline-content.valign-wrapper
+								//.timeline-content.valign-wrapper
 									span.uppercase.left.hide-on-med-and-down(style="font-size:0.9rem; font-weight: 500;") Selecionar todos
 							.timeline-header
 								.timeline-title Data
@@ -365,7 +365,7 @@ html
 									a.btn-flat.primary-color-text.hide-on-small-only Link 3
 									a.btn-flat.primary-color-text
 										i.material-icons.right more_vert
-								.timeline-content.valign-wrapper
+								//.timeline-content.valign-wrapper
 									span.uppercase.left.hide-on-med-and-down(style="font-size:0.9rem; font-weight: 500;") 3 selecionados
 							.timeline-header
 								.timeline-title Data
@@ -422,7 +422,7 @@ html
 										i.material-icons.right more_vert
 								.list-content
 									i.material-icons.grey-text.left check_box_outline_blank
-									span.uppercase.left.hide-on-med-and-down(style="font-size:0.9rem; font-weight: 500; margin-top: 10px;") Selecionar todos
+									//span.uppercase.left.hide-on-med-and-down(style="font-size:0.9rem; font-weight: 500; margin-top: 10px;") Selecionar todos
 							.list-item
 								.list-actions
 									a.btn-flat.primary-color-text.hide-on-small-only Link 1
@@ -476,7 +476,7 @@ html
 										i.material-icons.right more_vert
 								.list-content
 									i.material-icons.primary-color-text.left check_box
-									span.uppercase.left.hide-on-med-and-down(style="font-size:0.9rem; font-weight: 500; margin-top: 10px;") 3 selecionados
+									//span.uppercase.left.hide-on-med-and-down(style="font-size:0.9rem; font-weight: 500; margin-top: 10px;") 3 selecionados
 							.list-item
 								.list-actions
 									a.btn-flat.primary-color-text.hide-on-small-only Link 1
@@ -673,96 +673,6 @@ html
 									label
 										input(type='checkbox')
 										span.lever
-
-		div#side-nav1.side-nav.card-panel
-			div#list-renegociar
-				h5 Renegociar
-				p Quais recebimentos do cliente você quer renegociar?
-				.timeline
-					.timeline-header
-						.timeline-title Data
-					.timeline-item
-						i.material-icons.orange-text warning
-						.timeline-title Hora
-						.timeline-content
-							i.material-icons.right.grey-text.cursor-pointer(onclick="$(this).html($(this).html() == 'check_box_outline_blank' ? 'check_box_outline' : 'check_box_outline_blank')") check_box_outline_blank
-							div.truncate Primeira linha
-							label.truncate
-								
-								span  | Vendas | Banco do Brasil
-					.timeline-item
-						i.material-icons.grey-text schedule
-						.timeline-title Hora
-						.timeline-content
-							i.material-icons.right.grey-text.cursor-pointer(onclick="$(this).html($(this).html() == 'check_box_outline_blank' ? 'check_box_outline' : 'check_box_outline_blank')") check_box_outline_blank
-							div.truncate Primeira linha
-							label.truncate
-								
-								span  | Vendas | Banco do Brasil
-					.timeline-item
-						i.material-icons.grey-text schedule
-						.timeline-title Hora
-						.timeline-content
-							i.material-icons.right.grey-text.cursor-pointer(onclick="$(this).html($(this).html() == 'check_box_outline_blank' ? 'check_box_outline' : 'check_box_outline_blank')") check_box_outline_blank
-							div.truncate Primeira linha
-							label.truncate
-								
-								span  | Vendas | Banco do Brasil	
-				p.right-align
-					a.btn-flat(onclick="$('#button-side-nav1').trigger('click'); $('#form-renegociar').hide(); $('#list-renegociar').show();") Cancelar
-					a.btn.btn-large.light-green(onclick="$('#list-renegociar').hide(); $('#form-renegociar').show(); $('#input10').focus();") Continuar
-			div#form-renegociar(style="display: none")
-				h5 Renegociar
-				p Preencha os campos abaixo para concluir a renegociação. 
-				.row
-					.col.s12.m6.input-field
-						input#input6(type='text', value="300,00")
-						label(for='input6') Valor a renegociar
-					.col.s12.m6.input-field
-						i.material-icons.prefix today
-						input#input7(type='text', value="26/04/2019")
-						label(for='input7') Próximo vencimento
-					.col.s12.m6.input-field
-						input#input10(type='text')
-						label(for='input10') Quantidade de parcelas
-					.col.s12.m6.input-field
-						select#input11.browser-default
-							option Não informado
-						label.active(for='input11') Período entre as parcelas
-					.col.s12.m6.input-field.controlar
-						i.material-icons.prefix search
-						input#input8(type='text', value="Vendas")
-						label(for='input8') Categoria financeira
-					.col.s12.m6.input-field.controlar
-						i.material-icons.prefix search
-						input#input9(type='text', value="Banco do Brasil")
-						label(for='input9') Conta bancária
-					.col.s12.m6.input-field.controlar
-						i.material-icons.prefix search
-						input#input16(type='text', value="Primeira linha")
-						label(for='input16') Cliente
-					.col.s12.m6.input-field.controlar
-						input#input17(type='text', value="Vendas")
-						label(for='input17') Descricao
-					.col.s12.m6.input-field.controlar
-						select#input12.browser-default
-							option Não informado
-						label.active(for='input12') Espécie de título
-					.col.s12.m6.input-field.controlar
-						select#input13.browser-default
-							option Não informado
-						label.active(for='input13') Vendedor
-					.col.s12.m6.input-field.controlar
-						input#input14(type='text')
-						label(for='input14') Série do documento
-					.col.s12.m6.input-field.controlar
-						input#input15(type='text')
-						label(for='input15') Número do documento
-					.col.s12.center
-						i.material-icons.circle.grey.lighten-3.black-text(onclick="if ($('.controlar:visible').length) { $('.controlar').hide(); $(this).html('expand_more'); } else { $('.controlar').show(); $(this).html('expand_less'); }") expand_more
-				p.right-align
-					a.btn-flat(onclick="$('#form-renegociar').hide(); $('#list-renegociar').show();") Cancelar
-					a.btn.btn-large.light-green(onclick="$('#button-side-nav1').trigger('click'); $('#form-renegociar').hide(); $('#list-renegociar').show();") Salvar
 
 	script(type='text/javascript').
 		$('#button-side-nav1').sideNav({
