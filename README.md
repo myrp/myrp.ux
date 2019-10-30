@@ -11,25 +11,25 @@
 
 ### Framework de perguntas para entrevista
 ## Esquenta:
--Qual sua profissão?
--Você pode contar um pouco sobre seus hobbies?
--Com que frequência você usa a internet?
--Com que frequência você faz compras online?
--Com que frequência você utiliza o myrp?
+- Qual sua profissão?
+- Você pode contar um pouco sobre seus hobbies?
+- Com que frequência você usa a internet?
+- Com que frequência você faz compras online?
+- Com que frequência você utiliza o myrp?
 
 ## Sistema:
--Quais são os módulos que mais utiliza?
--Conte-nos quando foi a última vez que utilizou o myrp.
--De 0 a 10, que nota você daria ao myrp?
+- Quais são os módulos que mais utiliza?
+- Conte-nos quando foi a última vez que utilizou o myrp.
+- De 0 a 10, que nota você daria ao myrp?
 
 ## Específica:
--Você sente alguma dificuldade ao utilizar a rotina de (NOME_DA_ROTINA)?
--Você tem alguma sugestão de melhoria da rotina de (NOME_DA_ROTINA) que acha válido compartilhar?
+- Você sente alguma dificuldade ao utilizar a rotina de (NOME_DA_ROTINA)?
+- Você tem alguma sugestão de melhoria da rotina de (NOME_DA_ROTINA) que acha válido compartilhar?
 
 ## Pontuação por Tema
--Facilidade	0-10
--Visual		0-10
--Agilidade	0-10
+- Facilidade	0-10
+- Visual		0-10
+- Agilidade	0-10
 
 ### Design Systems
 - [Awesome Design Systems](https://github.com/alexpate/awesome-design-systems)
