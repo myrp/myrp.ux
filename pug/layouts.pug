@@ -16,43 +16,35 @@ html
 		script(src='../vendor/prism/prism.js')
 		script(src='../index.js')
 
-	body.dark.gradient
-		.dark.gradient
+	body.grey.lighten-4
+		.grey.lighten-3.background.hide-on-med-and-down
 
-		.menu.grey-text
-			.menu-top
+		.menu.white.grey-text.text-darken-3.z-depth-1
+			.menu-top.center
 				img.logo(src="../assets/img/logo.png")
 			.menu-collapsed
-				a.z-depth-1(href='#menu-cadastros')
-					i.square.dark-text.left b
+				a(href='#menu-cadastros')
 					i.material-icons home
 					.hide-on-med-and-down Cadastros
-				a.z-depth-1(href='#menu-financeiro')
-					i.square.dark-text.left b
+				a(href='#menu-financeiro')
 					i.material-icons attach_money
 					.hide-on-med-and-down Financeiro
-				a.z-depth-1(href='#menu-compras')
-					i.square.dark-text.left b
+				a(href='#menu-compras')
 					i.material-icons shopping_cart
 					.hide-on-med-and-down Compras
-				a.z-depth-1(href='#menu-vendas')
-					i.square.dark-text.left b
+				a(href='#menu-vendas')
 					i.material-icons local_offer
 					.hide-on-med-and-down Vendas
-				a.z-depth-1(href='#menu-transporte')
-					i.square.dark-text.left b
+				a(href='#menu-transporte')
 					i.material-icons local_shipping
 					.hide-on-med-and-down Transporte
-				a.z-depth-1(href='#menu-estoque')
-					i.square.dark-text.left b
+				a(href='#menu-estoque')
 					i.material-icons widgets
 					.hide-on-med-and-down Estoque
-				a.z-depth-1(href='#menu-sped')
-					i.square.dark-text.left b
+				a(href='#menu-sped')
 					i.material-icons done_all
 					.hide-on-med-and-down SPED
-				a.z-depth-1(href='#menu-configuracoes')
-					i.square.dark-text.left b
+				a(href='#menu-configuracoes')
 					i.material-icons settings
 					.hide-on-med-and-down Configuração
 			.menu-expanded(style="display: none")
@@ -210,39 +202,36 @@ html
 							p Fundos de Combate a Pobreza
 
 		.breadcrumbs.center
-			a.breadcrumb.white-text Empresa
-			a.breadcrumb.white-text.hide-on-small-only Cnpj
-			a.breadcrumb.white-text.hide-on-small-only Módulo
+			a.breadcrumb.black-text Empresa
+			a.breadcrumb.black-text.hide-on-small-only Cnpj
+			a.breadcrumb.black-text.hide-on-small-only Módulo
 		
 		.top.truncate
 			.row.valign-wrapper
 				.col.s6.valign-wrapper
-					a.title.white-text Título da página
-					a.waves-effect.waves-light.btn.primary-color.dark-text.hide-on-med-and-down
+					a.title.black-text Título da página
+					a.btn.chip.primary-color.white-text.hide-on-med-and-down
 						i.material-icons.left add
 						| Botão
-					a.waves-effect.waves-light.btn.primary-color.dark-text.hide-on-med-and-down
-						i.square.dark-text.left b
-						| Botão com atalho
 				.col.s6
 					.right.hide-on-small-only
 						a.center
-							i.material-icons.white-text search
+							i.material-icons.black-text search
 						a.center
-							i.material-icons.white-text notifications
+							i.material-icons.black-text notifications
 						a.center
-							i.material-icons.white-text apps
+							i.material-icons.black-text apps
 						a.center
-							i.material-icons.white-text account_circle
+							i.material-icons.black-text account_circle
 					.right.hide-on-med-and-up
 						a.center
-							i.material-icons.white-text more_vert
+							i.material-icons.black-text more_vert
 		
 		.bottom.truncate
 			.row
 				.col.s12.center
 					.hide-on-med-and-down
-						.waves-effect.waves-light.btn.primary-color.dark-text
+						.chip.btn.primary-color.white-text
 							i.material-icons.left add
 							| Botão
 					.hide-on-large-only
@@ -254,53 +243,38 @@ html
 			.row
 				.col.s12
 					.left
-						a.chip.dark-1.white-text Filtro 1
-						a.chip.dark-1.white-text
+						a.chip.grey.lighten-2 Filtro 1
+						a.chip.grey.lighten-1
 							span Filtro 2
-						a.chip.dark-1.white-text Filtro 3
-						a.chip.dark-1.white-text Filtro 4
-						a.chip.dark-1.white-text Filtro 5
-						a.chip.dark-1.white-text Filtro 6
-						a.chip.dark-1.white-text Filtro 7
+						a.chip.grey.lighten-2 Filtro 3
+						a.chip.grey.lighten-2 Filtro 4
+						a.chip.grey.lighten-2 Filtro 5
+						a.chip.grey.lighten-2 Filtro 6
+						a.chip.grey.lighten-2 Filtro 7
 						a.chip.white.border-chip
 							i.material-icons.left search
 							input(placeholder='Nome dos campos')
 
-						a.waves-effect.waves-light.primary-color.dark-text.btn.modal-trigger(href='#modal1') Modal
-						// Modal Structure
-						#modal1.modal.modal-fixed-footer
-							.modal-content
-								h5.white-text Modal Header
-								p A bunch of text
-								div.center 
-									a.waves-effect.waves-light.btn-large.dark-color.white-text(href='')
-										i.square.dark-text.left b
-										| Cancelar
-									a.waves-effect.waves-light.btn-large.primary-color.dark-text(href='')
-										i.square.dark-text.left b
-										| Confirmar
-							
-
 				//.col.s12.m6.l3
-					.card.card-panel
-						label.white-text Primeira linha
-						h5.white-text Segunda linha
+					.card-panel
+						label.black-text Primeira linha
+						h5 Segunda linha
 				//.col.s12.m6.l3
-					.card.card-panel
-						label.white-text Primeira linha
-						h5.white-text Segunda linha
+					.card-panel
+						label.black-text Primeira linha
+						h5 Segunda linha
 				//.col.s12.m6.l3
-					.card.card-panel
-						label.white-text Primeira linha
-						h5.white-text Segunda linha
+					.card-panel
+						label.black-text Primeira linha
+						h5 Segunda linha
 				//.col.s12.m6.l3
-					.card.card-panel
-						label.white-text Primeira linha
-						h5.white-text Segunda linha
+					.card-panel
+						label.black-text Primeira linha
+						h5 Segunda linha
 				.col.s12.l6
 					.card
 						.card-content
-							h5.white-text Gráfico
+							h5 Gráfico
 							div
 								canvas#grafico0
 						.card-action
@@ -309,7 +283,7 @@ html
 				.col.s12.l6
 					.card
 						.card-content
-							h5.white-text Gráfico
+							h5 Gráfico
 							div
 								canvas#grafico1
 						.card-action
@@ -324,23 +298,23 @@ html
 						li.tab 
 							a Aba 3
 
-					.card.card-panel
-						h5.white-text Timeline
+					.card-panel
+						h5 Timeline
 						.timeline
 							.timeline-item
 								i.material-icons.grey-text check_box_outline_blank
 								.timeline-actions
-									a.btn-flat.blue-text.hide-on-small-only Link 1
-									a.btn-flat.blue-text.hide-on-small-only Link 2
-									a.btn-flat.blue-text.hide-on-small-only Link 3
-									a.btn-flat.blue-text
+									a.btn-flat.grey-text.hide-on-small-only Link 1
+									a.btn-flat.grey-text.hide-on-small-only Link 2
+									a.btn-flat.grey-text.hide-on-small-only Link 3
+									a.btn-flat.grey-text
 										i.material-icons.right more_vert
 								//.timeline-content.valign-wrapper
 									span.uppercase.left.hide-on-med-and-down(style="font-size:0.9rem; font-weight: 500;") Selecionar todos
 							.timeline-header
 								.timeline-title Data
 							.timeline-item
-								i.material-icons.primary-text check_circle
+								i.material-icons.light-green-text check_circle
 								.timeline-actions
 									a.btn-flat.primary-color-text.hide-on-small-only Link 1
 									a.btn-flat.primary-color-text.dropdown-button( data-activates='dropdown1')
@@ -380,8 +354,8 @@ html
 										
 										span Segunda linha
 			
-					.card.card-panel
-						h5.white-text Timeline
+					.card-panel
+						h5 Timeline
 						.timeline
 							.timeline-item
 								i.material-icons.primary-color-text check_box
@@ -436,15 +410,15 @@ html
 										
 										span Segunda linha
 
-					.card.card-panel
-						h5.white-text List
+					.card-panel
+						h5 List
 						.list
 							.list-item
 								.list-actions
-									a.btn-flat.blue-text.hide-on-small-only Link 1
-									a.btn-flat.blue-text.hide-on-small-only Link 2
-									a.btn-flat.blue-text.hide-on-small-only Link 3
-									a.btn-flat.blue-text
+									a.btn-flat.grey-text.hide-on-small-only Link 1
+									a.btn-flat.grey-text.hide-on-small-only Link 2
+									a.btn-flat.grey-text.hide-on-small-only Link 3
+									a.btn-flat.grey-text
 										i.material-icons.right more_vert
 								.list-content
 									i.material-icons.grey-text.left check_box_outline_blank
@@ -462,7 +436,7 @@ html
 										li
 											a Link 3
 								.list-content
-									i.material-icons.primary-text.left check_circle
+									i.material-icons.light-green-text.left check_circle
 									div.truncate Primeira linha
 									label.truncate
 										
@@ -490,8 +464,8 @@ html
 										
 										span Segunda linha
 
-					.card.card-panel
-						h5.white-text List
+					.card-panel
+						h5 List
 						.list
 							.list-item
 								.list-actions
@@ -544,14 +518,14 @@ html
 										
 										span Segunda linha
 
-					.card.card-panel
+					.card-panel
 						.left 
-							h5.white-text Table
+							h5 Table
 						.right
-							a.btn-flat.blue-text.hide-on-small-only Link 1
-							a.btn-flat.blue-text.hide-on-small-only Link 2
-							a.btn-flat.blue-text.hide-on-small-only Link 3
-							a.btn-flat.blue-text
+							a.btn-flat.grey-text.hide-on-small-only Link 1
+							a.btn-flat.grey-text.hide-on-small-only Link 2
+							a.btn-flat.grey-text.hide-on-small-only Link 3
+							a.btn-flat.grey-text
 								i.material-icons.right more_vert
 						table.bordered
 							thead
@@ -594,9 +568,9 @@ html
 										a.btn-flat.primary-color-text
 											i.material-icons.right more_vert
 
-					.card.card-panel
+					.card-panel
 						.left 
-							h5.white-text Table
+							h5 Table
 						.right
 							a.btn-flat.primary-color-text.hide-on-small-only Link 1
 							a.btn-flat.primary-color-text.hide-on-small-only Link 2
@@ -644,8 +618,8 @@ html
 										a.btn-flat.primary-color-text
 											i.material-icons.right more_vert
 
-					.card.card-panel
-						h5.white-text Form
+					.card-panel
+						h5 Form
 						.row
 							.col.s12.m6
 								.input-field
@@ -742,7 +716,7 @@ html
 			var pink = ['#e91e63','#ec407a','#f06292','#f48fb1','#f8bbd0','#fce4ec'];
 			var lightGreen = ['#8bc34a','#9ccc65','#aed581','#c5e1a5','#dcedc8', '#f1f8e9'];
 			var purple = ['#9c27b0','#ab47bc','#ba68c8','#ce93d8','#e1bee7', '#f3e5f5'];
-			var teal = ['#009688','#29BBFF','#4db6ac','#80cbc4','#b2dfdb', '#e0f2f1'];
+			var teal = ['#009688','#26a69a','#4db6ac','#80cbc4','#b2dfdb', '#e0f2f1'];
 			
 			var colors = [lightBlue, amber, pink, lightGreen, purple];
 			var type = i == 0 ? 'bar' : 'doughnut';
@@ -755,7 +729,7 @@ html
 						label: 'Label',
 						data: [12, 19, 3, 5, 2],
 						backgroundColor: colors[Math.floor(Math.random() * 5)],
-						borderWidth: 0						
+						borderWidth: 0
 					}]
 				},
 				options: {
@@ -763,26 +737,11 @@ html
 						yAxes: [{
 							ticks: {
 								beginAtZero: true
-							},
-							gridLines: {
-								color: "#a0a0a033"
-							}
-						}],
-						xAxes: [{
-							gridLines: {
-								color: "#a0a0a033"
 							}
 						}]
-					},
-					legend: {
-						labels: {
-							fontColor: '#f1f1f1'
-						}
 					}
 				}
 			});
-
-			$('.modal').modal();
 		}
 
 	style(type='text/css').
@@ -794,12 +753,12 @@ html
 		::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.2); }
 		::-webkit-scrollbar-thumb:hover { background: rgba(0,0,0,0.4); }
 
-		td .btn-flat, .card.card-panel > .right .btn-flat { margin: 0; padding: 0 6px; font-size: 0.9rem; }
-		td .btn-flat i, .card.card-panel > .right .btn-flat i { margin: 0!important; }
+		td .btn-flat, .card-panel > .right .btn-flat { margin: 0; padding: 0 6px; font-size: 0.9rem; }
+		td .btn-flat i, .card-panel > .right .btn-flat i { margin: 0!important; }
 
 		.b { font-weight: bold; }
 		.background { position: absolute; top: 0; left: 0; height: 350px; width: 100%; z-index: -2; }
-		.card.card-panel h5:first-child, .card-content h5:first-child { margin-top: 0; }
+		.card-panel h5:first-child, .card-content h5:first-child { margin-top: 0; }
 		.cursor-pointer { cursor: pointer; }
 		.dropdown-content li>a { line-height: normal; padding: 12px; font-size: 1rem; color: #000; }
 		.label { font-size: 0.8rem; }
@@ -853,8 +812,7 @@ html
 		.top-small { font-size: .8rem; text-transform: uppercase; font-weight: bold; }
 
 		.primary-color-text { color: rgb(1, 163,217)!important; }
-		.primary-color { background: rgb(1, 163,217)!important; }
-		.dark-color {background: #1E3F54}
+		.primary-color { background-color: rgb(1, 163,217)!important; }
 
 		@media only screen and (max-width: 992px) {
 			body { margin: 0; }
@@ -866,262 +824,4 @@ html
 			.menu-collapsed { float: none; width: 100%; }
 			.menu-collapsed a, .menu-collapsed i { display: inline-block; text-align: center; width: 56px; height: 56px; line-height: 56px; color: inherit; padding: 0; margin: auto; }
 			.menu-expanded { float: none; width: 100%; text-align: left; }
-		}
-
-		/*DARK THEME*/
-		.white-text, .breadcrumb:before {
-			color: #f1f1f1!important
-		}
-
-		.primary-color {
-			background-color: #C5E1A5!important
-		}
-		
-		.primary-text {
-			color: #C5E1A5!important
-		}
-
-		.orange-text {
-			color: #ffb13f !important
-		}
-
-		.secondary-color, .switch label input[type=checkbox]:checked+.lever:after, [type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:after, [type="checkbox"].filled-in:checked+label:after {
-			background-color: #29BBFF!important
-		}
-
-		[type="checkbox"].filled-in:checked+label:after {
-			border: 2px solid #29BBFF;			
-			z-index: 0
-		}
-
-		[type="radio"]:not(:checked)+label:before, [type="radio"]:not(:checked)+label:after, [type="checkbox"].filled-in:not(:checked)+label:after {
-			border: 2px solid #90A0AB
-		}
-
-		.switch label input[type=checkbox]:checked+.lever {
-			background-color: #70d2ff
-		}
-
-		.blue-text, .primary-color-text {
-			color: #29BBFF!important
-		}
-
-		.dark.gradient {
-			background: #02253b; /* Old browsers */
-			background: -moz-linear-gradient(-45deg,  #02253b 0%, #042943 100%); /* FF3.6-15 */
-			background: -webkit-linear-gradient(-45deg,  #02253b 0%,#042943 100%); /* Chrome10-25,Safari5.1-6 */
-			background: linear-gradient(135deg,  #02253b 0%,#042943 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#02253b', endColorstr='#042943',GradientType=1 ) /* IE6-9 fallback on horizontal gradient */
-		}
-
-		.dark-1 {
-			background: #214154
-		}
-
-		.grey-text {
-			color: #657B8A
-		}
-
-		.dark-text, a.btn.chip.primary-color i, .chip.btn.primary-color.dark-text i {
-			color: #02253B
-		}
-
-		.card, .bottom {
-			background: #224257
-		}
-
-		.bottom {
-			box-shadow: 0 0 50px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
-			z-index: 999;
-		}
-
-		.timeline-item, .list-item, thead, table.bordered>thead>tr, table.bordered>tbody>tr {
-			border-bottom: 1px solid #a0a0a033;
-		}
-
-		thead, tr, .switch, label {
-			color: #90A0AB
-		}
-
-		tr td:not(:first-child), .truncate {
-			color: #f1f1f1
-		}
-
-		label.truncate, .timeline-title {
-			color: #90A0AB
-		}
-
-		.timeline-item > .material-icons {
-			background: #224257
-		}
-
-		.timeline {
-			border-left: 1px solid #a0a0a033;
-			padding-left: 24px;
-			margin-left: 75px
-		}
-
-		a.chip.white.border-chip {
-			background: #3D596B!important;
-			border: 1px solid transparent!important;
-		}
-
-		.chip .material-icons.left, .chip .material-icons.right {
-			color: #BDC6CD
-		}
-
-		.chip input, .chip input:focus {
-			color: #f1f1f1
-		}
-
-		.menu-top {
-			margin: 20px 0;
-			padding: 0
-		}
-
-		.menu-top .logo {
-			margin: 0 0 0 15px
-		}
-
-		.menu-collapsed a {
-			background: #224257;
-			margin: 10px 0;
-			border-radius: 2px;
-			position: relative
-		}
-
-		.menu-collapsed a:hover {
-			background: #203d50
-		}
-
-		.input-field label {
-			left: 16px;
-			right: initial;
-			top: 18px;
-			pointer-events: none
-		}
-
-		.input-field {
-			margin: 0;
-			padding: 0!important
-		}
-
-		.input-field .prefix {
-			margin-left: 16px;			
-			top: 7px
-		}
-
-		.input-field input, select {
-			padding: 10px 0 0 16px!important;
-			background: #3D596B!important;
-			border-radius: 4px 4px 0 0!important				
-		}
-
-		input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea, select {
-			border-bottom: 1px solid #a0a0a033!important;
-			color: #f1f1f1		
-		}
-
-		select, input#input9 {
-			width: calc(100% - 1rem)!important;
-			margin: 0 0 20px 0!important
-		}
-
-		option {
-			background: #3D596B!important	
-		}
-
-		.input-field label:not(.label-icon).active {
-			-webkit-transform: translateY(-50%)!important;
-			transform: translateY(-50%)!important
-		}
-
-		input:not([type]):focus:not([readonly])+label,
-		input:not([type=text]):focus:not([readonly])+label,
-		input:not([type=password]):focus:not([readonly])+label,
-		input:not([type=e-mail]):focus:not([readonly])+label,
-		input:not([type=url]):focus:not([readonly])+label,
-		input:not([type=time]):focus:not([readonly])+label,
-		input:not([type=date]):focus:not([readonly])+label,
-		input:not([type=datetime]):focus:not([readonly])+label,
-		input:not([type=datetime-local]):focus:not([readonly])+label,
-		input:not([type=tel]):focus:not([readonly])+label,
-		input:not([type=number]):focus:not([readonly])+label,
-		input:not([type=search]):focus:not([readonly])+label,
-		textarea.materialize-textarea:focus:not([readonly])+label {
-			color: #90A0AB!important
-		}
-
-		input:not([type]):focus:not([readonly]),
-		input[type=text]:not(.browser-default):focus:not([readonly]),
-		input[type=password]:not(.browser-default):focus:not([readonly]),
-		input[type=email]:not(.browser-default):focus:not([readonly]),
-		input[type=url]:not(.browser-default):focus:not([readonly]),
-		input[type=time]:not(.browser-default):focus:not([readonly]),
-		input[type=date]:not(.browser-default):focus:not([readonly]),
-		input[type=datetime]:not(.browser-default):focus:not([readonly]),
-		input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
-		input[type=tel]:not(.browser-default):focus:not([readonly]),
-		input[type=number]:not(.browser-default):focus:not([readonly]),
-		input[type=search]:not(.browser-default):focus:not([readonly]),
-		textarea.materialize-textarea:focus:not([readonly]) {
-			border-bottom: 1px solid #29BBFF!important;
-			box-shadow: 0 1px 0 0 #29BBFF!important
-		}
-
-		[type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:after {
-			background-color: #29BBFF
-		}
-
-		[type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:before, [type="radio"].with-gap:checked+label:after {
-			border: 2px solid #29BBFF
-		}
-
-		.modal p {
-			color: #8E9BA4!important
-		}
-
-		.modal, .modal-footer {
-			background: #11334A!important
-		}
-
-		.modal-footer {
-			border-top: 1px solid rgba(160,160,160,0.2)!important
-		}
-
-		.btn:hover, .btn-large:hover {
-			background: #1E3F54
-		}
-
-		.btn:focus, .btn-large:focus, .btn-floating:focus {
-			background: none!important
-		}
-
-		.square {
-			border-radius: 2px;
-			font-style: normal;
-			text-transform: uppercase;
-			font-size: 18px!important;
-			line-height: 22px!important;
-			background-color: #f1f1f1b8;
-			text-align: center;
-			width: 22px;
-			height: 22px!important;
-			margin: 7px 0 0 0
-		}
-
-		.btn-large .square {
-			margin-top: 15px!important
-		}
-
-		.menu .square {
-		    position: absolute;
-			top: 6;
-			left: 6;
-			font-size: 13px!important;
-			line-height: 13px!important;
-			background: #9e9e9e;
-			width: 14px;
-			height: 14px!important;
-			margin: 0
 		}
