@@ -44,6 +44,9 @@ html
 				a(href='#menu-sped')
 					i.material-icons done_all
 					.hide-on-med-and-down SPED
+				a.hide(href='#menu-relatorios')
+					i.material-icons print
+					.hide-on-med-and-down Relatórios
 				a(href='#menu-configuracoes')
 					i.material-icons settings
 					.hide-on-med-and-down Configuração
@@ -200,6 +203,68 @@ html
 							p Imagem para Impressao
 							p Imagem para Documentos
 							p Fundos de Combate a Pobreza
+				#menu-relatorios(style="display: none")
+					.row
+						.col.s2
+							.menu-title Cadastros
+							p Produtos
+							p Clientes
+							p Fornecedores
+							p Transportadores
+						.col.s2
+							.menu-title Financeiro
+							p Contas a Pagar
+							p Contas a Pagar por Categoria
+							p Contas a Receber
+							p Contas a Receber por Categoria
+							p Financeiro Sintético
+							p Detalhamento de Conta Bancária
+							p Quitação de Contas a Pagar e Receber
+							p Recebimentos Cartão
+							p Fluxo de Caixa
+							p Comissões por Conta a Receber
+							p Comissões por Pedido de Venda
+							p Comissões por NF-e
+							p Comissões por NFS-e
+							p Comissões por NFC-e
+						.col.s2
+							.menu-title Compras
+							p NF-e de Fornecedor
+							p Itens de NF-e de Fornecedor
+							p NFS-e de Fornecedor
+							p Retenções de NFS-e de Fornecedor
+						.col.s2
+							.menu-title Vendas
+							p Produtos Mais Vendidos
+							p Produtos Mais Lucrativos
+							p Clientes Mais Fiéis
+							p Clientes Mais Lucrativos
+							p Formas de Pagamento Mais Utilizadas
+							p NF-e
+							p Itens de NF-e
+							p NFC-e
+							p Itens da NFC-e
+							p Itens de Pedido de Venda
+							p Margem de Contribuição por Itens de Pedido de Venda
+							p Orçamentos
+							p Itens de Orçamento
+							p Faturamento Sintético
+							p NFS-e
+							p Retenções de NFS-e
+						.col.s2
+							.menu-title Transporte
+							p CT-e
+							p CT-e de Fornecedor
+						.col.s2
+							.menu-title Estoque
+							p Estoque Próprio
+							p Estoque (Preço de Compra)
+							p Estoque de Terceiro
+							p Estoque em Terceiro
+							p Movimentação Estoque Próprio
+							p Movimentação Estoque de Terceiro
+							p Movimentação Estoque em Terceiro
+							p Inventário
 
 		.breadcrumbs.center.hide
 			a.breadcrumb.black-text Empresa
@@ -786,7 +851,8 @@ html
 		.menu-collapsed a { display: block; color: inherit; padding: 12px 0; }
 		.menu-collapsed a div { font-size:.6rem; text-transform: uppercase; display: block; padding-top: 4px; letter-spacing: .6; }
 		.menu-collapsed a:hover { color: rgb(1, 163,217)!important; padding-right: 3px; border-left: 3px solid rgb(1, 163,217); }
-		.menu-expanded { float: left; width: 600px; padding:24px; }
+		.menu-expanded { float: left; width: 600px; padding:16px 24px; }
+		.menu-expanded p { margin: 8px 0; }
 		.menu-title { font-size: 1rem; text-transform: uppercase; font-weight: 500; }
 
 		.tabs { border-bottom: 1px solid #e0e0e0; }
